@@ -3,6 +3,8 @@ layout: page
 title: Korte fakta
 ---
 
+![hytta](https://a0.muscache.com/im/pictures/b28e8dc2-4ae2-42d0-ade3-c9b4d6bfe1c9.jpg?aki_policy=xx_large)
+
 # Viktige lenker
 - [Holmevann på AirBnB](https://airbnb.no/rooms/18731440/). Har mye informasjon om hytta.
 - [Spesialkart for Google Maps med alle viktige steder](https://www.google.com/maps/d/drive?state=%7B"ids":%5B"1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb"%5D,"action":"open","userId":"105735057914577246850"%7D). Kan brukes til navigasjon i bilen.
