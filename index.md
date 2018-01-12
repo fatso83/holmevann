@@ -1,6 +1,10 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: page
+title: Korte fakta
 ---
+
+# Viktige lenker
+- [Holmevann på AirBnB](https://airbnb.no/rooms/18731440/). Har mye informasjon om hytta.
+- [Spesialkart for Google Maps med alle viktige steder](https://www.google.com/maps/d/drive?state=%7B"ids":%5B"1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb"%5D,"action":"open","userId":"105735057914577246850"%7D). Kan brukes til navigasjon i bilen.
+- [Instruksjoner for hytta](https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf). Egner seg for utskrift.
+- Navida er en nyttig kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen når du sitter hjemme. Veldig nytte om man skal finne fram i mørket og ikke har dekning. Finnes til [iOS](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no) og [Android](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no).
