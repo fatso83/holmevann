@@ -2,6 +2,9 @@
 layout: page
 title: Korte fakta
 ---
+<!-- We need to move this into the template -->
+{% include analytics.html %}
+
 
 ![hytta](https://a0.muscache.com/im/pictures/b28e8dc2-4ae2-42d0-ade3-c9b4d6bfe1c9.jpg?aki_policy=xx_large)
 

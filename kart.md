@@ -2,6 +2,8 @@
 layout: page
 title: Kart
 ---
+<!-- We need to move this into the template -->
+{% include analytics.html %}
 
 Det enkleste for å komme seg fram er å bruke dette [spesialkart for Google Maps](https://www.google.com/maps/d/drive?state=%7B"ids":%5B"1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb"%5D,"action":"open","userId":"105735057914577246850"%7D), ettersom det kan brukes i bilen via Google Maps appen når man kjører, men følgende kartutsnitt viser også vei fra Eggedal og inn til hytta.
 
