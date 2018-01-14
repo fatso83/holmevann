@@ -40,3 +40,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Other custom vars
+google_maps_custom_url:  https://www.google.com/maps/d/viewer?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb&usp=sharing
