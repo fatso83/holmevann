@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kart
+title: Kart og GPS
 ---
 <!-- We need to move this into the template -->
 {% include analytics.html %}
@@ -16,3 +16,14 @@ Har laget et spesialkart for området Haglebu-Eggedal-Tempelseter-Høgevarde. Du
 ![bilvei](https://a0.muscache.com/im/pictures/470c18b0-7527-44d5-88bf-546528f8f169.jpg?aki_policy=x_large)
 ## Gåvei
 ![gåvei](https://a0.muscache.com/im/pictures/1575a13d-405b-45ef-9bce-302730d1ac71.jpg?aki_policy=x_large)
+
+# GPS-koordinater
+
+Koordinatene til hytta er
+<dl>
+    <dt>NORD</dt>
+    <dd>6697905.65</dd>
+    <dt>ØST	</dt>
+    <dd>187916.09</dd>
+</dl>
+

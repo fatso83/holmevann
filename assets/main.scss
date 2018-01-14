@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+dt {
+    grid-column-start: 1;
+    font-weight: 700;
+    padding-right: 2em;
+}
+
+dd {
+    grid-column-start: 2;
+}
