@@ -22,7 +22,7 @@ title: Korte fakta
 
 </ul>
 
-Navida er en nyttig kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen når du sitter hjemme. Veldig nytte om man skal finne fram i mørket og ikke har dekning. Finnes til [iOS](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no) og [Android](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no).
+Navida er en nyttig kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen når du sitter hjemme. Veldig nytte om man skal finne fram i mørket og ikke har dekning. Finnes til [iOS](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Android](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no).
 
 Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man
 måtte komme over noen problemer mens man er på hytta.
