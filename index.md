@@ -20,6 +20,8 @@ title: Korte fakta
 
 <li><a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjoner for hytta</a>. Egner seg for utskrift.</li>
 
+<li><a href="https://www.yr.no/place/Norway/Buskerud/Sigdal/Holmevatn/">Værvarsel fra Yr</a></li>
+
 </ul>
 
 Navida er en nyttig kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen når du sitter hjemme. Veldig nytte om man skal finne fram i mørket og ikke har dekning. Finnes til [iOS](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Android](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no).
