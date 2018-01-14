@@ -8,8 +8,11 @@ title: Korte fakta
 
 ![hytta](https://a0.muscache.com/im/pictures/b28e8dc2-4ae2-42d0-ade3-c9b4d6bfe1c9.jpg?aki_policy=xx_large)
 
-I sørenden av Holmevann i Sigdal har familien Kopseng siden 1934 hatt en seterbu med båthus. I juli 2017 begynte familien å leie ut stedet til
-fjellglade folk og det har gått så bra at det vil vi gjerne fortsette med! Denne enkle siden skal etterhvert fylles på  med alt av informasjon
+I sørenden av Holmevann i Sigdal har familien Kopseng siden 1934 hatt en seterbu med båthus, som i 1994 
+ble komplettert med en større og mer komfortabel hytte med strøm fra solceller og vann i springen. 
+I juli 2017 begynte familien å leie ut det nye stedet til
+fjellglade folk og det har gått så bra at det vil vi gjerne fortsette med! 
+Denne enkle siden skal etterhvert fylles på  med alt av informasjon
 som en nysjerrig sjel måtte lure på før et opphold i fjellheimen :-)
 
 # Viktige lenker
@@ -28,7 +31,7 @@ som en nysjerrig sjel måtte lure på før et opphold i fjellheimen :-)
 
 </ul>
 
-Navida er en nyttig kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen når du sitter hjemme. Veldig nytte om man skal finne fram i mørket og ikke har dekning. Finnes til [iOS](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Android](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no).
+Navida er en hendig kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen når du sitter hjemme. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Finnes til [iOS](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Android](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no). Sjekk [kartsiden](/kart.html) for koordinater.
 
 Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man
 måtte komme over noen problemer mens man er på hytta.
