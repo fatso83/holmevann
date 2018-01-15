@@ -38,9 +38,9 @@ Koordinatene til hytta er
 
 <dl>
     <dt>NORD</dt>
-    <dd>6697905.65</dd>
+    <dd>6697905,65</dd>
     <dt>ØST</dt>
-    <dd>187916.09</dd>
+    <dd>187916,09</dd>
 </dl>
 
 ## Diverse kart
