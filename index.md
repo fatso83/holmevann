@@ -31,7 +31,11 @@ som en nysjerrig sjel måtte lure på før et opphold i fjellheimen :-)
 
 </ul>
 
-Navida er en hendig kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen når du sitter hjemme. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Finnes til [iOS](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Android](https://play.google.com/store/apps/details?id=no.ecc.navida&hl=no). Sjekk [kartsiden](/kart.html) for koordinater.
+Det er hendig med en kartapp som har gode kart fra Statens Kartverk som 
+kan _forhåndsnedlastes_ til mobilen før du drar på tur. Veldig nyttig 
+om man skal finne fram i mørket og ikke har dekning. Anbefaler 
+[Navida på iOS](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og 
+[Norgeskart på Android]({{ site.norgeskart_android }}). Sjekk [kartsiden](/kart.html) for koordinater.
 
 Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man
 måtte komme over noen problemer mens man er på hytta.
