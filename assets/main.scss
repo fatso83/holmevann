@@ -26,10 +26,11 @@ dd {
 .map-responsive{
     padding-bottom:100%; // 1:1 ratio - good for map where points are mostly vertical
     position:relative; // needed for absolute positioning in iframe
+    margin-bottom: 24px;
 }
 @media(min-width: 500px) {
     .map-responsive{
-        padding-bottom: calc( 100% * 9/16)
+        padding-bottom: calc( 100% * 9/16);
     }
 }
 
