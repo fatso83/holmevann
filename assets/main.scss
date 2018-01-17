@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+img {
+    max-width: calc(100% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
 dl {
     display: grid;
     grid-template-columns: max-content auto;
