@@ -17,3 +17,28 @@ dt {
 dd {
     grid-column-start: 2;
 }
+
+//https://www.ostraining.com/blog/coding/responsive-google-maps
+// we have a chicken and egg problem with regards to the height here and javascript
+// the iframe want to expand to 100% of its container, but the container normally gets
+// its size from the content. So the container gets zero size and the iframe likewise.
+// We use the padding property to get a height proportional to its height instead.
+.map-responsive{
+    padding-bottom:100%; // 1:1 ratio - good for map where points are mostly vertical
+    position:relative; // needed for absolute positioning in iframe
+}
+@media(min-width: 500px) {
+    .map-responsive{
+        padding-bottom: calc( 100% * 9/16)
+    }
+}
+
+// make the iframe fill the entire container
+.map-responsive iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    border: 0;
+}

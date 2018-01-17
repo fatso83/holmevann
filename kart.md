@@ -6,7 +6,9 @@ title: Kart og GPS
 {% include analytics.html %}
 
 ### Kart for navigasjon (Google Maps)
-<iframe src="https://www.google.com/maps/d/embed?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb" width="640" height="480"></iframe>
+<div class="map-responsive">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb" width="640" height="480"></iframe>
+</div>
 Det enkleste for å komme seg fram er å bruke dette [spesialkartet for Google Maps]({{site.google_maps_custom_url}}), ettersom det kan brukes i bilen via Google Maps appen når man kjører. Det er spesialtilpasset med egen kjørerute, egne steder (som tollbod, lokal butikk, parkeringsplasse, ...) og også beskrivende bilder jeg har lagt inn for mange av stedene så man kan kjenne seg igjen.
 
 ### Elektroniske topografiske kart over vidda
