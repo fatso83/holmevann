@@ -43,3 +43,9 @@ dd {
     width:100%;
     border: 0;
 }
+
+@media(max-width: 450px) {
+    .hide\@mobile {
+        display: none;
+    }
+}

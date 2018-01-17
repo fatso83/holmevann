@@ -42,4 +42,6 @@ måtte komme over noen problemer mens man er på hytta.
 
 {% include instagram_post1.html %}
 
+<div class="hide@mobile">
 {% include airbnb.html %}
+</div>
