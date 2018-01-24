@@ -8,12 +8,13 @@ title: Korte fakta
 
 ![hytta](https://a0.muscache.com/im/pictures/b28e8dc2-4ae2-42d0-ade3-c9b4d6bfe1c9.jpg?aki_policy=xx_large)
 
-I sørenden av Holmevann i Sigdal har familien Kopseng siden 1934 hatt en seterbu med båthus, som i 1994 
+I sørenden av Holmevann i Sigdal har familien Kopseng siden 1939 hatt en seterbu med båthus, som i 1994 
 ble komplettert med en større og mer komfortabel hytte med strøm fra solceller og vann i springen. 
-I juli 2017 begynte familien å leie ut det nye stedet til
-fjellglade folk og det har gått så bra at det vil vi gjerne fortsette med! 
-Denne enkle siden skal etterhvert fylles på  med alt av informasjon
-som en nysjerrig sjel måtte lure på før et opphold i fjellheimen :-)
+
+Sommeren 2017 begynte familien å leie ut det nye stedet til
+fjellglade folk og vi så tidlig et behov for et nettsted vi kunne
+legge alt av informasjon som en nysjerrig sjel måtte lure på før 
+et opphold i fjellheimen.
 
 # Viktige lenker
 <ul>
