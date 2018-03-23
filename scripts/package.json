@@ -1,0 +1,12 @@
+{
+  "name": "holmevann-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "markdown2pdf": "^0.2.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
