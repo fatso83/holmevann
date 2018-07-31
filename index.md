@@ -28,6 +28,8 @@ et opphold i fjellheimen.
 
 <li><a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjoner for hytta</a>. Egner seg for utskrift.</li>
 
+<li><a href="https://docs.google.com/document/d/1KWRSm9DqvJWtyorWKoDkPmatba03AcEHewSEBcQ9AX0/export?format=pdf">Turtips</a></li>
+
 <li><a href="https://www.yr.no/place/Norway/Buskerud/Sigdal/Holmevatn/">Værvarsel fra Yr</a></li>
 
 </ul>
