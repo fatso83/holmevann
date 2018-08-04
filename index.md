@@ -27,6 +27,7 @@ et opphold i fjellheimen.
 <li><a href="/kart.html">Alle mulige kart for navigasjon, snødybde, utskrift, gps-koordinater, etc</a>. </li>
 
 <li><a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjoner for hytta</a>. Egner seg for utskrift.</li>
+<li><a href="https://docs.google.com/document/d/1BHE_6Jk06KrZ35Exl-5l3R64ATYP9rm8ZKgP7ono-To/export?format=pdf">Instructions in English</a> (the August 2018 version is at the cabin)</li>
 
 <li><a href="https://docs.google.com/document/d/1KWRSm9DqvJWtyorWKoDkPmatba03AcEHewSEBcQ9AX0/export?format=pdf">Turtips</a></li>
 
