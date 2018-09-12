@@ -2,8 +2,8 @@
 layout: post
 title:  "Holmevann har fått sin egen hjemmeside"
 date:   2018-01-12 10:48:12 +0100
-categories: tech prosjekt diy
 ---
+<!--categories: tech prosjekt diy-->
 
 Denne siden skal etter hvert inneholde alt av informasjon om Holmevann, både
 en liten prosjektblogg om hvordan ting på hytta endrer seg, og hva vi holder på å
