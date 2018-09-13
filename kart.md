@@ -2,8 +2,6 @@
 layout: page
 title: Kart og GPS
 ---
-<!-- We need to move this into the template -->
-{% include analytics.html %}
 
 ### Kart for navigasjon (Google Maps)
 <div class="map-responsive">
