@@ -25,6 +25,16 @@ dd {
     grid-column-start: 2;
 }
 
+.u-1\/1 {
+    width: 100%;
+}
+
+.u-text-centered\@desktop {
+    @media(min-width: 500px) {
+        text-align: center;
+    }
+}
+
 //https://www.ostraining.com/blog/coding/responsive-google-maps
 // we have a chicken and egg problem with regards to the height here and javascript
 // the iframe want to expand to 100% of its container, but the container normally gets
