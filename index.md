@@ -37,8 +37,6 @@ om man skal finne fram i mørket og ikke har dekning. Anbefaler
 Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man
 måtte komme over noen problemer mens man er på hytta.
 
-{% include instagram_post2.html %}
-
 <div class="hide@mobile">
 {% include airbnb.html %}
 </div>
