@@ -63,6 +63,7 @@ dd {
 }
 
 .pa-embed-player {
+    overflow: hidden; // sometimes strange rendering bugs in firefox on initial load
     padding-bottom: 2rem;
 }
 
