@@ -2,7 +2,7 @@
 layout: page
 title: Hovedside
 ---
-![hytta](https://a0.muscache.com/im/pictures/b28e8dc2-4ae2-42d0-ade3-c9b4d6bfe1c9.jpg?aki_policy=xx_large)
+{% include index-slideshow.html %}
 
 Sommeren 2017 begynte vi å leie ut fjellhytta vår til fjellglade folk og vi så tidlig et behov for et nettsted vi kunne
 legge alt av informasjon som en nysjerrig sjel måtte lure på før et opphold i fjellheimen.
@@ -36,6 +36,7 @@ om man skal finne fram i mørket og ikke har dekning. Anbefaler
 
 Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man
 måtte komme over noen problemer mens man er på hytta.
+
 
 <div class="hide@mobile">
 {% include airbnb.html %}
