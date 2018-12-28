@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Korte fakta
+title: Hovedside
 ---
 ![hytta](https://a0.muscache.com/im/pictures/b28e8dc2-4ae2-42d0-ade3-c9b4d6bfe1c9.jpg?aki_policy=xx_large)
 

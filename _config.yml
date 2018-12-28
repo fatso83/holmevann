@@ -29,6 +29,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+destination: docs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -45,3 +46,8 @@ plugins:
 # Other custom vars
 google_maps_custom_url:  https://www.google.com/maps/d/viewer?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb&usp=sharing
 norgeskart_android: https://play.google.com/store/apps/details?id=no.avinet.norgeskart
+
+cloudinary:
+    cloud_name: fatso83
+    verbose: true
+    origin_url: https://holmevann.kopseng.no
