@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-img {
+.img--post {
     max-width: calc(100% - 20px);
     height: auto;
     margin: 10px;
@@ -60,6 +60,10 @@ dd {
     height:100%;
     width:100%;
     border: 0;
+}
+
+.pa-embed-player {
+    padding-bottom: 2rem;
 }
 
 @media(max-width: 480px) {
