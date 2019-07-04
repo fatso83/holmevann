@@ -31,6 +31,9 @@ plugins:
   - jekyll-sitemap
 destination: docs
 
+sass:
+    sass_dir: assets/_sass
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
