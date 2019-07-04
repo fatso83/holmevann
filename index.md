@@ -37,7 +37,21 @@ om man skal finne fram i mørket og ikke har dekning. Anbefaler
 Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man
 måtte komme over noen problemer mens man er på hytta.
 
+<div id="airbnb-injection"></div>
 
-<div class="hide@mobile">
+<template id="airbnb">
 {% include airbnb.html %}
-</div>
+</template>
+
+<script>
+var hasTemplateSupport = typeof HTMLTemplateElement === "function";
+var isNotNarrow = window.matchMedia('(min-width: 600px)').matches;
+
+if(hasTemplateSupport && isNotNarrow) {
+    var template = document.getElementById('airbnb');
+    var clone = document.importNode(template.content, true);
+    var target = document.getElementById('airbnb-injection');
+    target.appendChild(clone);
+}
+
+</script>
