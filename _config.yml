@@ -53,8 +53,8 @@ norgeskart_android: https://play.google.com/store/apps/details?id=no.avinet.norg
 cloudinary:
     cloud_name: fatso83
     verbose: true
-    only_prod: false
-    origin_url: https://holmevann.kopseng.no
+    only_prod: true
+    #origin_url: https://holmevann.kopseng.no
     presets:
         default:
             min_width: 320
