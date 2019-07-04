@@ -9,9 +9,19 @@
 - q: Er det innlagt vann der?
   a: > 
       Vi har en frostfri tank under hytta, og så lenge det er vann i den er det 
-      vann i springen. Går den tom må man ned til vannkanten (7m) og hente mer.
+      vann i springen. 
+      
+- q: Hva gjør man om vanntanken går tom? 
+  a: >
+      <p>
+      Går den tom må man ned til vannkanten og hente vann i bøtter. 
+      Heldigvis er det bare 7m fra hytteveggen :-) Vinterstid må man hakke/bore hull i isen.
+      </p>
+      <p>
+      Si også fra til meg om at tanken er tom når oppholdet er 
+      over så jeg kan fylle på tanken.
       Vannet er godt og kan selvsagt drikkes.
-      Vinterstid må man hakke eller bore hull i isen.
+      </p>
 
 - q: Er det utedo der?
   a: > 
@@ -22,10 +32,16 @@
 
 - q: Kan jeg komme dit uten bil?
   a: >
+      <p>
       Det er mye enklere med bil, men det går an å bruke kollektivtransport.
       Anbefaler tog+buss fra Oslo-Hønefoss-Åmot-Eggedal, ca 2t 50m (vs 2t med bil). 
       Jeg ville tatt taxi opp på fjellet til parkeringsplassen for å spare meg for 1,5-2t gåing.  
       Er dere flere ville jeg bestilt minibusstaxi på forhånd (ca 500kr).
+      </p>
+      <p>
+      Jeg har lagt inn noen lenker på kartsiden med både kart fra bygda til fjellet,
+      samt forslag til transport Oslo-Eggedal. Anbefaler <a href="https://en-tur.no">EnTur</a>, forøvrig.
+      </p>
 
 - q: Kan man kjøre helt fram? 
   a: Nei, det er 45 min på ski eller på beina fra parkeringsplassen. Se kartsiden. Vinterstid kan man bli kjørt inn på snøskuter.
@@ -64,7 +80,7 @@
 
 - q: Er det fisk i vannet? Trenger man fiskekort?
   a: >
-      Mye fisk, men jeg kan ingenting om stangfiske ... pleier å sette garn og får da masse sik og noen få ørret.
+      Når jeg setter garn får jeg masse sik og noen få ørret, men jeg kan desverre ingenting om stangfiske.
       Du trenger fiskekort, men det kan du <a href="https://www.anglerid.com/lastnedapp">kjøpe via appen Angler ID</a>!
       Du kan også kjøpe fysisk fiskekort i turistinfoen i Eggedal. I Eggedal får man også kjøpt mark (også i Solbua i Prestfoss).
 
