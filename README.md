@@ -21,3 +21,6 @@ git diff --staged
 git commit 
 git push
 ```
+
+## Dependencies
+- `apt-get install git-lfs # to avoid binary bloat` 
