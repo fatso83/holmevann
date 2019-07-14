@@ -29,7 +29,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-destination: docs
+destination: _site
 
 sass:
     sass_dir: assets/_sass
