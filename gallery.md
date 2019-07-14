@@ -1,6 +1,6 @@
 ---
 title: Bilder
-layout: default
+layout: page
 ---
 {% include index-slideshow.html %}
 
