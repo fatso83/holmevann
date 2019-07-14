@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hyppige spørsmål
+title: Spørsmål & svar
 ---
 
 <div class="accordion">

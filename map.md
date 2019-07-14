@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Kart og GPS
+title: Hvor
+redirect_from:
+    - /kart.html
 ---
 
 ### Kart for navigasjon (Google Maps)
