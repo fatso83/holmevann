@@ -6,6 +6,8 @@
 @import "accordion";
 
 .header-image {
+    z-index: -1;
+    user-select: none;
     object-fit: cover;
     height: 250px;
     margin: -30px 0 15px;
