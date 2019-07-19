@@ -4,6 +4,10 @@ redirect_from:
     - /blog
 list_title: Oppdateringer
 ---
+<div class="u-only-display@mobile">
+    <div id="toc-insert"></div>
+</div>
+
 ## Velkommen!
 [{% cloudinary /assets/img/google-maps-holmevatn.jpg alt="Header image" class="inline-image" %}](/map.html)
 Holmevatn i Eggedal er stedet for å oppleve rein, ryper og naturopplevelser i fleng. Et lignende sted som dette er ikke mulig å leie i Norefjell og omegn.

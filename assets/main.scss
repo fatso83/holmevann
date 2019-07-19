@@ -36,6 +36,7 @@
     width: 100vw;
 }
 // 100vw will cause horizontal scroll bar when there already is a vertical scroll bar. we need to hide it
+// the alternative would require us to restructure the template html quite a bit
 html {
     overflow-x: hidden
 }
@@ -71,6 +72,12 @@ dd {
 .u-text-centered\@desktop {
     @media(min-width: 500px) {
         text-align: center;
+    }
+}
+
+.u-only-display\@mobile {
+    @media(min-width: 500px) {
+        display:none;
     }
 }
 
