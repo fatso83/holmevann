@@ -1,3 +1,12 @@
+- q: Har du en hytteguide for bruk?
+  a: > 
+      Ja, vi har en fullstendig guide for hvordan alt fungererer som 
+      ligger på hytta, sammen med turtips. Den finnes i både 
+      <a href="https://docs.google.com/document/d/1BHE_6Jk06KrZ35Exl-5l3R64ATYP9rm8ZKgP7ono-To/export?format=pdf">
+      engelsk</a> og 
+      <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">
+      norsk</a> utgave.
+
 - q: Er det strøm der?
   a: > 
       Ja, det er 12V strøm, som i en bil, men ikke 220V som i et vanlig hus.
@@ -80,13 +89,16 @@
 
 - q: Er det fisk i vannet? Trenger man fiskekort?
   a: >
-      Når jeg setter garn får jeg masse sik og noen få ørret, men jeg kan desverre ingenting om stangfiske.
-      Du trenger fiskekort, men det kan du <a href="https://www.anglerid.com/lastnedapp">kjøpe via appen Angler ID</a>!
-      Du kan også kjøpe fysisk fiskekort i turistinfoen i Eggedal. I Eggedal får man også kjøpt mark (også i Solbua i Prestfoss).
+      Når jeg setter garn får jeg masse sik og noen få ørret, men jeg kan desverre 
+      ingenting om stangfiske. Du trenger fiskekort, men det kan du 
+      <a href="https://www.anglerid.com/lastnedapp">kjøpe via appen Angler ID</a>!
+      Du kan også kjøpe fysisk fiskekort i turistinfoen i Eggedal. 
+      I Eggedal får man også kjøpt mark (også i Solbua i Prestfoss).
 
 - q: Er det fiskeutstyr eller båt der?
-  a: Det er dessverre dårlig med fiskeutstyr. Vi får kanskje ordnet med dette ila vinteren 2019/2020.
-
+  a: >
+      Det er dessverre dårlig med fiskeutstyr. Vi får kanskje forbedret dette 
+      ila vinteren 2019/2020.
 
 - q: Finnes det noe webkamera på hytta?
   a: >
@@ -113,6 +125,8 @@
 
 - q: Det kommer ingen gass.
   a: > 
+      Mest sannsynlig er det gass på gassflasken, men ventilen er ikke satt ordentlig på.
+
       Plasthetten på gassflaska tas av når man forlater hytta. De må settes på plass igjen
       ved ankomst, men om de ikke sitter riktig kommer det ingen gass. 
       Du skal du kunne løfte flaskene etter hetta - faller den av satt den ikke riktig.
@@ -121,3 +135,16 @@
   a: > 
       Plasthettene som skal sitte på gassflaskene kan være litt vanskelige å få på. Du må bare bruke nok 
       kraft på tomlene når du trykker hetta ned. 
+
+- q: Finnes det noe krydder der inne man kan bruke?
+  a: >
+      Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
+      men vi har ikke en oppdatert indeks. Du kan være ganske sikker på at det er nok 
+      salt og kanel :D
+
+- q: Hva må vi ta med?
+  a: >
+      Du må ta med mat, sengeklær og håndkleder. Anbefaler at alle har med _to_ håndkleder;
+      ett lite for kroppsvask og ett til å tørke kroppen med.
+
+      Andre anbefalinger er:
