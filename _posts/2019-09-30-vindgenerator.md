@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Vindgenerator ikke tillatt: større aggregat
+title:  "Vindgenerator ikke tillatt: større aggregat"
 date:   2019-09-30 14:58:00 +0100
 ---
 
