@@ -43,9 +43,10 @@ signalet til kommunen var såpass sterkt at vi skjønte det ikke var noen
 vits å gå videre med dispensjasjonen til behandling i kommunestyret - 
 noe som ville kostet oss nesten 25 tusen kroner. Så vi trakk søknaden.
 
-Det var leit at Fylkesmannen ikke så at dette var et positivt miljøtiltak.
-For å løse problemet med 
-å ikke ha nok energi har vi nå gått til innkjøp av et brukt Honda EU 30is
+## Vindkraft; adieu. Stort aggregat; velkommen
+Det var leit at Fylkesmannen ikke så at dette var et positivt miljøtiltak,
+hvilket gjør at vi måtte finne andre måter å løse problemet med 
+å ikke ha nok energi. Så nå har vi gått til innkjøp av et brukt Honda EU 30is
 aggregat med fjernstart - 3x kraftigere enn vårt gamle. I tillegg har
 jeg anskaffet et ekstra Concorde Sun Xtender PVX-2580L. Da har vi 
 forhåpentligvis doblet batterikapasiteten også, som bør hjelpe.
