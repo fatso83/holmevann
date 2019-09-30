@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cinderlla ødelagt: backup på plass"
+title:  "Cinderella ødelagt: backup på plass"
 date:   2019-07-26 22:00:00 +0100
 ---
 
