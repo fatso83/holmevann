@@ -7,7 +7,6 @@
   if (!tocElem) return;
 
   function nameIdTuple(e) {
-    console.log(e);
     return [e.id, e.innerText];
   }
 
@@ -19,7 +18,6 @@
   nav.appendChild(list);
 
   tocList.forEach(function addListElem(tocElem) {
-    console.log(tocElem);
     var li = document.createElement("li");
     li.innerHTML = "<a href='#" + tocElem[0] + "'>" + tocElem[1] + "</a>";
     list.appendChild(li);
