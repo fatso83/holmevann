@@ -5,15 +5,23 @@ redirect_from:
     - /kart.html
 ---
 <div id="toc-insert"></div>
-## Kart for navigasjon (Google Maps)
+## Kart for bilnavigasjon (Google Maps)
 <div class="map-responsive">
     <iframe src="https://www.google.com/maps/d/embed?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb" width="640" height="480"></iframe>
 </div>
 Det enkleste for å komme seg fram er å bruke dette [spesialkartet for Google Maps]({{site.google_maps_custom_url}}), ettersom det kan brukes i bilen via Google Maps appen når man kjører. Det er spesialtilpasset med egen kjørerute, egne steder (som tollbod, lokal butikk, parkeringsplasse, ...) og også beskrivende bilder jeg har lagt inn for mange av stedene så man kan kjenne seg igjen.
 
+## Kart fra parkeringsplassen til hytta
+<div class="map-responsive">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1SOHneOudYXb8iOuMJmZQGG_DLGzJzbL1&hl=no" width="640" height="480"></iframe>
+</div>
+
 ## Elektroniske topografiske kart over vidda
 - [Interaktivt topografisk kart](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=14&lat=6697971.51&lon=187859.14) fra Norgeskart.no.
 - [Navida for iPhone](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Norgeskart for Android]({{ site.norgeskart_android }}). Hyttas koordinater ligger nederst på siden.
+
+## KMZ/KML-filer for kart-apper
+- Gåvei sommerstid [[KMZ](/downloads/map-summer.kmz), [KML](/downloads/map-summer.kml)]. Eksport fra Google Maps
 
 ## Kart for utskrift
 Har laget et spesialkart for området Haglebu-Eggedal-Tempelseter-Høgevarde. Du kan laste det ned via [denne lenken](https://drive.google.com/open?id=10G9Z24YxpIX9WI5TMztSzcM1eIQKGM88) (obs: stort, 40MB).
