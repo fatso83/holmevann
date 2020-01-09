@@ -26,6 +26,17 @@
     }
 }
 
+// makes it pop out on hover
+.interactive-image {
+
+    // mobile click and onhover
+    &:hover, &:active {
+        box-shadow: -2px 2px 5px blue;
+        transition-duration: 100ms;
+        transform: scale(1.05);
+    }
+}
+
 .u-full-width {
     left: 50%;
     margin-left: -50vw;
