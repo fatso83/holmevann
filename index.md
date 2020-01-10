@@ -9,7 +9,7 @@ list_title: Oppdateringer
 </div>
 
 ## Velkommen!
-[{% cloudinary /assets/img/google-maps-holmevatn.jpg alt="Header image" class="inline-image" %}](/map.html)
+[{% cloudinary /assets/img/google-maps-holmevatn.jpg alt="Header image" class="inline-image interactive-image" %}](/map.html)
 Holmevatn i Eggedal er stedet for å oppleve rein, ryper og naturopplevelser i fleng. Et lignende sted som dette er ikke mulig å leie i Norefjell og omegn.
 
 Hytta passer for selvhjulpne folk som liker å gå turer i fjellet, fiske/jakt, gjerne en vennegjeng med unger. Ved, gass, strøm og parafin er inkludert. Du trenger kun ta med med sengetøy og håndkleder
