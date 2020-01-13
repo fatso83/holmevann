@@ -19,3 +19,20 @@ Når alt kom til alt måtte jeg bare fikse en backupløsning siden det var flere
 jeg innom Solbua i Prestfoss og skaffet et enkelt campingtoalett. Bruksanvisning med video som forklarer
 hvordan alt fungerer finner man [i et Google Foto-album](https://photos.app.goo.gl/b1oPDyxixrdNqGb9A) jeg har opprettet.
 Der viser jeg også hvor det tømmes ved hytta :)
+
+## Addendum, januar 2020
+Det viser seg at dassen ganske enkelt var feilinstallert av installatøren. Cinderella kommer i flere utgaver, og 230V varianten 
+har et kraftigere luftesystem enn gassvarianten som kun har en liten vifte som går på 12V. Produsenten har derfor
+en installasjonsveiledning som krever at man følger installasjonen til punkt og prikke, og den avviker
+litt fra "standardvarianten" for 230V:
+
+- det er ikke lov med noen knekker/vinkler på lufterøret utover T-stykket
+- man må ha montert ekstra luftinntak, f.eks. under toalettet
+- man må bruke medfølgende pipehatt
+
+Installatøren hadde installert mange av den opprinnelige typen og tenkte at det var samme opplegg her,
+så det ble tatt noen snarveier som dessverre førte til dårligere ventilasjon enn doen var designet for.
+Så fort doen ble testet på lab under riktige forhold var feilen borte.
+
+Doen blir transportert opp i vinter, men det er ikke ventet at den er ferdig (riktig installert) før
+juni 2020.
