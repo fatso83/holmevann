@@ -12,3 +12,20 @@ title: Spørsmål & svar
     </div>
 {% endfor %}
 </div>
+
+<script>
+// Auto-expand FAQ item based on anchor link
+(function autoExpandFaqItemInURL(){
+    var hashText = location.hash.slice(1); // trim off #. empty string can also be sliced
+    if (!hashText) return;
+
+    var id = decodeURIComponent(hashText)
+    var inputNode = document.getElementById(id);
+    if (!inputNode) {
+        console.error("Unable to find anchor with id: " + id);
+        return;
+    }
+
+    inputNode.checked = true;
+})();
+</script>
