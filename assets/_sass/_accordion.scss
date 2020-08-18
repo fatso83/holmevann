@@ -75,8 +75,11 @@ $clouds: #ecf0f1;
 
     // :checked
     input:checked {
-        ~ .accordion__tab-label-box .accordion__tab-label {
+        ~ .accordion__tab-label-box {
             background: darken($midnight, 10%);
+        }
+
+        ~ .accordion__tab-label-box .accordion__tab-label {
             &::after {
                 transform: rotate(90deg);
             }

@@ -1,14 +1,19 @@
 # Husk å skrive gyldig XHTML med slutt-tagger. Ellers blir markupen helt rar, ettersom Jekyll virker å forsøke 
 # å legge til sluttagger som deretter blir escapa ...
 
-- q: Har du en hytteguide for bruk?
-  a: > 
-      Ja, vi har en fullstendig guide for hvordan alt fungererer som 
-      ligger på hytta, sammen med turtips. Den finnes i både 
-      <a href="https://docs.google.com/document/d/1BHE_6Jk06KrZ35Exl-5l3R64ATYP9rm8ZKgP7ono-To/export?format=pdf">
-      engelsk</a> og 
-      <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">
-      norsk</a> utgave.
+- q: Hva må vi ta med?
+  a: >
+      <p>
+      Du må ta med mat, sengeklær/lakenpose og håndklede. Anbefaler at alle har med _to_ håndkleder;
+      ett lite hånd-håndklæde for kroppsvask og ett til å tørke kroppen med. Vi har forsåvidt
+      mange (9) små hånd-håndklæder, og du kan gjerne benytte deg av ett av dem, forutsatt at 
+      du kokvasker det ved avreise!
+      </p>
+
+      <p>Ellers må du bare huske passende bekledning. Turjenter har gode tips for
+      <a href="https://turjenter.no/sommerbekledning/">sommerbekledning</a> 
+      og Christine Oldebråten har <a href="https://friluftsglede.no/2018/10/06/tips-for-a-ikke-fryse-pa-kalde-turer/">
+      supre tips for å unngå å fryse på tur</a> (spesielt vinterstid).</p>
 
 - q: Er det strøm der?
   a: > 
@@ -40,6 +45,31 @@
       Vi har kjøpt et <a href="https://www.cinderellaeco.com/no/hytte-og-fritid/cinderella-gas/">
       Cinderella gasstoalett</a> som har samme komfort som du er vant med hjemme.
       Alt blir brent til aske, luktfritt og stille. Eget toalett til tiss.
+
+- q: Har du en hytteguide for bruk?
+  a: > 
+      Ja, vi har en fullstendig guide for hvordan alt fungererer som 
+      ligger på hytta, sammen med turtips. Den finnes i både 
+      <a href="https://docs.google.com/document/d/1BHE_6Jk06KrZ35Exl-5l3R64ATYP9rm8ZKgP7ono-To/export?format=pdf">
+      engelsk</a> og 
+      <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">
+      norsk</a> utgave.
+      
+- q: Har du tips til selve bilturen til/fra Eggedal?
+  a: >
+      <p>Jeg planlegger alltid for at turen skal bli minst mulig stressende for
+      store og små. Det betyr at jeg legger inn et matstopp på veien opp, slik at man ikke kommer
+      fram til hytta skrubbsulten. </p>
+      
+      <p>Mellom Drammen og Eggedal er det nesten ingen spisesteder som 
+      er verdt å stoppe på, med noen få unntak. Stedene du bør vurdere er Arayas i Åmot (overraskende god thaimat, men traust interiør), 
+      Halvorseth Mat og Drikke i Sigdal (pizza), Pookys på Sandsbråten i Sigdal (thaimat) og Borgerstua i Eggedal (god husmannskost og burger, litt kjip pizza).</p>
+      
+      <p>Ruta via Krøderen (E16 fra Sandvika) er ofte kortere, men du har i prinsippet ett godt spisested på veien, nemlig Krøderen Kro rett før Noresund.
+      Veldig god husmannskost laget fra bunnen av. Barnevennlig.</p>
+      
+      <p>Min anbefaling, om du tar Sigdalsruta, er å stoppe på Sandsbråten. Der har du innlandsnorges fineste badestrand (ofte veldig varmt vann)
+      og god thaimat fra Pookys rett ved siden. Et svalende bad fulgt av nydelig uteservering med kongeutsikt over elva kan vanskelig slås :)</p>
 
 
 - q: Kan jeg komme dit uten bil?
@@ -128,52 +158,21 @@
       Vinterstid anbefaler jeg de som ikke har vært på hytta før å benytte seg av snøskutertransport. Det blir tidlig mørkt 
       og det er greit å ha snøskuterspor å følge (om det ikke er plass på sleden).
 
-- q: Det kommer ingen gass.
-  a: > 
-      Mest sannsynlig er det gass på gassflasken, men ventilen er ikke satt ordentlig på.
-
-      <p>Plasthetten på gassflaska tas av når man forlater hytta. De må settes på plass igjen
-      ved ankomst, men om de ikke sitter riktig kommer det ingen gass. 
-      Du skal du kunne løfte flaskene etter hetta - faller den av satt den ikke riktig.</p>
-
-- q: Jeg får ikke hetten på gassflaskene til å sitte! 
-  a: > 
-      Plasthettene som skal sitte på gassflaskene kan være litt vanskelige å få på. Du må bare bruke nok 
-      kraft på tomlene når du trykker hetta ned. 
+#- q: Det kommer ingen gass.
+#  a: > 
+#      Mest sannsynlig er det gass på gassflasken, men ventilen er ikke satt ordentlig på.
+#
+#      <p>Plasthetten på gassflaska tas av når man forlater hytta. De må settes på plass igjen
+#      ved ankomst, men om de ikke sitter riktig kommer det ingen gass. 
+#      Du skal du kunne løfte flaskene etter hetta - faller den av satt den ikke riktig.</p>
+#
+#- q: Jeg får ikke hetten på gassflaskene til å sitte! 
+#  a: > 
+#      Plasthettene som skal sitte på gassflaskene kan være litt vanskelige å få på. Du må bare bruke nok 
+#      kraft på tomlene når du trykker hetta ned. 
 
 - q: Finnes det noe krydder der inne man kan bruke?
   a: >
       Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
       men vi har ikke en oppdatert indeks. Du kan være ganske sikker på at det er nok 
       salt og kanel :D
-
-- q: Hva må vi ta med?
-  a: >
-      <p>
-      Du må ta med mat, sengeklær/lakenpose og håndklede. Anbefaler at alle har med _to_ håndkleder;
-      ett lite hånd-håndklæde for kroppsvask og ett til å tørke kroppen med. Vi har forsåvidt
-      mange (9) små hånd-håndklæder, og du kan gjerne benytte deg av ett av dem, forutsatt at 
-      du kokvasker det ved avreise!
-      </p>
-
-      <p>Ellers må du bare huske passende bekledning. Turjenter har gode tips for
-      <a href="https://turjenter.no/sommerbekledning/">sommerbekledning</a> 
-      og Christine Oldebråten har <a href="https://friluftsglede.no/2018/10/06/tips-for-a-ikke-fryse-pa-kalde-turer/">
-      supre tips for å unngå å fryse på tur</a> (spesielt vinterstid).</p>
-      
-- q: Har du tips til selve bilturen til/fra Eggedal?
-  a: >
-      <p>Ja, bra du spør :) Jeg planlegger alltid for å gjøre turen minst mulig stressende for
-      store og små. Det betyr at jeg legger inn et matstopp på veien opp, slik at man ikke kommer
-      fram til hytta skrubbsulten. </p>
-      
-      <p>Mellom Drammen og Eggedal er det nesten ingen spisesteder som 
-      er verdt å stoppe på, med noen få unntak. Stedene du bør vurdere er Arayas i Åmot (overraskende god thaimat, men traust interiør), 
-      Halvorseth Mat og Drikke i Sigdal (pizza), Pookys på Sandsbråten i Sigdal (thaimat) og Borgerstua i Eggedal (god husmannskost og burger, litt kjip pizza).</p>
-      
-      <p>Ruta via Krøderen (E16 fra Sandvika) er ofte kortere, men du har i prinsippet ett godt spisested på veien, nemlig Krøderen Kro rett før Noresund.
-      Veldig god husmannskost laget fra bunnen av. Barnevennlig.</p>
-      
-      <p>Min anbefaling, om du tar Sigdalsruta, er å stoppe på Sandsbråten. Der har du innlandsnorges fineste badestrand (ofte veldig varmt vann)
-      og god thaimat fra Pookys rett ved siden. Et svalende bad fulgt av nydelig uteservering med kongeutsikt over elva kan vanskelig slås :)</p>
-
