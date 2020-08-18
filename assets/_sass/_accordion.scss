@@ -22,18 +22,31 @@ $clouds: #ecf0f1;
         overflow: hidden;
     }
 
-    &__tab-label {
+    &__tab-label-box {
         display: flex;
-        justify-content: space-between;
-        padding: 1em;
+        padding: 0.5em;
         background: $midnight;
-        font-weight: bold;
-        cursor: pointer;
 
         /* Icon */
         &:hover {
             background: darken($midnight, 10%);
         }
+
+    }
+
+    &__tab-link {
+        position: relative;
+        top: 6px;
+        width: 18px;
+        font-size: 10px;
+    }
+
+    &__tab-label {
+        display: flex;
+        flex-grow:1; // maxes width
+        justify-content: space-between;
+        font-weight: bold;
+        cursor: pointer;
 
         &::after {
             content: "\276F";
@@ -62,12 +75,14 @@ $clouds: #ecf0f1;
 
     // :checked
     input:checked {
-        + .accordion__tab-label {
+        ~ .accordion__tab-label-box .accordion__tab-label {
             background: darken($midnight, 10%);
             &::after {
                 transform: rotate(90deg);
             }
         }
+
+        // Subsequent-sibling combinator 
         ~ .accordion__tab-content {
             max-height: 100vh;
             height: auto;

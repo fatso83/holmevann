@@ -7,7 +7,10 @@ title: Spørsmål & svar
 {% for qa in site.data.faqs.no %}
     <div class="accordion__tab">
         <input type="checkbox" id="{{qa.q | slugify}}" />
-        <label class="accordion__tab-label" for="{{qa.q | slugify}}">{{qa.q}}</label>
+        <div class="accordion__tab-label-box" >
+            <a href="#{{qa.q | slugify}}" class="accordion__tab-link">🔗</a>
+            <label class="accordion__tab-label" for="{{qa.q | slugify}}">{{qa.q}}</label>
+        </div>
         <div class="accordion__tab-content">{{qa.a}}</div>
     </div>
 {% endfor %}
@@ -15,7 +18,7 @@ title: Spørsmål & svar
 
 <script>
 // Auto-expand FAQ item based on anchor link
-(function autoExpandFaqItemInURL(){
+function autoExpandFaqItemInURL(){
     var hashText = location.hash.slice(1); // trim off #. empty string can also be sliced
     if (!hashText) return;
 
@@ -26,6 +29,12 @@ title: Spørsmål & svar
         return;
     }
 
+    console.debug("Expanding node with id " + id)
     inputNode.checked = true;
-})();
+}
+
+autoExpandFaqItemInURL();
+window.onhashchange = autoExpandFaqItemInURL;
+
+
 </script>
