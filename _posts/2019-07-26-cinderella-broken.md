@@ -36,3 +36,6 @@ Så fort doen ble testet på lab under riktige forhold var feilen borte.
 
 Doen blir transportert opp i vinter, men det er ikke ventet at den er ferdig (riktig installert) før
 juni 2020.
+
+## Addendum, juli 2020
+Nå er dassen installert og fungerer etter jeg laget ny pipe <3
