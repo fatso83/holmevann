@@ -32,11 +32,10 @@ avstiving, hvordan wirene ble trukket og at panelene ligger flatt.
 Det var så utrolig lite energi å hente på å vinkle panelene målt over en måned, samtidig som det økte
 risikoen for at vinden ødela alt, at det fort ble droppet. Jeg har samlet noen bilder her fra prosjektet:
 
-<!--<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async></script>-->
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget pa-embed-player" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/eFQ2qDL2FWFDL1Yp7"
-  data-title="Nytt solcelleanlegg og dasspipe"
+  data-title="Nytt solcelleanlegg"
   data-description="18 new photos added to shared album"
   data-delay="3">
   <object data="https://lh3.googleusercontent.com/L9djBfM_0IID6ii1WkyJxuBzncDY36DHDEstezl9NZ7HNf5iRTsckg6HG4ElxQ31-hE7RBsGYzTtY2zQunCNQYC2U4cczeNLD-naaBwoiWPgbTFVB-D3cAuA6mEVXcH_dbRKYifuP_0=w1920-h1080"></object>
