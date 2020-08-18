@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Et år med oppgraderinger
-date:   2020-08-01 14:00:00 +0100
+date:   2020-08-10 14:00:00 +0100
 ---
 
 {% cloudinary /assets/img/20200715_pvpanels.jpg alt="Solar panels on roof" class="inline-image" %}
