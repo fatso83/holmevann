@@ -40,10 +40,6 @@ risikoen for at vinden ødela alt, at det fort ble droppet. Jeg har samlet noen 
   data-delay="3">
   <object data="https://lh3.googleusercontent.com/L9djBfM_0IID6ii1WkyJxuBzncDY36DHDEstezl9NZ7HNf5iRTsckg6HG4ElxQ31-hE7RBsGYzTtY2zQunCNQYC2U4cczeNLD-naaBwoiWPgbTFVB-D3cAuA6mEVXcH_dbRKYifuP_0=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/XX5gr1Aukt5ChTe9Fk4Iahpx-Lih2oJi9KU_1-JM4DEqVH3yHRCN-9A5fom-pKFrt6xvUtinqMG9xQ0bIBSXexDrEYMq-hRLKi2qSabdjg7FtSWqWaXU6hounEnTSqjip9agS9ORM4Q=w1920-h1080"></object>
-  <object data="https://lh3.googleusercontent.com/p-kK-fkk3j8WVGzLKSe6IhfHKxV-hWAo4mSPUUCyB5a3pIIfDsKZckjz1ZfNT4s4c6UZWF1QXTnk7lc3sfCMVc6HR3L-t1Hy0GAKXs8Bhgi1NbISq3p30KYEyKqTIO0mS_xmycUy7MM=w1920-h1080"></object>
-  <object data="https://lh3.googleusercontent.com/NODvrITxu8wgd5JHmO0dS-uolsWoUpq5rKbOi1pUyH_OiR4Mc8QyzBlaXjW_nk8BZ3zyYUz81aTlt0znxJEf76kpDqVaqDjBegA_7ZnBcV3BSOVatWW-XEOv3TAplRf053c8W7TSCPQ=w1920-h1080"></object>
-  <object data="https://lh3.googleusercontent.com/PZPqzqYM_ghEzZQD265bUkhCnSqZ9QLa1jvIBZT776T-G_POpvydcoLQgAYYrFmoVc9ICcse0oIyhbSQlpI_mpZ5D89g5Cj6B8kJm5ddnR9jkcuSeIo6FyQ-9vF1nHPOXiMcEK0e6dA=w1920-h1080"></object>
-  <object data="https://lh3.googleusercontent.com/fKo4aNnbgp13dJ97HxHjP-iPttIIV5ZCHSFHRBZI9wqxqyv_9w0wJ_w9FbYZitLiBQZ6B77cZ4yKRKlwxF7A4ui5cdtcqiRBkoWV5AsKvfZm5GE4pOB73BrlUJy-aLieBUEY_eW0tC0=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/dfsgkCLlhlGy7JU7_nmUQkLNIKxPLBZA677BuCNSSy5crdoaQxRVzorYPm8fgKK-YgnpRjrXOGrCzy35FapCHG5WuTXK-rKYEth-iFsS1f2SFraDyomEHoXhLWx-MwvH46FJYsCbkNA=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/wpirZk4uiQUGu-cbMWK96K9rFiFk7w_cuTGHcKEfX4TO_yRnu5WNcoDHeQev8jsNcs1B9AYMy5tANjktKqFz786HE_b34_d1OFmDGIPlCW19ft-USI9WT3OrU-9UmV32zw9opfgvCoM=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/RYpDHYLOFc9DukOVUY5rO4a8XrmIa61lpc_TzHJKwi8mGDQvx_guuuFxwTBx_drBtDCPahuiSBGoVNfDck54vxW1hqgWRcr5HN3fxxdaonCT6dkspS5zCHJjr4p1dQ-lY4NgbYj2G9g=w1920-h1080"></object>
