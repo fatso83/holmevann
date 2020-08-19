@@ -48,6 +48,7 @@ sass:
 # Other custom vars
 google_maps_custom_url:  https://www.google.com/maps/d/viewer?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb&usp=sharing
 norgeskart_android: https://play.google.com/store/apps/details?id=no.avinet.norgeskart
+norgeskart_ios: https://apps.apple.com/no/app/norgeskart-friluftsliv/id1350671128
 
 cloudinary:
     cloud_name: fatso83

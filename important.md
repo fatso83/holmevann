@@ -23,27 +23,10 @@ title: Viktig informasjon
 Det er hendig med en kartapp som har gode kart fra Statens Kartverk som 
 kan _forhåndsnedlastes_ til mobilen før du drar på tur. Veldig nyttig 
 om man skal finne fram i mørket og ikke har dekning. Anbefaler 
-[Navida på iOS](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og 
-[Norgeskart på Android]({{ site.norgeskart_android }}). Sjekk [kartsiden](/kart.html) for koordinater.
+Norgeskart Friluftsliv ([Android]({{ site.norgeskart_android }}) og [iPhone]({{ site.norgeskart_ios }})). Sjekk [kartsiden](/kart.html) for koordinater.
 
 Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man
 måtte komme over noen problemer mens man er på hytta.
 
 <div id="airbnb-injection" class="u-full-width"></div>
-
-<template id="airbnb">
 {% include airbnb.html %}
-</template>
-
-<script>
-var hasTemplateSupport = typeof HTMLTemplateElement === "function";
-var isNotNarrow = window.matchMedia('(min-width: 600px)').matches;
-
-if(hasTemplateSupport && isNotNarrow) {
-    var template = document.getElementById('airbnb');
-    var clone = document.importNode(template.content, true);
-    var target = document.getElementById('airbnb-injection');
-    target.appendChild(clone);
-}
-
-</script>

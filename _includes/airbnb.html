@@ -1,6 +1,34 @@
-<!-- AirBnB embed-->
-<div class="airbnb-embed-frame" data-id="18731440" data-view="home" data-hide-price="true" style="width:450px;height:460px;margin:auto">
-    <a href="https://www.airbnb.no/rooms/18731440?s=51"><span>Se på Airbnb</span></a>
-    <a href="https://www.airbnb.no/rooms/18731440?s=51" rel="nofollow">Holmevatn 1013 moh: komfort på vidda</a>
-    <script async="" src="https://www.airbnb.no/embeddable/airbnb_jssdk"></script>
-</div>
+<template id="airbnb-template">
+    <!-- AirBnB embed-->
+    <div class="airbnb-embed-frame" data-id="18731440" data-view="home" data-hide-price="true" style="width:450px;height:460px;margin:auto">
+        <a href="https://www.airbnb.no/rooms/18731440?s=51"><span>Se på Airbnb</span></a>
+        <a href="https://www.airbnb.no/rooms/18731440?s=51" rel="nofollow">Holmevatn 1013 moh: komfort på vidda</a>
+        <script async="" src="https://www.airbnb.no/embeddable/airbnb_jssdk"></script>
+    </div>
+</template>
+
+<script>
+
+(function onlyInjectIframeOnNonNarrowDevices(){
+    var injectionTarget = document.getElementById('airbnb-injection');
+    if (!injectionTarget) {
+        console.warn("No node with id 'airbnb-injection' found");
+        return;
+    }
+    if (injectionTarget.dataset.started) {
+        console.warn("This script has been included twice. Aborting.");
+        return;
+    }
+    // mark node as hit
+    injectionTarget.dataset.started = true;
+
+    var hasTemplateSupport = typeof HTMLTemplateElement === "function";
+    var isNotNarrow = window.matchMedia('(min-width: 600px)').matches;
+
+    if(hasTemplateSupport && isNotNarrow) {
+        var template = document.getElementById('airbnb-template');
+        var clone = document.importNode(template.content, true);
+        injectionTarget.appendChild(clone);
+    }
+})();
+</script>
