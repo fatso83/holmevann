@@ -61,10 +61,12 @@ Om du ikke har bil går det fint an å komme seg til hytta, men det tar lenger t
 Best-case reise (gitt Oslo som utgangspunkt) tar 3t (bare 45 min mer enn bil):
 1. Oslo-Drammen-Åmot-Eggedal, 2h 44m (buss-buss-buss)
 1. Eggedal sentrum - parkeringsplassen, 15min (taxi)
-- [Oslo-Eggedal uten bil](https://en-tur.no/travel-detail?sj=BRA:ServiceJourney:6179_15_4_85,null,BRA:ServiceJourney:6100_6_5_85,null,BRA:ServiceJourney:6105_9_0_85&m=bus,foot,bus,foot,bus&startName=Maritim,%20Oslo&startId=NSR:StopPlace:6463&startCoords=59.918309,10.664305&stopName=Eggedal%20sentrum,%20Sigdal&stopId=NSR:StopPlace:16233&stopCoords=60.24665,9.35577&modes=bus,tram,rail,metro,water,air,flytog,flybuss,foot,coach&timeMode=departAfter&date=2019-07-19T07:11:15.596Z&walkSpeed=1.3&minimumTransferTime=120)
-- [Alternativ](https://goo.gl/maps/1m4C1uzUjPiXZQim9)
+- <a id="entur-lazy-link">Oslo-Eggedal uten bil (EnTur)</a>
+- <a id="google-lazy-link">Oslo-Eggedal uten bil (Google Maps)</a>
 - [Kart for gående uten bil, fra Eggedal kirke til Åssetra (hiking)](https://goo.gl/maps/LdNyeYYECtJZYact8).
 
 ## Snødybde og skispor
 - [Status for skispor i området](https://skisporet.no/setView/60.3090543/9.3822384/13/norges_grunnkart)
 - [Snødybde i området](http://www.senorge.no/index.html?p=senorgeny&st=snow&m=bmNVEGrey%3BMapLayer_ski%3B&l=no&e=184874%7C6695425%7C191420%7C6701997&fh=0%3B2468)
+
+<script async src="/assets/js/map.js"></script>
