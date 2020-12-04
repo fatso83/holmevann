@@ -16,7 +16,7 @@ title: Viktig informasjon
 
 <li><a href="https://docs.google.com/document/d/1KWRSm9DqvJWtyorWKoDkPmatba03AcEHewSEBcQ9AX0/export?format=pdf">Turtips</a></li>
 
-<li><a href="https://www.yr.no/place/Norway/Buskerud/Sigdal/Holmevatn/">Værvarsel fra Yr</a></li>
+<li><a href="https://www.yr.no/en/forecast/daily-table/1-99202/Norway/Viken/Sigdal/Holmevatn">Værvarsel fra Yr</a></li>
 
 </ul>
 
