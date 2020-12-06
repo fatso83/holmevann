@@ -10,7 +10,7 @@
     var today = new Date();
     var currentDayOfWeek = today.getDay();
     var daysToAdd = modulo(5 - currentDayOfWeek, 7);
-    var friday = new Date(today + daysToAdd * 24 * 3600 * 1000);
+    var friday = new Date(today.getTime() + daysToAdd * 24 * 3600 * 1000);
     friday.setHours(9);
     friday.setMinutes(0);
     friday.setSeconds(0);
