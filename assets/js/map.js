@@ -18,10 +18,11 @@
     return friday.getTime();
   }
 
+  // for some reason, this is one hour off on Google. At least in the winter ...
   function googleOsloEggedalTripUrl() {
     return (
       "https://www.google.com/maps/dir/Oslo+Sentralstasjon,+Jernbanetorget,+Oslo/Eggedal+kirke,+Fv287+40,+3359+Eggedal/@59.9906977,9.4960455,9z/data=!3m1!4b1!4m18!4m17!1m5!1m1!1s0x46416e8a1c253d39:0x6d69efbe96e850d2!2m2!1d10.7524574!2d59.911096!1m5!1m1!1s0x4640895733640047:0x8e0529bcae65fadf!2m2!1d9.3571665!2d60.2462148!2m3!6e0!7e2!8j" +
-      fridayAsMillis() / 1000 + // for some reason, this is one hour off on Google?
+      Math.round(fridayAsMillis() / 1000) +
       "!3e3"
     );
   }
