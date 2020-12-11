@@ -16,6 +16,13 @@ Det enkleste for å komme seg fram er å bruke dette [spesialkartet for Google M
     <iframe src="https://www.google.com/maps/d/embed?mid=1SOHneOudYXb8iOuMJmZQGG_DLGzJzbL1&hl=no" width="640" height="480"></iframe>
 </div>
 
+## Google Maps: vinterstid
+På ski inn til hytta fra Skalland eller Tempelseter, såvel som turer i nærområdet.
+
+<div class="map-responsive">
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ABA5ohQmmcLfChlRAKTpjUXrUaYkXG2z" width="640" height="480"></iframe>
+</div>
+
 ## Elektroniske topografiske kart over vidda
 - [Interaktivt topografisk kart](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=14&lat=6697971.51&lon=187859.14) fra Norgeskart.no.
 - [Navida for iPhone](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Norgeskart for Android]({{ site.norgeskart_android }}). Hyttas koordinater ligger nederst på siden.
