@@ -54,10 +54,10 @@ cloudinary:
     cloud_name: fatso83
     verbose: true
     only_prod: true
-    #origin_url: https://holmevann.kopseng.no
+    origin_url: https://holmevann.no
     presets:
         default:
             min_width: 320
-            max_width: 1200
-            fallback_max_width: 800
+            max_width: 2400
+            fallback_max_width: 1400
             steps: 5
