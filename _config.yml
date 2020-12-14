@@ -18,7 +18,7 @@ email: carlerik+holmevann@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Prosjektblogg og informasjon for hytta i sørenden av Holmevann
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://holmevann.kopseng.no" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.holmevann.no" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kopseng
 google_analytics: UA-112389015-1
 
@@ -54,7 +54,7 @@ cloudinary:
     cloud_name: fatso83
     verbose: true
     only_prod: true
-    origin_url: https://holmevann.no
+    origin_url: https://www.holmevann.no
     presets:
         default:
             min_width: 320
