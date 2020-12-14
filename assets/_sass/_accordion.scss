@@ -35,10 +35,15 @@ $clouds: #ecf0f1;
     }
 
     &__tab-link {
+        display: none;
         position: relative;
         top: 6px;
         width: 18px;
         font-size: 10px;
+    }
+
+    &__tab-label-box:hover &__tab-link {
+        display:block;
     }
 
     &__tab-label {
