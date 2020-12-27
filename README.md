@@ -9,9 +9,9 @@ enkelt med noen lenker og simple dokumenter. Med tiden blir det kanskje en Markd
 
 ## Building
 Se [GitHub](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for hvordan man installerer og bygger dette. Viktigste kommandoer er i hvertfall:
-- `bundle install` (installer avhengigheter)
+- `bundle install` (install dependencies)
 - `bundle exec jekyll build` (deploy/prod build)
-- `bundle exec jekyll serve` (utvikling)
+- `bundle exec jekyll serve --trace --livereload --host localhost` (development)
 
 ## Deploy
 ```

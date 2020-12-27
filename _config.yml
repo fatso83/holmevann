@@ -54,7 +54,6 @@ cloudinary:
     cloud_name: fatso83
     verbose: true
     only_prod: true
-    origin_url: https://www.holmevann.no
     presets:
         default:
             min_width: 320
