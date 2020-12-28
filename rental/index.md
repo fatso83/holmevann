@@ -28,6 +28,8 @@ Aggregatet står i en kasse utenfor østveggen. Siden vi har så kraftig solcell
 ## Ankomst / hvordan kommer man til hytta
 Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid. Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min. Se [kartsiden for sporlogg inn til hytta](/map.html#google-maps-vinterstid).
 
+For å komme inn i hytta må man ha nøkkel, og nøkkelboksen har en pinkode du får av meg på sms. Den finnes også i innsjekkingsdetaljene i AirBnb-appen, om du skulle bruke den. Har du ikke fått den 24t før ankomst må du veldig gjerne minne meg på det ;)
+
 ### Tekstlig beskrivelse til parkeringsplassen i Skallandslia (Bjørnerud)
 Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen.
 

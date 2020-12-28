@@ -92,6 +92,12 @@ dd {
     }
 }
 
+
+.post-image {
+    object-fit: contain;
+}
+
+
 //https://www.ostraining.com/blog/coding/responsive-google-maps
 // we have a chicken and egg problem with regards to the height here and javascript
 // the iframe want to expand to 100% of its container, but the container normally gets
