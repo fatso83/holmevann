@@ -1,3 +1,0 @@
-Fiks redirects for 
-/kart.html
-/blog/
