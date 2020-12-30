@@ -162,19 +162,6 @@
       Vinterstid anbefaler jeg de som ikke har vært på hytta før å benytte seg av snøskutertransport. Det blir tidlig mørkt 
       og det er greit å ha snøskuterspor å følge (om det ikke er plass på sleden).
 
-#- q: Det kommer ingen gass.
-#  a: > 
-#      Mest sannsynlig er det gass på gassflasken, men ventilen er ikke satt ordentlig på.
-#
-#      <p>Plasthetten på gassflaska tas av når man forlater hytta. De må settes på plass igjen
-#      ved ankomst, men om de ikke sitter riktig kommer det ingen gass. 
-#      Du skal du kunne løfte flaskene etter hetta - faller den av satt den ikke riktig.</p>
-#
-#- q: Jeg får ikke hetten på gassflaskene til å sitte! 
-#  a: > 
-#      Plasthettene som skal sitte på gassflaskene kan være litt vanskelige å få på. Du må bare bruke nok 
-#      kraft på tomlene når du trykker hetta ned. 
-
 - q: Finnes det noe krydder der inne man kan bruke?
   a: >
       Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
