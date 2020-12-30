@@ -1,7 +1,7 @@
-# Repo for Holmevann
-> [holmevann.kopseng.no](http://holmevann.kopseng.no)
+# Hjemmesiden for hytta på Holmevann
+> [holmevann.no](https://www.holmevann.no)
 
-Dette repoet inneholder hjemmesiden for hytta vår på Holmevann.
+Dette repoet inneholder kildekoden og dataene for hjemmesiden jeg har satt opp for hytta vår på Holmevann.
 Her er både guider til hvordan man gjør diverse ting, dokumenter til apparater, tips og kanskje prosjektblogger med tiden.
 
 Siden dette har drøyet litt for lenge med å materialisere seg så starter vi bare veldig 
