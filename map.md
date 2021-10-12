@@ -12,6 +12,7 @@ redirect_from:
 Det enkleste for å komme seg fram er å bruke dette [spesialkartet for Google Maps]({{site.google_maps_custom_url}}), ettersom det kan brukes i bilen via Google Maps appen når man kjører. Det er spesialtilpasset med egen kjørerute, egne steder (som tollbod, lokal butikk, parkeringsplasse, ...) og også beskrivende bilder jeg har lagt inn for mange av stedene så man kan kjenne seg igjen.
 
 ## Google Maps: fra parkeringsplassen til hytta
+Turen på kartet er veien jeg pleier å ta inn selv sommerstid. Den viker fra den merkede stien litt etter du passerer bekken og går over myrene og sparer deg for 5-10 minutter på en tørr sommerdag. Når det er vått kan det likevel være lurt å ta den merkede stien! Da blir nemlig veien over myrene våt og tung om man har med barn som sliter i sugende terreng.
 <div class="map-responsive">
     <iframe src="https://www.google.com/maps/d/embed?mid=1SOHneOudYXb8iOuMJmZQGG_DLGzJzbL1&hl=no" width="640" height="480"></iframe>
 </div>

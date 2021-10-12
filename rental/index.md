@@ -10,9 +10,11 @@ Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [
 <div id="toc-insert"></div>
 
 ## Ankomst / hvordan kommer man til hytta
-Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid. Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min. Se [kartsiden for sporlogg inn til hytta](/map.html#google-maps-vinterstid).
+Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid. Se [kartsiden for sporlogg inn til hytta](/map.html#google-maps-fra-parkeringsplassen-til-hytta). 
 
-For å komme inn i hytta må man ha nøkkel, og nøkkelboksen har en pinkode du får av meg på sms. Den finnes også i innsjekkingsdetaljene i AirBnb-appen, om du skulle bruke den. Har du ikke fått den 24t før ankomst må du veldig gjerne minne meg på det ;)
+ Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min. 
+
+For å komme inn i hytta må man ha nøkkel, og nøkkelboksen har en pinkode du automatisk får dagen før på melding i AirBnb. Den finnes også i innsjekkingsdetaljene i AirBnb-appen, om du skulle bruke den. Har du ikke fått den 24t før ankomst må du veldig gjerne minne meg på det ;)
 
 ### Kartapper
 Det er hendig med en kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen før du drar på tur. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv ([Android]({{ site.norgeskart_android }}) og [iPhone]({{ site.norgeskart_ios }})). Sjekk [kartsiden](/kart.html) for koordinater. Husk å lade telefonen godt på forhånd!
