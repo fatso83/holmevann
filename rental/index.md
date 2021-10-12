@@ -6,10 +6,9 @@ exclude: true
 
 Les informasjonen under nøye før du kommer så det ikke blir noen overraskelser!
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
-
-Jeg har også delt [en mappe som inneholder mer informasjon](https://drive.google.com/open?id=0BxoftKRQ6vR7bkc0U0JIdHdlejg), som f.eks. bruksanvisninger til teknisk utstyr - om man måtte komme over noen problemer mens man er på hytta, men det er for spesielt interesserte ;)
-
+)
 <div id="toc-insert"></div>
+
 ## Ankomst / hvordan kommer man til hytta
 Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid. Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min. Se [kartsiden for sporlogg inn til hytta](/map.html#google-maps-vinterstid).
 
@@ -47,6 +46,9 @@ For å få vann må man skru på pumpen. Bryteren er over vasken, og man bør la
 
 Aggregatet står i en kasse utenfor østveggen. Siden vi har så kraftig solcelleanlegg skal det ikke være nødvendig å bruke dette annet enn i de mørkeste vintermånedene.
 
+### Om man virkelig lurer 
+Jeg har også delt [en mappe som inneholder mer informasjon][delt-mappe], som f.eks. turforslag, kart og bruksanvisninger til alt teknisk utstyr. Sistnevnte er om man måtte komme over noen problemer mens man er på hytta, men det er for spesielt interesserte ;) Nå om dagen er det såpass godt med lade- og batterikapasitet at aggregatet har stått i ro noen år!
+
 
 ## Senger og sengetøy
 Det er ni sengeplasser på hytta. Ett "master bedroom" med en dobbeltseng, et gjesterom med tre senger, en hems ved pipa med to madrasser og en adskilt hems med ytterligere to madrasser (ca 1m brede). 
@@ -68,3 +70,4 @@ Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Egg
 ### Generelt om fisket i Holmevann:
 Det er masse sik og en del ørret. Siken pleier å holde seg i midten av annet og ørreten holder seg langs land. Det vaker ofte i overflaten i nærheten av hytta, så det kan godt være muligheter der. Et annet godt sted er å sjekke kartet over Holmevann som henger på hytta: der det er elveutløp (eller pleide å være elveutløp) står ofte ørreten! Den liker å gyte i gamle bekkefar, så ta på deg støvler og gå langs øst og nordbredden av vannet.
 
+[delt-mappe]: https://drive.google.com/drive/folders/0BxoftKRQ6vR7bkc0U0JIdHdlejg?resourcekey=0-qfLfvTomKY4Qg2sojQEKwg&usp=sharing
