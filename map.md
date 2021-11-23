@@ -12,7 +12,7 @@ redirect_from:
 Det enkleste er å legge inn [Bjørnerudsæterveien 174][gateadresse] i bilnavigasjonsdingsen din og kjøre i vei. Dette er adressen til hytta som ligger ved siden av parkeringsplassen. Du kan også ta en titt på dette [spesialkartet for Google Maps]({{site.google_maps_custom_url}}) for å se interessepunkter med bilder fra nærområdet.
 
 ## Google Maps: fra parkeringsplassen til hytta
-Jeg har nå (november 2021) lagt inn gåveien (gps-spor) fra parkeringsplassen og fram til hytta. Det er den letteste veien og gå og samsvarer med den som ligger i kartet ["Gåvei"](./map.html#g%C3%A5vei) under. Den er lett å følge, men ta med hodelykt om du kommer sent; folk har hatt en tendens til å havne for langt øst når de prater og koser seg :)
+Jeg har nå (november 2021) lagt inn gåveien (gps-spor) fra parkeringsplassen og fram til hytta. Det er den letteste veien å gå og samsvarer med den som ligger i kartet ["Gåvei"](./map.html#g%C3%A5vei) under. Den er lett å følge, men ta med hodelykt om du kommer sent; folk har hatt en tendens til å havne for langt øst når de prater og koser seg :)
 <div class="map-responsive">
     <iframe src="https://www.google.com/maps/d/embed?mid=1SOHneOudYXb8iOuMJmZQGG_DLGzJzbL1&hl=no" width="640" height="480"></iframe>
 </div>
