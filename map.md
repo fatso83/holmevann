@@ -9,7 +9,7 @@ redirect_from:
 <div class="map-responsive">
     <iframe src="https://www.google.com/maps/d/embed?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb" width="640" height="480"></iframe>
 </div>
-Det enkleste for å komme seg fram er å bruke dette [spesialkartet for Google Maps]({{site.google_maps_custom_url}}), ettersom det kan brukes i bilen via Google Maps appen når man kjører. Det er spesialtilpasset med egen kjørerute, egne steder (som tollbod, lokal butikk, parkeringsplasse, ...) og også beskrivende bilder jeg har lagt inn for mange av stedene så man kan kjenne seg igjen.
+Det enkleste er å legge inn [Bjørnerudsæterveien 174][gateadresse] i bilnavigasjonsdingsen din og kjøre i vei. Dette er adressen til hytta som ligger ved siden av parkeringsplassen. Du kan også ta en titt på dette [spesialkartet for Google Maps]({{site.google_maps_custom_url}}) for å se interessepunkter med bilder fra nærområdet.
 
 ## Google Maps: fra parkeringsplassen til hytta
 Turen på kartet er veien jeg pleier å ta inn selv sommerstid. Den viker fra den merkede stien litt etter du passerer bekken og går over myrene og sparer deg for 5-10 minutter på en tørr sommerdag. Når det er vått kan det likevel være lurt å ta den merkede stien! Da blir nemlig veien over myrene våt og tung om man har med barn som sliter i sugende terreng. Jeg har ikke fått lagt inn sporlogg på den, men den ligger i kartet ["Gåvei"](./map.html#g%C3%A5vei) under. Den er lett å følge, men ta med hodelykt om du kommer sent.
@@ -78,3 +78,5 @@ Best-case reise (gitt Oslo som utgangspunkt) tar 3t (bare 45 min mer enn bil):
 - [Snødybde i området](http://www.senorge.no/index.html?p=senorgeny&st=snow&m=bmNVEGrey%3BMapLayer_ski%3B&l=no&e=184874%7C6695425%7C191420%7C6701997&fh=0%3B2468)
 
 <script async src="/assets/js/map.js"></script>
+
+[gateadresse]: https://www.google.com/maps/place/Bj%C3%B8rnerudseterveien+174,+3359+Eggedal/@60.273777,9.3402038,786m/data=!3m1!1e3!4m5!3m4!1s0x464062168b73ec33:0x21fa5141e62c87c7!8m2!3d60.273777!4d9.3423925!5m2!1e2!1e4
