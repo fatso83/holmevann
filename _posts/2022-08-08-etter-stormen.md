@@ -102,7 +102,9 @@ slippe dette igjen. Det innebærer blant annet armering av torva med hønsenetti
 som skal skrus fast i taket, samt nye, kraftigere fester av panelene til 
 bærende bjelker i taket med godkjent tetting. Så får vi bare se om Polygon
 greier å fikse det før vinteren er her igjen :)
+<a href="/assets/img/breistein_tegninger.png">
 {% cloudinary post /assets/img/breistein_tegninger.png alt="Tegninger" %}
+</a>
 
 <!-- Needed to display gallery -->
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
