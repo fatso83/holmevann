@@ -74,9 +74,11 @@ Best-case reise (gitt Oslo som utgangspunkt) tar 3t (bare 45 min mer enn bil):
 - [Kart for gående uten bil, fra Eggedal kirke til Åssetra (hiking)](https://goo.gl/maps/LdNyeYYECtJZYact8).
 
 ## Snødybde og skispor
-- [Status for skispor i området](https://skisporet.no/setView/60.3090543/9.3822384/13/norges_grunnkart)
-- [Snødybde i området](http://www.senorge.no/index.html?p=senorgeny&st=snow&m=bmNVEGrey%3BMapLayer_ski%3B&l=no&e=184874%7C6695425%7C191420%7C6701997&fh=0%3B2468)
+- [Status for skispor i området][skisporet]
+- [Snødybde i området][senorge-sno]
 
 <script async src="/assets/js/map.js"></script>
 
 [gateadresse]: https://www.google.com/maps/place/Bj%C3%B8rnerudseterveien+174,+3359+Eggedal/@60.273777,9.3402038,786m/data=!3m1!1e3!4m5!3m4!1s0x464062168b73ec33:0x21fa5141e62c87c7!8m2!3d60.273777!4d9.3423925!5m2!1e2!1e4
+[senorge-sno]: https://www.senorge.no/map?lang=no&tl=sd&dato=idag&zoom=12&center=188804:6698658
+[skisporet]: https://www.skisporet.no/map/60.3090543/9.3822384/13
