@@ -36,11 +36,8 @@ På ski inn til hytta fra Skalland eller Tempelseter, såvel som turer i næromr
 ### Fjellområdet
 Har laget et spesialkart for området Haglebu-Eggedal-Tempelseter-Høgevarde. Du kan laste det ned via [denne lenken](https://drive.google.com/open?id=10G9Z24YxpIX9WI5TMztSzcM1eIQKGM88) (obs: stort, 40MB).
 
-### Bilvei
-[![bilvei](https://a0.muscache.com/im/pictures/470c18b0-7527-44d5-88bf-546528f8f169.jpg?aki_policy=x_large)](https://a0.muscache.com/im/pictures/470c18b0-7527-44d5-88bf-546528f8f169.jpg?aki_policy=x_large)
-
 ### Gåvei
-![gåvei](https://a0.muscache.com/im/pictures/1575a13d-405b-45ef-9bce-302730d1ac71.jpg?aki_policy=x_large)
+{% cloudinary /assets/img/gaavei.jpg alt="Hiking route" %}
 
 ## GPS-koordinater
 Koordinatene til hytta er
