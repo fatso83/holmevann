@@ -65,7 +65,9 @@ Du finner flere andre kilder til inspirasjon på nett, f.eks. [denne turen på P
 ## Fisking
 Fiskekort kan man få kjøpt via appen [AnglerID](https://www.anglerid.com/). Man kan også kjøpe et fysisk kort i turistbua i Eggedal sentrum eller [Solbua i Prestfoss](https://solbua.no).
 
-Har dessverre dårlig med tips til sluk og fluefiske, for vi har pleid å bruke garn. Vi deler båt med nabohytta og den er derfor ikke til utlån ... 
+Har dessverre dårlig med tips til sluk og fluefiske, for vi bruker selv bare garn, men jeg har sett flere fluefiskere både langs Holmevann og nærliggende vann. Når myggen kommer i slutten av juni/juli begynner fisen å bite. Er det for kaldt er det dødt, har jeg latt meg fortelle ...
+
+Vi deler båthus med nabohytta og trebåten i båthuset er ikke til utlån, men vi har kjøpt en enkel Rana plastbåt som ligger på land nede ved vannet. Vinteren 2022 ble den dessverre [skadet i en vinterstorm](/2022/08/08/etter-stormen.html): den flyter og var i bruk sommeren 2022, men øregaflene er ødelagt. Vi håper å få utbedret disse skadene før juli 2023 så den kan roes også. Vi har et 90Ah batteri og 600W elektrisk motor som bruker 20 min over vannet. Det holder akkurat fint til tur-retur. Batteriet lades enklest på batterihemsen på hytta fra dag-til-dag.
 
 Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Eggedal sentrum.
 
