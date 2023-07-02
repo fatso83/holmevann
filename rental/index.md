@@ -14,10 +14,10 @@ Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters gange fra hy
 
  Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min. 
 
-For å komme inn i hytta må man ha nøkkel, og nøkkelboksen har en pinkode du automatisk får dagen før på melding i AirBnb. Den finnes også i innsjekkingsdetaljene i AirBnb-appen, om du skulle bruke den. Har du ikke fått den 24t før ankomst må du veldig gjerne minne meg på det ;)
+For å komme inn i hytta må man ha nøkkel. Noen dager før ankomst sender jeg en pinkode til nøkkelboksen. Har du ikke fått den 2 dager før må du ringe meg, men sjekk søppelfilteret først ;) Den finnes også i innsjekkingsdetaljene i AirBnb-appen - om du skulle bruke den. 
 
 ### Kartapper
-Det er hendig med en kartapp som har gode kart fra Statens Kartverk som kan _forhåndsnedlastes_ til mobilen før du drar på tur. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv ([Android]({{ site.norgeskart_android }}) og [iPhone]({{ site.norgeskart_ios }})). Sjekk [kartsiden](/kart.html) for koordinater. Husk å lade telefonen godt på forhånd!
+Det er elendig dekning på mye av Norefjell, så det er hendig med en kartapp som kan _forhåndsnedlaste_ gode kart fra Statens Kartverk før du drar på tur. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv ([Android]({{ site.norgeskart_android }}) og [iPhone]({{ site.norgeskart_ios }})). Sjekk [kartsiden](/kart.html) for koordinater og har du en app som forstår KMZ-filer kan du bokstavelig talt [gå der jeg har gått][kmz]. Husk å lade telefonen godt på forhånd!
 
 Google Maps på smarttelefoner kan også forhåndsnedlaste områder. Gjør du det før ankomst så kan du følge i mine spor hele veien inn uten å tenke på dekning. Når det er sagt, så finner de fleste fram uten mobil, men det blir fort mørkt på høsten!
 
@@ -75,3 +75,4 @@ Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Egg
 Det er masse sik og en del ørret. Siken pleier å holde seg i midten av annet og ørreten holder seg langs land. Det vaker ofte i overflaten i nærheten av hytta, så det kan godt være muligheter der. Et annet godt sted er å sjekke kartet over Holmevann som henger på hytta: der det er elveutløp (eller pleide å være elveutløp) står ofte ørreten! Den liker å gyte i gamle bekkefar, så ta på deg støvler og gå langs øst og nordbredden av vannet.
 
 [delt-mappe]: https://drive.google.com/drive/folders/0BxoftKRQ6vR7bkc0U0JIdHdlejg?resourcekey=0-qfLfvTomKY4Qg2sojQEKwg&usp=sharing
+[kmz]: https://www.holmevann.no/map#kmzkml-filer-for-kart-apper
