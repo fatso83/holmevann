@@ -25,11 +25,14 @@
 - q: Er det strøm der?
   a: > 
       Ja, det er hovedsakelig 12V strøm (som i en bil), men vi har omformer til 220V
-      (som i et vanlig hus) så vi kan bruke støvsuger.  Forøvrig er det radio,
-      cd-spiller, usb-ladere til telefoner med alle kabeltyper (Lightning, USB-C, ...), m.m. på stedet.
+      (som i et vanlig hus) så vi kan bruke støvsuger.  Forøvrig er det <s>radio</s> (må montere DAB-antenne først),
+      cd-spiller, Lightning og USB-C overganger til minijack så man kan strømme fra Spotify,
+      usb-ladere til telefoner med alle kabeltyper (Lightning, USB-C, ...), m.m. på stedet.
+      <p>
       Du kan altså la laderen ligge igjen i bilen, men ta med en ekstra kabel om dere er mange :-)
       Strømmen kommer fra solcellepaneler. I de mørkeste vintermånedene kan det bli smått med lading både pga snø på panelene og lite sol.
-      Da er det kjekt at et kraftig Honda-aggregatet kan lade batteriene!
+      Da er det kjekt at et kraftig Honda-aggregatet kan lade batteriene! I praksis
+      har vi aldri trengt å fyre det opp, så lenge man feier bort snøen!
 
 - q: Er det innlagt vann der?
   a: > 
@@ -53,6 +56,12 @@
       Vi har kjøpt et <a href="https://www.cinderellaeco.com/no/hytte-og-fritid/cinderella-gas/">
       Cinderella gasstoalett</a> som har samme komfort som du er vant med hjemme.
       Alt blir brent til aske, luktfritt og stille. Eget toalett til tiss.
+
+- q: Finnes det noe webkamera på hytta?
+  a: >
+      Nei, dessverre, men det finnes mange i områdene rundt.  
+      <a href="https://bernhardsen.as/solstua/tempelseter-besserud.htm">Denne siden</a> har mange relevante kameraer 
+      (blant annet Tempelseter, Høgevarde hyttefelt og Gråfjell).
 
 - q: Har du en hytteguide for bruk?
   a: > 
@@ -137,21 +146,24 @@
 - q: Er det fisk i vannet? Trenger man fiskekort?
   a: >
       Når jeg setter garn får jeg masse sik og noen få ørret, men jeg kan desverre 
-      ingenting om stangfiske. Du trenger fiskekort, men det kan du 
-      <a href="https://www.anglerid.com/lastnedapp">kjøpe via appen Angler ID</a>!
+      ingenting om stangfiske. Du trenger fiskekort, men det kan du på behagelig vis
+      <a href="https://www.perfish.no/">kjøpe via appen Perfish også</a>!
       Du kan også kjøpe fysisk fiskekort i turistinfoen i Eggedal. 
       I Eggedal får man også kjøpt mark (også i Solbua i Prestfoss).
 
-- q: Er det fiskeutstyr eller båt der?
+- q: Er det båt og/eller fiskeutstyr der?
   a: >
-      Det er dessverre dårlig med fiskeutstyr. Vi får kanskje forbedret dette 
-      ila vinteren 2021.
+      Vi har kjøpt inn en plastbåt for utleie (se under)! 
+      Vi har litt fiskeutstyr: en stang, sluker og kroker. Vi har ikke 
+      garn til utlån, ettersom det fort går i stykker og krever vedlikehold.
+      Husk å løs ut fiskekort (se punkt over)!
 
-- q: Finnes det noe webkamera på hytta?
-  a: >
-      Nei, dessverre, men det finnes mange i områdene rundt.  
-      <a href="https://bernhardsen.as/solstua/tempelseter-besserud.htm">Denne siden</a> har mange relevante kameraer 
-      (blant annet Tempelseter, Høgevarde hyttefelt og Gråfjell).
+      Båten ligger nede ved vannet. 
+      <a href="https://www.holmevann.no/2022/08/08/etter-stormen.html">Orkanen i 2022</a>
+      ødela ikke bare taket, men gav også båten kraftig juling da den ble slengt 30 meter
+      innover land, der blant annet tollegangene (a la åregafler) ble revet av.
+      I juli 2023 skal vi få fikset opp båten så den er farbar igjen. Gummilistene
+      har fått noen skader, av ikke funksjonell art, som vi antagelig ikke får fikset.
 
 - q: Kan man få snøskutertransport?
   a: > 
