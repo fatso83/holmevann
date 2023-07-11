@@ -7,20 +7,22 @@ Her er både guider til hvordan man gjør diverse ting, dokumenter til apparater
 Siden dette har drøyet litt for lenge med å materialisere seg så starter vi bare veldig 
 enkelt med noen lenker og simple dokumenter. Med tiden blir det kanskje en Markdown-drevet site med offlinestøtte via Service Workers så man kan lese guidene uten dekning, men det er først når jeg får tid (lol).
 
-## Building
-Se [GitHub](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for hvordan man installerer og bygger dette. Viktigste kommandoer er i hvertfall:
-- `bundle install` (install dependencies)
-- `bundle exec jekyll build` (deploy/prod build)
-- `bundle exec jekyll serve --trace --livereload --host localhost` (development)
+## Bygge prosjektet
+- Installere: `make install`
+- Utvikle lokalt med live-reload: `make livereload`
+- Liste opp andre muligheter: `make`
 
-## Deploy
+Se [GitHub Pages](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for mer bakgrunnsinfo, f.eks. om du vil sette det opp på eget domene.
+
+## Legge ut ny versjon
+Commit endringene dine:
 ```
-# Assumes a new production build has finished
 git add .
 git diff --staged
 git commit 
-git push
 ```
+Så pusher du ut endringene: `make deploy`
 
-## Dependencies
-- `apt-get install git-lfs # to avoid binary bloat` 
+## Avhengigheter
+- [Bundler](https://bundler.io/) for avhengigheter i Ruby
+- [Git LFS](https://git-lfs.com/) for å unngå at repoet vokser for fort
