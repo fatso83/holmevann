@@ -135,6 +135,7 @@
   a: Det er inkludert.
 
 - q: Hvilke koke- og stekemuligheter finnes det?
+  category: ['kitchen']
   a: >
       Mange. Det er en stekeovn som går på gass. Den funker fint til brødbaking og alt annet. 
       Det er også gassbluss for kjapp matlaging, i tillegg til en 
@@ -142,7 +143,28 @@
       man kan koke opp flere kasseroller samtidig.
 
 - q: Hva finnes av kjøkkenutstyr?
-  a: Kniver (ikke de skarpeste, men vi har knivskjerper!), fjeler, stekepanner, kasseroller, jerngryte og vaffeljern.
+  category: ['kitchen']
+  a: >
+      Stavmikser (220V), gode kniver, fjeler, stekepanner (non-stick og støpejern), kasseroller, jerngryte med lokk og vaffeljern. 
+  
+      Knivene skjerpes profesjonelt innimellom, men vi har knivskjerper som hjelper godt om noen skulle ha mishandlet dem!
+
+- q: Hva finnes av kaffetraktingsutstyr?
+  category: ['kitchen']
+  a: >
+      <ul>
+      <li>Presskanne (french press)</li>
+      <li>Kaffekanne for kokekaffe</li>
+      <li>En manuell kvern for kaffebønner (relativ grov)</li>
+      <li>Termos (blå, merket KAFFE) (på toppen av overskapene)</li>
+      </ul>
+
+- q: Finnes det noe krydder der inne man kan bruke?
+  category: ['kitchen']
+  a: >
+      Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
+      men vi har ikke en oppdatert indeks. Pleier være nok salt, kanel, laurbær og muskat ;)
+
 
 - q: Er det fisk i vannet? Trenger man fiskekort?
   a: >
@@ -182,9 +204,3 @@
   a: > 
       Vinterstid anbefaler jeg de som ikke har vært på hytta før å benytte seg av snøskutertransport. Det blir tidlig mørkt 
       og det er greit å ha snøskuterspor å følge (om det ikke er plass på sleden).
-
-- q: Finnes det noe krydder der inne man kan bruke?
-  a: >
-      Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
-      men vi har ikke en oppdatert indeks. Du kan være ganske sikker på at det er nok 
-      salt og kanel :D
