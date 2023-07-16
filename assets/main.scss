@@ -130,6 +130,10 @@ dd {
     padding-bottom: 2rem;
 }
 
+.hide {
+    display: none;
+}
+
 @media(max-width: 480px) {
     .hide\@mobile {
         display: none;

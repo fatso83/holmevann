@@ -74,6 +74,7 @@
       norsk</a> utgave.
       
 - q: Har du tips til selve bilturen til/fra Eggedal?
+  tags: ['transport']
   a: >
       <p>Jeg planlegger alltid for at turen skal bli minst mulig stressende for
       store og små. Det betyr at jeg legger inn et matstopp på veien opp, slik at man ikke kommer
@@ -96,6 +97,7 @@
 
 
 - q: Kan jeg komme dit uten bil?
+  tags: ['transport']
   a: >
       <p>
       Det er mye enklere med bil, men det går an å bruke kollektivtransport.
@@ -109,9 +111,13 @@
       </p>
 
 - q: Kan man kjøre helt fram? 
-  a: Nei, det er 45 min på ski eller på beina fra parkeringsplassen. Se kartsiden. Vinterstid kan man bli kjørt inn på snøskuter fra Tempelseter.
+  tags: ['winter', 'transport']
+  a: Nei, det er 45 min på ski eller på beina fra parkeringsplassen. Gang med tre når du har småbarn eller engelskmenn med 😀 
+     Ungene mine har gått selv med sekk fra de er tre år, men du trenger god tid og tålmodighet, mye snacks og mange pauser.
+     Se <a href="/kart">kartsiden</a> for detaljer. Vinterstid kan man bli kjørt inn på snøskuter (se eget punkt).
 
 - q: Er det en parkeringsplass man kan bruke?
+  tags: ['transport']
   a: Ja, du kjører inn bomveien til Bjørnerudsæter (45 kr kontant eller Vipps til 95488502) og fortsetter til fellesparkeringen, 100m før veien slutter. Se kartsiden.
 
 - q: Kan man dusje? Hvordan håndterer man hygiene?
@@ -135,7 +141,7 @@
   a: Det er inkludert.
 
 - q: Hvilke koke- og stekemuligheter finnes det?
-  category: ['kitchen']
+  tags: ['kitchen']
   a: >
       Mange. Det er en stekeovn som går på gass. Den funker fint til brødbaking og alt annet. 
       Det er også gassbluss for kjapp matlaging, i tillegg til en 
@@ -143,14 +149,15 @@
       man kan koke opp flere kasseroller samtidig.
 
 - q: Hva finnes av kjøkkenutstyr?
-  category: ['kitchen']
+  tags: ['kitchen']
   a: >
       Stavmikser (220V), gode kniver, fjeler, stekepanner (non-stick og støpejern), kasseroller, jerngryte med lokk og vaffeljern. 
   
-      Knivene skjerpes profesjonelt innimellom, men vi har knivskjerper som hjelper godt om noen skulle ha mishandlet dem!
+      Knivene skjerpes profesjonelt innimellom, men vi har skjerpestål som hjelper godt om noen skulle ha mishandlet dem! 
+      Forsøk å heng knivene tilbake på magnetstripen og ikke legg dem blant andre kjøkkenredskaper.
 
 - q: Hva finnes av kaffetraktingsutstyr?
-  category: ['kitchen']
+  tags: ['kitchen']
   a: >
       <ul>
       <li>Presskanne (french press)</li>
@@ -160,7 +167,7 @@
       </ul>
 
 - q: Finnes det noe krydder der inne man kan bruke?
-  category: ['kitchen']
+  tags: ['kitchen']
   a: >
       Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
       men vi har ikke en oppdatert indeks. Pleier være nok salt, kanel, laurbær og muskat ;)
@@ -192,18 +199,29 @@
       enden av vannet og lades enkelt på batterihylla med klyper.
 
 - q: Kan man få snøskutertransport?
+  tags: ['winter', 'transport']
   a: > 
-      Ja, kan bli kjørt inn fra Tempelseter, som er utgangspunktet for løypemaskinene, 
-      så lenge det er nok snø (typisk sent desember). Anbefaler dette spesielt om man har mye å bære på. 
-      Jeg setter deg i kontakt med en løyvehaver. Kostnad ca 800kr hver vei.
+      Ja, kan bli kjørt inn så lenge det er nok snø (typisk sent desember). Anbefaler dette spesielt 
+      om man har mye å bære på eller har planer om å være i Eggedal etter 17:30 (det blir alltid senere 
+      enn du tror). Jeg setter deg i kontakt med en løyvehaver. Kostnad ca 800kr hver vei.
+      Vanligvis kan man få skyss fra den vanlige parkeringsplassen på Bjørnerudsæter, men om han 
+      ikke har mulighet har jeg en annen kar som kjører fra Tempelseter, som er utgangspunktet 
+      for løypemaskinene. Det er kortere fra Bjørnerudsæter, så kostnaden er ca 600 kr derfra vs
+      rundt tusenlappen fra Tempelseter. Dette er veilendende per 2023. Tur-retur er billigere enn dobling.
+      (typisk 1500 t/r vs 1000 en vei for Tempelseter)
 
 - q: Er det oppkjørte løyper?
+  tags: ['winter', 'transport']
   a: >
-      Ikke helt fram til hytta, men minst halve veien, avhengig av om man går fra Skallandslia eller Tempelseter.
+      Ikke helt fram til hytta, men minst halve veien, avhengig av om man går fra Skallandslia/Bjørnerudsæter eller Tempelseter.
       De oppkjørte løypene er under ti minutter rolig skigange fra hytta. Se kartsiden 
       for løypestatus m.m.
 
-- q: Bør man gå på ski fra Tempelseter eller parkeringsplassen?
+- q: Bør man gå på ski fra Tempelseter eller parkeringsplassen på Bjørnerudsæter?
+  tags: ['winter', 'transport']
   a: > 
-      Vinterstid anbefaler jeg de som ikke har vært på hytta før å benytte seg av snøskutertransport. Det blir tidlig mørkt 
+      Bjørnerudsæter er halve avstanden av Tempelseter, så definitivt førstnevnte.
+
+      Likevel ... vinterstid anbefaler jeg de som ikke har vært på hytta før å 
+      benytte seg av snøskutertransport. Det blir tidlig mørkt 
       og det er greit å ha snøskuterspor å følge (om det ikke er plass på sleden).
