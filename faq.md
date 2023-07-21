@@ -3,25 +3,13 @@ layout: page
 title: Spørsmål & svar
 ---
 
-
-<form id="tag-filter">
-    <!-- manual tags listing -->
-    <label>
-        <input type="radio" name="tag" value="" checked />
-        Ingen valg
+<form id="tag-filter" style="margin-bottom: 1em;">
+    <label>Søk: <input 
+        type="text" name="search" id="search" style="width: 14em;"
+        placeholder="Skriv inn det du er interessert i"/>
     </label>
-    <label>
-        <input type="radio" name="tag" value="kitchen" />
-        Kjøkken
-    </label>
-    <label>
-        <input type="radio" name="tag" value="winter" />
-        Vinter
-    </label>
-    <label>
-        <input type="radio" name="tag" value="transport" />
-        Transport
-    </label>
+    <button id="clear-form-button">Tøm</button>
+    <div>Forslag: <span id="suggestions"></span></div>
 </form>
 <!--</div>-->
 
@@ -40,6 +28,10 @@ title: Spørsmål & svar
 </div>
 
 <script>
+const filter = document.getElementById('tag-filter')
+const accordion =  document.getElementById('accordion')
+const tabs = accordion.getElementsByClassName('accordion__tab')
+
 // Auto-expand FAQ item based on anchor link
 function autoExpandFaqItemInURL(){
     const hashText = location.hash.slice(1); // trim off #. empty string can also be sliced
@@ -56,30 +48,64 @@ function autoExpandFaqItemInURL(){
     inputNode.checked = true;
 }
 
-function setupFilter(){
-    const filter = document.getElementById('tag-filter')
-    const accordion =  document.getElementById('accordion')
-    filter.onclick =  (e) => { 
-        const tag = new FormData(filter).get('tag')
-        const tabs = accordion.getElementsByClassName('accordion__tab')
-        Array.from(tabs).forEach( tab => {
-            tab.classList.remove('hide')
-            if(!tag) {
-                return
-            }
-            const tags = tab.dataset.tags.split(',')
-            if(!tags.includes(tag)) {
+function setupSearch(){
+    const search = document.getElementById('search')
+    const suggestions = document.getElementById('suggestions')
+    const url = new URL(location.href)
+    const searchParam = url.searchParams.get('search')
+    const clearFormButton = document.getElementById('clear-form-button')
+
+    function filterSuggestions(searchTerm){
+        Array.from(tabs).forEach( (tab) => {
+            const tags = tab.dataset.tags.length ? tab.dataset.tags.split(',') : []
+            const lowerCaseSearchTerm = searchTerm.toLowerCase()
+
+            if(tab.innerText.toLowerCase().includes(lowerCaseSearchTerm)) {
+                tab.classList.remove('hide')
+            } else if(tags.some( tag => lowerCaseSearchTerm.includes(tag))) {
+                tab.classList.remove('hide')
+            } else {
                 tab.classList.add('hide')
             }
         })
-
     }
+
+    if(searchParam) {
+        search.value = searchParam;
+        filterSuggestions(search.value)
+    }
+
+    search.oninput = e => {
+        filterSuggestions(search.value)
+    }
+    
+    clearFormButton.onclick = e => search.value = ''
+
+    // render suggestions
+    const links = []
+    for(const word of ['kjøkken', 'transport', 'vinter', 'vin', 'barn', 'leker']) {
+        const link = document.createElement('a')
+        url.searchParams.set('search', word)
+        url.hash = ''
+        link.href=url.toString();
+        link.innerText = word
+        link.className = "search__suggestion"
+        links.push(link)
+    }
+    suggestions.append(...links)
 }
 
+function unhideAll(){
+    Array.from(tabs).forEach( tab => {
+        tab.classList.remove('hide')
+    })
+}
 
-autoExpandFaqItemInURL();
-setupFilter();
-window.onhashchange = autoExpandFaqItemInURL;
+window.addEventListener('DOMContentLoaded', function() {
+    autoExpandFaqItemInURL();
+    setupSearch();
+    window.onhashchange = autoExpandFaqItemInURL;
+});
 
 
 </script>

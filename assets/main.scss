@@ -134,6 +134,10 @@ dd {
     display: none;
 }
 
+.search__suggestion:not(:first-child):before {
+    content: ' ';
+}
+
 @media(max-width: 480px) {
     .hide\@mobile {
         display: none;
