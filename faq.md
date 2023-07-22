@@ -4,7 +4,7 @@ title: Spørsmål & svar
 ---
 
 <form id="tag-filter" style="margin-bottom: 1em;">
-    <label>Søk: <input 
+    <label>Søk: <input autofocus 
         type="text" name="search" id="search" style="width: 14em;"
         placeholder="Skriv inn det du er interessert i"/>
     </label>
@@ -78,7 +78,7 @@ function setupSearch(){
     search.oninput = e => {
         filterSuggestions(search.value)
     }
-    
+
     clearFormButton.onclick = e => search.value = ''
 
     // render suggestions
