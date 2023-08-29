@@ -7,6 +7,15 @@ exclude: true
 Les informasjonen under nøye før du kommer så det ikke blir noen overraskelser!
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 )
+
+<div class="alert alert-warning">
+Per 28. august 2023 mangler vi en åre til båten. Om du vil ta båten ut på en liten tur har vi fremdeles el-motor, og en åre er bedre enn ingenting, men om det er bare litt vind vil du heller ro for motoren er ikke kraftig nok. Send meg en sms så kan du få vite hvor nøklene til naboens båthus er, der du kan finne årer.
+</div>
+
+<div class="alert alert-warning">
+Det begynner det å bli litt dårlig med dopapir. Ta gjerne med en pakke om du kan.
+</div>
+
 <div id="toc-insert"></div>
 
 ## Ankomst / hvordan kommer man til hytta
