@@ -134,6 +134,13 @@ dd {
     display: none;
 }
 
+// When you want to hide something, like tags, but want them present in the DOM
+.visually-hidden {
+    visibility: hidden;
+    height: 0; 
+    width: 0;
+}
+
 .search__suggestion:not(:first-child):before {
     content: ' ';
 }

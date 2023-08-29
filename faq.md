@@ -3,15 +3,15 @@ layout: page
 title: Spørsmål & svar
 ---
 
-<form id="tag-filter" style="margin-bottom: 1em;">
-    <label>Søk: <input autofocus 
+<form id="tag-filter" style="margin-bottom: 1em; display:inline-block">
+    <label>Søk: <input autofocus required
         type="text" name="search" id="search" style="width: 14em;"
-        placeholder="Skriv inn det du er interessert i"/>
+        placeholder="Skriv inn det du er interessert i" />
     </label>
-    <button id="clear-form-button">Tøm</button>
-    <div>Forslag: <span id="suggestions"></span></div>
 </form>
-<!--</div>-->
+<!-- had to move this outside of the form to prevent it from being invoked as the submit action-->
+<div style="display:inline"><button id="clear-form-button">Tøm</button></div>
+<div>Forslag: <span id="suggestions"></span></div>
 
 <div class="accordion" id="accordion">
 {% for qa in site.data.faqs.no %}
@@ -23,6 +23,7 @@ title: Spørsmål & svar
             <label class="accordion__tab-label" for="{{q_id}}">{{qa.q}}</label>
         </div>
         <div class="accordion__tab-content">{{qa.a}}</div>
+        <div class="visually-hidden">{{qa.tags | join: " "}}</div>
     </div>
 {% endfor %}
 </div>
@@ -79,7 +80,15 @@ function setupSearch(){
         filterSuggestions(search.value)
     }
 
-    clearFormButton.onclick = e => search.value = ''
+    filter.onsubmit = e => {
+        e.preventDefault();
+    }
+    
+
+    clearFormButton.onclick = e => {
+        console.log('clear button clicked')
+        search.value = ''
+    }
 
     // render suggestions
     const links = []
