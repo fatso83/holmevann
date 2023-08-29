@@ -9,11 +9,17 @@ Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [
 )
 
 <div class="alert alert-warning">
-Per 28. august 2023 mangler vi en åre til båten. Om du vil ta båten ut på en liten tur har vi fremdeles el-motor, og en åre er bedre enn ingenting, men om det er bare litt vind vil du heller ro for motoren er ikke kraftig nok. Send meg en sms så kan du få vite hvor nøklene til naboens båthus er, der du kan finne årer.
+Status per 28. august 2023 
+<ol>
+<li>Vi mangler en åre til båten etter noen glemte å legge dem på plass rett før Hans kom. Om du vil ta båten ut på en liten tur har vi fremdeles el-motor, og en åre er bedre enn ingenting, men om det er bare litt vind vil du heller ro, for motoren er ikke kraftig nok. Send meg en sms så kan du få vite hvor nøklene til naboens båthus er, der du kan finne årer.</li>
+<li>Det begynner det å bli litt dårlig med dopapir. Ta gjerne med en pakke om du kan.</li>
+<li>Noen har tuklet med ledningene til stereoen. Den er derfor midlertidig ute av drift.</li>
+</ol>
 </div>
 
-<div class="alert alert-warning">
-Det begynner det å bli litt dårlig med dopapir. Ta gjerne med en pakke om du kan.
+<div class="alert alert-primary">
+Det er vått i fjellet om dagen. Om du ser på kartsiden er det en vei som er "kort og våt" og en
+som er bedre merket, men bittelitt lengre. Ta for all den den siste: den er også raskere nå.
 </div>
 
 <div id="toc-insert"></div>
@@ -80,7 +86,7 @@ Vi deler båthus med nabohytta og trebåten i båthuset er ikke til utlån, men 
 
 Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Eggedal sentrum.
 
-### Generelt om fisket i Holmevann:
+### Generelt om fisket i Holmevann
 Det er masse sik og en del ørret. Siken pleier å holde seg i midten av annet og ørreten holder seg langs land. Det vaker ofte i overflaten i nærheten av hytta, så det kan godt være muligheter der. Et annet godt sted er å sjekke kartet over Holmevann som henger på hytta: der det er elveutløp (eller pleide å være elveutløp) står ofte ørreten! Den liker å gyte i gamle bekkefar, så ta på deg støvler og gå langs øst og nordbredden av vannet.
 
 [delt-mappe]: https://drive.google.com/drive/folders/0BxoftKRQ6vR7bkc0U0JIdHdlejg?resourcekey=0-qfLfvTomKY4Qg2sojQEKwg&usp=sharing

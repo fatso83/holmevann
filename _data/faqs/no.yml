@@ -20,6 +20,7 @@
       supre tips for å unngå å fryse på tur</a> (spesielt vinterstid).</p>
 
 - q: Hvordan kommer man inn i hytta? 
+  tags: ['pin', 'sms']
   a: Vi har en nøkkelboks på hytteveggen. Du får pinkode på sms av meg et døgn før ankomst.
 
 - q: Er det strøm der?
@@ -184,9 +185,14 @@
 - q: Er det båt og/eller fiskeutstyr der?
   a: >
       Vi har kjøpt inn en plastbåt for utleie (se under)! 
-      Vi har litt fiskeutstyr: en stang, sluker og kroker. Vi har ikke 
-      garn til utlån, ettersom det fort går i stykker og krever vedlikehold.
-      Husk å løs ut fiskekort (se punkt over)!
+      Vi har litt fiskeutstyr: en stang, sluker og kroker.       
+        Husk å løs ut fiskekort (se punkt over)!
+
+      Vi har ikke utgangspunktet ikke tenkt garn til utlån, ettersom det fort går i 
+      stykker og krever vedlikehold. Om du er forsiktig og rengjør garnene ordentlig 
+      etter bruk kan du få låne noen som ligger i båthuset (nabohytta). Send meg en 
+      melding i så fall, så du kan få vite hvor nøklen er.
+
 
       Båten ligger nede ved vannet. 
       <a href="https://www.holmevann.no/2022/08/08/etter-stormen.html">Orkanen i 2022</a>
@@ -242,3 +248,18 @@
       <li>Ticket to Ride Europa med ekspansjonspakker</li>
       </ul>
     </p>
+
+- q: Hva skjer om den gassbaserte doen slutter å fungere mens man er der?
+  tags: ['toilet', 'cinderella']
+  a: >
+    Etter gassforbrenningstoalettet Cinderella ble <i>riktig</i> re-installert i 2019 har 
+    det ikke fusket en eneste gang. Riktignok har det skjedd at leieboere har lurt på 
+    hva de skal gjøre, men bruksanvisningen ligger framme og de har som regel løst det på egen hånd. 
+    Det vanligste er at man går tom 
+    for gass og får "BURNER ERROR" i displayet, men dette har alle funnet ut av på egen hånd.
+
+    I tilfellet at det skjer nå har jeg en backupløsning - som blant annet har blitt brukt når
+    toalettet har vært på service. På loftet har vi et 
+    <a href="https://photos.app.goo.gl/b1oPDyxixrdNqGb9A">Dometic campingtoalett</a> som funker
+    helt utmerket. Du fyller det med vann og tømmer tanken på slutten av oppholdet i en eller 
+    annen fjellsprekk godt unna hytta og vannet :)
