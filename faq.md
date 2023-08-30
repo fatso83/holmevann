@@ -4,7 +4,7 @@ title: Spørsmål & svar
 ---
 
 <form id="tag-filter" style="margin-bottom: 1em; display:inline-block">
-    <label>Søk: <input autofocus required
+    <label>Søk: <input autofocus required autocomplete="off"
         type="text" name="search" id="search" style="width: 14em;"
         placeholder="Skriv inn det du er interessert i" />
     </label>
@@ -81,6 +81,7 @@ function setupSearch(){
     }
 
     filter.onsubmit = e => {
+        filterSuggestions(search.value)
         e.preventDefault();
     }
     
@@ -88,6 +89,7 @@ function setupSearch(){
     clearFormButton.onclick = e => {
         console.log('clear button clicked')
         search.value = ''
+        filter.submit();
     }
 
     // render suggestions
