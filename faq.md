@@ -33,6 +33,23 @@ const filter = document.getElementById('tag-filter')
 const accordion =  document.getElementById('accordion')
 const tabs = accordion.getElementsByClassName('accordion__tab')
 
+const myHistory = {
+    _listeners: [],
+    notify(){ 
+        const path = location.href
+        this._listeners.map(l => l(path)) 
+    },
+    listen(listener) { this._listeners.push(listener)},
+    push(path){
+       history.pushState(null,null,path)
+       this.notify();
+    }
+}
+window.addEventListener("popstate", (event) => {
+   myHistory.notify(); 
+});
+
+
 // Auto-expand FAQ item based on anchor link
 function autoExpandFaqItemInURL(){
     const hashText = location.hash.slice(1); // trim off #. empty string can also be sliced
@@ -50,11 +67,14 @@ function autoExpandFaqItemInURL(){
 }
 
 function setupSearch(){
+    /** @type {HTMLInputElement} */
     const search = document.getElementById('search')
     const suggestions = document.getElementById('suggestions')
-    const url = new URL(location.href)
-    const searchParam = url.searchParams.get('search')
     const clearFormButton = document.getElementById('clear-form-button')
+
+    function getUrl(){
+        return new URL(location.href)
+    }
 
     function filterSuggestions(searchTerm){
         Array.from(tabs).forEach( (tab) => {
@@ -71,10 +91,15 @@ function setupSearch(){
         })
     }
 
-    if(searchParam) {
+
+    function filterBySearchParamInUrl() {
+        const searchParam = getUrl().searchParams.get('search')
         search.value = searchParam;
         filterSuggestions(search.value)
     }
+
+    filterBySearchParamInUrl();
+    myHistory.listen(filterBySearchParamInUrl)
 
     search.oninput = e => {
         filterSuggestions(search.value)
@@ -96,6 +121,7 @@ function setupSearch(){
     const links = []
     for(const word of ['kjøkken', 'transport', 'vinter', 'vin', 'barn', 'leker']) {
         const link = document.createElement('a')
+        const url = getUrl()
         url.searchParams.set('search', word)
         url.hash = ''
         link.href=url.toString();
@@ -104,6 +130,15 @@ function setupSearch(){
         links.push(link)
     }
     suggestions.append(...links)
+    // avoid re-rendering the page by hooking into urls
+    suggestions.onclick = e => {
+        e.preventDefault();
+
+        const url = new URL(e.target.href);
+        const href = e.target.href;
+        const newPath = href.replace(url.origin, '')
+        myHistory.push(newPath)
+    }
 }
 
 function unhideAll(){
