@@ -9,6 +9,7 @@ help:
 
 install: 
 	bundle install
+	@make install-precommit
 	@# this is just to get the output as the final line
 	@make check-dependencies
 
