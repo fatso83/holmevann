@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "220V i stikkontakten"
-date:   2020-11-03 18:30:00 +0100
+title: "220V i stikkontakten"
+date: 2020-11-03 18:30:00 +0100
 ---
 
 Denne helgen har jeg fått en elektriker til å gå over
 alt det elektriske jeg har gjort selv i sommer. Det holdt
-ikke bare for ham å sjekke at det var OK: han endte med 
-å åpne veggen og legge alle de eksponerte kablene inn i 
-veggen. Plutselig var alle hullene i ytterveggen og de 
-30 metrene med kabel ut og under hytta ikke lenger 
+ikke bare for ham å sjekke at det var OK: han endte med
+å åpne veggen og legge alle de eksponerte kablene inn i
+veggen. Plutselig var alle hullene i ytterveggen og de
+30 metrene med kabel ut og under hytta ikke lenger
 nødvendige ... whoops, sveitserost for nothing 🙈
 
 I det minste er anlegget nå komplett, og jeg kan endelig
@@ -36,26 +36,28 @@ I tåke lades det opptil 100W (hvorav minst halvparten er fra det gamle anlegget
 - [Canadus HD-1224][canadus] desulfaterer for maksimal levetid på batterier
 
 ### Litt lengre og kjedeligere
-Jeg hadde opprinnelig bare ett Sun Xtender batteri. Denne modellen er en type 
-"deep discharge"-batteri som er spesielt robust; det skal tåle kulde 
+
+Jeg hadde opprinnelig bare ett Sun Xtender batteri. Denne modellen er en type
+"deep discharge"-batteri som er spesielt robust; det skal tåle kulde
 og veldig dype utladninger uten å ta skade av det. Det veier også nesten 80kg!
 
-Det er antagelig fra 2013 eller eldre, men i fin form: jeg fikk målt det til 98% av 
+Det er antagelig fra 2013 eller eldre, men i fin form: jeg fikk målt det til 98% av
 ny kapasitet hos Sunwind i 2018.
-Jeg kjøpte så et ekstra Varta batteri en gang noen leieboere gikk tom for strøm og slet 
+Jeg kjøpte så et ekstra Varta batteri en gang noen leieboere gikk tom for strøm og slet
 med å lade batteriet. Det skulle egentlig bare være backup, men er nå en del av riggen.
 Jeg kjøpte så et brukt Sun Xtender til, men det viste seg å være et bomkjøp. Det var meget slitt;
 jeg målte det til [60% kapasitet][test bad battery] og med meget dårlig effekt (tålte ikke 300W i 30 min).
-I tillegg har jeg kjøpt 2 Sun Xtender til - også brukt, men disse målte jeg til [> 90 prosent kapasitet][test good battery]. 
+I tillegg har jeg kjøpt 2 Sun Xtender til - også brukt, men disse målte jeg til [> 90 prosent kapasitet][test good battery].
 
 Så med de gamle batteriene regner jeg med ca 1000Ah
 teoretisk kapasitet, men siden batteriene helst ikke skal tappes under 50% (aller helst holde det over 70%)
 blir det _i praksis_ 500Ah@12V eller 6000Wh.
 
-### Hvorfor brukte batterier 
-Økonomi og tidsperspektiv. Jeg trengte å øke batterikapasiteten på hytta 
-og så at det ville bli veldig dyrt å kjøpe en ny batteripakke. Litiumbatterier 
-var per 2019 enda ikke konkurransedyktig på pris (men nesten!), selv om man i praksis bare trenger 
+### Hvorfor brukte batterier
+
+Økonomi og tidsperspektiv. Jeg trengte å øke batterikapasiteten på hytta
+og så at det ville bli veldig dyrt å kjøpe en ny batteripakke. Litiumbatterier
+var per 2019 enda ikke konkurransedyktig på pris (men nesten!), selv om man i praksis bare trenger
 halvparten så mye kapasitet med litium siden de kan lades helt ut. Jeg så derimot
 at litiumbatterier vil være "det riktige"/mest økonomiske valget om bare et par år.
 Da ville det kanskje gi mening å oppgradere til 48V i samme slengen.
@@ -63,21 +65,22 @@ Samtidig hadde jeg to AGM batterier som var nesten nye - det ville være dumt
 å bare kaste dem, så derfor så jeg på muligheter for å bruke det jeg hadde
 og skaffe kapasiteten jeg trengte på et rimelig vis. Ett nytt PVX-2580 koster
 ca 12000 kr (10K på tilbud). Jeg fikk kjøpt 3 stk til 9000kr med en snittkapasitet
-på 80%. Med andre ord nesten 70% rabatt på Ah/kr. Totalt kom [oppgraderingen](https://www.holmevann.no/2020/08/10/oppgraderinger.html) av anlegget med solceller, kabler, regulatorer, rigg og flere batterier på ca 25000 kr. 
+på 80%. Med andre ord nesten 70% rabatt på Ah/kr. Totalt kom [oppgraderingen](https://www.holmevann.no/2020/08/10/oppgraderinger.html) av anlegget med solceller, kabler, regulatorer, rigg og flere batterier på ca 25000 kr.
 Det er veldig mye billigere enn jeg kunne se på nett.
 
 Det er vanligvis ikke anbefalt å blande batterier av forskjellig type, modell, årstall, etc.
-Riktignok er det _veldig viktig at batteriene er like når man seriekobler_ dem, men det er 
-ikke _så_ viktig når man parallelkobler.  Selv et slitent batteri kan bidra positivt koblet i 
+Riktignok er det _veldig viktig at batteriene er like når man seriekobler_ dem, men det er
+ikke _så_ viktig når man parallelkobler. Selv et slitent batteri kan bidra positivt koblet i
 parallel, så lenge spenningskurven og toppspenningen er relativt lik. Er den ikke
 det kan ulik motstand i batteriene gjøre at belastningen blir ujevn. Da får man kortere
 levetid på batteriene. For min del så jeg at dette ikke ville være noe stort problem:
-jeg har nesten like batterier, strømtrekket er lite (2-5A), og siden jeg har så 
+jeg har nesten like batterier, strømtrekket er lite (2-5A), og siden jeg har så
 mye effekt på ladesiden så vil batteriene nesten alltid være > 95% ladet.
-Da blir slitasjen minimal. Siden jeg har et tidsperspektiv på 5 år, så 
+Da blir slitasjen minimal. Siden jeg har et tidsperspektiv på 5 år, så
 tenker jeg at dette vil gå helt fint.
 
 ## Referanser
+
 - <a name="voltage"/>50% = 12,2V - ref [Sun Xtender Technical Manual, Appendix C][sun xtender pdf]
 
 [sun xtender]: http://www.sunxtender.com/solarbattery.php?id=11

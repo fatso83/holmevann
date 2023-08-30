@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Skredkurs med Svalbardguidene"  
-date:   2020-12-27 10:48:12 +0100
+title: "Skredkurs med Svalbardguidene"
+date: 2020-12-27 10:48:12 +0100
 ---
 
-Vi har nå inngått et samarbeid med Svalbardguidene som innebærer at 
+Vi har nå inngått et samarbeid med Svalbardguidene som innebærer at
 de tar hytta i bruk for [skredkurs i Norefjellsområdet][kurs]! Pilot-helgen
 blir 27.-29. januar 2021. Det blir veldig spennende å se hva det kan
 bli ut av dette, for jeg har lenge tenkt at hytta er perfekt for folk

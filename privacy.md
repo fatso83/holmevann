@@ -1,7 +1,7 @@
 ---
 permalink: /privacy
 title: Datasporing
-layout: page 
+layout: page
 exclude: true
 ---
 

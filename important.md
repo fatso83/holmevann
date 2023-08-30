@@ -2,6 +2,7 @@
 layout: page
 title: Kort og viktig
 ---
+
 <ul>
 
 <li>

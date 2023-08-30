@@ -16,7 +16,7 @@
 title: "#holmevann1013moh"
 email: carlerik+holmevann@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Prosjektblogg og informasjon for hytta i sørenden av Holmevann
+  Prosjektblogg og informasjon for hytta i sørenden av Holmevann
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.holmevann.no" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kopseng
@@ -31,7 +31,7 @@ plugins:
 destination: _site
 
 sass:
-    sass_dir: assets/_sass
+  sass_dir: assets/_sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -46,28 +46,27 @@ sass:
 #   - vendor/ruby/
 
 # Other custom vars
-google_maps_custom_url:  https://www.google.com/maps/d/viewer?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb&usp=sharing
+google_maps_custom_url: https://www.google.com/maps/d/viewer?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb&usp=sharing
 norgeskart_android: https://play.google.com/store/apps/details?id=no.avinet.norgeskart
 norgeskart_ios: https://apps.apple.com/no/app/norgeskart-friluftsliv/id1350671128
 airbnb_url: https://airbnb.no/rooms/18731440
 inatur_url: https://www.inatur.no/hytte/63ee3bc2d0440d29d6c7ef45/hytte-med-enestaende-beliggenhet-i-eggedalsfjella-fiskevann-og-skiloyper
 
 cloudinary:
-    cloud_name: fatso83
-    verbose: true
-    only_prod: true
-    presets:
-        default:
-            min_width: 320
-            max_width: 2400
-            fallback_max_width: 1400
-            steps: 5
-        post:
-            min_width: 320
-            max_width: 1000
-            fallback_max_width: 600
-            attributes:
-                #width: 100
-                #height: 100
-                class: post-image
-
+  cloud_name: fatso83
+  verbose: true
+  only_prod: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 2400
+      fallback_max_width: 1400
+      steps: 5
+    post:
+      min_width: 320
+      max_width: 1000
+      fallback_max_width: 600
+      attributes:
+        #width: 100
+        #height: 100
+        class: post-image

@@ -1,139 +1,139 @@
-# Husk å skrive gyldig XHTML med slutt-tagger. Ellers blir markupen helt rar, ettersom Jekyll virker å forsøke 
+# Husk å skrive gyldig XHTML med slutt-tagger. Ellers blir markupen helt rar, ettersom Jekyll virker å forsøke
 # å legge til sluttagger som deretter blir escapa ...
 
 - q: Hva må vi ta med?
   a: >
-      <p>
-      Du må ta med mat, dynetrekk og laken (ev. bare lakenpose) og håndklede. Anbefaler også 
-      ett lite hånd-håndklæde for kroppsvask i tillegg til det du tørker kroppen med. Vi har forsåvidt
-      mange (9) små hånd-håndklæder, og du kan gjerne benytte deg av ett av dem, forutsatt at 
-      du kokvasker det ved avreise!
-      </p>
-      <p>
-      Om du kommer sent på kvelden på høst/vinter bør du ha med (oppladet) hodelykt og ev. 
-      <a href="/map">forhåndsnedlastet kart</a>. Det blir fort mørkt i september!
-      </p>
+    <p>
+    Du må ta med mat, dynetrekk og laken (ev. bare lakenpose) og håndklede. Anbefaler også 
+    ett lite hånd-håndklæde for kroppsvask i tillegg til det du tørker kroppen med. Vi har forsåvidt
+    mange (9) små hånd-håndklæder, og du kan gjerne benytte deg av ett av dem, forutsatt at 
+    du kokvasker det ved avreise!
+    </p>
+    <p>
+    Om du kommer sent på kvelden på høst/vinter bør du ha med (oppladet) hodelykt og ev. 
+    <a href="/map">forhåndsnedlastet kart</a>. Det blir fort mørkt i september!
+    </p>
 
-      <p>Ellers må du bare huske passende bekledning. Turjenter har gode tips for
-      <a href="https://turjenter.no/sommerbekledning/">sommerbekledning</a> 
-      og Christine Oldebråten har <a href="https://friluftsglede.no/2018/10/06/tips-for-a-ikke-fryse-pa-kalde-turer/">
-      supre tips for å unngå å fryse på tur</a> (spesielt vinterstid).</p>
+    <p>Ellers må du bare huske passende bekledning. Turjenter har gode tips for
+    <a href="https://turjenter.no/sommerbekledning/">sommerbekledning</a> 
+    og Christine Oldebråten har <a href="https://friluftsglede.no/2018/10/06/tips-for-a-ikke-fryse-pa-kalde-turer/">
+    supre tips for å unngå å fryse på tur</a> (spesielt vinterstid).</p>
 
-- q: Hvordan kommer man inn i hytta? 
-  tags: ['pin', 'sms']
+- q: Hvordan kommer man inn i hytta?
+  tags: ["pin", "sms"]
   a: Vi har en nøkkelboks på hytteveggen. Du får pinkode på sms av meg et døgn før ankomst.
 
 - q: Er det strøm der?
-  a: > 
-      Ja, det er hovedsakelig 12V strøm (som i en bil), men vi har omformer til 220V
-      (som i et vanlig hus) så vi kan bruke støvsuger.  Forøvrig er det <s>radio</s> (må montere DAB-antenne først),
-      cd-spiller, Lightning og USB-C overganger til minijack så man kan strømme fra Spotify,
-      usb-ladere til telefoner med alle kabeltyper (Lightning, USB-C, ...), m.m. på stedet.
-      <p>
-      Du kan altså la laderen ligge igjen i bilen, men ta med en ekstra kabel om dere er mange :-)
-      Strømmen kommer fra solcellepaneler. I de mørkeste vintermånedene kan det bli smått med lading både pga snø på panelene og lite sol.
-      Da er det kjekt at et kraftig Honda-aggregatet kan lade batteriene! I praksis
-      har vi aldri trengt å fyre det opp, så lenge man feier bort snøen!
-      </p>
+  a: >
+    Ja, det er hovedsakelig 12V strøm (som i en bil), men vi har omformer til 220V
+    (som i et vanlig hus) så vi kan bruke støvsuger.  Forøvrig er det <s>radio</s> (må montere DAB-antenne først),
+    cd-spiller, Lightning og USB-C overganger til minijack så man kan strømme fra Spotify,
+    usb-ladere til telefoner med alle kabeltyper (Lightning, USB-C, ...), m.m. på stedet.
+    <p>
+    Du kan altså la laderen ligge igjen i bilen, men ta med en ekstra kabel om dere er mange :-)
+    Strømmen kommer fra solcellepaneler. I de mørkeste vintermånedene kan det bli smått med lading både pga snø på panelene og lite sol.
+    Da er det kjekt at et kraftig Honda-aggregatet kan lade batteriene! I praksis
+    har vi aldri trengt å fyre det opp, så lenge man feier bort snøen!
+    </p>
 
 - q: Er det innlagt vann der?
-  a: > 
-      Det korte svaret er ja. Vi har en frostfri tank under hytta, og så lenge det er vann i den er det 
-      vann i springen. Det kan selvsagt gå tomt, men det går måneder mellom hver gang.
-      
-- q: Hva gjør man om vanntanken går tom? 
   a: >
-      <p>
-      Går den tom må man ned til vannkanten og hente vann i bøtter. 
-      Heldigvis er det bare 7m fra hytteveggen :-) Vinterstid må man hakke/bore hull i isen.
-      </p>
-      <p>
-      Si også fra til meg om at tanken er tom når oppholdet er 
-      over så jeg kan fylle på tanken.
-      Vannet er godt og kan selvsagt drikkes.
-      </p>
+    Det korte svaret er ja. Vi har en frostfri tank under hytta, og så lenge det er vann i den er det 
+    vann i springen. Det kan selvsagt gå tomt, men det går måneder mellom hver gang.
+
+- q: Hva gjør man om vanntanken går tom?
+  a: >
+    <p>
+    Går den tom må man ned til vannkanten og hente vann i bøtter. 
+    Heldigvis er det bare 7m fra hytteveggen :-) Vinterstid må man hakke/bore hull i isen.
+    </p>
+    <p>
+    Si også fra til meg om at tanken er tom når oppholdet er 
+    over så jeg kan fylle på tanken.
+    Vannet er godt og kan selvsagt drikkes.
+    </p>
 
 - q: Er det utedo der?
-  a: > 
-      Vi har kjøpt et <a href="https://www.cinderellaeco.com/no/hytte-og-fritid/cinderella-gas/">
-      Cinderella gasstoalett</a> som har samme komfort som du er vant med hjemme.
-      Alt blir brent til aske, luktfritt og stille. Eget toalett til tiss.
+  a: >
+    Vi har kjøpt et <a href="https://www.cinderellaeco.com/no/hytte-og-fritid/cinderella-gas/">
+    Cinderella gasstoalett</a> som har samme komfort som du er vant med hjemme.
+    Alt blir brent til aske, luktfritt og stille. Eget toalett til tiss.
 
 - q: Finnes det noe webkamera på hytta?
   a: >
-      Nei, dessverre, men det finnes mange i områdene rundt.  
-      <a href="https://bernhardsen.as/solstua/tempelseter-besserud.htm">Denne siden</a> har mange relevante kameraer 
-      (blant annet Tempelseter, Høgevarde hyttefelt og Gråfjell).
+    Nei, dessverre, men det finnes mange i områdene rundt.  
+    <a href="https://bernhardsen.as/solstua/tempelseter-besserud.htm">Denne siden</a> har mange relevante kameraer 
+    (blant annet Tempelseter, Høgevarde hyttefelt og Gråfjell).
 
 - q: Har du en hytteguide for bruk?
-  a: > 
-      Ja, vi har en fullstendig guide for hvordan alt fungererer som 
-      ligger på hytta, sammen med turtips. Den finnes i både 
-      <a href="https://docs.google.com/document/d/1BHE_6Jk06KrZ35Exl-5l3R64ATYP9rm8ZKgP7ono-To/export?format=pdf">
-      engelsk</a> og 
-      <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">
-      norsk</a> utgave.
-      
-- q: Har du tips til selve bilturen til/fra Eggedal?
-  tags: ['transport']
   a: >
-      <p>Jeg planlegger alltid for at turen skal bli minst mulig stressende for
-      store og små. Det betyr at jeg legger inn et matstopp på veien opp, slik at man ikke kommer
-      fram til hytta skrubbsulten. </p>
-      
-      <p>Mellom Drammen og Eggedal er det nesten ingen spisesteder som 
-      er verdt å stoppe på, med noen få unntak. Stedene du bør vurdere er 
-      <a href="https://goo.gl/maps/enyq7z5cPjkWoPf59">Arayas i Åmot</a>
-      (overraskende god thaimat, men traust interiør), 
-      <a href="https://goo.gl/maps/EWctyVGv72vVguYZ6">Halvorseth</a> i Sigdal (pizza, kun lørdag/søndag),
-      <a href="https://goo.gl/maps/ZBiddZn2h26NtNHk8">Pookys</a> på Sandsbråten i Sigdal (thaimat)
-      og <a href="https://goo.gl/maps/ZA7qy6yEnw45Dgu98">Borgerstua</a> i Eggedal (god husmannskost og digg Madonna-burger med lokal vri, "hjemmelaget" pizza).</p>
-      
-      <p>Ruta via Krøderen (E16 fra Sandvika) er ofte kortere, men du har i prinsippet 
-      ett godt spisested på veien, nemlig <a href="https://goo.gl/maps/95vk3kqsBU6HzTuj9">Krøderen Kro</a> rett før Noresund.
-      Veldig god husmannskost laget fra bunnen av. Barnevennlig.</p>
-      
-      <p>Min anbefaling, om du tar Sigdalsruta, er å stoppe på Sandsbråten. Der har du innlandsnorges fineste badestrand (ofte veldig varmt vann)
-      og god thaimat fra Pookys rett ved siden. Et svalende bad fulgt av nydelig uteservering med kongeutsikt over elva kan vanskelig slås :)</p>
+    Ja, vi har en fullstendig guide for hvordan alt fungererer som 
+    ligger på hytta, sammen med turtips. Den finnes i både 
+    <a href="https://docs.google.com/document/d/1BHE_6Jk06KrZ35Exl-5l3R64ATYP9rm8ZKgP7ono-To/export?format=pdf">
+    engelsk</a> og 
+    <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">
+    norsk</a> utgave.
 
+- q: Har du tips til selve bilturen til/fra Eggedal?
+  tags: ["transport"]
+  a: >
+    <p>Jeg planlegger alltid for at turen skal bli minst mulig stressende for
+    store og små. Det betyr at jeg legger inn et matstopp på veien opp, slik at man ikke kommer
+    fram til hytta skrubbsulten. </p>
+
+    <p>Mellom Drammen og Eggedal er det nesten ingen spisesteder som 
+    er verdt å stoppe på, med noen få unntak. Stedene du bør vurdere er 
+    <a href="https://goo.gl/maps/enyq7z5cPjkWoPf59">Arayas i Åmot</a>
+    (overraskende god thaimat, men traust interiør), 
+    <a href="https://goo.gl/maps/EWctyVGv72vVguYZ6">Halvorseth</a> i Sigdal (pizza, kun lørdag/søndag),
+    <a href="https://goo.gl/maps/ZBiddZn2h26NtNHk8">Pookys</a> på Sandsbråten i Sigdal (thaimat)
+    og <a href="https://goo.gl/maps/ZA7qy6yEnw45Dgu98">Borgerstua</a> i Eggedal (god husmannskost og digg Madonna-burger med lokal vri, "hjemmelaget" pizza).</p>
+
+    <p>Ruta via Krøderen (E16 fra Sandvika) er ofte kortere, men du har i prinsippet 
+    ett godt spisested på veien, nemlig <a href="https://goo.gl/maps/95vk3kqsBU6HzTuj9">Krøderen Kro</a> rett før Noresund.
+    Veldig god husmannskost laget fra bunnen av. Barnevennlig.</p>
+
+    <p>Min anbefaling, om du tar Sigdalsruta, er å stoppe på Sandsbråten. Der har du innlandsnorges fineste badestrand (ofte veldig varmt vann)
+    og god thaimat fra Pookys rett ved siden. Et svalende bad fulgt av nydelig uteservering med kongeutsikt over elva kan vanskelig slås :)</p>
 
 - q: Kan jeg komme dit uten bil?
-  tags: ['transport']
+  tags: ["transport"]
   a: >
-      <p>
-      Det er mye enklere med bil, men det går an å bruke kollektivtransport.
-      Anbefaler tog+buss fra Oslo-Hønefoss-Åmot-Eggedal, ca 3t (vs 2t med bil). 
-      Jeg ville tatt taxi opp på fjellet til parkeringsplassen for å spare meg for 1,5-2t gåing.  
-      Er dere flere ville jeg bestilt minibusstaxi på forhånd (ca 500kr).
-      </p>
-      <p>
-      Jeg har lagt inn noen lenker på kartsiden med både kart fra bygda til fjellet,
-      samt forslag til transport Oslo-Eggedal. Anbefaler <a href="https://en-tur.no">EnTur</a>, forøvrig.
-      </p>
+    <p>
+    Det er mye enklere med bil, men det går an å bruke kollektivtransport.
+    Anbefaler tog+buss fra Oslo-Hønefoss-Åmot-Eggedal, ca 3t (vs 2t med bil). 
+    Jeg ville tatt taxi opp på fjellet til parkeringsplassen for å spare meg for 1,5-2t gåing.  
+    Er dere flere ville jeg bestilt minibusstaxi på forhånd (ca 500kr).
+    </p>
+    <p>
+    Jeg har lagt inn noen lenker på kartsiden med både kart fra bygda til fjellet,
+    samt forslag til transport Oslo-Eggedal. Anbefaler <a href="https://en-tur.no">EnTur</a>, forøvrig.
+    </p>
 
-- q: Kan man kjøre helt fram? 
-  tags: ['winter', 'transport']
-  a: Nei, det er 45 min på ski eller på beina fra parkeringsplassen. Gang med tre når du har småbarn eller engelskmenn med 😀 
-     Ungene mine har gått selv med sekk fra de er tre år, men du trenger god tid og tålmodighet, mye snacks og mange pauser.
-     Se <a href="/kart">kartsiden</a> for detaljer. Vinterstid kan man bli kjørt inn på snøskuter (se eget punkt).
+- q: Kan man kjøre helt fram?
+  tags: ["winter", "transport"]
+  a:
+    Nei, det er 45 min på ski eller på beina fra parkeringsplassen. Gang med tre når du har småbarn eller engelskmenn med 😀
+    Ungene mine har gått selv med sekk fra de er tre år, men du trenger god tid og tålmodighet, mye snacks og mange pauser.
+    Se <a href="/kart">kartsiden</a> for detaljer. Vinterstid kan man bli kjørt inn på snøskuter (se eget punkt).
 
 - q: Er det en parkeringsplass man kan bruke?
-  tags: ['transport']
+  tags: ["transport"]
   a: Ja, du kjører inn bomveien til Bjørnerudsæter (45 kr kontant eller Vipps til 95488502) og fortsetter til fellesparkeringen, 100m før veien slutter. Se kartsiden.
 
 - q: Kan man dusje? Hvordan håndterer man hygiene?
-  a: > 
-      Det er ikke noe problem å holde seg ren og velduftende på hytta;
-      klut og såpevann får en langt :)
-      Anbefaler å ta med en klut og et håndklede per person. Klut til 
-      kroppsvask etter tur (kok opp en kjele vann og ha i vasken), og 
-      ett til å tørke kroppen med.
-      <p></p>
-      <p>
-      Det er dusj på stedet, men det er noen praktiske begrensninger ... 
-      Det innebærer at man må koke opp vann på forhånd, blande til passe 
-      temperatur i 10l bøtter og dusje kjapt. Sjeldent man gidder det på 
-      en helgetur, men i påsken blir det alltid en dusj :) </p>
+  a: >
+    Det er ikke noe problem å holde seg ren og velduftende på hytta;
+    klut og såpevann får en langt :)
+    Anbefaler å ta med en klut og et håndklede per person. Klut til 
+    kroppsvask etter tur (kok opp en kjele vann og ha i vasken), og 
+    ett til å tørke kroppen med.
+    <p></p>
+    <p>
+    Det er dusj på stedet, men det er noen praktiske begrensninger ... 
+    Det innebærer at man må koke opp vann på forhånd, blande til passe 
+    temperatur i 10l bøtter og dusje kjapt. Sjeldent man gidder det på 
+    en helgetur, men i påsken blir det alltid en dusj :) </p>
 
 - q: Antall sengeplasser?
   a: 9. Dobbeltseng (2), gjesterom med køyeseng (2) og sovesofa (1), todelt hems med 2+2 madrasser. Plass til flere barn.
@@ -142,98 +142,97 @@
   a: Det er inkludert.
 
 - q: Hvilke koke- og stekemuligheter finnes det?
-  tags: ['kitchen']
+  tags: ["kitchen"]
   a: >
-      Mange. Det er en stekeovn som går på gass. Den funker fint til brødbaking og alt annet. 
-      Det er også gassbluss for kjapp matlaging, i tillegg til en 
-      stor vedfyrt ovn som både har ovnskammer man kan steke stek i og store overflate
-      man kan koke opp flere kasseroller samtidig.
+    Mange. Det er en stekeovn som går på gass. Den funker fint til brødbaking og alt annet. 
+    Det er også gassbluss for kjapp matlaging, i tillegg til en 
+    stor vedfyrt ovn som både har ovnskammer man kan steke stek i og store overflate
+    man kan koke opp flere kasseroller samtidig.
 
 - q: Hva finnes av kjøkkenutstyr?
-  tags: ['kitchen']
+  tags: ["kitchen"]
   a: >
-      Stavmikser (220V), vinåpner(e), gode kniver, fjeler, stekepanner (non-stick og støpejern), kasseroller, jerngryte med lokk og vaffeljern. 
-  
-      Knivene skjerpes profesjonelt innimellom, men vi har skjerpestål som hjelper godt om noen skulle ha mishandlet dem! 
-      Forsøk å heng knivene tilbake på magnetstripen og ikke legg dem blant andre kjøkkenredskaper.
+    Stavmikser (220V), vinåpner(e), gode kniver, fjeler, stekepanner (non-stick og støpejern), kasseroller, jerngryte med lokk og vaffeljern. 
+
+    Knivene skjerpes profesjonelt innimellom, men vi har skjerpestål som hjelper godt om noen skulle ha mishandlet dem! 
+    Forsøk å heng knivene tilbake på magnetstripen og ikke legg dem blant andre kjøkkenredskaper.
 
 - q: Hva finnes av kaffetraktingsutstyr?
-  tags: ['kitchen']
+  tags: ["kitchen"]
   a: >
-      <ul>
-      <li>Presskanne (french press)</li>
-      <li>Kaffekanne for kokekaffe</li>
-      <li>En manuell kvern for kaffebønner (relativ grov)</li>
-      <li>Termos (blå, merket KAFFE) (på toppen av overskapene)</li>
-      </ul>
+    <ul>
+    <li>Presskanne (french press)</li>
+    <li>Kaffekanne for kokekaffe</li>
+    <li>En manuell kvern for kaffebønner (relativ grov)</li>
+    <li>Termos (blå, merket KAFFE) (på toppen av overskapene)</li>
+    </ul>
 
 - q: Finnes det noe krydder der inne man kan bruke?
-  tags: ['kitchen']
+  tags: ["kitchen"]
   a: >
-      Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
-      men vi har ikke en oppdatert indeks. Pleier være nok salt, kanel, laurbær og muskat ;)
-
+    Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
+    men vi har ikke en oppdatert indeks. Pleier være nok salt, kanel, laurbær og muskat ;)
 
 - q: Er det fisk i vannet? Trenger man fiskekort?
   a: >
-      Når jeg setter garn får jeg masse sik og noen få ørret, men jeg kan desverre 
-      ingenting om stangfiske. Du trenger fiskekort, men det kan du på behagelig vis
-      <a href="https://www.perfish.no/">kjøpe via appen Perfish også</a>!
-      Du kan også kjøpe fysisk fiskekort i turistinfoen i Eggedal. 
-      I Eggedal får man også kjøpt mark (også i Solbua i Prestfoss).
+    Når jeg setter garn får jeg masse sik og noen få ørret, men jeg kan desverre 
+    ingenting om stangfiske. Du trenger fiskekort, men det kan du på behagelig vis
+    <a href="https://www.perfish.no/">kjøpe via appen Perfish også</a>!
+    Du kan også kjøpe fysisk fiskekort i turistinfoen i Eggedal. 
+    I Eggedal får man også kjøpt mark (også i Solbua i Prestfoss).
 
 - q: Er det båt og/eller fiskeutstyr der?
   a: >
-      Vi har kjøpt inn en plastbåt for utleie (se under)! 
-      Vi har litt fiskeutstyr: en stang, sluker og kroker.       
-        Husk å løs ut fiskekort (se punkt over)!
+    Vi har kjøpt inn en plastbåt for utleie (se under)! 
+    Vi har litt fiskeutstyr: en stang, sluker og kroker.       
+      Husk å løs ut fiskekort (se punkt over)!
 
-      Vi har ikke utgangspunktet ikke tenkt garn til utlån, ettersom det fort går i 
-      stykker og krever vedlikehold. Om du er forsiktig og rengjør garnene ordentlig 
-      etter bruk kan du få låne noen som ligger i båthuset (nabohytta). Send meg en 
-      melding i så fall, så du kan få vite hvor nøklen er.
+    Vi har ikke utgangspunktet ikke tenkt garn til utlån, ettersom det fort går i 
+    stykker og krever vedlikehold. Om du er forsiktig og rengjør garnene ordentlig 
+    etter bruk kan du få låne noen som ligger i båthuset (nabohytta). Send meg en 
+    melding i så fall, så du kan få vite hvor nøklen er.
 
 
-      Båten ligger nede ved vannet. 
-      <a href="https://www.holmevann.no/2022/08/08/etter-stormen.html">Orkanen i 2022</a>
-      ødela ikke bare taket, men gav også båten kraftig juling da den ble slengt 30 meter
-      innover land, der blant annet tollegangene (a la åregafler) ble revet av.
-      Gummilistene har fått noen skader, av ikke funksjonell art, som vi antagelig ikke får fikset, 
-      og sprekkene i skroget er tettet, så den er brukt både i 2022 og 2023.
+    Båten ligger nede ved vannet. 
+    <a href="https://www.holmevann.no/2022/08/08/etter-stormen.html">Orkanen i 2022</a>
+    ødela ikke bare taket, men gav også båten kraftig juling da den ble slengt 30 meter
+    innover land, der blant annet tollegangene (a la åregafler) ble revet av.
+    Gummilistene har fått noen skader, av ikke funksjonell art, som vi antagelig ikke får fikset, 
+    og sprekkene i skroget er tettet, så den er brukt både i 2022 og 2023.
 
-      Vi har både elmotor m/90Ah batteri og årer tilgjengelig. Batteriet holder til tur/retur
-      enden av vannet og lades enkelt på batterihylla med klyper.
+    Vi har både elmotor m/90Ah batteri og årer tilgjengelig. Batteriet holder til tur/retur
+    enden av vannet og lades enkelt på batterihylla med klyper.
 
 - q: Kan man få snøskutertransport?
-  tags: ['winter', 'transport']
-  a: > 
-      Ja, kan bli kjørt inn så lenge det er nok snø (typisk sent desember). Anbefaler dette spesielt 
-      om man har mye å bære på eller har planer om å være i Eggedal etter 17:30 (det blir alltid senere 
-      enn du tror). Jeg setter deg i kontakt med en løyvehaver. Kostnad ca 800kr hver vei.
-      Vanligvis kan man få skyss fra den vanlige parkeringsplassen på Bjørnerudsæter, men om han 
-      ikke har mulighet har jeg en annen kar som kjører fra Tempelseter, som er utgangspunktet 
-      for løypemaskinene. Det er kortere fra Bjørnerudsæter, så kostnaden er ca 600 kr derfra vs
-      rundt tusenlappen fra Tempelseter. Dette er veilendende per 2023. Tur-retur er billigere enn dobling.
-      (typisk 1500 t/r vs 1000 en vei for Tempelseter)
+  tags: ["winter", "transport"]
+  a: >
+    Ja, kan bli kjørt inn så lenge det er nok snø (typisk sent desember). Anbefaler dette spesielt 
+    om man har mye å bære på eller har planer om å være i Eggedal etter 17:30 (det blir alltid senere 
+    enn du tror). Jeg setter deg i kontakt med en løyvehaver. Kostnad ca 800kr hver vei.
+    Vanligvis kan man få skyss fra den vanlige parkeringsplassen på Bjørnerudsæter, men om han 
+    ikke har mulighet har jeg en annen kar som kjører fra Tempelseter, som er utgangspunktet 
+    for løypemaskinene. Det er kortere fra Bjørnerudsæter, så kostnaden er ca 600 kr derfra vs
+    rundt tusenlappen fra Tempelseter. Dette er veilendende per 2023. Tur-retur er billigere enn dobling.
+    (typisk 1500 t/r vs 1000 en vei for Tempelseter)
 
 - q: Er det oppkjørte løyper?
-  tags: ['winter', 'transport']
+  tags: ["winter", "transport"]
   a: >
-      Ikke helt fram til hytta, men minst halve veien, avhengig av om man går fra Skallandslia/Bjørnerudsæter eller Tempelseter.
-      De oppkjørte løypene er under ti minutter rolig skigange fra hytta. Se kartsiden 
-      for løypestatus m.m.
+    Ikke helt fram til hytta, men minst halve veien, avhengig av om man går fra Skallandslia/Bjørnerudsæter eller Tempelseter.
+    De oppkjørte løypene er under ti minutter rolig skigange fra hytta. Se kartsiden 
+    for løypestatus m.m.
 
 - q: Bør man gå på ski fra Tempelseter eller parkeringsplassen på Bjørnerudsæter?
-  tags: ['winter', 'transport']
-  a: > 
-      Bjørnerudsæter er halve avstanden av Tempelseter, så definitivt førstnevnte.
+  tags: ["winter", "transport"]
+  a: >
+    Bjørnerudsæter er halve avstanden av Tempelseter, så definitivt førstnevnte.
 
-      Likevel ... vinterstid anbefaler jeg de som ikke har vært på hytta før å 
-      benytte seg av snøskutertransport. Det blir tidlig mørkt 
-      og det er greit å ha snøskuterspor å følge (om det ikke er plass på sleden).
+    Likevel ... vinterstid anbefaler jeg de som ikke har vært på hytta før å 
+    benytte seg av snøskutertransport. Det blir tidlig mørkt 
+    og det er greit å ha snøskuterspor å følge (om det ikke er plass på sleden).
 
 - q: Finnes det noen spill, leker eller tilbud for barnefamilier?
-  a: > 
+  a: >
     Det finnes både tegneutstyr, togsett og lego på hytta. Det er også 3 ufo-akebrett under hytta.
 
     I tillegg har vi flere brettspill, kortbunker og kortspill. Det er mest for aldersspennet 8-80, men
@@ -250,7 +249,7 @@
     </p>
 
 - q: Hva skjer om den gassbaserte doen slutter å fungere mens man er der?
-  tags: ['toilet', 'cinderella']
+  tags: ["toilet", "cinderella"]
   a: >
     Etter gassforbrenningstoalettet Cinderella ble <i>riktig</i> re-installert i 2019 har 
     det ikke fusket en eneste gang. Riktignok har det skjedd at leieboere har lurt på 

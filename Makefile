@@ -21,6 +21,9 @@ deploy: check-dependencies
 livereload:
 	bundle exec jekyll serve --trace --livereload --host localhost
 
+install-precommit:
+	cp pre-commit .git/hooks/
+
 # only for checking out the final build
 # # only for checking out the final build
 build:

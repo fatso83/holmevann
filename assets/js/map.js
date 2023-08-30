@@ -1,4 +1,4 @@
-(function() {
+(function () {
   var FRIDAY_DAY_NUMBER = 5;
 
   function modulo(a, b) {

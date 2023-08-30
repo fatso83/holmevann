@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#echo args: $@ > /dev/stderr
+#echo args num: $1 $2 $3 > /dev/stderr
+#echo changed: $(git status -sb) > /dev/stderr
+#set -x
+
+changed_files(){
+    git status -sb \
+    | egrep  '^(M|A)' \
+    | awk '{print $2}' \
+    | egrep '.(html|md|js|css|scss)'
+}
+
+CHANGED=$(changed_files)
+#echo changed: $CHANGED  > /dev/stderr
+
+if [[ "" == "$CHANGED" ]]; then 
+    exit 0
+fi
+
+npx prettier --write $CHANGED
+git add $CHANGED

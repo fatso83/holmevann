@@ -1,22 +1,23 @@
 ---
 layout: post
-title:  "Etter stormen"
-date:   2022-08-08 22:48:12 +0100
+title: "Etter stormen"
+date: 2022-08-08 22:48:12 +0100
 ---
 
 Sist vinter hadde vi virkelig ikke hellet med oss. Først kom en orkan i
 slutten november 2021 med de sterkeste vindene man har registrert i Sigdal.
-Vindkastene kom opp i 52 meter i sekunden (omtrent 200 km/t) - så sterkt 
-at mosen ble skrellet av fjellknausene rundt 😱 
+Vindkastene kom opp i 52 meter i sekunden (omtrent 200 km/t) - så sterkt
+at mosen ble skrellet av fjellknausene rundt 😱
 {% cloudinary post /assets/img/2021-11-20_statistikk_vindstyrke.jpg alt="Ekstreme vindkast opp til 52 m/s" %}
 ([Ekstern rapport][rapport])
 
 # Ojsann
-Hytta gikk det ikke så bra med heller: 
+
+Hytta gikk det ikke så bra med heller:
 torvholdstokkene ble revet av, med følgen av at torvtaket ble løftet undenfra som
 et seil og kastet over på andre siden av hytta. Så ut som en atombombe hadde
-slått ned, men det gikk bedre med oss enn med nabohytta som ble flyttet en 
-halvmeter av grunnmuren og måtte rives! Det resulterte i en artikkel i 
+slått ned, men det gikk bedre med oss enn med nabohytta som ble flyttet en
+halvmeter av grunnmuren og måtte rives! Det resulterte i en artikkel i
 [Bygdeposten][bygdeposten] ([skjermdump][bygdeposten-dump]).
 
 <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
@@ -45,16 +46,17 @@ halvmeter av grunnmuren og måtte rives! Det resulterte i en artikkel i
   <object data="https://lh3.googleusercontent.com/Gt5ZeGBnsP-GlgJ2qPRazvzA90SowQZGRtwWlOkoJGu2bJeN-jmbp0o6BfFtqilF6MLD_jbc5T-YwZT42OoFkYQyaN9QYzzY6E2b6v0be5CQ7BFUQOPlxZGjI9OREEim-T5XxQAjEAU=w1920-h1080"></object>
 </div>
 
-
-Nuvel, det kunne gått verre. Selv om torva, asfaltpappen og knotteplasten gikk føyken, 
-pipa ble ødelagt, solcellepanelene ble kastet av, båten ødelagt og det ble mye styr så var nå 
-_fremdeles plankelaget, isolasjonen og vindsperra igjen_. Da kunne i hvert fall 
+Nuvel, det kunne gått verre. Selv om torva, asfaltpappen og knotteplasten gikk føyken,
+pipa ble ødelagt, solcellepanelene ble kastet av, båten ødelagt og det ble mye styr så var nå
+_fremdeles plankelaget, isolasjonen og vindsperra igjen_. Da kunne i hvert fall
 hytta muligens brukes i løpet av vinteren, tenkte jeg. Og etter litt nødhjelp
-fra noen karer fra Frøyse Bygg fikk vi skrudd på plass asfaltpapp så det var 
+fra noen karer fra Frøyse Bygg fikk vi skrudd på plass asfaltpapp så det var
 tett før snøen kom. Deilig å kunne slappe av litt.
 
 # Gyda kommer
-Men så kom januar og Gyda ... 
+
+Men så kom januar og Gyda ...
+
 <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/M3uid3N7DJGNHGhg8"
   data-title="Gyda slår til, 17. januar 2022"
@@ -91,15 +93,16 @@ hadde ikke en gang fått sett på skadene før etter tre måneder. Sykt dårlig
 levert av Storebrand sammenlignet med Gjensidige, som håndterte første skade.
 
 I slutten av juni fikk jeg omsider tak i han som skulle prosjektere for Storebrand
-og det beste han kunne komme var at de håpet å kunne starte opp i august. Nå er 
-vi to uker inn i august og ingenting har skjedd og ingen har latt høre fra seg 
+og det beste han kunne komme var at de håpet å kunne starte opp i august. Nå er
+vi to uker inn i august og ingenting har skjedd og ingen har latt høre fra seg
 eller svart på epost eller SMS. Ikke imponert :/
 
 # Forbedringer
+
 På min side hadde jeg allerede i februar fått kontrahert byggingeniør Johan
-Breistein til å lage tegninger på en forsterkning av taket så jeg skulle 
+Breistein til å lage tegninger på en forsterkning av taket så jeg skulle
 slippe dette igjen. Det innebærer blant annet armering av torva med hønsenetting
-som skal skrus fast i taket, samt nye, kraftigere fester av panelene til 
+som skal skrus fast i taket, samt nye, kraftigere fester av panelene til
 bærende bjelker i taket med godkjent tetting. Så får vi bare se om Polygon
 greier å fikse det før vinteren er her igjen :)
 <a href="/assets/img/breistein_tegninger.png">
@@ -112,6 +115,6 @@ greier å fikse det før vinteren er her igjen :)
 [rapport]: https://hedalen.no/2021/12/16/hendelsesrapport-etter-svaert-kraftige-vindkast-19-november/
 [varsel-januar]: https://www.eikernytt.no/2022/01/29/nytt-uvaer-pa-vei-forsikringsselskapene-forventer-skader/
 [bygdeposten]: https://www.bygdeposten.no/hele-hytta-til-espen-flyttet-seg-en-halvmeter-og-torvtaket-til-carl-erik-ble-flerret-av/s/5-10-425392
-[bygdeposten-dump]: /assets/img/2021-11-26_bygdeposten_orkan_november_2021.jpg 
+[bygdeposten-dump]: /assets/img/2021-11-26_bygdeposten_orkan_november_2021.jpg
 [album-november]: https://photos.app.goo.gl/cRi1e77jFiWoQfxR8
 [album-januar]: https://photos.app.goo.gl/M3uid3N7DJGNHGhg8

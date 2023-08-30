@@ -6,98 +6,92 @@ $clouds: #ecf0f1;
 
 // General
 .accordion {
+  margin: 0 -10px; // expand
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
 
-    margin: 0 -10px; // expand
+  @media (min-width: 500px) {
+    margin: 0;
+  }
+
+  &__tab {
+    width: 100%;
+    color: white;
     overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+  }
 
-    @media(min-width: 500px) {
-        margin: 0 
+  &__tab-label-box {
+    display: flex;
+    padding: 0.5em;
+    background: $midnight;
+
+    /* Icon */
+    &:hover {
+      background: darken($midnight, 10%);
+    }
+  }
+
+  &__tab-link {
+    display: none;
+    position: relative;
+    top: 6px;
+    width: 18px;
+    font-size: 10px;
+  }
+
+  &__tab-label-box:hover &__tab-link {
+    display: block;
+  }
+
+  &__tab-label {
+    display: flex;
+    flex-grow: 1; // maxes width
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all 0.35s;
+    }
+  }
+
+  &__tab-content {
+    max-height: 0;
+    height: 0;
+    padding: 0 1em;
+    color: $midnight;
+    background: white;
+    //transition: all .7s ease-out;
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  // :checked
+  input:checked {
+    ~ .accordion__tab-label-box {
+      background: darken($midnight, 10%);
     }
 
-    &__tab {
-        width: 100%;
-        color: white;
-        overflow: hidden;
+    ~ .accordion__tab-label-box .accordion__tab-label {
+      &::after {
+        transform: rotate(90deg);
+      }
     }
 
-    &__tab-label-box {
-        display: flex;
-        padding: 0.5em;
-        background: $midnight;
-
-        /* Icon */
-        &:hover {
-            background: darken($midnight, 10%);
-        }
-
+    // Subsequent-sibling combinator
+    ~ .accordion__tab-content {
+      max-height: 100vh;
+      height: auto;
+      padding: 1em;
     }
-
-    &__tab-link {
-        display: none;
-        position: relative;
-        top: 6px;
-        width: 18px;
-        font-size: 10px;
-    }
-
-    &__tab-label-box:hover &__tab-link {
-        display:block;
-    }
-
-    &__tab-label {
-        display: flex;
-        flex-grow:1; // maxes width
-        justify-content: space-between;
-        font-weight: bold;
-        cursor: pointer;
-
-        &::after {
-            content: "\276F";
-            width: 1em;
-            height: 1em;
-            text-align: center;
-            transition: all .35s;
-        }
-    }
-
-    &__tab-content {
-        max-height: 0;
-        height: 0;
-        padding: 0 1em;
-        color: $midnight;
-        background: white;
-        //transition: all .7s ease-out;
-
-    }
-
-    input {
-        position: absolute;
-        opacity: 0;
-        z-index: -1;
-    }
-
-    // :checked
-    input:checked {
-        ~ .accordion__tab-label-box {
-            background: darken($midnight, 10%);
-        }
-
-        ~ .accordion__tab-label-box .accordion__tab-label {
-            &::after {
-                transform: rotate(90deg);
-            }
-        }
-
-        // Subsequent-sibling combinator 
-        ~ .accordion__tab-content {
-            max-height: 100vh;
-            height: auto;
-            padding: 1em;
-        }
-    }
-
+  }
 }
-
-

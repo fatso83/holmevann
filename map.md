@@ -2,8 +2,9 @@
 layout: page
 title: Hvor
 redirect_from:
-    - /kart.html
+  - /kart.html
 ---
+
 <div id="toc-insert"></div>
 ## Google Maps: for bilnavigasjon til parkeringsplassen
 <div class="map-responsive">
@@ -12,12 +13,15 @@ redirect_from:
 Det enkleste er å legge inn [Bjørnerudsæterveien 174][gateadresse] i bilnavigasjonsdingsen din og kjøre i vei. Dette er adressen til hytta som ligger ved siden av parkeringsplassen. Du kan også ta en titt på dette [spesialkartet for Google Maps]({{site.google_maps_custom_url}}) for å se interessepunkter med bilder fra nærområdet.
 
 ## Google Maps: fra parkeringsplassen til hytta
+
 Jeg har nå (november 2021) lagt inn gåveien (gps-spor) fra parkeringsplassen og fram til hytta. Det er den letteste veien å gå og samsvarer med den som ligger i kartet ["Gåvei"](./map.html#g%C3%A5vei) under. Den er lett å følge, men ta med hodelykt om du kommer sent; folk har hatt en tendens til å havne for langt øst når de prater og koser seg :)
+
 <div class="map-responsive">
     <iframe src="https://www.google.com/maps/d/embed?mid=1SOHneOudYXb8iOuMJmZQGG_DLGzJzbL1&hl=no" width="640" height="480"></iframe>
 </div>
 
 ## Google Maps: vinterstid
+
 På ski inn til hytta fra Skalland eller Tempelseter, såvel som turer i nærområdet.
 
 <div class="map-responsive">
@@ -25,21 +29,26 @@ På ski inn til hytta fra Skalland eller Tempelseter, såvel som turer i næromr
 </div>
 
 ## Elektroniske topografiske kart over vidda
+
 - [Interaktivt topografisk kart](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=14&lat=6697971.51&lon=187859.14) fra Norgeskart.no.
 - [Navida for iPhone](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Norgeskart for Android]({{ site.norgeskart_android }}). Hyttas koordinater ligger nederst på siden.
 
 ## KMZ/KML-filer for kart-apper
+
 - Gåvei sommerstid [[KMZ](/downloads/map-summer.kmz), [KML](/downloads/map-summer.kml)]. Eksport fra Google Maps
 
-## Kart for utskrift 
+## Kart for utskrift
 
 ### Fjellområdet
+
 Har laget et spesialkart for området Haglebu-Eggedal-Tempelseter-Høgevarde. Du kan laste det ned via [denne lenken](https://drive.google.com/open?id=10G9Z24YxpIX9WI5TMztSzcM1eIQKGM88) (obs: stort, 40MB).
 
 ### Gåvei
+
 {% cloudinary /assets/img/gaavei.jpg alt="Hiking route" %}
 
 ## GPS-koordinater
+
 Koordinatene til hytta er
 
 ### EU89, lat/long
@@ -61,16 +70,20 @@ Koordinatene til hytta er
 </dl>
 
 ## Offentlig transport
-Om du ikke har bil går det fint an å komme seg til hytta, men det tar lenger tid og du bør antagelig justere lengden på oppholdet ditt for å matche busstider. 
+
+Om du ikke har bil går det fint an å komme seg til hytta, men det tar lenger tid og du bør antagelig justere lengden på oppholdet ditt for å matche busstider.
 
 Best-case reise (gitt Oslo som utgangspunkt) tar 3t (bare 45 min mer enn bil):
+
 1. Oslo-Drammen-Åmot-Eggedal, 2h 44m (buss-buss-buss)
 1. Eggedal sentrum - parkeringsplassen, 15min (taxi)
+
 - <a id="entur-lazy-link">Oslo-Eggedal uten bil (EnTur)</a>
 - <a id="google-lazy-link">Oslo-Eggedal uten bil (Google Maps)</a>
 - [Kart for gående uten bil, fra Eggedal kirke til Åssetra (hiking)](https://goo.gl/maps/LdNyeYYECtJZYact8).
 
 ## Snødybde og skispor
+
 - [Status for skispor i området][skisporet]
 - [Snødybde i området][senorge-sno]
 

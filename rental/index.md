@@ -24,19 +24,21 @@ som er bedre merket, men bittelitt lengre. Ta for all den den siste: den er ogs�
 <div id="toc-insert"></div>
 
 ## Ankomst / hvordan kommer man til hytta
-Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid. Se [kartsiden for sporlogg inn til hytta](/map.html#google-maps-fra-parkeringsplassen-til-hytta). 
 
- Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min. 
+Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid. Se [kartsiden for sporlogg inn til hytta](/map.html#google-maps-fra-parkeringsplassen-til-hytta).
 
-For å komme inn i hytta må man ha nøkkel. Noen dager før ankomst sender jeg en pinkode til nøkkelboksen. Har du ikke fått den 2 dager før må du ringe meg, men sjekk søppelfilteret først ;) Den finnes også i innsjekkingsdetaljene i AirBnb-appen - om du skulle bruke den. 
+Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min.
+
+For å komme inn i hytta må man ha nøkkel. Noen dager før ankomst sender jeg en pinkode til nøkkelboksen. Har du ikke fått den 2 dager før må du ringe meg, men sjekk søppelfilteret først ;) Den finnes også i innsjekkingsdetaljene i AirBnb-appen - om du skulle bruke den.
 
 ### Kartapper
+
 Det er elendig dekning på mye av Norefjell, så det er hendig med en kartapp som kan _forhåndsnedlaste_ gode kart fra Statens Kartverk før du drar på tur. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv ([Android]({{ site.norgeskart_android }}) og [iPhone]({{ site.norgeskart_ios }})). Sjekk [kartsiden](/kart.html) for koordinater og har du en app som forstår KMZ-filer kan du bokstavelig talt [gå der jeg har gått][kmz]. Husk å lade telefonen godt på forhånd!
 
 Google Maps på smarttelefoner kan også forhåndsnedlaste områder. Gjør du det før ankomst så kan du følge i mine spor hele veien inn uten å tenke på dekning. Når det er sagt, så finner de fleste fram uten mobil, men det blir fort mørkt på høsten!
 
-
 ### Tekstlig beskrivelse til parkeringsplassen i Skallandslia (Bjørnerud)
+
 Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen.
 
 Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Da ser man skiltet til høyre inn til Bjørnerud. Bjørnerudveien krever bompenger (45 kr kontant eller Vipps til 95488502 med registreringsnummer i detaljer). Gjør det gjerne på forhånd - det sjekkes veldig hyppig!
@@ -45,9 +47,10 @@ Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland,
 
 Stien starter 100m videre innover, rett før veien avslutter i et hyttetun, og turen inn tar 45 min i godt tempo på stiene, omtrent samme vinterstid, men rundt en time med barn eller mye oppakning. Man jogger de 2,8 km ned til bilen på under tyve min uten oppakning.
 
-En hvilken som helst bil holder for å komme seg opp til parkeringsplassen vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit å ha hurtigkjetting i bakhånd. Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en stor SPAR-butikk. 
+En hvilken som helst bil holder for å komme seg opp til parkeringsplassen vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit å ha hurtigkjetting i bakhånd. Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en stor SPAR-butikk.
 
 ## Kort om bruken av hytta
+
 Så langt inn på fjellet har man ikke alt av byens komfort, så man må være litt selvhjulpen, men det er ingenting som er vanskelig. Jeg har laget et instruksjonshefte hytta som har detaljer om alt. Du kan lese det [her](https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf), men jeg har også skrevet det ut og lagt det på hytta ;)
 
 Strømmen slås på på hovedbryter på strømpanelet når du har kommet inn forbi inngangspartiet. Trenger du 220V til støvsuging eller TV er det en omformer du kan skru på på hemsen til høyre for stigen der batterier og regulatorer finnes. 220V-uttaket er i stua under tv-en. Alle andre uttak er 12V DC.
@@ -62,21 +65,24 @@ For å få vann må man skru på pumpen. Bryteren er over vasken, og man bør la
 
 Aggregatet står i en kasse utenfor østveggen. Siden vi har så kraftig solcelleanlegg skal det ikke være nødvendig å bruke dette annet enn i de mørkeste vintermånedene.
 
-### Om man virkelig lurer 
+### Om man virkelig lurer
+
 Jeg har også delt [en mappe som inneholder mer informasjon][delt-mappe], som f.eks. turforslag, kart og bruksanvisninger til alt teknisk utstyr. Sistnevnte er om man måtte komme over noen problemer mens man er på hytta, men det er for spesielt interesserte ;) Nå om dagen er det såpass godt med lade- og batterikapasitet at aggregatet har stått i ro noen år!
 
-
 ## Senger og sengetøy
-Det er ni sengeplasser på hytta. Ett "master bedroom" med en dobbeltseng, et gjesterom med tre senger, en hems ved pipa med to madrasser og en adskilt hems med ytterligere to madrasser (ca 1m brede). 
+
+Det er ni sengeplasser på hytta. Ett "master bedroom" med en dobbeltseng, et gjesterom med tre senger, en hems ved pipa med to madrasser og en adskilt hems med ytterligere to madrasser (ca 1m brede).
 
 Det er dessverre vanskelig for oss å tilby ferdig oppredde senger av logistikkgrunner, så må man ta med seg sengetøy/lakenpose og håndklæder. Anbefaler en liten håndklut for kroppsvask og et lite hånklæde til tørking. Det finnes backupløsninger der oppe om man skulle ha glemt noe. Bare ring oss så ordner vi det :)
 
-## Turtips 
+## Turtips
+
 Vi har samlet turer som går fra barnevennlige kortturer til seige heldagsturer i et eget [turdokument](https://docs.google.com/document/d/1KWRSm9DqvJWtyorWKoDkPmatba03AcEHewSEBcQ9AX0/edit?usp=sharing). Et eksemplar skal ligge på hytta.
 
-Du finner flere andre kilder til inspirasjon på nett, f.eks. [denne turen på PeakBook som går innom Gråfjell, Ranten og Høgevarde](https://peakbook.org/no/tour/103240/Vandring+p%C3%A5+Norefjells+tak+-+Gr%C3%A5fjell%2C+H%C3%B8gevarde+....html). 
+Du finner flere andre kilder til inspirasjon på nett, f.eks. [denne turen på PeakBook som går innom Gråfjell, Ranten og Høgevarde](https://peakbook.org/no/tour/103240/Vandring+p%C3%A5+Norefjells+tak+-+Gr%C3%A5fjell%2C+H%C3%B8gevarde+....html).
 
 ## Fisking
+
 Fiskekort kan man få kjøpt via appen [Perfish](https://www.perfish.no). Man kan også kjøpe et fysisk kort i turistbua i Eggedal sentrum eller [Solbua i Prestfoss](https://solbua.no).
 
 Har dessverre dårlig med tips til sluk og fluefiske, for vi bruker selv bare garn, men jeg har sett flere fluefiskere både langs Holmevann og nærliggende vann. Når myggen kommer i slutten av juni/juli begynner fisen å bite. Er det for kaldt er det dødt, har jeg latt meg fortelle ...
@@ -86,6 +92,7 @@ Vi deler båthus med nabohytta og trebåten i båthuset er ikke til utlån, men 
 Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Eggedal sentrum.
 
 ### Generelt om fisket i Holmevann
+
 Det er masse sik og en del ørret. Siken pleier å holde seg i midten av annet og ørreten holder seg langs land. Det vaker ofte i overflaten i nærheten av hytta, så det kan godt være muligheter der. Et annet godt sted er å sjekke kartet over Holmevann som henger på hytta: der det er elveutløp (eller pleide å være elveutløp) står ofte ørreten! Den liker å gyte i gamle bekkefar, så ta på deg støvler og gå langs øst og nordbredden av vannet.
 
 [delt-mappe]: https://drive.google.com/drive/folders/0BxoftKRQ6vR7bkc0U0JIdHdlejg?resourcekey=0-qfLfvTomKY4Qg2sojQEKwg&usp=sharing
