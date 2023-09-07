@@ -64,7 +64,7 @@ Opptil 4 mobiler kan lades fra laderen i stua ved CD-spilleren. Mikro-usb, USB-C
 
 For å få vann må man skru på pumpen. Bryteren er over vasken, og man bør la vannet renne et halvt minutt første gangen siden det har stått lenge og kan komme litt grums. Pumpen bør skrus av etter hver gang, ellers kan den fort stå og dure.
 
-Aggregatet står i en kasse utenfor østveggen. Siden vi har så kraftig solcelleanlegg skal det ikke være nødvendig å bruke dette annet enn i de mørkeste vintermånedene.
+Vi har et aggregat som står utenfor østveggen. Siden vi har så kraftig solcelleanlegg har det ikke vært nødvendig å bruke dette, selv i de mørkeste vintermånedene, siden vi fikk så mye batterier i 2019. Det holder i praksis en uke i gråvær uten lading. Om man fjerner snø på taket pleier det å lade seg inn selv i desember.
 
 ### Om man virkelig lurer
 
