@@ -87,7 +87,8 @@ Fiskekort kan man få kjøpt via appen [Perfish](https://www.perfish.no). Man ka
 
 Har dessverre dårlig med tips til sluk og fluefiske, for vi bruker selv bare garn, men jeg har sett flere fluefiskere både langs Holmevann og nærliggende vann. Når myggen kommer i slutten av juni/juli begynner fisen å bite. Er det for kaldt er det dødt, har jeg latt meg fortelle ...
 
-Vi deler båthus med nabohytta og trebåten i båthuset er ikke til utlån, men vi har kjøpt en enkel Rana plastbåt som ligger på land nede ved vannet. Vinteren 2022 ble den dessverre [skadet i en vinterstorm](/2022/08/08/etter-stormen.html): den flyter og var i bruk sommeren 2022, men tollegangene (åregaflene) ble revet av. Vi håper å få utbedret disse skadene per juli 2023 så man kan ro med den også. Vi har et 90Ah batteri og 600W elektrisk motor som bruker 20 min over vannet. Det holder akkurat fint til tur-retur. Batteriet lades enklest på batterihemsen på hytta fra dag-til-dag.
+Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre ikke til utlån etter uvøren bruk. Vi har derimot kjøpt en enkel Rana plastbåt som ligger på land nede ved vannet. Vinteren 2022 ble den [skadet i en vinterstorm](/2022/08/08/etter-stormen.html), men etter litt utbedringer funker den greit og var i bruk både sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker 20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den i under kjøring.
+{% cloudinary /rental/batteriogmotor.jpg alt="" class="img--post" %}
 
 Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Eggedal sentrum.
 
