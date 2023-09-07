@@ -17,8 +17,9 @@ Status per 28. august 2023
 </div>
 
 <div class="alert alert-primary">
-Det er vått i fjellet om dagen. Om du ser på kartsiden er det en vei som er "kort og våt" og en
-som er bedre merket, men bittelitt lengre. Ta for all den den siste: den er også raskere nå.
+Det er vått i fjellet om dagen. Det er to stier inn - den godt merkede og en litt kortere over myrene.
+Den som er merket på kartsiden (og [Google Maps](https://www.holmevann.no/map#google-maps-fra-parkeringsplassen-til-hytta))
+er absolutt å foretrekke. Husk høye fjellstøvler eller gummistøvler :)
 </div>
 
 <div id="toc-insert"></div>
