@@ -3,10 +3,11 @@ layout: page
 title: Hvor
 redirect_from:
   - /kart.html
+toc: true
 ---
 
-<div id="toc-insert"></div>
 ## Google Maps: for bilnavigasjon til parkeringsplassen
+
 <div class="map-responsive">
     <iframe src="https://www.google.com/maps/d/embed?mid=1dFockLfyDNtDZ7GCysiFRs17Sh3qQIrb" width="640" height="480"></iframe>
 </div>

@@ -2,6 +2,7 @@
 title: "Informasjon for leietaker"
 layout: page
 exclude: true
+toc: true
 ---
 
 Les informasjonen under nøye før du kommer så det ikke blir noen overraskelser!
@@ -20,8 +21,6 @@ Status per 28. august 2023
 Det er vått i fjellet om dagen. Det er to stier inn - den godt merkede og en litt kortere over myrene.
 Den som er merket på kartsiden (og <a href="https://www.holmevann.no/map#google-maps-fra-parkeringsplassen-til-hytta">Google Maps</a>) er absolutt å foretrekke. Husk høye fjellstøvler eller gummistøvler :)
 </div>
-
-<div id="toc-insert"></div>
 
 ## Ankomst / hvordan kommer man til hytta
 
