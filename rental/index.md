@@ -90,6 +90,7 @@ Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre ikke til 
 {% cloudinary /rental/batteriogmotor.jpg alt="" class="img--post" %}
 
 Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Eggedal sentrum.
+Om man lurer på surhetsgrad i vannene har jeg data på det i [denne bloggposten](/2023/05/15/surhet)
 
 ### Generelt om fisket i Holmevann
 
