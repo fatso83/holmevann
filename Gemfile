@@ -13,6 +13,10 @@ gem "jekyll", "~> 4.3.2"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"#, "~> 2.5"
 
+# To avoid errors about minima division:
+# https://github.com/jekyll/minima/issues/709
+gem "jekyll-sass-converter", "~> 2.2.0"
+
 gem "sass-embedded", "1.54.6"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
