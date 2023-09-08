@@ -2,6 +2,7 @@
 layout: post
 title: "220V i stikkontakten"
 date: 2020-11-03 18:30:00 +0100
+toc: true
 ---
 
 Denne helgen har jeg fått en elektriker til å gå over
@@ -57,7 +58,8 @@ blir det _i praksis_ 500Ah@12V eller 6000Wh.
 
 Økonomi og tidsperspektiv. Jeg trengte å øke batterikapasiteten på hytta
 og så at det ville bli veldig dyrt å kjøpe en ny batteripakke. Litiumbatterier
-var per 2019 enda ikke konkurransedyktig på pris (men nesten!), selv om man i praksis bare trenger
+var per 2019 enda ikke konkurransedyktig på [pris (men nesten!)][price per kwh],
+selv om man i praksis bare trenger
 halvparten så mye kapasitet med litium siden de kan lades helt ut. Jeg så derimot
 at litiumbatterier vil være "det riktige"/mest økonomiske valget om bare et par år.
 Da ville det kanskje gi mening å oppgradere til 48V i samme slengen.
@@ -79,6 +81,14 @@ mye effekt på ladesiden så vil batteriene nesten alltid være > 95% ladet.
 Da blir slitasjen minimal. Siden jeg har et tidsperspektiv på 5 år, så
 tenker jeg at dette vil gå helt fint.
 
+## Addendum: prisnotater
+
+Prisen per kWh har visstnok falt med 82% fra 2012 til 2020 eller 90% fra
+[2008 til 2022][price 2008-2022] og skal [per 2023][price per kwh] være på
+ca 150USD/kWh. I 2030 er prisen antatt å ligge på rundt halvparten av dette igjen: 75USD/kWh.
+![graf](https://www.energy.gov/sites/default/files/styles/full_article_width/public/2023-01/FOTW_1272.png?itok=Hducr2em). Kan anta at prisen i 2019 antagelig var tilsvarende 200 USD/kWh, så med
+dagens priser er det en no-brainer å oppgradere til LiPo eller andre varianter.
+
 ## Referanser
 
 - <a name="voltage"/>50% = 12,2V - ref [Sun Xtender Technical Manual, Appendix C][sun xtender pdf]
@@ -90,3 +100,5 @@ tenker jeg at dette vil gå helt fint.
 [canadus]: https://canadus.com/canadus-hd-1224/
 [test bad battery]: https://www.evernote.com/shard/s16/sh/2ca356d6-9bf0-4aa9-903f-f673a88a5a45/5610d2e6e6d1ed15579cfae5f7948021
 [test good battery]: https://www.evernote.com/shard/s16/sh/a4d2926f-dea8-4ba5-9472-1bea4c39abcc/535cd79c5c1ed966d71344bad9ff7b61
+[price per kwh]: https://lawnlove.com/blog/lithium-ion-battery-cost/#hours
+[price 2008-2022]: https://www.energy.gov/eere/vehicles/articles/fotw-1272-january-9-2023-electric-vehicle-battery-pack-costs-2022-are-nearly
