@@ -89,7 +89,7 @@ $clouds: #ecf0f1;
 
     // Subsequent-sibling combinator
     ~ .accordion__tab-content {
-      max-height: 100vh;
+      max-height: 100%;
       height: auto;
       padding: 1em;
     }
