@@ -40,13 +40,34 @@ Google Maps på smarttelefoner kan også forhåndsnedlaste områder. Gjør du de
 
 Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen.
 
-Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Da ser man skiltet til høyre inn til Bjørnerud. Bjørnerudveien krever bompenger (45 kr kontant eller Vipps til 95488502 med registreringsnummer i detaljer). Gjør det gjerne på forhånd - det sjekkes veldig hyppig!
-
+Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Underveis (i disse 7 min) kommer du til en bom (operativ fra ca oktober 2023) og da må
+du ringe meg for å åpne den. Etterhvert når man nærmer seg toppen av fjellet ser man skiltet til høyre inn til Bjørnerud. Husk bompenger (<a href="#bom-og-bompenger">se under</a> for detaljer)!
 150m før veien slutter i et hyttetur finner du en stor parkeringsplass som er åpen for alle. Posisjon ser du på kartsiden lenket over.
 
 Stien starter 100m videre innover, rett før veien avslutter i et hyttetun, og turen inn tar 45 min i godt tempo på stiene, omtrent samme vinterstid, men rundt en time med barn eller mye oppakning. Man jogger de 2,8 km ned til bilen på under tyve min uten oppakning.
 
 En hvilken som helst bil holder for å komme seg opp til parkeringsplassen vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit å ha hurtigkjetting i bakhånd. Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en stor SPAR-butikk.
+
+### Bom og bompenger
+
+#### Skallandslia
+
+Høsten 2023 kommer det en bom i Skallandslia som kun kan åpnes av registrerte brukere. Du må altså
+avtale med meg på telefon at jeg skal være standby på telefon på et omtrentlig tidspunkt i løpet av kvelden
+så jeg kan åpne bommen.
+
+Det er også mulig å registrere _ditt telefonnummer_ så du kan _selv_ åpne bommen ved behov og ønske. Dette
+er å anbefale om dere skal gjennom bommen i flere omganger, være der flere dager, etc. Det koster 100 kr (kostpris)
+og du bør si fra senest dagen i forveien, for det er eieren av bommen som må manuelt registrere det. Etter
+dette har du permanent tilgang fra ditt telefonnummer.
+
+#### Bjørnerudveien
+
+Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører du inn mot _Bjørnerudseter_. Etter ca 200 m
+vil du se et stort oppslag på høyre side om bompenger med en postkasse under. Det koster 45 kr kontant og
+man fyller ut et gjennomslagspapir og legger det og pengene i kassa.
+Eventuelt man kan bruke Vipps og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet.
+Gjør det gjerne på forhånd - det sjekkes veldig hyppig!
 
 ## Kort om bruken av hytta
 
