@@ -7,7 +7,12 @@ title: Kort og viktig
 
 <li>
 {% include airbnb.svg %}
-<a href="https://airbnb.no/rooms/18731440">Holmevann på AirBnB</a>. Har mye informasjon om hytta. 
+<a href="https://airbnb.no/rooms/18731440">Annonsen på AirBnB</a>. Har mye informasjon om hytta. 
+</li>
+<li>
+    <a 
+    href="https://www.inatur.no/hytte/63ee3bc2d0440d29d6c7ef45/hytte-med-enestaende-beliggenhet-i-eggedalsfjella-fiskevann-og-skiloyper"
+    >Annonsen på Inatur</a> (lavere kommisjon - rimeligere)
 </li>
 <li><a href="/rental">Info til leietager før ankomst</a></li>
 
