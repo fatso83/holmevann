@@ -59,11 +59,12 @@ dette har du permanent tilgang fra ditt telefonnummer.
 
 #### Bjørnerudveien
 
-Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører du inn mot _Bjørnerudseter_. Etter ca 200 m
+Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører du inn mot _Bjørnerudseter_. Om du har GPS
+kan du plotte inn Bjørnerudseterveien 174 (felles parkeringsplass). Etter ca 200 m
 vil du se et stort oppslag på høyre side om bompenger med en postkasse under. Det koster 45 kr kontant og
 man fyller ut et gjennomslagspapir og legger det og pengene i kassa.
 Eventuelt man kan bruke Vipps og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet.
-Gjør det gjerne på forhånd - det sjekkes veldig hyppig!
+Gjør det gjerne på forhånd, før du setter deg i byen og lett å glemme - det sjekkes veldig hyppig!
 
 ## Kort om bruken av hytta
 
