@@ -24,6 +24,9 @@ Jeg har nå (november 2021) lagt inn gåveien (gps-spor) fra parkeringsplassen o
 ## Google Maps: vinterstid
 
 På ski inn til hytta fra Skalland eller Tempelseter, såvel som turer i nærområdet.
+Du kan også laste ned disse offline for bruk med en app. Bare [følg lenken](https://www.google.com/maps/d/u/0/viewer?mid=1ABA5ohQmmcLfChlRAKTpjUXrUaYkXG2z&femb=1&ll=60.295250972170216%2C9.393632824853503&z=13),
+trykk på de tre prikkene for å få vist menyen og velg "Last ned som KML". Funker med mange
+ordentlige kart-apper, som Norgeskart Friluftsliv, f.eks. Da er man ikke avhengig av nett.
 
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ABA5ohQmmcLfChlRAKTpjUXrUaYkXG2z" width="640" height="480"></iframe>
