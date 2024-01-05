@@ -9,12 +9,10 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>28. september 2023</strong>
+Status per <strong>5. januar 2024</strong>
 <ol>
 <li>I løpet av oktober 2023 dukker det opp en bom i Skallandslia jeg må manuelt åpne for deg. <a href="#bom-og-bompenger">Se detaljer under</a>!</li>
-<li>Vi mangler en åre til båten etter noen glemte å legge dem på plass rett før Hans kom. Om du vil ta båten ut på en liten tur har vi fremdeles el-motor, og en åre er bedre enn ingenting, men om det er bare litt vind vil du heller ro, for motoren er ikke kraftig nok. Send meg en sms så kan du få vite hvor nøklene til naboens båthus er, der du kan finne årer. Håper å få fikset dette siste helgen i september!</li>
 <li>Det begynner det å bli litt dårlig med dopapir. Ta gjerne med en pakke om du kan.</li>
-<li>Noen har tuklet med ledningene til stereoen. Den er derfor midlertidig ute av drift.</li>
 </ol>
 </div>
 
