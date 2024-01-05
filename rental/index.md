@@ -11,8 +11,9 @@ Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [
 <div class="alert alert-warning">
 Status per <strong>5. januar 2024</strong>
 <ol>
-<li>I løpet av oktober 2023 dukker det opp en bom i Skallandslia jeg må manuelt åpne for deg. <a href="#bom-og-bompenger">Se detaljer under</a>!</li>
+<li>I oktober 2023 dukket det opp en bom i Skallandslia jeg må manuelt åpne for deg. <a href="#bom-og-bompenger">Se detaljer under</a>!</li>
 <li>Det begynner det å bli litt dårlig med dopapir. Ta gjerne med en pakke om du kan.</li>
+<li>Vi har fått ny pinkode til nøkkelboks</>
 </ol>
 </div>
 
