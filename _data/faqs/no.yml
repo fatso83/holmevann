@@ -306,7 +306,8 @@
     <img src="/assets/img/dekningskart telia.png" loading="lazy" class="img--post" />
 
 - q: Er det noe stereoanlegg, lydboks eller lignende for å spille musikk?
-  a: Ja, vi har et stereoanlegg man kan bruke. Det har CD-spiller og minijack-inngang.
+  a: >
+     <p>Ja, vi har et stereoanlegg man kan bruke. Det har CD-spiller og minijack-inngang.</p>
     
      <p>Jeg har kjøpt inn overgang til minjack for både Lightning (for iPhone) og USB-C (Android)
      så du trenger kun å laste ned musikken for offlineavspilling på forhånd. Har du glemt 
@@ -318,10 +319,15 @@
 
 - q: Har du noen anbefalinger med tanke vær og sesong?
   a: >
-     <p>Det er definitivt sesonger det er hyggeligere å være der enn andre <em>i snitt</em>, men alt kommer an på værmelding, om du har en hyggelig gjeng, m.m.</p>
+    <blockquote>Mitt absolutte innsider-tips, som ingen følger, er å booke på vårparten (april/mai)!</blockquote>
+    <p>Det er definitivt sesonger det er hyggeligere å være der enn andre <em>i snitt</em>, men alt kommer an på værmelding, om du har en hyggelig gjeng, m.m.</p>
 
-     <p>Krystallklare, friske dager i oktober kan være helt nydelig og rosa solnedganger på skitur i januar helt magisk, 
-  me n det skal ikke underslås at været er minst trivelig fra slutten av september til januar. Det er færre soltimer, det blåser mer, tåka kan komme krypende, væromslag, etc. Så litt høyere sjanse for at dere spiller mye kort enn på våren, men det kan jo være fint i seg selv :)</p>
+    <figure class="xx-inline-image">
+        <img src="/assets/img/2023-05-07-august-solstek.small.jpg" lazyload />
+        <figcaption>Sola steker 7. mai 2023</figcaption>
+    </figure>
 
-     <p>Mitt absolutte innsider-tips, som ingen følger, er å booke på vårparten! Det er helt fantastisk. Du er alene i fjellet, været er varmt, snøen ligger ofte til første juni og du kan nyte pilsen på plattingen i solsteken. Helt konge.
-     </p>
+    <p>Krystallklare, friske dager i oktober kan være helt nydelig og rosa solnedganger på skitur i januar helt magisk, men det skal ikke underslås at været er minst trivelig fra slutten av september til januar. Det er færre soltimer, det blåser mer, tåka kan komme krypende, væromslag, etc. Så litt høyere sjanse for at det blir en helg dere spiller mye kort enn på våren er det unektelig, men det kan jo være fint i seg selv :) </p>
+
+    <p>Mitt absolutte innsider-tips, som ingen følger, er å booke på vårparten! Det er helt fantastisk. Du er alene i fjellet, været er varmt, snøen ligger ofte til første juni og du kan nyte pilsen på plattingen i solsteken. Helt konge.
+    </p>

@@ -24,6 +24,11 @@
   @media (min-width: 500px) {
     height: 200px;
   }
+
+  // "reset" theme settings for images
+  > img {
+    height: 100%;
+  }
 }
 
 // makes it pop out on hover

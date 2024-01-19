@@ -12,7 +12,7 @@ Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [
 Status per <strong>19. januar 2024</strong>
 <ol>
 <li>I oktober 2023 dukket det opp en bom i Skallandslia jeg må manuelt åpne for deg. <a href="#bom-og-bompenger">Se detaljer under</a>!</li>
-<li>Vi har fått ny pinkode til nøkkelboks. Ikke anta at den gamle fungerer ;-)</>
+<li>Vi har fått ny pinkode til nøkkelboks. Ikke anta at den gamle fungerer ;-)</li>
 </ol>
 </div>
 
