@@ -25,4 +25,4 @@ bør leses før ankomst og det som allerede ligger på hytta - på siden for [vi
 
 ## Lurer du på noe?
 
-Sjekk ut [spørsmål og svar-seksjonen](/faq.html) for svar på ofte stilte spørsmål som folk ofte lurer på _før_ de bestemmer seg for å leie. Det er svært utførlig informasjon på kartsiden også, som detaljerer hvordan man kommer seg dit - både med og uten bil.
+Sjekk ut den søkbare (!) [spørsmål og svar-seksjonen](/faq.html) for svar på ofte stilte spørsmål som folk ofte lurer på _før_ de bestemmer seg for å leie. Det er _svært utførlig_ informasjon på kartsiden også, som detaljerer hvordan man kommer seg dit - både med og uten bil.
