@@ -9,11 +9,10 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>5. januar 2024</strong>
+Status per <strong>19. januar 2024</strong>
 <ol>
 <li>I oktober 2023 dukket det opp en bom i Skallandslia jeg må manuelt åpne for deg. <a href="#bom-og-bompenger">Se detaljer under</a>!</li>
-<li>Det begynner det å bli litt dårlig med dopapir. Ta gjerne med en pakke om du kan.</li>
-<li>Vi har fått ny pinkode til nøkkelboks</>
+<li>Vi har fått ny pinkode til nøkkelboks. Ikke anta at den gamle fungerer ;-)</>
 </ol>
 </div>
 
@@ -27,34 +26,32 @@ For å komme inn i hytta må man ha nøkkel. Noen dager før ankomst sender jeg 
 
 ### Kartapper
 
-Det er elendig dekning på mye av Norefjell, så det er hendig med en kartapp som kan _forhåndsnedlaste_ gode kart fra Statens Kartverk før du drar på tur. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv ([Android]({{ site.norgeskart_android }}) og [iPhone]({{ site.norgeskart_ios }})). Sjekk [kartsiden](/kart.html) for koordinater og har du en app som forstår KMZ-filer kan du bokstavelig talt [gå der jeg har gått][kmz]. Husk å lade telefonen godt på forhånd!
+Det er elendig dekning på mye av Norefjell, så det er hendig med en kartapp som kan _forhåndsnedlaste_ gode kart fra Statens Kartverk før du drar på tur. Veldig nyttig om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv ([Android]({{ site.norgeskart_android }}) og [iPhone]({{ site.norgeskart_ios }})). Sjekk [kartsiden](/kart.html) for koordinater, og har du en app som forstår KMZ-filer kan du bokstavelig talt [gå der jeg har gått][kmz]. Husk å lade telefonen godt på forhånd!
 
-Google Maps på smarttelefoner kan også forhåndsnedlaste områder. Gjør du det før ankomst så kan du følge i mine spor hele veien inn uten å tenke på dekning. Når det er sagt, så finner de fleste fram uten mobil, men det blir fort mørkt på høsten!
+Google Maps på smarttelefoner kan også forhåndsnedlaste områder. Gjør du det før ankomst så kan du følge i mine spor hele veien (se kartsiden, som kan åpne kartene direkte i appen) inn uten å tenke på dekning. Når det er sagt, så finner de fleste fram uten mobil, men det blir fort mørkt på høsten!
 
 ### Tekstlig beskrivelse til parkeringsplassen i Skallandslia (Bjørnerud)
 
 Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen.
 
-Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Underveis (i disse 7 min) kommer du til en bom (operativ fra ca oktober 2023) og da må
-du ringe meg for å åpne den. Etterhvert når man nærmer seg toppen av fjellet ser man skiltet til høyre inn til Bjørnerud. Husk bompenger (<a href="#bom-og-bompenger">se under</a> for detaljer)!
+Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Underveis (i disse 7 min) kommer du til en bom, og du må da ringe meg for å åpne den. Etterhvert når man nærmer seg toppen av fjellet ser man skiltet til høyre inn til Bjørnerud. Husk bompenger (<a href="#bom-og-bompenger">se under</a> for detaljer)!
 150m før veien slutter i et hyttetur finner du en stor parkeringsplass som er åpen for alle. Posisjon ser du på kartsiden lenket over.
 
 Stien starter 100m videre innover, rett før veien avslutter i et hyttetun, og turen inn tar 45 min i godt tempo på stiene, omtrent samme vinterstid, men rundt en time med barn eller mye oppakning. Man jogger de 2,8 km ned til bilen på under tyve min uten oppakning.
 
-En hvilken som helst bil holder for å komme seg opp til parkeringsplassen vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit å ha hurtigkjetting i bakhånd. Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en stor SPAR-butikk.
+En hvilken som helst bil holder for å komme seg opp til parkeringsplassen vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit å ha hurtigkjetting i bakhånd, for det kan bli veldig glatt og/eller påskeslush! Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en stor SPAR-butikk.
+
+Husk å ta det rolig nedover veiene vinterstid: jeg kjenner veiene godt, men har likevel havnet i et tre i en skråning under en "whiteout" der jeg plutselig ikke så veien og det lå tørr snø oppå is. Jeg var heldig, men det trenger ikke gjelde nestemann. P.S. Viking/Redgo bruker ca en time fra du ringer til de er der.
 
 ### Bom og bompenger
 
 #### Skallandslia
 
-Høsten 2023 kommer det en bom i Skallandslia som kun kan åpnes av registrerte brukere. Du må altså
-avtale med meg på telefon at jeg skal være standby på telefon på et omtrentlig tidspunkt i løpet av kvelden
+Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte brukere. Du må altså
+avtale med meg (på telefon/via sms) at jeg skal være standby på telefon på et omtrentlig tidspunkt i løpet av kvelden
 så jeg kan åpne bommen.
 
-Det er også mulig å registrere _ditt telefonnummer_ så du kan _selv_ åpne bommen ved behov og ønske. Dette
-er å anbefale om dere skal gjennom bommen i flere omganger, være der flere dager, etc. Det koster 100 kr (kostpris)
-og du bør si fra senest dagen i forveien, for det er eieren av bommen som må manuelt registrere det. Etter
-dette har du permanent tilgang fra ditt telefonnummer.
+Jeg jobber med å ordne et alternativ for å automatisere dette og fjerne meg fra ligningen, men det er ikke klart per januar 2024.
 
 #### Bjørnerudveien
 
@@ -73,13 +70,15 @@ Strømmen slås på på hovedbryter på strømpanelet når du har kommet inn for
 
 Parafinkaminen (Wallas) kan stå på under hele oppholdet (i hvert fall høst/vinter) - bare trykk på knappen så fort du har kommet fram og skru av når du stenger hytta. Det sørger for at det ikke er kaldt om morgenene.
 
-Gassovnene gir rask varme når man kommer til kald hytte vinterstid. Dra dem ut i stua og sett dem på med en gang. Etterhvert vil varmen fra de trefyrte ovnene bidra og gi god lunk. Fint også å bruke gassovnene på soverommene for å gi litt lunk i madrassene om det er vinterstid. Når varmen først er kommet i veggene holder hytta veldig godt på den.
+Gassovnene gir rask varme når man kommer til kald hytte vinterstid. Dra dem ut i stua og sett dem på med en gang. Etterhvert vil varmen fra de trefyrte ovnene bidra og gi god lunk. Fint også å bruke gassovnene på soverommene for å gi litt lunk i madrassene om det er vinterstid. Det tar et døgn med fyring vinterstid før varmen sitter i veggene, men etter det holder hytta veldig godt på den (så lenge det ikke suges kald luft inn via åpne ventiler!).
 
 Opptil 4 mobiler kan lades fra laderen i stua ved CD-spilleren. Mikro-usb, USB-C og lightningkabel er på plass.
 
 For å få vann må man skru på pumpen. Bryteren er over vasken, og man bør la vannet renne et halvt minutt første gangen siden det har stått lenge og kan komme litt grums. Pumpen bør skrus av etter hver gang, ellers kan den fort stå og dure.
 
 Vi har et aggregat som står utenfor østveggen. Siden vi har så kraftig solcelleanlegg har det ikke vært nødvendig å bruke dette, selv i de mørkeste vintermånedene, siden vi fikk så mye batterier i 2019. Det holder i praksis en uke i gråvær uten lading. Om man fjerner snø på taket pleier det å lade seg inn selv i desember.
+
+Angående cd-spilleren: det er egentlig en bilradio som har minijack-inngang. Jeg har lagt fram minijack-kabel med overganger for både Android og iOS (Lightning), så det er bare å laste ned offline-lister på forhånd, om du ikke vil høre alle cd-ene til fatteren fra nittitallet :-) Lyden er høy og god nok for en bra fest, men prøv å ikke spreng høyttalerne.
 
 ### Om man virkelig lurer
 
