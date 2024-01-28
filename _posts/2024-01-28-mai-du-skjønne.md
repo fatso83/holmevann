@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Skjønner du hvor bra våren er på fjellet?
-date: 2024-01-29 12:00:00 +0200
+date: 2024-01-28 12:00:00 +0200
 ---
 Den aller fineste tiden på fjellet for skigåing er på våren. Det er det tilsynelatende ingen som skjønner, for etter påske er det ingen som kommer før i slutten av juni. Her er hva du går glipp av:
 
