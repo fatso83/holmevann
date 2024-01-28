@@ -5,7 +5,7 @@ date: 2024-01-28 12:00:00 +0200
 ---
 Den aller fineste tiden på fjellet for skigåing er på våren. Det er det tilsynelatende ingen som skjønner, for etter påske er det ingen som kommer før i slutten av juni. Det er i mai du kan nyte en velfortjent iskald pils på plattingen i ettermiddagssol etter å ha blitt sakte grillet i rotisseriet som et snøkledd vårfjell er. Snøbroene over bekken pleier å gå litt etter syttende mai, men det er vanligvis mulig å gå på ski til første juni.
 
-For å minne deg om hva du går glipp av, her er noen bilder fra mai måned de siste årene:
+For å minne deg om hva du går glipp av, her er noen bilder fra mai måned de siste årene. Jeg tok med et par bilder av overvann og snøbroer som har smeltet bort i slutten av mai, så det ikke kommer noen overraskelser 😀 Isen forsvinner veldig fort, men er trygg helt til overvannet gjør det uattraktivt å gå der.
 
  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
