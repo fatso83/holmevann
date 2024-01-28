@@ -1,8 +1,9 @@
 ---
 layout: post
 title: ☀️ Skjønner du hvor bra våren er på fjellet?
-date: 2024-01-28 12:00:00 +0200
+date: 2024-01-28 12:00:00 +0100
 ---
+
 <figure>
 {% cloudinary post /assets/img/2020-05-08_fjell_sno.jpg alt="koronavaaren i fjellet 2020" %}
 <figcaption>8. mai 2020</figcaption>

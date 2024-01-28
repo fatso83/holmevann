@@ -10,10 +10,12 @@
   max-height: 250px;
 }
 
-.home .post-list li h1,
-h2 {
-  font-size: 16px;
-  font-weight: 200;
+.home .post-list li {
+  & h1,
+  & h2 {
+    font-size: 16px;
+    font-weight: 200;
+  }
 }
 
 blockquote {
