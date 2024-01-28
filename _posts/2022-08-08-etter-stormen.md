@@ -8,7 +8,7 @@ Sist vinter hadde vi virkelig ikke hellet med oss. Først kom en orkan i
 slutten november 2021 med de sterkeste vindene man har registrert i Sigdal.
 Vindkastene kom opp i 52 meter i sekunden (omtrent 200 km/t) - så sterkt
 at mosen ble skrellet av fjellknausene rundt 😱
-{% cloudinary post /assets/img/2021-11-20_statistikk_vindstyrke.jpg alt="Ekstreme vindkast opp til 52 m/s" %}
+{% cloudinary post /assets/img/2021-11-20_statistikk_vindstyrke.jpg alt="Ekstreme vindkast opp til 52 m/s" loading="lazy" %}
 ([Ekstern rapport][rapport])
 
 # Ojsann
