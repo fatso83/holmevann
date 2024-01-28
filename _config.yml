@@ -21,6 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.holmevann.no" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kopseng
 google_analytics: UA-112389015-1
+show_excerpts: true
+#excerpt_separator:  <!--more-->
 
 # Build settings
 markdown: kramdown
