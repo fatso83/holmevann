@@ -18,10 +18,12 @@ Hytta passer for selvhjulpne folk som liker å gå turer i fjellet, fiske/jakt, 
 
 ## Hva venter deg?
 
-Hytta har komfort som lys, vann i springen og lading av mobiler, men
+Hytta har komfort som lys, vann i [springen][faq-vann-spring] og lading av mobiler, men
 det er mange spesialløsninger og småting å tenke på, spesielt om vinteren.
 Derfor har vi samlet informasjon om alt du kan tenke deg - både det som
 bør leses før ankomst og det som allerede ligger på hytta - på siden for [viktig informasjon](/important.html)
+
+[faq-vann-spring]: /faq#hva-gjor-man-om-vanntanken-gar-tom
 
 ## Lurer du på noe?
 
