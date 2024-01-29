@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "To skritt tilbake"
-date: 2023-11-15 12:00:00 +0100
+date: 2023-10-15 12:00:00 +0100
 ---
 
 Skulle bare opp en tur med Fredrik og fylle på diesel og vann før vinteren, men
