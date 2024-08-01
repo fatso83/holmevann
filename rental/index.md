@@ -9,17 +9,23 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>28. januar 2024</strong>
+Status per <strong>1. august 2024</strong>
+
 <ol>
-<li>Vanntanken er tom! Pumpa gikk i stykker i november, akkurat da vi skulle fylle for vinteren. Se <a href="/faq#hva-gjor-man-om-vanntanken-gar-tom">FAQ for isbor og vanndunk</a></li>
-<li>I oktober 2023 dukket det opp en bom i Skallandslia jeg må manuelt åpne for deg. <a href="#bom-og-bompenger">Se detaljer under</a>!</li>
-<li>Vi har fått ny pinkode til nøkkelboks. Ikke anta at den gamle fungerer ;-)</li>
+
+<li>
+Ta med dopapir! Snøbroene gikk før vi fikk transportert inn dopapir for sommeren.
+</li>
+
+<li>Vanntanken er tom! Pumpa er ødelagt. Se <a href="/faq#hva-gjor-man-om-vanntanken-gar-tom">FAQ for hva du gjør</a></li>
+
 </ol>
+
 </div>
-<div class="alert-primary alert">
+<!-- div class="alert-primary alert">
 Wallas-kaminen er fikset per 21. januar! Den er også oppgradert, slik at jeg håper å få 
 på plass fjernstart i løpet av februar.
-</div>
+</div-->
 
 ## Ankomst / hvordan kommer man til hytta
 
