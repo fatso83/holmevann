@@ -9,15 +9,15 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>1. august 2024</strong>
+Status per <strong>8. august 2024</strong>
 
 <ol>
 
 <li>
-Ta med dopapir! Snøbroene gikk før vi fikk transportert inn dopapir for sommeren.
+Ta med dopapir og tørkerull! Snøbroene gikk før vi fikk transportert inn dopapir for sommeren.
 </li>
 
-<li>Vanntanken er tom! Pumpa er ødelagt. Se <a href="/faq#hva-gjor-man-om-vanntanken-gar-tom">FAQ for hva du gjør</a></li>
+<li>Vanntanken er tom. Pumpa er ødelagt. Se <a href="/faq#hva-gjor-man-om-vanntanken-gar-tom">FAQ for hva du gjør</a></li>
 
 </ol>
 
