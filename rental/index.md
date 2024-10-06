@@ -9,14 +9,17 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>12. september 2024</strong>
+Status per <strong>7. oktober 2024</strong>
 
 <ol>
+
+<li>Kjøp opptenningsremedier! Vi er tomme for opptenningsbriketter, så det kan være litt vanskelig å få fyr på veden (, men det går).
+</li>
+
 <li>
     Wallas-kaminen er ennå ikke operativ. Jeg mistenker drivstoffproblemer, siden den _har_ vært på service igjen siden den slet med å tenne flammen stabilt :(
 </li>
-<li>Kjøp opptenningsremedier! Vi er tomme for opptenningsbriketter, så det kan være litt vanskelig å få fyr på veden (, men det går).
-</li>
+
 </ol>
 
 </div>
