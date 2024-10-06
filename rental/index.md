@@ -13,10 +13,9 @@ Status per <strong>12. september 2024</strong>
 
 <ol>
 <li>
-    Prosjektet med ny vannpumpe er ferdig og vanntanken er full, så nå er det vann i vasken igjen :)
+    Wallas-kaminen er ennå ikke operativ. Jeg mistenker drivstoffproblemer, siden den _har_ vært på service igjen siden den slet med å tenne flammen stabilt :(
 </li>
-<li>
-    Wallas-kaminen er gått rett tilbake på service igjen siden den slet med å tenne flammen stabilt :(
+<li>Kjøp opptenningsremedier! Vi er tomme for opptenningsbriketter, så det kan være litt vanskelig å få fyr på veden (, men det går).
 </li>
 </ol>
 
