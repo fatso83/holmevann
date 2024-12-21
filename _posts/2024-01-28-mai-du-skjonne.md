@@ -5,7 +5,7 @@ date: 2024-01-28 12:00:00 +0100
 ---
 
 <figure>
-{% cloudinary post /assets/img/2020-05-08_fjell_sno.jpg alt="koronavaaren i fjellet 2020" %}
+{% cloudinary post /assets/img/2020-05-08_fjell_sno.jpg alt="koronavaaren i fjellet 2020" loading="lazy" %}
 <figcaption>8. mai 2020</figcaption>
 </figure>
 Den aller fineste tiden på fjellet for skigåing er på våren. Det er det tilsynelatende ingen som skjønner, for etter påske er det ingen som kommer før i slutten av juni. Det er i mai du kan nyte en velfortjent iskald pils på plattingen i ettermiddagssol etter å ha blitt sakte grillet i rotisseriet som et snøkledd vårfjell er. Snøbroene over bekken pleier å gå litt etter syttende mai, men det er vanligvis mulig å gå på ski til første juni.
