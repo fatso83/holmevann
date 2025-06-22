@@ -9,24 +9,19 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>7. oktober 2024</strong>
+Status per <strong>23. juni 2025</strong>
 
 <ol>
 
-<li>Kjøp opptenningsremedier! Vi er tomme for opptenningsbriketter, så det kan være litt vanskelig å få fyr på veden (, men det går).
-</li>
-
 <li>
-    Wallas-kaminen er ennå ikke operativ. Jeg mistenker drivstoffproblemer, siden den _har_ vært på service igjen siden den slet med å tenne flammen stabilt :(
+    Wallas-kaminen er operativ og tenner hver gang, men har noen ulyder på lavt turtall ("uler"). Jeg ser også at den skrur seg av etter f.eks. 12 timers drift. Jeg mistenker at den overopphetes av å ha gryter stående over, og at dette er annerledes enn før ettersom den fikk nytt kretskort i vinter som essensielt gjør den til nyeste modell. For å kunne utelykke feiltenning pga dårlig drivstoff har jeg kjørt den direkte fra 20 literskanner i steden for den store tanken under hytta (som virker å ha fått vann i seg). 20 liter holder til 2 døgn på full drift, så det blir fort tomt. Det står flere dunker i kjelleren (inngang på nordsiden). På den andre siden er det sommer, så kanskje litt gass på morran holder ;)
 </li>
+<!--<li>-->
+<!--</li>-->
 
 </ol>
 
 </div>
-<!-- div class="alert-primary alert">
-Wallas-kaminen er fikset per 21. januar! Den er også oppgradert, slik at jeg håper å få 
-på plass fjernstart i løpet av februar.
-</div-->
 
 ## Ankomst / hvordan kommer man til hytta
 
