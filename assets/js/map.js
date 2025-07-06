@@ -1,5 +1,5 @@
 (function () {
-  var FRIDAY_DAY_NUMBER = 5;
+  const FRIDAY_DAY_NUMBER = 5;
 
   function modulo(a, b) {
     return ((a % b) + b) % b;
@@ -7,10 +7,10 @@
 
   /** The closest Friday (today or the coming) */
   function fridayAsMillis() {
-    var today = new Date();
-    var currentDayOfWeek = today.getDay();
-    var daysToAdd = modulo(5 - currentDayOfWeek, 7);
-    var friday = new Date(today.getTime() + daysToAdd * 24 * 3600 * 1000);
+    const today = new Date();
+    const currentDayOfWeek = today.getDay();
+    const daysToAdd = modulo(FRIDAY_DAY_NUMBER - currentDayOfWeek, 7);
+    const friday = new Date(today.getTime() + daysToAdd * 24 * 3600 * 1000);
     friday.setHours(9);
     friday.setMinutes(0);
     friday.setSeconds(0);
@@ -35,14 +35,14 @@
     );
   }
 
-  var enturLink = document.getElementById("entur-lazy-link");
+  const enturLink = document.getElementById("entur-js-link");
   if (enturLink) {
     enturLink.href = enturOsloEggedalTripUrl();
   } else {
     console.warn("Could not locate link for EnTur");
   }
 
-  var googleLink = document.getElementById("google-lazy-link");
+  const googleLink = document.getElementById("google-js-link");
   if (googleLink) {
     googleLink.href = googleOsloEggedalTripUrl();
   } else {

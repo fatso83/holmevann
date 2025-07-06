@@ -75,16 +75,25 @@ Koordinatene til hytta er
 
 ## Offentlig transport
 
-Om du ikke har bil går det fint an å komme seg til hytta, men det tar lenger tid og du bør antagelig justere lengden på oppholdet ditt for å matche busstider.
+Det går fint an å komme seg til hytta, men det tar lenger tid og du bør antagelig justere lengden på oppholdet ditt for å matche busstider. Det vanligste er da taxi fra Eggedal og opp, men du kan velge å gå sti de 5-6 km opp til Åssetra (fin tur - ca 2 timer). Det var slik min far kom seg dit på femtitallet :-)
 
 Best-case reise (gitt Oslo som utgangspunkt) tar 3t (bare 45 min mer enn bil):
 
 1. Oslo-Drammen-Åmot-Eggedal, 2h 44m (buss-buss-buss)
 1. Eggedal sentrum - parkeringsplassen, 15min (taxi)
 
-- <a id="entur-lazy-link">Oslo-Eggedal uten bil (EnTur)</a>
-- <a id="google-lazy-link">Oslo-Eggedal uten bil (Google Maps)</a>
+- <a id="entur-js-link">Oslo-Eggedal uten bil (EnTur)</a>
+- <a id="google-js-link">Oslo-Eggedal uten bil (Google Maps)</a>
 - [Kart for gående uten bil, fra Eggedal kirke til Åssetra (hiking)](https://goo.gl/maps/LdNyeYYECtJZYact8).
+
+### Juli 2025
+
+- Bussen går kun mandag til fredag
+- Avreise fra Oslo enten 9:00 eller 14:00
+- 3:01 i reisetid til Eggedal Sentrum
+- 300 kr
+- Retur fra Eggedal er enten 7:20 eller 13:20 (samme reisetid)
+- Barn under seks år reiser gratis (+114 kroner over)
 
 ## Snødybde og skispor
 
