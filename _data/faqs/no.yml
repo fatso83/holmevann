@@ -174,7 +174,7 @@
   a: Det er inkludert.
 
 - q: Hvilke koke- og stekemuligheter finnes det?
-  tags: ["kitchen"]
+  tags: ["kjøkken"]
   a: >
     Mange. Det er en stekeovn som går på gass. Den funker fint til brødbaking og alt annet. 
     Det er også gassbluss for kjapp matlaging, i tillegg til en 
@@ -182,7 +182,7 @@
     man kan koke opp flere kasseroller samtidig.
 
 - q: Hva finnes av kjøkkenutstyr?
-  tags: ["kitchen"]
+  tags: ["kjøkken"]
   a: >
     Stavmikser (220V), vinåpner(e), gode kniver, fjeler, stekepanner (non-stick og støpejern), kasseroller, jerngryte med lokk og vaffeljern. 
 
@@ -190,7 +190,7 @@
     Forsøk å heng knivene tilbake på magnetstripen og ikke legg dem blant andre kjøkkenredskaper.
 
 - q: Hva finnes av kaffetraktingsutstyr?
-  tags: ["kitchen"]
+  tags: ["kjøkken"]
   a: >
     
     <ul>
@@ -203,7 +203,7 @@
     <div class="alert alert-primary"><b>Juli 2025</b>&nbsp; Plutselig finner jeg ikke presskannen. Enten har noen ødelagt den eller så er den satt på plass på et "hemmelig" sted så jeg ikke greier finne den igjen ... </div>
 
 - q: Finnes det noe krydder der inne man kan bruke?
-  tags: ["kitchen"]
+  tags: ["kjøkken"]
   a: >
     Ja, det finnes både krydder, mel, pasta og hermetikk man kan bruke der inne, 
     men vi har ikke en oppdatert indeks. Pleier være nok salt, kanel, laurbær og muskat ;)
