@@ -11,7 +11,7 @@ title: Spørsmål & svar
 </form>
 <!-- had to move this outside of the form to prevent it from being invoked as the submit action-->
 <div style="display:inline"><button id="clear-form-button">Tøm</button></div>
-<div>Forslag: <span id="suggestions"></span></div>
+<div>Forslag: <span id="suggestions" data-suggestions="leker båt kjøkken transport kaffe vinter vin barn fisk"></span></div>
 
 <div class="accordion" id="accordion">
 {% for qa in site.data.faqs.no %}
@@ -119,7 +119,7 @@ function setupSearch(){
 
     // render suggestions
     const links = []
-    for(const word of ['kjøkken', 'transport', 'vinter', 'vin', 'barn', 'leker']) {
+    for(const word of suggestions.dataset['suggestions'].split(' ')) {
         const link = document.createElement('a')
         const url = getUrl()
         url.searchParams.set('search', word)

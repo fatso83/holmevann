@@ -192,12 +192,15 @@
 - q: Hva finnes av kaffetraktingsutstyr?
   tags: ["kitchen"]
   a: >
+    
     <ul>
+    <li>Hario V60 (filterkaffe, ny juli 2025) med filtre</li>
     <li>Presskanne (french press)</li>
     <li>Kaffekanne for kokekaffe</li>
-    <li>En manuell kvern for kaffebønner (relativ grov)</li>
+    <li>En manuell kvern for kaffebønner (relativ grov - kan justeres fra filter til kokekaffe)</li>
     <li>Termos (blå, merket KAFFE) (på toppen av overskapene)</li>
     </ul>
+    <div class="alert alert-primary"><b>Juli 2025</b>&nbsp; Plutselig finner jeg ikke presskannen. Enten har noen ødelagt den eller så er den satt på plass på et "hemmelig" sted så jeg ikke greier finne den igjen ... </div>
 
 - q: Finnes det noe krydder der inne man kan bruke?
   tags: ["kitchen"]
