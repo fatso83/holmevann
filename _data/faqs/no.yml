@@ -206,8 +206,9 @@
     men vi har ikke en oppdatert indeks. Pleier være nok salt, kanel, laurbær og muskat ;)
 
 - q: Er det fisk i vannet? Trenger man fiskekort?
+  tags: ["båt", "fisk", "redningsvest"]
   a: >
-    Når jeg setter garn får jeg mye sik og noen få ørret (3:1), men jeg kan dessverre 
+    Når jeg setter garn får jeg mye sik og noen få ørret (forhold 3:1 i favør sik), men jeg kan dessverre 
     lite om stangfiske. Det jeg vet er at mange stangfiskere kommer tilbake, og at 
     fisken biter lite tidlig på sommeren (før myggen kommer).
 
@@ -219,6 +220,7 @@
     I Eggedal får man også kjøpt mark (også i Solbua i Prestfoss).
 
 - q: Er det båt og/eller fiskeutstyr der?
+  tags: ["båt", "fisk", "redningsvest"]
   a: >
     Vi har kjøpt inn en plastbåt for utleie (se under)! 
     Vi har litt fiskeutstyr: en stang, sluker og kroker.       
@@ -239,6 +241,20 @@
 
     Vi har både elmotor m/90Ah batteri og årer tilgjengelig. Batteriet holder til tur/retur
     enden av vannet og lades enkelt på batterihylla med klyper.
+
+- q: Har dere redningsvester?
+  tags: ["båt", "fisk"]
+  a: >
+    Dette er oversikten over flyte- og redningsvester per juli 2025:
+      <ul>
+      <li>5-15 kg, 2 stk (rosa)</li>
+      <li>15-30 kg, 3 stk (gule, 2 typer)</li>
+      <li>30-40 kg (uten krage, flytevest)</li>
+      <li>50-70 kg (svart/hvit med 4 belter)</li>
+      <li>70-90 kg (rød)</li>
+      <li>70-90 kg (svart/hvit med 4 belter)</li>
+      </ul>
+
 
 - q: Kan man få snøskutertransport?
   tags: ["winter", "transport"]
@@ -345,4 +361,3 @@
     <p>Mitt absolutte innsider-tips, som ingen følger, er å booke på vårparten! Det er helt fantastisk. Du er alene i fjellet, været er varmt, snøen ligger ofte til første juni og du kan nyte pilsen på plattingen i solsteken. Helt konge.
     </p>
 
-- q: Hvordan er det med fiske
