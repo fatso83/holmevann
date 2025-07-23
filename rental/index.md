@@ -9,15 +9,24 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>23. juni 2025</strong>
+Status per <strong>22. juli 2025</strong>
+
+<p>
+Jeg ødela kneet på dag en av fjellferien, så det var ganske mange ting jeg hadde sett
+for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. Heldigvis hadde jeg
+allerede avtalt å få hjelp av et par karer denne sommeren, så jeg fikk instruert dem godt
+før jeg dro, så jeg fikk flyttet både jord, tjære hytta i to omganger og malt vinduene.
+De skal også ta en skikkelig grundig vask av kjøkken, hyller og gulv, så forhåpentligvis
+er hytta veldig fin når hytta leies ut fra 1. august, men jeg får dessverre ikke sett over
+hytta selv på et par måneder :)
+</p>
 
 <ol>
-
-<li>
-    Wallas-kaminen er operativ og tenner hver gang, men har noen ulyder på lavt turtall ("uler"). Jeg ser også at den skrur seg av etter f.eks. 12 timers drift. Jeg mistenker at den overopphetes av å ha gryter stående over, og at dette er annerledes enn før ettersom den fikk nytt kretskort i vinter som essensielt gjør den til nyeste modell. For å kunne utelykke feiltenning pga dårlig drivstoff har jeg kjørt den direkte fra 20 literskanner i steden for den store tanken under hytta (som virker å ha fått vann i seg). 20 liter holder til 2 døgn på full drift, så det blir fort tomt. Det står flere dunker i kjelleren (inngang på nordsiden). På den andre siden er det sommer, så kanskje litt gass på morran holder ;)
-</li>
-<!--<li>-->
-<!--</li>-->
+<li>Hytta er <em>nytjæret</em> - pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker inntil veggen. Tørk av med papir så fort du får noe kliss på hendene.</li>
+<li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med kliss :) De kan få tørke mye av august.</li>
+<li>Vanntanken kan være tom (gutta skulle prøve å fylle den, men ikke sikkert de får tid før avreise). Det er mulig å gjøre dette selv (se bruksanvisningen) eller bare fylle dunker nede ved vannet (drikkevannskvalitet).</li>
+<li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare bruk ved og gass ved behov.</li>
+<li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda som er eksponert og få med skitt inn i hytta :)</li>
 
 </ol>
 
