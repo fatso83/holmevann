@@ -12,6 +12,7 @@ install:
 	@make install-precommit
 	@# this is just to get the output as the final line
 	@make check-dependencies
+	./chrome-devtools.sh
 
 check-dependencies: 
 	@command -v git-lfs > /dev/null || (make print S="You need to install Git LFS before committing changes" && exit 1)
