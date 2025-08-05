@@ -51,7 +51,7 @@ Google Maps på smarttelefoner kan også forhåndsnedlaste områder. Gjør du de
 
 ### Tekstlig beskrivelse til parkeringsplassen i Skallandslia (Bjørnerud)
 
-Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen.
+Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen. Har du GPS kan du plotte inn "Bjørnerudseterveien 174".
 
 Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Underveis (i disse 7 min) kommer du til en bom, og du må da ringe meg for å åpne den. Etterhvert når man nærmer seg toppen av fjellet ser man skiltet til høyre inn til Bjørnerud. Husk bompenger (<a href="#bom-og-bompenger">se under</a> for detaljer)!
 150m før veien slutter i et hyttetur finner du en stor parkeringsplass som er åpen for alle. Posisjon ser du på kartsiden lenket over.
@@ -60,7 +60,9 @@ Stien starter 100m videre innover, rett før veien avslutter i et hyttetun, og t
 
 En hvilken som helst bil holder for å komme seg opp til parkeringsplassen vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit å ha hurtigkjetting i bakhånd, for det kan bli veldig glatt og/eller påskeslush! Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en stor SPAR-butikk.
 
-Husk å ta det rolig nedover veiene vinterstid: jeg kjenner veiene godt, men har likevel havnet i et tre i en skråning under en "whiteout" der jeg plutselig ikke så veien og det lå tørr snø oppå is. Jeg var heldig, men det trenger ikke gjelde nestemann. P.S. Viking/Redgo bruker ca en time fra du ringer til de er der.
+Husk å ta det rolig nedover veiene vinterstid: jeg kjenner veiene godt, men har likevel havnet i et tre i en skråning under en "whiteout" der jeg plutselig ikke så veien og det lå tørr snø oppå is. Jeg var heldig, men det trenger ikke gjelde nestemann.
+
+P.S. Viking/Redgo bruker ca 60-120 minutter fra du ringer til de er der. Det vet jeg av erfaring ;)
 
 ### Bom og bompenger
 
