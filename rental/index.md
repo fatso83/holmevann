@@ -29,8 +29,9 @@ som bør nevnes!</p>
 <li>Vanntanken kan være tom (gutta skulle prøve å fylle den, men ikke sikkert de får tid før avreise). Det er mulig å gjøre dette selv (se bruksanvisningen) eller bare fylle dunker nede ved vannet (drikkevannskvalitet).</li>
 <li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare bruk ved og gass ved behov.</li>
 <li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda som er eksponert og få med skitt inn i hytta :)</li>
-
 </ol>
+
+Av litt mindre viktige ting, men som er kjekke å vite om, er at det er bygget en bro over munningen av Holmevann, der den renner ut i Svartjenn, som gjør det mulig å krysse elva. Ellers må man ofte gå en kilometer lenger ned. Denne broen står ikke på kartet!
 
 </div>
 
