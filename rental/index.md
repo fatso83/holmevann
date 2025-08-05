@@ -9,19 +9,21 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>22. juli 2025</strong>
+Status per <strong>5. august 2025</strong>
 
 <p>
 Jeg ødela kneet på dag en av fjellferien, så det var ganske mange ting jeg hadde sett
-for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. Heldigvis hadde jeg
-allerede avtalt å få hjelp av et par karer denne sommeren, så jeg fikk instruert dem godt
-før jeg dro, så jeg fikk flyttet både jord, tjære hytta i to omganger og malt vinduene.
-De skal også ta en skikkelig grundig vask av kjøkken, hyller og gulv, så forhåpentligvis
-er hytta veldig fin når hytta leies ut fra 1. august, men jeg får dessverre ikke sett over
-hytta selv på et par måneder :)
+for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. 
+Men jeg fikk hjelp av et par karer til å flytte jord, tjære hytta i to omganger og male vinduene,
+skikkelig grundig vask av kjøkken, hyller og gulv, så er hytta veldig fin per 1. august. 
 </p>
 
+<p>Jeg selv får derimot ikke sett over hytta selv på et par måneder, så si fra om du finner noe 
+som bør nevnes!</p>
+
+<div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
+<li>Ta med en pakke tørkerull. Vi har dopapir, men tørkerull er snart tomt</li>
 <li>Hytta er <em>nytjæret</em> - pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker inntil veggen. Tørk av med papir så fort du får noe kliss på hendene.</li>
 <li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med kliss :) De kan få tørke mye av august.</li>
 <li>Vanntanken kan være tom (gutta skulle prøve å fylle den, men ikke sikkert de får tid før avreise). Det er mulig å gjøre dette selv (se bruksanvisningen) eller bare fylle dunker nede ved vannet (drikkevannskvalitet).</li>
@@ -118,7 +120,7 @@ Fiskekort kan man få kjøpt via appen [Perfish](https://www.perfish.no). Man ka
 
 Har dessverre dårlig med tips til sluk og fluefiske, for vi bruker selv bare garn, men jeg har sett flere fluefiskere både langs Holmevann og nærliggende vann. Når myggen kommer i slutten av juni/juli begynner fisen å bite. Er det for kaldt er det dødt, har jeg latt meg fortelle ...
 
-Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre ikke til utlån etter uvøren bruk. Vi har derimot kjøpt en enkel Rana plastbåt som ligger på land nede ved vannet. Vinteren 2022 ble den [skadet i en vinterstorm](/2022/08/08/etter-stormen.html), men etter litt utbedringer funker den greit og var i bruk både sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker 20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den i under kjøring.
+Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre ikke til utlån etter uvøren bruk. Vi har derimot kjøpt en enkel Rana plastbåt som ligger på land nede ved vannet. Vinteren 2022 ble den [skadet i en vinterstorm](/2022/08/08/etter-stormen.html), men etter litt utbedringer funker den greit og var i bruk både sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker 20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den i under kjøring, men det er ikke nødvendig. Det mest sjarmerende (og effektive) er uansett et par året ;)
 {% cloudinary /rental/batteriogmotor.jpg alt="" class="img--post" %}
 
 Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Eggedal sentrum.
