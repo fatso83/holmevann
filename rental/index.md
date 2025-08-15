@@ -26,7 +26,7 @@ som bør nevnes!</p>
 <li>Ta med en pakke tørkerull. Vi har dopapir, men tørkerull er snart tomt</li>
 <li>Hytta er <em>nytjæret</em> - pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker inntil veggen. Tørk av med papir så fort du får noe kliss på hendene.</li>
 <li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med kliss :) De kan få tørke mye av august.</li>
-<li>Vanntanken kan være tom (gutta skulle prøve å fylle den, men ikke sikkert de får tid før avreise). Det er mulig å gjøre dette selv (se bruksanvisningen) eller bare fylle dunker nede ved vannet (drikkevannskvalitet).</li>
+
 <li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare bruk ved og gass ved behov.</li>
 <li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda som er eksponert og få med skitt inn i hytta :)</li>
 </ol>
