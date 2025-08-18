@@ -17,7 +17,7 @@ Etter tidenes sommer og masse jobb er hytta omsider _fit for fight_ igjen og ser
 
 <figure>
 {% cloudinary  /assets/img/20250819føretter.jpg alt="Nytjæra hytte" class="img--post" %}
-<figcaption>Før og etter ny tjære i juli</figcaption>
+<figcaption>Ny tjære i juli: før (til venstre) og etter</figcaption>
 </figure>
 
 Det eneste som ikke er fit for fight er meg selv: første dag av våre planlagte to uker i fjellet greide
