@@ -12,7 +12,7 @@ Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [
 Status per <strong>5. august 2025</strong>
 
 <p>
-Jeg ødela kneet på dag en av fjellferien, så det var ganske mange ting jeg hadde sett
+Jeg ødela kneet på dag en av fjellferien i sommer, så det var ganske mange ting jeg hadde sett
 for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. 
 Men jeg fikk hjelp av et par karer til å flytte jord, tjære hytta i to omganger og male vinduene,
 skikkelig grundig vask av kjøkken, hyller og gulv, så er hytta veldig fin per 1. august. 
@@ -24,6 +24,8 @@ som bør nevnes!</p>
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
 <li>Ta med en pakke tørkerull. Vi har dopapir, men tørkerull er snart tomt</li>
+<li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
+<li>Sistemann rapporterte at zaloflasken var tomm, men det var uklart om de hadde sjekket hemsen med lageret (se kart over hytta). Det skal være mange flasker ekstra der.</li>
 <li>Hytta er <em>nytjæret</em> - pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker inntil veggen. Tørk av med papir så fort du får noe kliss på hendene.</li>
 <li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med kliss :) De kan få tørke mye av august.</li>
 
