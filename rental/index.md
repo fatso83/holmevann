@@ -9,13 +9,10 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>5. august 2025</strong>
+Status per <strong>22. september 2025</strong>
 
 <p>
-Jeg ødela kneet på dag en av fjellferien i sommer, så det var ganske mange ting jeg hadde sett
-for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. 
-Men jeg fikk hjelp av et par karer til å flytte jord, tjære hytta i to omganger og male vinduene,
-skikkelig grundig vask av kjøkken, hyller og gulv, så er hytta veldig fin per 1. august. 
+Jeg ødela kneet på dag en av fjellferien i sommer, så det var ganske mange ting jeg hadde sett for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. Men jeg fikk hjelp av et par karer til å flytte jord, tjære hytta i to omganger og male vinduene, skikkelig grundig vask av kjøkken, hyller og gulv, så er hytta veldig fin per 1. august. 
 </p>
 
 <p>Jeg selv får derimot ikke sett over hytta selv på et par måneder, så si fra om du finner noe 
@@ -23,13 +20,13 @@ som bør nevnes!</p>
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
-<li>Ta med en pakke tørkerull. Vi har dopapir, men tørkerull er snart tomt</li>
+<li>Det er tomt for ved! Det er ikke noen krise: vi har masse gass og gassovner (nye flasker står utenfor kjøkkenvinduet), samt "Wallasen" (se lenger ned)</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
-<li>Sistemann rapporterte at zaloflasken var tomm, men det var uklart om de hadde sjekket hemsen med lageret (se kart over hytta). Det skal være mange flasker ekstra der.</li>
+<li>Sistemann rapporterte at zaloflasken var tom.</li>
 <li>Hytta er <em>nytjæret</em> - pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker inntil veggen. Tørk av med papir så fort du får noe kliss på hendene.</li>
 <li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med kliss :) De kan få tørke mye av august.</li>
 
-<li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare bruk ved og gass ved behov.</li>
+<li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Denne gir jevn varme uten eksos og kan stå på døgnet rundt, men du må hente en ny dieselkanne under hytta (kjellerinngang under hovedsoverommet).</li>
 <li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda som er eksponert og få med skitt inn i hytta :)</li>
 </ol>
 
