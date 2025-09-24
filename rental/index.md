@@ -20,6 +20,7 @@ som bør nevnes!</p>
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
+<li>Robåten er ødelagt. Tollegangen (a la åregaffel) er rapportert sprukket per august</li>
 <li>Det er tomt for ved! Det er ikke noen krise: vi har masse gass og gassovner (nye flasker står utenfor kjøkkenvinduet), samt "Wallasen" (se lenger ned)</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
 <li>Sistemann rapporterte at zaloflasken var tom.</li>
