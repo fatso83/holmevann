@@ -52,6 +52,13 @@ graph TD;
 ```
 
 ```mermaid
+// Source - https://stackoverflow.com/a/78703877
+// Posted by ircama
+// Retrieved 2025-12-12, License - CC BY-SA 4.0
+
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+
 flowchart TB
   %% =========================
   %% A) DC POWER (solid concept)
