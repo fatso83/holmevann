@@ -35,7 +35,7 @@ Så pusher du ut endringene: `make deploy`
 - [Bundler](https://bundler.io/) for avhengigheter i Ruby
 - [Git LFS](https://git-lfs.com/) for å unngå at repoet vokser for fort
 
-
+```mermaid
 flowchart TB
   %% =========================
   %% A) DC POWER (solid concept)
@@ -73,3 +73,5 @@ flowchart TB
   %% =========================
   NOTE["Behaviour:\nInverter can only be ON if BatteryProtect is ON.\nIf BatteryProtect turns OFF (manual or low voltage),\ninterlock relay drops out and forces inverter OFF."]
   INV --> NOTE
+
+```
