@@ -35,6 +35,22 @@ Så pusher du ut endringene: `make deploy`
 - [Bundler](https://bundler.io/) for avhengigheter i Ruby
 - [Git LFS](https://git-lfs.com/) for å unngå at repoet vokser for fort
 
+
+
+```mermaid
+info
+```
+
+
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ```mermaid
 flowchart TB
   %% =========================
