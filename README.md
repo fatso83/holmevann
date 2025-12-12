@@ -53,45 +53,52 @@ graph TD;
 
 ```mermaid
 
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
-
-
 flowchart TB
-  %% =========================
-  %% A) DC POWER (solid concept)
-  %% =========================
-  subgraph A["A) DC power (solid lines conceptually)"]
-    BAT["12 V Battery\n(+ / -)"]
-    BP["Victron Smart BatteryProtect\nIN+/IN-\nLOAD+/LOAD-"]
-    LOADS["12 V Loads\n(Router / Starlink / lights / etc.)"]
 
-    BAT -->|"Battery + / - (power)"| BP
-    BP -->|"BP LOAD + / - (power)"| LOADS
-  end
+subgraph A["A) Power topology — all current measured by SmartShunt"]
+  BAT["12 V Battery"]
 
-  %% =========================
-  %% B) CONTROL / LOGIC (dashed concept)
-  %% =========================
-  subgraph B["B) Control / logic (dashed lines conceptually)"]
-    SHELLY["Shelly (dry contact)\nRelay: COM/NO\n(acts like a switch)"]
-    IRELAY["Interlock relay\nCoil: powered from BP LOAD\nContact: series with inverter REMOTE"]
-    INV["Phoenix Inverter Smart 12/1600\nREMOTE H / REMOTE L"]
+  SHUNT["Victron SmartShunt<br/>(system −)"]
 
-    %% Shelly turns BatteryProtect ON/OFF via BP remote
-    SHELLY -. "Short BP REMOTE H-L = ON\nOpen = OFF" .-> BP
+  BUSP["System + bus"]
+  BUSM["System − bus<br/>(after shunt)"]
 
-    %% Interlock relay coil powered only when BP LOAD is alive
-    BP -. "BP LOAD powers relay coil\n(only alive when BP ON)" .-> IRELAY
+  BAT -->|"+"| BUSP
+  BAT -->|"-"| SHUNT --> BUSM
 
-    %% Inverter remote path goes through interlock contact
-    SHELLY -. "Optional inverter command\n(2nd Shelly channel or switch)" .-> IRELAY
-    IRELAY -. "Interlock contact closes ONLY if BP ON\nthen can short INV REMOTE H-L" .-> INV
-  end
+  PV["Solar panels"] --> MPPT["Victron MPPT 75/15<br/>(charger only)"]
+  MPPT -->|"+"| BUSP
+  MPPT -->|"-"| BUSM
 
-  %% =========================
-  %% Behaviour note
-  %% =========================
-  NOTE["Behaviour:\nInverter can only be ON if BatteryProtect is ON.\nIf BatteryProtect turns OFF (manual or low voltage),\ninterlock relay drops out and forces inverter OFF."]
-  INV --> NOTE
+  BP["Victron Smart BatteryProtect<br/>(MOSFET switch)"]
+  DCBUS["12 V consumer bus<br/>(router / Starlink / lights)"]
+
+  BUSP --> BP --> DCBUS
+  BUSM --> DCBUS
+
+  INVDC["Phoenix Inverter DC input"]
+  BUSP --> INVDC
+  BUSM --> INVDC
+end
+
+subgraph B["B) Control / logic"]
+  S["Shelly (2 channels)<br/>CH1 = MASTER<br/>CH2 = INVERTER"]
+
+  S -. "CH1 MASTER" .-> BP
+  SHUNT -. "SOC control (VE.Direct)" .-> BP
+
+  COIL["Interlock relay coil<br/>(powered from BP load side)"]
+  ICONTACT["Interlock contact<br/>(series)"]
+  INVREM["Phoenix REMOTE H/L"]
+
+  BP -. "BP ON enables" .-> COIL
+  COIL -. "closes contact" .-> ICONTACT
+
+  S -. "CH2 INVERTER" .-> ICONTACT
+  ICONTACT -. "shorts REMOTE H–L only if<br/>BP ON AND CH2 ON" .-> INVREM
+end
+
+NOTE["Behaviour<br/>• All charge/load current goes via shunt → correct SOC<br/>• BP protects battery (LVD or SOC)<br/>• CH1 master: 12 V + allows inverter<br/>• CH2 inverter: 230 V only<br/>• Inverter cannot be ON unless 12 V is ON"]
+INVREM --> NOTE
 
 ```
