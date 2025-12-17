@@ -26,18 +26,21 @@ Jeg har nå (november 2021) lagt inn gåveien (gps-spor) fra parkeringsplassen o
 På ski inn til hytta fra Skalland eller Tempelseter, såvel som turer i nærområdet.
 Du kan også laste ned disse offline for bruk med en app. Bare [følg lenken](https://www.google.com/maps/d/u/0/viewer?mid=1ABA5ohQmmcLfChlRAKTpjUXrUaYkXG2z&femb=1&ll=60.295250972170216%2C9.393632824853503&z=13),
 trykk på de tre prikkene for å få vist menyen og velg "Last ned som KML". Funker med mange
-ordentlige kart-apper, som Norgeskart Friluftsliv, f.eks. Da er man ikke avhengig av nett.
+ordentlige kart-apper, som <a href="#apper">Norgeskart Friluftsliv</a>, f.eks. Da er man ikke avhengig av nett.
 
 <div class="map-responsive">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ABA5ohQmmcLfChlRAKTpjUXrUaYkXG2z" width="640" height="480"></iframe>
 </div>
 
-## Elektroniske topografiske kart over vidda
+## Apper og digitale kart over vidda
 
-- [Interaktivt topografisk kart](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=14&lat=6697971.51&lon=187859.14) fra Norgeskart.no.
-- [Navida for iPhone](https://itunes.apple.com/no/app/navida/id356821974?mt=8) og [Norgeskart for Android]({{ site.norgeskart_android }}). Hyttas koordinater ligger nederst på siden.
+<div id="apper" />
 
-## KMZ/KML-filer for kart-apper
+Norgeskart Friluftsliv er den helt klart beste kartappen for fjellet. [Apple/iOS]({{ site.norgeskart_ios }}) og [Android]({{ site.norgeskart_android }}). Hyttas koordinater ligger nederst på siden.
+
+Om du bare vil sjekke området på forhånd er det [interaktive topografiske kartet](http://www.norgeskart.no/#!?project=seeiendom&layers=1002,1015&zoom=14&lat=6697971.51&lon=187859.14) fra Norgeskart.no det beste.
+
+### KMZ/KML-filer for kart-apper
 
 - Gåvei sommerstid [[KMZ](/downloads/map-summer.kmz), [KML](/downloads/map-summer.kml)]. Eksport fra Google Maps
 
