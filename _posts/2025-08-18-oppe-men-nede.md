@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Fit for fight
+title: Oppe, men likevel nede
 date: 2025-08-18 23:00:00 +0200
 excerpt: Om tidenes sommer i fjellet, fiksing av massevis på hytta og hvordan jeg likevel greide å tulle det til slik at jeg igjen må begrense utleie i 2025/26.
+toc: true
 ---
+
+## Hytta er nyoverhalt
 
 Etter tidenes sommer og masse jobb er hytta omsider _fit for fight_ igjen og ser bedre ut enn på lenge:
 
@@ -20,6 +23,8 @@ Etter tidenes sommer og masse jobb er hytta omsider _fit for fight_ igjen og ser
 <figcaption>Ny tjære i juli: før (til venstre) og etter</figcaption>
 </figure>
 
+## Jeg trenger derimot overhaling
+
 Det eneste som ikke er fit for fight er meg selv: første dag av våre planlagte to uker i fjellet greide
 jeg å ryke korsbåndet, skade et leddbånd og menisken og dermed gjøre meg selv helt ubrukelig.
 Vaktmester Kopseng ser dermed ikke ut til å kunne passe på hytta framover - akkurat i det det
@@ -29,7 +34,7 @@ meste var på stell ... Ser meg derfor nødt til å begrense utleie _igjen_ ette
 Jeg antar jeg kan få tatt en liten tur inn på senvinteren 2026, slik at noen kan være her i påsken,
 men ellers stenger jeg for utleie ut juni 2026 inntil jeg ser hvordan det går med kneet.
 
-## Kort, men veldig fint
+## Kort, men veldig fint opphold
 
 Vi hadde planlagt to uker i fjellet, men allerede dag en greide jeg å rive korsbåndet.
 Jeg fikk i det minste overbevist Røde Kors om å vente fire dager før de hentet meg ned
