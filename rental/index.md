@@ -9,7 +9,7 @@ Les informasjonen under nøye før du kommer så det ikke blir noen overraskelse
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
 <div class="alert alert-warning">
-Status per <strong>25. mars 2026</strong>
+Status per <strong>29. mars 2026</strong>
 
 <!--<p>-->
 <!--Jeg ødela kneet på dag en av fjellferien i sommer, så det var ganske mange ting jeg hadde sett for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. Men jeg fikk hjelp av et par karer til å flytte jord, tjære hytta i to omganger og male vinduene, skikkelig grundig vask av kjøkken, hyller og gulv, så er hytta veldig fin per 1. august. -->
@@ -19,6 +19,7 @@ Status per <strong>25. mars 2026</strong>
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
+<li>Det er tomt for vann i tanken. <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø!</li>
 <li>Det er masse ved!</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
 <li>Sistemann rapporterte at zaloflasken var tom.</li>
