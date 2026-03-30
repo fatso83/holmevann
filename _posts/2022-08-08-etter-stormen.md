@@ -8,7 +8,7 @@ tags:
   - vedlikehold
 ---
 
-Sist vinter hadde vi virkelig ikke hellet med oss. Først kom en orkan i
+Sist vinter hadde vi virkelig ikke hellet med oss og [havnet i avisa](https://www.bygdeposten.no/hele-hytta-til-espen-flyttet-seg-en-halvmeter-og-torvtaket-til-carl-erik-ble-flerret-av/s/5-10-425392). Først kom en orkan i
 slutten november 2021 med de sterkeste vindene man har registrert i Sigdal.
 Vindkastene kom opp i 52 meter i sekunden (omtrent 200 km/t) - så sterkt
 at mosen ble skrellet av fjellknausene rundt 😱
