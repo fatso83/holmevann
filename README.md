@@ -2,6 +2,8 @@
 
 > [holmevann.no](https://www.holmevann.no)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/764652a2-2340-4b90-a297-6bd135fcb032/deploy-status)](https://app.netlify.com/projects/gallant-beaver-1bc72c/deploys)
+
 Dette repoet inneholder kildekoden og dataene for hjemmesiden jeg har satt opp for hytta vår på Holmevann.
 Her er både guider til hvordan man gjør diverse ting, dokumenter til apparater, tips og kanskje prosjektblogger med tiden.
 
