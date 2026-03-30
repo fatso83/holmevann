@@ -8,6 +8,8 @@ toc: true
 Les informasjonen under nøye før du kommer så det ikke blir noen overraskelser!
 Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
 
+Vi legger ut noen [innlegg nå og da](/#latest-posts) om endringer på hytta, men nå-statusen finner du under.
+
 <div class="alert alert-warning">
 Status per <strong>29. mars 2026</strong>
 
