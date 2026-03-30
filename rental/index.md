@@ -31,14 +31,16 @@ Status per <strong>29. mars 2026</strong>
 <li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Denne gir jevn varme uten eksos og kan stå på døgnet rundt, men du må hente en ny dieselkanne under hytta (kjellerinngang under hovedsoverommet).</li>
 </ol>
 
-For vårparten:
+<div style="font-size: 1.2rem; font-weight; 1000">
+For vår og sommer</div>
 
 <ol>
-<li>Robåten er ødelagt. Tollegangen (a la åregaffel) er rapportert sprukket per august</li>
-<li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda som er eksponert og få med skitt inn i hytta :)</li>
+<li>Robåten er midlertidig ødelagt. Tollegangen (a la åregaffel) er rapportert sprukket per august. Blir fikset i juni.</li>
+<li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda og få med skitt inn i hytta ...</li>
+<li>
+<a href="/2025/06/10/bro">Det er bygget en bro over munningen av Holmevann</a> som gjør det mulig å krysse elva. Ellers må man ofte gå en kilometer lenger ned. 
+</li>
 </ol>
-
-<!--Av litt mindre viktige ting, men som er kjekke å vite om, er at det er bygget en bro over munningen av Holmevann, der den renner ut i Svartjenn, som gjør det mulig å krysse elva. Ellers må man ofte gå en kilometer lenger ned. Denne broen står ikke på kartet!-->
 
 </div> <!-- status slutt-->
 
