@@ -7,6 +7,8 @@ tags:
   - strøm
   - vinterdrift
   - pumpe
+  - prosjekt
+  - latergram
 Xexcerpt: En lang og strabasiøs ferd for smooth påfylling
 ---
 

@@ -1,0 +1,13 @@
+{% assign tags = include.tags %} {% if tags and tags.size > 0 %}
+<p class="post-tags">
+  {% for tag in tags %} {% assign tag_slug = tag | downcase | slugify: "latin"
+  %}
+  <a
+    class="tag-link"
+    href="{{ '/tagger/' | append: tag_slug | append: '/' | relative_url }}"
+  >
+    #{{ tag }}
+  </a>
+  {% endfor %}
+</p>
+{% endif %}

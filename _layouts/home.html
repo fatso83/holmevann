@@ -21,7 +21,8 @@ u-full-width" %}
           {{ post.title | escape }}
         </a>
       </h3>
-      {%- if site.show_excerpts -%} {{ post.excerpt }}
+      {% include tag-links.html tags=post.tags %} {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
       <a href="{{ post.url | relative_url }}">(Les mer)</a>
       {%- endif -%}
     </li>
