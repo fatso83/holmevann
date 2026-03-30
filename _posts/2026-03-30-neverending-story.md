@@ -8,7 +8,7 @@ tags:
   - strøm
   - vann
   - nettside
-  - framtidige prosjekter
+  - prosjekt
 toc: true
 ---
 
