@@ -24,7 +24,7 @@ livereload:
 	bundle exec jekyll serve --trace --livereload --host localhost
 
 install-precommit:
-	cp pre-commit .git/hooks/
+	cp pre-commit pre-push .git/hooks/
 
 # only for checking out the final build
 # # only for checking out the final build
@@ -39,4 +39,3 @@ list-targets:
 
 print:
 	@printf "\033[01;35m%s\033[00m\n" "$(S)"
-

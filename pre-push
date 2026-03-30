@@ -1,0 +1,36 @@
+#!/bin/bash
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+if [[ ! -f .tool-versions ]]; then
+  echo "pre-push: .tool-versions is missing, cannot sync .ruby-version" >&2
+  exit 1
+fi
+
+expected_ruby_version="$(
+  awk '$1 == "ruby" { print $2; exit }' .tool-versions
+)"
+
+if [[ -z "$expected_ruby_version" ]]; then
+  echo "pre-push: no ruby entry found in .tool-versions" >&2
+  exit 1
+fi
+
+current_ruby_version=""
+if [[ -f .ruby-version ]]; then
+  current_ruby_version="$(tr -d '[:space:]' < .ruby-version)"
+fi
+
+if [[ "$current_ruby_version" == "$expected_ruby_version" ]]; then
+  exit 0
+fi
+
+printf '%s\n' "$expected_ruby_version" > .ruby-version
+git add -f .ruby-version
+
+echo "pre-push: synced .ruby-version to $expected_ruby_version and staged it." >&2
+echo "pre-push: commit the staged .ruby-version and push again." >&2
+exit 1
