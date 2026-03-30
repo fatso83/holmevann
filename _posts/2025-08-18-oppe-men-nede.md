@@ -3,6 +3,11 @@ layout: post
 title: Oppe, men likevel nede
 date: 2025-08-18 23:00:00 +0200
 excerpt: Om tidenes sommer i fjellet, fiksing av massevis på hytta og hvordan jeg likevel greide å tulle det til slik at jeg igjen må begrense utleie i 2025/26.
+tags:
+  - tak
+  - vedlikehold
+  - utleie
+  - sommer
 toc: true
 ---
 

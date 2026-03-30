@@ -2,6 +2,10 @@
 layout: post
 title: "Økt toalettkomfort"
 date: 2019-03-29 16:00:00 +0100
+tags:
+  - toalett
+  - gass
+  - komfort
 ---
 
 <!--categories: prosjekt diy-->

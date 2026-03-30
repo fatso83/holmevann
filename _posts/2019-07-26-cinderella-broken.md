@@ -2,6 +2,10 @@
 layout: post
 title: "Cinderella ødelagt: backup på plass"
 date: 2019-07-26 22:00:00 +0100
+tags:
+  - toalett
+  - vedlikehold
+  - utleie
 ---
 
 Det nye Cinderella-toalettet ble dessverre ødelagt i går :-(

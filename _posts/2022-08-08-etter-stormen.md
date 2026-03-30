@@ -2,6 +2,10 @@
 layout: post
 title: "Etter stormen"
 date: 2022-08-08 22:48:12 +0100
+tags:
+  - storm
+  - tak
+  - vedlikehold
 ---
 
 Sist vinter hadde vi virkelig ikke hellet med oss. Først kom en orkan i

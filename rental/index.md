@@ -21,7 +21,7 @@ Status per <strong>29. mars 2026</strong>
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
-<li>Det er tomt for vann i tanken. <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø!</li>
+<li>Det er tomt for vann i tanken. <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li>
 <li>Det er masse ved!</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
 <li>Sistemann rapporterte at zaloflasken var tom.</li>

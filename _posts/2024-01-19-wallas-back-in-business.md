@@ -2,6 +2,11 @@
 layout: post
 title: "Wallas-en er tilbake og diesel er noe herk"
 date: 2024-01-19 12:00:00 +0100
+tags:
+  - wallas
+  - varme
+  - diesel
+  - vedlikehold
 ---
 
 Wallas er parafinkaminen vår som har gått mer eller mindre utrettelig i nær tyve år.

@@ -2,6 +2,10 @@
 layout: post
 title: "220V i stikkontakten"
 date: 2020-11-03 18:30:00 +0100
+tags:
+  - strøm
+  - elektriker
+  - oppgradering
 toc: true
 ---
 

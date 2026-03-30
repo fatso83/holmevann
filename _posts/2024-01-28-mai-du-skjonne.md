@@ -2,6 +2,10 @@
 layout: post
 title: ☀️ Skjønner du hvor bra våren er på fjellet?
 date: 2024-01-28 12:00:00 +0100
+tags:
+  - vårski
+  - utleie
+  - fjell
 ---
 
 <figure>

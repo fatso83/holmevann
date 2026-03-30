@@ -2,6 +2,10 @@
 layout: post
 title: "Masse fikser, men dør og vannforsyning ødelagt :-/"
 date: 2019-07-09 01:44:03 +0200
+tags:
+  - vann
+  - rør
+  - vedlikehold
 ---
 
 <!--categories: prosjekt diy-->

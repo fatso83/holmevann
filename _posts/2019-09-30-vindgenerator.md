@@ -2,6 +2,10 @@
 layout: post
 title: "Fylkesmannen i Viken: nei til vindgenerator"
 date: 2019-09-30 14:58:00 +0200
+tags:
+  - vindkraft
+  - solceller
+  - strøm
 ---
 
 Fra oktober til februar sliter vi med at det i lange perioder

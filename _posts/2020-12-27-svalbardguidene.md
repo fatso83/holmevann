@@ -2,6 +2,11 @@
 layout: post
 title: "Skredkurs med Svalbardguidene"
 date: 2020-12-27 10:48:12 +0100
+tags:
+  - skred
+  - rando
+  - utleie
+  - samarbeid
 ---
 
 Vi har nå inngått et samarbeid med Svalbardguidene som innebærer at

@@ -2,6 +2,10 @@
 layout: post
 title: "Holmevann har fått sin egen hjemmeside"
 date: 2018-01-12 10:48:12 +0100
+tags:
+  - nettside
+  - info
+  - utleie
 ---
 
 <!--categories: tech prosjekt diy-->
