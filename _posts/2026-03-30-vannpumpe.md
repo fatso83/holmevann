@@ -2,6 +2,10 @@
 layout: post
 title: "2024 #latergram: nedsenket pumpe"
 date: 2026-03-30 12:20:00 +0200
+tags:
+  - vann
+  - strøm
+  - vinterdrift
 Xexcerpt: En lang og strabasiøs ferd for smooth påfylling
 ---
 

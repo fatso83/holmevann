@@ -4,7 +4,13 @@ title: "Neverending Story: kommende prosjekter 😍"
 date: 2026-03-30 16:10:00 +0200
 excerpt: "Viktig å ikke bli arbeidsledig, så det kverner alltid noe i bakhodet som kan forbedres. Noen synes faktisk sånt er gøy 😄 Her er en liste med greier jeg aldri blir ferdige med, men som jeg håper å komme i gang med i løpet av tiden som kommer. Må bare pusse opp huset først, komme ajour med noen onlinekurs, og bli et bedre menneske, så skal jeg nok få gjort det 😶 
 <code>#arduino #lora #diy #220v #homeautomation #lte-m #shelly</code>"
-tags: arduino lora diy 220v homeautomation lte-m shelly
+tags:
+  - arduino
+  - lora
+  - diy
+  - strøm
+  - hjemmeautomasjon
+  - framtidige prosjekter
 toc: true
 ---
 
