@@ -7,8 +7,12 @@ tags:
   - hjemmeautomasjon
   - strøm
   - vann
-  - nettside
   - prosjekt
+  - lora
+  - arduino
+  - shelly
+  - Netlify
+  - edge computing
 toc: true
 ---
 
