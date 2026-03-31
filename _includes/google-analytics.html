@@ -1,14 +1,12 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+  src="{{ "/assets/js/offline-runtime-utils.js" | relative_url }}"
 ></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
+  if (window.HolmevannOfflineRuntimeUtils) {
+    window.HolmevannOfflineRuntimeUtils.loadGoogleAnalytics({
+      document: document,
+      window: window,
+      measurementId: "{{ site.google_analytics }}",
+    });
   }
-  gtag("js", new Date());
-
-  gtag("config", "{{ site.google_analytics }}");
 </script>

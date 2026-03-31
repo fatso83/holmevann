@@ -1,8 +1,9 @@
+importScripts("/assets/js/offline-runtime-utils.js");
 importScripts("/assets/js/service-worker-pdf-utils.js");
 
-const CORE_CACHE = "holmevann-core-v2";
-const PAGE_CACHE = "holmevann-pages-v2";
-const ASSET_CACHE = "holmevann-assets-v2";
+const CORE_CACHE = "holmevann-core-v3";
+const PAGE_CACHE = "holmevann-pages-v3";
+const ASSET_CACHE = "holmevann-assets-v3";
 const PDF_CACHE = "holmevann-pdf-v1";
 const PREFETCHING_PDF_URLS = new Map();
 
@@ -14,6 +15,7 @@ const CORE_URLS = [
   "/map.html",
   "/offline.html",
   "/assets/main.css",
+  "/assets/js/offline-runtime-utils.js",
   "/assets/js/register-service-worker.js",
   "/assets/js/service-worker-pdf-utils.js",
   "/favicon.ico",
@@ -268,7 +270,11 @@ async function handleNavigation(request) {
 
 async function handleAsset(request) {
   const assetCache = await caches.open(ASSET_CACHE);
-  const cached = await assetCache.match(request);
+  const cached = await self.HolmevannOfflineRuntimeUtils.matchAssetInCaches(
+    [ASSET_CACHE, CORE_CACHE],
+    request,
+    caches.open.bind(caches),
+  );
 
   const networkPromise = fetch(request)
     .then(function (response) {
