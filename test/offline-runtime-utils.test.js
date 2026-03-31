@@ -2,9 +2,12 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const {
+  buildOfflineFallbackHtml,
+  buildOfflineFallbackResponse,
   matchAssetInCaches,
   matchHtmlInCaches,
   getHtmlCacheKeys,
+  isEnglishPath,
   loadGoogleAnalytics,
 } = require("../assets/js/offline-runtime-utils.js");
 
@@ -66,6 +69,43 @@ test("matchHtmlInCaches finds an html page through its alias key", async functio
 
   assert.deepEqual(matchCalls, ["/map", "/map.html"]);
   assert.strictEqual(response, expectedResponse);
+});
+
+test("isEnglishPath detects english route prefixes only", function () {
+  assert.equal(isEnglishPath("/en/"), true);
+  assert.equal(isEnglishPath("/en/faq.html"), true);
+  assert.equal(isEnglishPath("/english/faq.html"), false);
+  assert.equal(isEnglishPath("/faq.html"), false);
+});
+
+test("buildOfflineFallbackHtml renders english copy and /en links for english routes", function () {
+  const html = buildOfflineFallbackHtml({
+    pathname: "/en/faq.html",
+  });
+
+  assert.match(html, /<html lang="en">/);
+  assert.match(html, /You are offline right now\./);
+  assert.match(html, /href="\/en\/"/);
+  assert.match(html, /href="\/en\/faq\.html"/);
+  assert.match(html, /href="\/en\/important\.html"/);
+  assert.doesNotMatch(html, /href="\/faq\.html"/);
+});
+
+test("buildOfflineFallbackResponse renders norwegian links for norwegian routes", async function () {
+  const response = buildOfflineFallbackResponse({
+    pathname: "/faq.html",
+  });
+  const html = await response.text();
+
+  assert.equal(response.status, 200);
+  assert.equal(
+    response.headers.get("content-type"),
+    "text/html; charset=utf-8",
+  );
+  assert.match(html, /<html lang="no">/);
+  assert.match(html, /Du er offline akkurat n[åa]\./);
+  assert.match(html, /href="\/faq\.html"/);
+  assert.doesNotMatch(html, /href="\/en\/faq\.html"/);
 });
 
 test("loadGoogleAnalytics skips initialization when the browser is offline", function () {

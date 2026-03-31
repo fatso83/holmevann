@@ -83,6 +83,91 @@
     );
   }
 
+  function isEnglishPath(pathname) {
+    return /^\/en(?:\/|$)/.test(pathname || "");
+  }
+
+  function buildOfflineFallbackHtml(options) {
+    const pathname = (options && options.pathname) || "/";
+    const english = isEnglishPath(pathname);
+    const homeHref = english ? "/en/" : "/";
+    const links = english
+      ? [
+          ["Home", "/en/"],
+          ["Questions & Answers", "/en/faq.html"],
+          ["Important info", "/en/important.html"],
+          ["Map", "/en/map.html"],
+          ["Rental", "/en/rental/"],
+        ]
+      : [
+          ["Hjem", "/"],
+          ["Spørsmål & svar", "/faq.html"],
+          ["Viktig informasjon", "/important.html"],
+          ["Kart", "/map.html"],
+          ["Leie", "/rental/"],
+        ];
+    const title = english ? "Offline" : "Offline";
+    const intro = english
+      ? "You are offline right now."
+      : "Du er offline akkurat nå.";
+    const body = english
+      ? "The main pages on holmevann.no should still work, and other pages will also work if you have opened them earlier on this device."
+      : "De viktigste sidene på holmevann.no skal fortsatt fungere, og andre sider virker også hvis du har åpnet dem tidligere på denne enheten.";
+    const note = english
+      ? "External maps, videos, Google Docs, and other content from third-party sites will not necessarily work without a network connection."
+      : "Eksterne kart, videoer, Google Docs og annet innhold fra andre nettsteder virker ikke nødvendigvis uten nett.";
+    const linksMarkup = links
+      .map(function (entry) {
+        return '<li><a href="' + entry[1] + '">' + entry[0] + "</a></li>";
+      })
+      .join("");
+
+    return [
+      "<!DOCTYPE html>",
+      '<html lang="' + (english ? "en" : "no") + '">',
+      "<head>",
+      '  <meta charset="utf-8">',
+      '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+      "  <title>" + title + " | #holmevann1013moh</title>",
+      '  <link rel="stylesheet" href="/assets/main.css">',
+      "</head>",
+      "<body>",
+      '  <header class="site-header" role="banner">',
+      '    <div class="wrapper">',
+      '      <a class="site-title" rel="author" href="' +
+        homeHref +
+        '">#holmevann1013moh</a>',
+      "    </div>",
+      "  </header>",
+      '  <main class="page-content" aria-label="Content">',
+      '    <div class="wrapper">',
+      '      <article class="post">',
+      '        <header class="post-header"><h1 class="post-title">' +
+        title +
+        "</h1></header>",
+      '        <div class="post-content">',
+      "          <p>" + intro + "</p>",
+      "          <p>" + body + "</p>",
+      "          <p>" + note + "</p>",
+      "          <ul>" + linksMarkup + "</ul>",
+      "        </div>",
+      "      </article>",
+      "    </div>",
+      "  </main>",
+      "</body>",
+      "</html>",
+    ].join("\n");
+  }
+
+  function buildOfflineFallbackResponse(options) {
+    return new Response(buildOfflineFallbackHtml(options), {
+      status: 200,
+      headers: {
+        "content-type": "text/html; charset=utf-8",
+      },
+    });
+  }
+
   function loadGoogleAnalytics(options) {
     const documentObject = options && options.document;
     const windowObject = options && options.window;
@@ -118,8 +203,11 @@
   }
 
   const api = {
+    buildOfflineFallbackHtml,
+    buildOfflineFallbackResponse,
     cacheHtmlResponseVariants,
     getHtmlCacheKeys,
+    isEnglishPath,
     matchAssetInCaches,
     matchHtmlInCaches,
     loadGoogleAnalytics,

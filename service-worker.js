@@ -19,7 +19,6 @@ const CORE_URLS = [
   "/en/faq.html",
   "/map.html",
   "/en/map.html",
-  "/offline.html",
   "/assets/main.css",
   "/assets/js/offline-runtime-utils.js",
   "/assets/js/register-service-worker.js",
@@ -32,7 +31,7 @@ function isCoreHtmlUrl(url) {
 }
 
 function isPrefetchableCorePageUrl(url) {
-  return isCoreHtmlUrl(url) && url !== "/offline.html";
+  return isCoreHtmlUrl(url);
 }
 
 function parseSingleRangeHeader(headerValue, totalLength) {
@@ -343,9 +342,10 @@ async function handleNavigation(request) {
       };
     }
 
-    const coreCache = await caches.open(CORE_CACHE);
     return {
-      response: await coreCache.match("/offline.html"),
+      response: self.HolmevannOfflineRuntimeUtils.buildOfflineFallbackResponse({
+        pathname: new URL(request.url).pathname,
+      }),
       background: Promise.resolve(),
     };
   }
