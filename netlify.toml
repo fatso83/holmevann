@@ -2,6 +2,12 @@
   command = "bundle exec jekyll build"
   publish = "_site"
 
+[dev]
+  command = "asdf exec bundle exec jekyll serve -w --trace --host localhost --config _config.yml,_config_dev.yml,_config_netlify_dev.yml"
+  targetPort = 4000
+  publish = "_site"
+  autoLaunch = false
+
 [[headers]]
   for = "/*.webmanifest"
   [headers.values]

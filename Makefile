@@ -32,7 +32,7 @@ netlify-dev:
 	# JEKYLL_ENV is supplied by Netlify's environment config.
 	# Configure the development-context value with `netlify env:set` so netlify dev
 	# does not inherit the production value from the project settings.
-	netlify dev -c "asdf exec bundle exec jekyll serve -w --trace --host localhost --config _config.yml,_config_dev.yml,_config_netlify_dev.yml" --target-port 4000 --no-open
+	netlify dev 
 
 install-precommit:
 	cp pre-commit pre-push .git/hooks/
