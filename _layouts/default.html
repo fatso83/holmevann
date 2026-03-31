@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "no" }}">
+  {%- assign current_lang = page.lang | default: site.lang | default: "no" -%}
 
   {%- include head.html -%}
 
@@ -7,6 +8,15 @@
 
     <div class="network-status-bar" id="network-status-bar" hidden aria-live="polite">
       Offline-modus: mangler nett
+    </div>
+    <div class="language-prompt alert alert-secondary" data-language-prompt hidden aria-live="polite">
+      <div class="language-prompt__content">
+        <p class="language-prompt__message" data-language-prompt-message>This site is available in English.</p>
+      </div>
+      <div class="language-prompt__actions">
+        <a class="language-prompt__action" data-language-prompt-action href="/en/">View English</a>
+        <button class="language-prompt__dismiss" data-language-prompt-dismiss type="button">Not now</button>
+      </div>
     </div>
 
     {%- include header.html -%}

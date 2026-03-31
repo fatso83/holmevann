@@ -7105,3 +7105,23 @@ entries:
     translated_text: 'Tag: walls'
     format: text
     updated_at: '2026-03-31T08:37:18Z'
+  834c2e30dc90613828eccc26b34f0cbcd6ba78b6a978559da3677a2a26cfa760:
+    source_text: This site is available in English.
+    translated_text: This site is available in English.
+    format: text
+    updated_at: '2026-03-31T15:41:37Z'
+  bb2a8184aeb003a974a9841f2263b6aa7ac756b86bb73e8afd53ddb2d16a7bf9:
+    source_text: View English
+    translated_text: View English
+    format: text
+    updated_at: '2026-03-31T15:41:37Z'
+  cf6080ff76c0f0899b13f0fd00329a5b21ad76700e3ebff27833ca1bdf0dd896:
+    source_text: Not now
+    translated_text: Not now
+    format: text
+    updated_at: '2026-03-31T15:41:37Z'
+  c052de1db3c4e42aae25f137e08fa730e133f9703ad8f610c3a4066c8d6d4dfb:
+    source_text: EN
+    translated_text: IN
+    format: text
+    updated_at: '2026-03-31T15:41:37Z'

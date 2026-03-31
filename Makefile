@@ -38,7 +38,6 @@ install-precommit:
 	cp pre-commit pre-push .git/hooks/
 
 # only for checking out the final build
-# # only for checking out the final build
 build:
 	asdf exec bundle exec jekyll build
 
@@ -46,7 +45,7 @@ translate-site:
 	@test -f scripts/translate_site.rb || (make print S="Missing scripts/translate_site.rb. Implement the translation pipeline before using this target." && exit 1)
 	asdf exec bundle exec ruby scripts/translate_site.rb
 
-build-translated: build translate-site
+build-translated: build
 
 ### UTILS ###
 

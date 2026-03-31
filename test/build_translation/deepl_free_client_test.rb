@@ -73,11 +73,14 @@ class DeepLFreeClientTest < Minitest::Test
     )
   end
 
-  def test_missing_auth_key_raises
-    error = assert_raises(ArgumentError) do
-      BuildTranslation::Providers::DeepLFreeClient.new(auth_key: "")
-    end
+  def test_missing_auth_key_falls_back_to_source_text
+    client = BuildTranslation::Providers::DeepLFreeClient.new(auth_key: "")
 
-    assert_includes error.message, "DEEPL_AUTH_KEY"
+    result = client.translate_texts(
+      texts: ["Hei verden!"],
+      target_lang: "EN",
+    )
+
+    assert_equal ["Hei verden!"], result.fetch("translations").map { |entry| entry.fetch("text") }
   end
 end

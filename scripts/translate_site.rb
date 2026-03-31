@@ -9,9 +9,7 @@ require "build_translation/link_mapper"
 require "build_translation/providers"
 require "build_translation/site_translator"
 
-auth_key = ENV.fetch("DEEPL_AUTH_KEY") do
-  abort "Missing DEEPL_AUTH_KEY"
-end
+auth_key = ENV["DEEPL_AUTH_KEY"]
 
 site_config = YAML.load_file(File.expand_path("../_config.yml", __dir__)) || {}
 site_url = site_config.fetch("url", "https://www.holmevann.no")
