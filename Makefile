@@ -1,7 +1,7 @@
 # Just check out https://makefile.site
 
 # otherwise Make assumes that all install targets are files & folders
-.PHONY: install deploy livereload build build-translated translate-site help list-targets install-git-lfs check-dependencies install-precommit test-js
+.PHONY: install deploy livereload build build-translated translate-site help list-targets install-git-lfs check-dependencies install-precommit test-js test-ruby test-e2e
 
 help: 
 	@make print S="These are the possible make targets you can invoke"
@@ -40,6 +40,17 @@ install-precommit:
 # only for checking out the final build
 test-js:
 	node --test test/*.test.js
+
+test-ruby:
+	@set -e; \
+	for f in test/build_translation/*_test.rb; do \
+		echo "Running $$f"; \
+		asdf exec bundle exec ruby "$$f"; \
+	done
+
+# Manual Playwright smoke suite; intentionally not part of pre-push.
+test-e2e:
+	PLAYWRIGHT_BASE_URL=$${PLAYWRIGHT_BASE_URL:-http://localhost:8888} npm --prefix test/e2e test -- --grep "offline pdf"
 
 build: test-js
 	asdf exec bundle exec jekyll build
