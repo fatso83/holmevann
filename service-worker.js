@@ -290,7 +290,9 @@ async function handlePdfRequest(request) {
     return cached;
   }
 
-  return (await networkPromise) || Response.error();
+  return self.HolmevannServiceWorkerPdfUtils.ensureServiceWorkerResponse(
+    await networkPromise,
+  );
 }
 
 async function handlePdfRangeRequest(request) {
@@ -331,7 +333,9 @@ async function handlePdfRangeRequest(request) {
     const cachedResponse = await pdfCache.match(request.url);
 
     if (!cachedResponse) {
-      return Response.error();
+      return self.HolmevannServiceWorkerPdfUtils.ensureServiceWorkerResponse(
+        null,
+      );
     }
 
     const buffer = await cachedResponse.arrayBuffer();
@@ -373,7 +377,9 @@ self.addEventListener("fetch", function (event) {
 
     event.respondWith(
       navigation.then(function (result) {
-        return result.response;
+        return self.HolmevannServiceWorkerPdfUtils.ensureServiceWorkerResponse(
+          result && result.response,
+        );
       }),
     );
     event.waitUntil(
@@ -386,12 +392,23 @@ self.addEventListener("fetch", function (event) {
 
   if (isPdfProxyRequest(url)) {
     event.respondWith(
-      isRangeRequest(request)
+      (isRangeRequest(request)
         ? handlePdfRangeRequest(request)
-        : handlePdfRequest(request),
+        : handlePdfRequest(request)
+      ).then(function (response) {
+        return self.HolmevannServiceWorkerPdfUtils.ensureServiceWorkerResponse(
+          response,
+        );
+      }),
     );
     return;
   }
 
-  event.respondWith(handleAsset(request));
+  event.respondWith(
+    handleAsset(request).then(function (response) {
+      return self.HolmevannServiceWorkerPdfUtils.ensureServiceWorkerResponse(
+        response,
+      );
+    }),
+  );
 });

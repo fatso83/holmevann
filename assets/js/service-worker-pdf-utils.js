@@ -41,9 +41,21 @@
     return Array.from(urls);
   }
 
+  function ensureServiceWorkerResponse(value) {
+    if (value instanceof Response) {
+      return value;
+    }
+
+    return new Response("", {
+      status: 503,
+      statusText: "Offline and uncached",
+    });
+  }
+
   const api = {
     PDF_PROXY_PATH,
     collectPdfProxyUrlsFromHtml,
+    ensureServiceWorkerResponse,
   };
 
   global.HolmevannServiceWorkerPdfUtils = api;

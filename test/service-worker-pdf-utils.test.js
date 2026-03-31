@@ -3,6 +3,7 @@ const assert = require("node:assert/strict");
 
 const {
   collectPdfProxyUrlsFromHtml,
+  ensureServiceWorkerResponse,
 } = require("../assets/js/service-worker-pdf-utils.js");
 
 test("collectPdfProxyUrlsFromHtml returns same-origin proxied pdf links", function () {
@@ -45,4 +46,12 @@ test("collectPdfProxyUrlsFromHtml tolerates empty or invalid input", function ()
     ),
     [],
   );
+});
+
+test("ensureServiceWorkerResponse returns an offline miss response for nullish values", async function () {
+  const response = ensureServiceWorkerResponse(null);
+
+  assert.equal(response.status, 503);
+  assert.equal(response.statusText, "Offline and uncached");
+  assert.equal(await response.text(), "");
 });
