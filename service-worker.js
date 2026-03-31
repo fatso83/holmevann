@@ -21,28 +21,12 @@ const CORE_URLS = [
   "/favicon.ico",
 ];
 
-function isSameOrigin(url) {
-  return url.origin === self.location.origin;
-}
-
-function isHtmlNavigation(request) {
-  return request.mode === "navigate";
-}
-
 function isCoreHtmlUrl(url) {
   return url === "/" || url.endsWith("/") || url.endsWith(".html");
 }
 
 function isPrefetchableCorePageUrl(url) {
   return isCoreHtmlUrl(url) && url !== "/offline.html";
-}
-
-function isPdfProxyRequest(url) {
-  return url.pathname === self.HolmevannServiceWorkerPdfUtils.PDF_PROXY_PATH;
-}
-
-function isRangeRequest(request) {
-  return request.headers.has("range");
 }
 
 function parseSingleRangeHeader(headerValue, totalLength) {
@@ -414,12 +398,19 @@ async function handlePdfRangeRequest(request) {
 self.addEventListener("fetch", function (event) {
   const request = event.request;
   const url = new URL(request.url);
+  const requestType =
+    self.HolmevannServiceWorkerPdfUtils.classifySameOriginGetRequest({
+      request,
+      url,
+      scopeOrigin: self.location.origin,
+      pdfProxyPath: self.HolmevannServiceWorkerPdfUtils.PDF_PROXY_PATH,
+    });
 
-  if (request.method !== "GET" || !isSameOrigin(url)) {
+  if (requestType === "skip") {
     return;
   }
 
-  if (isHtmlNavigation(request)) {
+  if (requestType === "navigation") {
     const navigation = handleNavigation(request);
 
     event.respondWith(
@@ -437,9 +428,9 @@ self.addEventListener("fetch", function (event) {
     return;
   }
 
-  if (isPdfProxyRequest(url)) {
+  if (requestType === "pdf" || requestType === "pdf-range") {
     event.respondWith(
-      (isRangeRequest(request)
+      (requestType === "pdf-range"
         ? handlePdfRangeRequest(request)
         : handlePdfRequest(request)
       ).then(function (response) {

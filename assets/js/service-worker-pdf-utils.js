@@ -57,6 +57,29 @@
     return prefetchPromise;
   }
 
+  function classifySameOriginGetRequest(options) {
+    const request = options && options.request;
+    const url = options && options.url;
+    const scopeOrigin = options && options.scopeOrigin;
+    const pdfProxyPath = options && options.pdfProxyPath;
+
+    if (!request || !url || request.method !== "GET") {
+      return "skip";
+    }
+
+    if (url.origin !== scopeOrigin) {
+      return "skip";
+    }
+
+    if (url.pathname === pdfProxyPath) {
+      return request.headers && request.headers.has("range")
+        ? "pdf-range"
+        : "pdf";
+    }
+
+    return request.mode === "navigate" ? "navigation" : "asset";
+  }
+
   function ensureServiceWorkerResponse(value) {
     if (value instanceof Response) {
       return value;
@@ -70,6 +93,7 @@
 
   const api = {
     PDF_PROXY_PATH,
+    classifySameOriginGetRequest,
     collectPdfProxyUrlsFromHtml,
     trackPdfPrefetch,
     ensureServiceWorkerResponse,
