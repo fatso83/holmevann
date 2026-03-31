@@ -1,3 +1,5 @@
+importScripts("/assets/js/service-worker-pdf-utils.js");
+
 const CORE_CACHE = "holmevann-core-v2";
 const PAGE_CACHE = "holmevann-pages-v2";
 const ASSET_CACHE = "holmevann-assets-v2";
@@ -12,7 +14,16 @@ const CORE_URLS = [
   "/offline.html",
   "/assets/main.css",
   "/assets/js/register-service-worker.js",
+  "/assets/js/service-worker-pdf-utils.js",
   "/favicon.ico",
+];
+
+const CORE_PAGE_URLS = [
+  "/",
+  "/important.html",
+  "/rental/",
+  "/faq.html",
+  "/map.html",
 ];
 
 function isSameOrigin(url) {
@@ -24,7 +35,7 @@ function isHtmlNavigation(request) {
 }
 
 function isPdfProxyRequest(url) {
-  return url.pathname === "/.netlify/functions/pdf-proxy";
+  return url.pathname === self.HolmevannServiceWorkerPdfUtils.PDF_PROXY_PATH;
 }
 
 function isRangeRequest(request) {
@@ -111,10 +122,66 @@ function buildPartialContentResponse(response, range, totalLength, buffer) {
   });
 }
 
+async function prefetchPdfUrl(pdfCache, pdfUrl) {
+  try {
+    const response = await fetch(pdfUrl);
+
+    if (response && response.ok && response.status === 200) {
+      await pdfCache.put(pdfUrl, response.clone());
+    }
+  } catch (_error) {
+    return;
+  }
+}
+
+async function prefetchPdfUrlsFromHtml(html, baseUrl) {
+  const pdfUrls =
+    self.HolmevannServiceWorkerPdfUtils.collectPdfProxyUrlsFromHtml(
+      html,
+      baseUrl,
+      self.location.origin,
+    );
+
+  if (!pdfUrls.length) {
+    return;
+  }
+
+  const pdfCache = await caches.open(PDF_CACHE);
+
+  await Promise.all(
+    pdfUrls.map(async function (pdfUrl) {
+      if (await pdfCache.match(pdfUrl)) {
+        return;
+      }
+
+      await prefetchPdfUrl(pdfCache, pdfUrl);
+    }),
+  );
+}
+
+async function prefetchPdfUrlsFromCorePages(cache) {
+  await Promise.all(
+    CORE_PAGE_URLS.map(async function (url) {
+      const response = await cache.match(url);
+
+      if (!response || !response.ok) {
+        return;
+      }
+
+      const html = await response.clone().text();
+      await prefetchPdfUrlsFromHtml(
+        html,
+        new URL(url, self.location.origin).href,
+      );
+    }),
+  );
+}
+
 self.addEventListener("install", function (event) {
   event.waitUntil(
-    caches.open(CORE_CACHE).then(function (cache) {
-      return cache.addAll(CORE_URLS);
+    caches.open(CORE_CACHE).then(async function (cache) {
+      await cache.addAll(CORE_URLS);
+      await prefetchPdfUrlsFromCorePages(cache);
     }),
   );
   self.skipWaiting();
@@ -147,18 +214,41 @@ async function handleNavigation(request) {
 
   try {
     const response = await fetch(request);
+    let background = Promise.resolve();
+
     if (response && response.ok) {
-      pageCache.put(request, response.clone());
+      await pageCache.put(request, response.clone());
+      background = response
+        .clone()
+        .text()
+        .then(function (html) {
+          return prefetchPdfUrlsFromHtml(html, request.url);
+        })
+        .catch(function () {
+          return Promise.resolve();
+        });
     }
-    return response;
+
+    return {
+      response,
+      background,
+    };
   } catch (_error) {
     const cachedPage = await pageCache.match(request);
     if (cachedPage) {
-      return cachedPage;
+      return {
+        response: cachedPage,
+        background: Promise.resolve(),
+      };
     }
 
     const coreCache = await caches.open(CORE_CACHE);
-    return (await coreCache.match(request)) || coreCache.match("/offline.html");
+    return {
+      response:
+        (await coreCache.match(request)) ||
+        (await coreCache.match("/offline.html")),
+      background: Promise.resolve(),
+    };
   }
 }
 
@@ -279,7 +369,18 @@ self.addEventListener("fetch", function (event) {
   }
 
   if (isHtmlNavigation(request)) {
-    event.respondWith(handleNavigation(request));
+    const navigation = handleNavigation(request);
+
+    event.respondWith(
+      navigation.then(function (result) {
+        return result.response;
+      }),
+    );
+    event.waitUntil(
+      navigation.then(function (result) {
+        return result.background;
+      }),
+    );
     return;
   }
 
