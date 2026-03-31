@@ -38,4 +38,14 @@ if ! command -v git-lfs > /dev/null 2>&1; then
   exit 2
 fi
 
-git lfs pre-push "$@"
+stdin_file="$(mktemp)"
+trap 'rm -f "$stdin_file"' EXIT
+cat > "$stdin_file"
+
+echo "pre-push: running fast JS tests" >&2
+make test-js
+
+echo "pre-push: running fast Ruby tests" >&2
+make test-ruby
+
+git lfs pre-push "$@" < "$stdin_file"

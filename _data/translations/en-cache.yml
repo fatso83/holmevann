@@ -408,16 +408,6 @@ entries:
       a flat state (10V to 12.7V at rest)
     format: text
     updated_at: '2026-03-31T08:36:46Z'
-  '08624c0b9b284efa4f971209fcc39fd13f6e65f22d148d6926421fa3b5334deb':
-    source_text: Redirecting…
-    translated_text: Redirecting…
-    format: text
-    updated_at: '2026-03-31T08:36:46Z'
-  324799d2f4b37ccff89236dd11f5dab4815dcf7faabe878a0bd68871659e6f4c:
-    source_text: Click here if you are not redirected.
-    translated_text: Click here if you are not redirected.
-    format: text
-    updated_at: '2026-03-31T08:36:46Z'
   1208c288e366ee8b89f4476b3ce0db4471304369562ea24384fa8e8242e8dcd0:
     source_text: 'Bom på pipefiks | #holmevann1013moh'
     translated_text: 'Missed the pipe fix | #holmevann1013moh'
@@ -4070,21 +4060,6 @@ entries:
       at the southern end of Holmevann"
     format: text
     updated_at: '2026-03-31T08:37:04Z'
-  8ed7e98070b89358f7b21f94602ca86823af077e1ec26dbfdab8ce1356836496:
-    source_text: '404'
-    translated_text: '404'
-    format: text
-    updated_at: '2026-03-31T08:37:04Z'
-  8e780effd860725efccf39adf700592fdff32a00862227e16b3a36b486749692:
-    source_text: Page not found :(
-    translated_text: Page not found :(
-    format: text
-    updated_at: '2026-03-31T08:37:04Z'
-  ed21ed703e03ab13723ae10610399ae173a777d45f34b0c46b901ce3874896b2:
-    source_text: The requested page could not be found.
-    translated_text: The requested page could not be found.
-    format: text
-    updated_at: '2026-03-31T08:37:04Z'
   df34355fe33d96b9830a8c4e6c7d8b8263f669aed2140f13f5cda3c6700fd2ee:
     source_text: 'Spørsmål & svar | #holmevann1013moh'
     translated_text: 'Questions & Answers | #holmevann1013moh'
@@ -6793,16 +6768,6 @@ entries:
   932791d01953eeb0da1e1d6d27d4c5ad70d5a6c314aa5e2392c12f949c8ae096:
     source_text: 'Tag: mobildekning'
     translated_text: 'Tag: mobile coverage'
-    format: text
-    updated_at: '2026-03-31T08:37:17Z'
-  0ef63101a824da2e68c524af5bcc60470b6f280ed41bf35bef5e3cdf70983b12:
-    source_text: 'Tag: Netlify | #holmevann1013moh'
-    translated_text: 'Tag: Netlify | #holmevann1013moh'
-    format: text
-    updated_at: '2026-03-31T08:37:17Z'
-  a5cc872e2ef6c6b7c0640803be9ecdb1929d84c06d76b1fe599933c35819d8f8:
-    source_text: 'Tag: Netlify'
-    translated_text: 'Tag: Netlify'
     format: text
     updated_at: '2026-03-31T08:37:17Z'
   e30a7c9394a4f67731d538c7e34d314d102a996bef61aa1f85d577340474a7d2:

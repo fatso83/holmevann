@@ -1,9 +1,22 @@
 require "fileutils"
+require "nokogiri"
+require "uri"
 
 module BuildTranslation
   class SiteTranslator
     DEFAULT_TARGET_LANG = "EN".freeze
     DEFAULT_BATCH_SIZE = 25
+    NON_PUBLIC_PATH_SEGMENTS = %w[
+      test
+      test-results
+      node_modules
+      docs
+      scripts
+      netlify
+      coverage
+      fixtures
+      snapshots
+    ].freeze
 
     def initialize(build_dir:, cache_store:, extractor:, renderer:, link_mapper:, provider:, batch_size: DEFAULT_BATCH_SIZE)
       @build_dir = build_dir
@@ -18,6 +31,7 @@ module BuildTranslation
     def run
       documents = collect_documents
       translations_by_hash = resolve_translations(documents)
+      @cache_store.retain_only!(documents.flat_map { |document| document.fetch(:units).map { |unit| unit.fetch(:hash) } })
 
       english_paths = documents.map do |document|
         english_path = @link_mapper.english_path_for(document.fetch(:source_path))
@@ -39,21 +53,93 @@ module BuildTranslation
     private
 
     def collect_documents
-      html_files.map do |file_path|
+      source_paths.map do |source_path|
+        file_path = file_path_for_source_path(source_path)
         html = File.read(file_path)
         {
           file_path: file_path,
-          source_path: source_path_for_file(file_path),
+          source_path: source_path,
           html: html,
           units: @extractor.extract_units(html),
         }
       end
     end
 
-    def html_files
-      Dir.glob(File.join(@build_dir, "**", "*.html")).reject do |path|
-        path.include?("/en/")
-      end.sort
+    def source_paths
+      paths = source_paths_from_sitemap
+      paths = source_paths_from_build_glob if paths.empty?
+      paths.uniq.sort
+    end
+
+    def source_paths_from_sitemap
+      sitemap_path = File.join(@build_dir, "sitemap.xml")
+      return [] unless File.exist?(sitemap_path)
+
+      doc = Nokogiri::XML(File.read(sitemap_path))
+      doc.remove_namespaces!
+
+      doc.xpath("//url/loc").filter_map do |node|
+        source_path_for_public_url(node.text.to_s.strip)
+      end
+    rescue Nokogiri::XML::SyntaxError
+      []
+    end
+
+    def source_paths_from_build_glob
+      Dir.glob(File.join(@build_dir, "**", "*.html")).filter_map do |file_path|
+        source_path = source_path_for_file(file_path)
+        source_path if public_translatable_source_path?(source_path)
+      end
+    end
+
+    def source_path_for_public_url(url_text)
+      return nil if url_text.empty?
+
+      path = URI.parse(url_text).path
+      return nil if path.nil? || path.empty?
+
+      file_path = file_path_for_public_path(path)
+      return nil unless file_path
+
+      source_path = source_path_for_file(file_path)
+      return nil unless public_translatable_source_path?(source_path)
+
+      source_path
+    rescue URI::InvalidURIError
+      nil
+    end
+
+    def file_path_for_public_path(path)
+      normalized = path.start_with?("/") ? path.delete_prefix("/") : path
+      candidates = []
+
+      if path == "/"
+        candidates << File.join(@build_dir, "index.html")
+      elsif path.end_with?("/")
+        candidates << File.join(@build_dir, normalized, "index.html")
+      else
+        candidates << File.join(@build_dir, normalized)
+        candidates << File.join(@build_dir, "#{normalized}.html") if File.extname(normalized).empty?
+      end
+
+      candidates.find { |candidate| File.file?(candidate) }
+    end
+
+    def file_path_for_source_path(source_path)
+      file_path_for_public_path(source_path) || raise("Missing built file for #{source_path}")
+    end
+
+    def public_translatable_source_path?(source_path)
+      return false if source_path.nil? || source_path.empty?
+      return false if source_path.start_with?("/en/")
+      return false if @link_mapper.english_path_for(source_path).nil?
+
+      segments = source_path.split("/").reject(&:empty?)
+
+      return false if segments.any? { |segment| segment.start_with?(".") }
+      return false if segments.any? { |segment| NON_PUBLIC_PATH_SEGMENTS.include?(segment) }
+
+      true
     end
 
     def resolve_translations(documents)

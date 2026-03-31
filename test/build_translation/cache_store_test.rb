@@ -65,4 +65,37 @@ class CacheStoreTest < Minitest::Test
       assert_equal before, after
     end
   end
+
+  def test_retain_only_removes_entries_not_in_active_set
+    Dir.mktmpdir do |dir|
+      path = File.join(dir, "en-cache.yml")
+      File.write(
+        path,
+        {
+          "entries" => {
+            "keep" => {
+              "source_text" => "Keep me",
+              "translated_text" => "Keep me",
+              "format" => "text",
+              "updated_at" => "2026-04-01T00:00:00Z",
+            },
+            "drop" => {
+              "source_text" => "Drop me",
+              "translated_text" => "Drop me",
+              "format" => "text",
+              "updated_at" => "2026-04-01T00:00:00Z",
+            },
+          },
+        }.to_yaml,
+      )
+
+      store = BuildTranslation::CacheStore.new(path:)
+
+      assert_equal true, store.retain_only!(%w[keep])
+      store.save!
+
+      saved = YAML.load_file(path)
+      assert_equal ["keep"], saved.fetch("entries").keys
+    end
+  end
 end

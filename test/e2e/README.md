@@ -1,12 +1,14 @@
 # Holmevann E2E Tests
 
 This directory contains manual Playwright coverage for the proxied PDF offline path.
+It is the single manual smoke test for cross-cutting service worker and translation behavior, not a pre-push gate.
 
 Requirements:
 
 - a local server already running at `http://localhost:8888`
 - the server must serve the site and `/.netlify/functions/pdf-proxy`
 - Playwright dependencies installed under `test/e2e/`
+- global setup now fails early if nothing is listening and responding on the configured base URL
 
 Recommended local server:
 
@@ -22,6 +24,12 @@ npx playwright install chromium
 ```
 
 Run:
+
+```bash
+make test-e2e
+```
+
+Direct npm equivalent:
 
 ```bash
 PLAYWRIGHT_BASE_URL=http://localhost:8888 npm --prefix test/e2e test -- --grep "offline pdf"

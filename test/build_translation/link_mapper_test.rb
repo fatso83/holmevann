@@ -24,4 +24,12 @@ class LinkMapperTest < Minitest::Test
       @mapper.english_href_for("https://www.holmevann.no/faq.html"),
     )
   end
+
+  def test_leaves_netlify_function_links_same_origin_without_english_prefix
+    href = "/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fexample.com%2Fguide.pdf"
+    assert_equal href, @mapper.english_href_for(href)
+
+    absolute_href = "https://www.holmevann.no/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fexample.com%2Fguide.pdf"
+    assert_equal absolute_href, @mapper.english_href_for(absolute_href)
+  end
 end

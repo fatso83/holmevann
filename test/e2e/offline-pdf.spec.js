@@ -1,8 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 const PDF_LINK_SELECTOR = 'a[href*="/.netlify/functions/pdf-proxy?url="]';
-const PDF_CACHE_NAME = "holmevann-pdf-v1";
-const RENTAL_PATH = "/rental/";
+const ENGLISH_RENTAL_PATH = "/en/rental/";
 
 async function waitForServiceWorkerControl(page) {
   await page.waitForFunction(async function () {
@@ -41,16 +40,45 @@ async function fetchPdfFromPage(page, pdfHref) {
   }, pdfHref);
 }
 
-test("offline pdf replay works after the cache is warmed", async function ({
+async function waitForPdfToReachCache(page, pdfHref) {
+  await page.waitForFunction(async function (href) {
+    const cacheNames = await caches.keys();
+
+    for (const cacheName of cacheNames) {
+      const cache = await caches.open(cacheName);
+      const requests = await cache.keys();
+
+      if (
+        requests.some(function (request) {
+          return request.url === href;
+        })
+      ) {
+        return true;
+      }
+    }
+
+    return false;
+  }, pdfHref);
+}
+
+function resolvePdfUrl(baseURL, pdfHref) {
+  return new URL(pdfHref, baseURL).href;
+}
+
+test("offline pdf replay works after the translated rental page warms the cache", async function ({
   page,
   context,
   baseURL,
 }) {
   test.skip(!baseURL, "A running local server is required.");
 
-  await page.goto(RENTAL_PATH, {
+  const translatedPageResponse = await page.goto(ENGLISH_RENTAL_PATH, {
     waitUntil: "networkidle",
   });
+  expect(translatedPageResponse).toBeTruthy();
+  expect(translatedPageResponse.ok()).toBe(true);
+  await expect(page).toHaveURL(new RegExp(`${ENGLISH_RENTAL_PATH}$`));
+
   await waitForServiceWorkerControl(page);
 
   const pdfLink = page.locator(PDF_LINK_SELECTOR).first();
@@ -58,6 +86,7 @@ test("offline pdf replay works after the cache is warmed", async function ({
   const pdfHref = await pdfLink.getAttribute("href");
 
   expect(pdfHref).toBeTruthy();
+  const normalizedPdfUrl = resolvePdfUrl(baseURL, pdfHref);
 
   const onlineResult = await fetchPdfFromPage(page, pdfHref);
 
@@ -69,20 +98,7 @@ test("offline pdf replay works after the cache is warmed", async function ({
   expect(onlineResult.contentType || "").toContain("application/pdf");
   expect(onlineResult.byteLength).toBeGreaterThan(0);
 
-  const cachedUrls = await page.evaluate(async function (cacheName) {
-    const cache = await caches.open(cacheName);
-    const requests = await cache.keys();
-
-    return requests.map(function (request) {
-      return request.url;
-    });
-  }, PDF_CACHE_NAME);
-
-  expect(
-    cachedUrls.some(function (url) {
-      return url.includes("/.netlify/functions/pdf-proxy?url=");
-    }),
-  ).toBe(true);
+  await waitForPdfToReachCache(page, normalizedPdfUrl);
 
   await context.setOffline(true);
 

@@ -64,7 +64,7 @@ module BuildTranslation
     end
 
     def translatable_html_path?(path)
-      return false if path.start_with?("/assets/", "/.well-known/")
+      return false if path.start_with?("/assets/", "/.netlify/functions/", "/.well-known/")
       return true if path.end_with?("/")
       return true if path.end_with?(".html")
 

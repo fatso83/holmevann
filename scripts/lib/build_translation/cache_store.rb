@@ -1,4 +1,5 @@
 require "fileutils"
+require "set"
 require "time"
 require "yaml"
 
@@ -33,6 +34,15 @@ module BuildTranslation
       @data.fetch("entries")[hash] = next_value
       @dirty = true
       next_value
+    end
+
+    def retain_only!(hashes)
+      active_hashes = hashes.to_set
+      before = @data.fetch("entries").length
+      @data["entries"].select! { |hash, _entry| active_hashes.include?(hash) }
+      changed = @data.fetch("entries").length != before
+      @dirty ||= changed
+      changed
     end
 
     def save!
