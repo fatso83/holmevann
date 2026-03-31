@@ -6,7 +6,7 @@ toc: true
 ---
 
 Les informasjonen under nøye før du kommer så det ikke blir noen overraskelser!
-Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important).
+Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [Spørsmål og Svar-seksjonen](/faq) eller under [Viktig](/important). Hjemmesiden har offline-støtte, så du kan sjekke hva det står selv uten nett (inkludert pdf-er)!
 
 Vi legger ut noen [innlegg nå og da](/#latest-posts) om endringer på hytta, men nå-statusen finner du under.
 
