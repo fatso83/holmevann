@@ -232,3 +232,8 @@ dd {
   background: #e5e7eb;
   text-decoration: underline;
 }
+
+// override ugly line from theme
+header.site-header {
+  border-top: none;
+}
