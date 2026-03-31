@@ -57,6 +57,25 @@ html {
   overflow-x: hidden;
 }
 
+body.is-offline {
+  padding-top: 2.5rem;
+}
+
+.network-status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  padding: 0.55rem 1rem;
+  background: #7f1d1d;
+  color: #fff8eb;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+}
+
 .img--post {
   max-width: calc(100% - 20px);
   height: auto;
