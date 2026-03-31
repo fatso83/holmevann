@@ -5,6 +5,7 @@ const CORE_CACHE = "holmevann-core-v3";
 const PAGE_CACHE = "holmevann-pages-v3";
 const ASSET_CACHE = "holmevann-assets-v3";
 const PDF_CACHE = "holmevann-pdf-v1";
+const PREFETCHING_ASSET_URLS = new Map();
 const PREFETCHING_PDF_URLS = new Map();
 
 const CORE_URLS = [
@@ -121,6 +122,53 @@ async function prefetchPdfUrl(pdfCache, pdfUrl) {
   }
 }
 
+async function prefetchAssetUrl(assetCache, assetUrl) {
+  try {
+    const response = await fetch(assetUrl);
+
+    if (response && response.ok && response.status === 200) {
+      await assetCache.put(assetUrl, response.clone());
+    }
+  } catch (_error) {
+    return;
+  }
+}
+
+async function prefetchSameOriginAssetUrlsFromHtml(html, baseUrl) {
+  const assetUrls =
+    self.HolmevannServiceWorkerPdfUtils.collectSameOriginAssetUrlsFromHtml(
+      html,
+      baseUrl,
+      self.location.origin,
+    );
+
+  if (!assetUrls.length) {
+    return;
+  }
+
+  const assetCache = await caches.open(ASSET_CACHE);
+
+  await Promise.all(
+    assetUrls.map(async function (assetUrl) {
+      if (await assetCache.match(assetUrl)) {
+        return;
+      }
+
+      await self.HolmevannServiceWorkerPdfUtils.trackPrefetch(
+        PREFETCHING_ASSET_URLS,
+        assetUrl,
+        async function () {
+          if (await assetCache.match(assetUrl)) {
+            return;
+          }
+
+          await prefetchAssetUrl(assetCache, assetUrl);
+        },
+      );
+    }),
+  );
+}
+
 async function prefetchPdfUrlsFromHtml(html, baseUrl) {
   const pdfUrls =
     self.HolmevannServiceWorkerPdfUtils.collectPdfProxyUrlsFromHtml(
@@ -151,6 +199,24 @@ async function prefetchPdfUrlsFromHtml(html, baseUrl) {
 
           await prefetchPdfUrl(pdfCache, pdfUrl);
         },
+      );
+    }),
+  );
+}
+
+async function prefetchSameOriginAssetUrlsFromCorePages(cache) {
+  await Promise.all(
+    CORE_URLS.filter(isPrefetchableCorePageUrl).map(async function (url) {
+      const response = await cache.match(url);
+
+      if (!response || !response.ok) {
+        return;
+      }
+
+      const html = await response.clone().text();
+      await prefetchSameOriginAssetUrlsFromHtml(
+        html,
+        new URL(url, self.location.origin).href,
       );
     }),
   );
@@ -198,6 +264,10 @@ self.addEventListener("install", function (event) {
       console.log("Starting caching of core urls ...");
       await cache.addAll(CORE_URLS);
       await cacheCoreHtmlVariants(cache);
+      console.log(
+        "Core urls cached. Starting prefetching of same-origin assets",
+      );
+      await prefetchSameOriginAssetUrlsFromCorePages(cache);
       console.log("Core urls cached. Starting prefetching of PDF's");
       await prefetchPdfUrlsFromCorePages(cache);
       console.log("PDF prefetching finished");
@@ -245,7 +315,10 @@ async function handleNavigation(request) {
         .clone()
         .text()
         .then(function (html) {
-          return prefetchPdfUrlsFromHtml(html, request.url);
+          return Promise.all([
+            prefetchSameOriginAssetUrlsFromHtml(html, request.url),
+            prefetchPdfUrlsFromHtml(html, request.url),
+          ]);
         })
         .catch(function () {
           return Promise.resolve();

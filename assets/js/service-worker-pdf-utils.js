@@ -1,5 +1,10 @@
 (function (global) {
   const PDF_PROXY_PATH = "/.netlify/functions/pdf-proxy";
+  const ASSET_TAG_ATTRIBUTE_NAMES = {
+    img: ["src", "srcset"],
+    source: ["src", "srcset"],
+    video: ["poster"],
+  };
 
   function extractHrefValues(html) {
     const hrefPattern = /href\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/gi;
@@ -11,6 +16,80 @@
     }
 
     return values;
+  }
+
+  function extractTagAttributeValues(html, tagName, attributeName) {
+    const escapedTagName = tagName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const escapedAttributeName = attributeName.replace(
+      /[.*+?^${}()|[\]\\]/g,
+      "\\$&",
+    );
+    const pattern = new RegExp(
+      "<" +
+        escapedTagName +
+        "\\b[^>]*\\b" +
+        escapedAttributeName +
+        "\\s*=\\s*(?:\"([^\"]*)\"|'([^']*)'|([^\\s>]+))",
+      "gi",
+    );
+    const values = [];
+    let match;
+
+    while ((match = pattern.exec(html))) {
+      values.push(match[1] || match[2] || match[3] || "");
+    }
+
+    return values;
+  }
+
+  function extractSrcsetUrls(value) {
+    if (typeof value !== "string" || value.length === 0) {
+      return [];
+    }
+
+    return value
+      .split(",")
+      .map(function (entry) {
+        return entry.trim().split(/\s+/, 1)[0];
+      })
+      .filter(Boolean);
+  }
+
+  function collectSameOriginAssetUrlsFromHtml(html, baseUrl, scopeOrigin) {
+    if (typeof html !== "string" || html.length === 0) {
+      return [];
+    }
+
+    const urls = new Set();
+
+    Object.entries(ASSET_TAG_ATTRIBUTE_NAMES).forEach(function (entry) {
+      const tagName = entry[0];
+      const attributeNames = entry[1];
+
+      attributeNames.forEach(function (attributeName) {
+        const values = extractTagAttributeValues(html, tagName, attributeName);
+        const candidates =
+          attributeName === "srcset"
+            ? values.flatMap(extractSrcsetUrls)
+            : values;
+
+        candidates.forEach(function (candidate) {
+          try {
+            const url = new URL(candidate, baseUrl);
+
+            if (url.origin !== scopeOrigin) {
+              return;
+            }
+
+            urls.add(url.href);
+          } catch (_error) {
+            return;
+          }
+        });
+      });
+    });
+
+    return Array.from(urls);
   }
 
   function collectPdfProxyUrlsFromHtml(html, baseUrl, scopeOrigin) {
@@ -41,20 +120,24 @@
     return Array.from(urls);
   }
 
-  function trackPdfPrefetch(statusByUrl, pdfUrl, prefetchOperation) {
-    if (statusByUrl.has(pdfUrl)) {
-      return statusByUrl.get(pdfUrl);
+  function trackPrefetch(statusByUrl, url, prefetchOperation) {
+    if (statusByUrl.has(url)) {
+      return statusByUrl.get(url);
     }
 
     const prefetchPromise = Promise.resolve(prefetchOperation()).finally(
       function () {
-        statusByUrl.delete(pdfUrl);
+        statusByUrl.delete(url);
       },
     );
 
-    statusByUrl.set(pdfUrl, prefetchPromise);
+    statusByUrl.set(url, prefetchPromise);
 
     return prefetchPromise;
+  }
+
+  function trackPdfPrefetch(statusByUrl, pdfUrl, prefetchOperation) {
+    return trackPrefetch(statusByUrl, pdfUrl, prefetchOperation);
   }
 
   function classifySameOriginGetRequest(options) {
@@ -94,7 +177,9 @@
   const api = {
     PDF_PROXY_PATH,
     classifySameOriginGetRequest,
+    collectSameOriginAssetUrlsFromHtml,
     collectPdfProxyUrlsFromHtml,
+    trackPrefetch,
     trackPdfPrefetch,
     ensureServiceWorkerResponse,
   };
