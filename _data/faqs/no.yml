@@ -86,9 +86,9 @@
   a: >
     Ja, vi har en fullstendig guide for hvordan alt fungererer som 
     ligger på hytta, sammen med turtips. Den finnes i både 
-    <a href="https://docs.google.com/document/d/1mEvcmyVPJ64XTxQFguCAbbHD8UrjfsOWD0TuJ-uZNPE/export?format=pdf">
+    <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1mEvcmyVPJ64XTxQFguCAbbHD8UrjfsOWD0TuJ-uZNPE%2Fexport%3Fformat%3Dpdf">
     engelsk</a> og 
-    <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">
+    <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">
     norsk</a> utgave.
 
 - q: Har du tips til selve bilturen til/fra Eggedal?
@@ -363,4 +363,3 @@
 
     <p>Mitt absolutte innsider-tips, som ingen følger, er å booke på vårparten! Det er helt fantastisk. Du er alene i fjellet, været er varmt, snøen ligger ofte til første juni og du kan nyte pilsen på plattingen i solsteken. Helt konge.
     </p>
-

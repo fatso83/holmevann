@@ -18,10 +18,10 @@ title: Kort og viktig
 
 <li><a href="/kart">Alle mulige kart for navigasjon, snødybde, utskrift, gps-koordinater, etc</a>. </li>
 
-<li><a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjoner for hytta</a> (finnes på hytta)</li>
-<li><a href="https://docs.google.com/document/d/1mEvcmyVPJ64XTxQFguCAbbHD8UrjfsOWD0TuJ-uZNPE/export?format=pdf">Instructions in English</a> (a booklet from 2025 is at the cabin)</li>
+<li><a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjoner for hytta</a> (finnes på hytta)</li>
+<li><a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1mEvcmyVPJ64XTxQFguCAbbHD8UrjfsOWD0TuJ-uZNPE%2Fexport%3Fformat%3Dpdf">Instructions in English</a> (a booklet from 2025 is at the cabin)</li>
 
-<li><a href="https://docs.google.com/document/d/1KWRSm9DqvJWtyorWKoDkPmatba03AcEHewSEBcQ9AX0/export?format=pdf">Turtips</a></li>
+<li><a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1KWRSm9DqvJWtyorWKoDkPmatba03AcEHewSEBcQ9AX0%2Fexport%3Fformat%3Dpdf">Turtips</a></li>
 
 <li><a href="https://www.yr.no/en/forecast/daily-table/1-99202/Norway/Viken/Sigdal/Holmevatn">Værvarsel fra Yr</a></li>
 

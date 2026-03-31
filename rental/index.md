@@ -21,7 +21,7 @@ Status per <strong>29. mars 2026</strong>
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
-<li>Det er tomt for vann i tanken. <a href="https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li>
+<li>Det er tomt for vann i tanken. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li>
 <li>Det er masse ved!</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
 <li>Sistemann rapporterte at zaloflasken var tom.</li>
@@ -94,7 +94,7 @@ Gjør det gjerne på forhånd, før du setter deg i byen og lett å glemme - det
 
 ## Kort om bruken av hytta
 
-Så langt inn på fjellet har man ikke alt av byens komfort, så man må være litt selvhjulpen, men det er ingenting som er vanskelig. Jeg har laget et instruksjonshefte hytta som har detaljer om alt. Du kan lese det [her](https://docs.google.com/document/d/1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8/export?format=pdf), men jeg har også skrevet det ut og lagt det på hytta ;)
+Så langt inn på fjellet har man ikke alt av byens komfort, så man må være litt selvhjulpen, men det er ingenting som er vanskelig. Jeg har laget et instruksjonshefte hytta som har detaljer om alt. Du kan lese det [her](/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf), men jeg har også skrevet det ut og lagt det på hytta ;)
 
 Strømmen slås på på hovedbryter på strømpanelet når du har kommet inn forbi inngangspartiet. Trenger du 220V til støvsuging eller TV er det en omformer du kan skru på på hemsen til høyre for stigen der batterier og regulatorer finnes. 220V-uttaket er i stua under tv-en. Alle andre uttak er 12V DC.
 
