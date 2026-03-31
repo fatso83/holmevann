@@ -29,9 +29,10 @@ livereload:
 	JEKYLL_ENV=development asdf exec bundle exec jekyll serve -w --trace --livereload --host localhost --config _config.yml,_config_dev.yml
 
 netlify-dev:
-	# Use a non-production, non-development JEKYLL_ENV so Cloudinary stays local
-	# while jekyll serve does not rewrite site.url back to localhost:4000.
-	netlify dev -c "env JEKYLL_ENV=netlify-dev asdf exec bundle exec jekyll serve -w --trace --host localhost --config _config.yml,_config_dev.yml,_config_netlify_dev.yml" --target-port 4000 --no-open
+	# JEKYLL_ENV is supplied by Netlify's environment config.
+	# Configure the development-context value with `netlify env:set` so netlify dev
+	# does not inherit the production value from the project settings.
+	netlify dev -c "asdf exec bundle exec jekyll serve -w --trace --host localhost --config _config.yml,_config_dev.yml,_config_netlify_dev.yml" --target-port 4000 --no-open
 
 install-precommit:
 	cp pre-commit pre-push .git/hooks/
