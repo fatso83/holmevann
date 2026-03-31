@@ -1,7 +1,7 @@
 # Just check out https://makefile.site
 
 # otherwise Make assumes that all install targets are files & folders
-.PHONY: install deploy livereload build help list-targets install-git-lfs check-dependencies install-precommit
+.PHONY: install deploy livereload build build-translated translate-site help list-targets install-git-lfs check-dependencies install-precommit
 
 help: 
 	@make print S="These are the possible make targets you can invoke"
@@ -26,7 +26,7 @@ deploy: check-dependencies
 	git push
 
 livereload:
-	bundle exec jekyll serve --trace --livereload --host localhost --config _config.yml,_config_dev.yml
+	asdf exec bundle exec jekyll serve --trace --livereload --host localhost --config _config.yml,_config_dev.yml
 
 netlify-dev:
 	netlify dev -c "asdf exec bundle exec jekyll serve -w" --target-port 4000 --no-open
@@ -37,7 +37,13 @@ install-precommit:
 # only for checking out the final build
 # # only for checking out the final build
 build:
-	bundle exec jekyll build
+	asdf exec bundle exec jekyll build
+
+translate-site:
+	@test -f scripts/translate_site.rb || (make print S="Missing scripts/translate_site.rb. Implement the translation pipeline before using this target." && exit 1)
+	asdf exec bundle exec ruby scripts/translate_site.rb
+
+build-translated: build translate-site
 
 ### UTILS ###
 

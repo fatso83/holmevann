@@ -10,6 +10,25 @@
 
 ---
 
+## Current Execution Order
+
+The repo already has the provider abstraction and a concrete DeepL Free client:
+
+- [`scripts/lib/build_translation/providers.rb`](/Users/carlerik/dev/holmevann/scripts/lib/build_translation/providers.rb)
+- [`scripts/lib/build_translation/providers/client.rb`](/Users/carlerik/dev/holmevann/scripts/lib/build_translation/providers/client.rb)
+- [`scripts/lib/build_translation/providers/deepl_free_client.rb`](/Users/carlerik/dev/holmevann/scripts/lib/build_translation/providers/deepl_free_client.rb)
+
+To turn that into a working translated build, execute the remaining work in this order:
+
+1. Add `_data/translations/en-cache.yml` and `scripts/lib/build_translation/cache_store.rb`
+2. Add `scripts/translate_site.rb` as the real translation entrypoint
+3. Add `scripts/lib/build_translation/html_extractor.rb`
+4. Add `scripts/lib/build_translation/link_mapper.rb`
+5. Add `scripts/lib/build_translation/html_renderer.rb`
+6. Wire the components together in `scripts/translate_site.rb`
+7. Generate `_site/en/...` output and `_site/en/sitemap.xml`
+8. Make `make build-translated` pass end-to-end
+
 ### Task 1: Add Translation Build Plumbing And Empty Cache
 
 **Files:**

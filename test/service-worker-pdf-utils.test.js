@@ -2,6 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const {
+  classifySameOriginGetRequest,
   collectPdfProxyUrlsFromHtml,
   trackPdfPrefetch,
   ensureServiceWorkerResponse,
@@ -46,6 +47,45 @@ test("collectPdfProxyUrlsFromHtml tolerates empty or invalid input", function ()
       "http://localhost:8888",
     ),
     [],
+  );
+});
+
+test("classifySameOriginGetRequest treats pdf-proxy navigations as pdf requests", function () {
+  assert.equal(
+    classifySameOriginGetRequest({
+      request: {
+        method: "GET",
+        mode: "navigate",
+        headers: new Headers(),
+      },
+      url: new URL(
+        "https://www.holmevann.no/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2Fabc%2Fexport%3Fformat%3Dpdf",
+      ),
+      scopeOrigin: "https://www.holmevann.no",
+      pdfProxyPath: "/.netlify/functions/pdf-proxy",
+    }),
+    "pdf",
+  );
+});
+
+test("classifySameOriginGetRequest treats pdf-proxy range requests as pdf-range", function () {
+  const headers = new Headers();
+  headers.set("range", "bytes=0-99");
+
+  assert.equal(
+    classifySameOriginGetRequest({
+      request: {
+        method: "GET",
+        mode: "same-origin",
+        headers,
+      },
+      url: new URL(
+        "https://www.holmevann.no/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2Fabc%2Fexport%3Fformat%3Dpdf",
+      ),
+      scopeOrigin: "https://www.holmevann.no",
+      pdfProxyPath: "/.netlify/functions/pdf-proxy",
+    }),
+    "pdf-range",
   );
 });
 
