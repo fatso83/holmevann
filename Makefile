@@ -26,10 +26,10 @@ deploy: check-dependencies
 	git push
 
 livereload:
-	asdf exec bundle exec jekyll serve --trace --livereload --host localhost --config _config.yml,_config_dev.yml
+	JEKYLL_ENV=development asdf exec bundle exec jekyll serve -w --trace --livereload --host localhost --config _config.yml,_config_dev.yml
 
 netlify-dev:
-	netlify dev -c "asdf exec bundle exec jekyll serve -w" --target-port 4000 --no-open
+	netlify dev -c "JEKYLL_ENV=development asdf exec bundle exec jekyll serve -w --trace --host localhost --config _config.yml,_config_dev.yml,_config_netlify_dev.yml" --target-port 4000 --no-open
 
 install-precommit:
 	cp pre-commit pre-push .git/hooks/
