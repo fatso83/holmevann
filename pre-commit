@@ -9,7 +9,7 @@ changed_files(){
     git status -sb \
     | egrep  '^(M|A)' \
     | awk '{print $2}' \
-    | egrep '.(html|md|js|css|scss)'
+    | egrep '\.(html|md|js|css|scss)$'
 }
 
 CHANGED=$(changed_files)
