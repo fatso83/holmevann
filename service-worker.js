@@ -21,20 +21,20 @@ const CORE_URLS = [
   "/favicon.ico",
 ];
 
-const CORE_PAGE_URLS = [
-  "/",
-  "/important.html",
-  "/rental/",
-  "/faq.html",
-  "/map.html",
-];
-
 function isSameOrigin(url) {
   return url.origin === self.location.origin;
 }
 
 function isHtmlNavigation(request) {
   return request.mode === "navigate";
+}
+
+function isCoreHtmlUrl(url) {
+  return url === "/" || url.endsWith("/") || url.endsWith(".html");
+}
+
+function isPrefetchableCorePageUrl(url) {
+  return isCoreHtmlUrl(url) && url !== "/offline.html";
 }
 
 function isPdfProxyRequest(url) {
@@ -174,7 +174,7 @@ async function prefetchPdfUrlsFromHtml(html, baseUrl) {
 
 async function prefetchPdfUrlsFromCorePages(cache) {
   await Promise.all(
-    CORE_PAGE_URLS.map(async function (url) {
+    CORE_URLS.filter(isPrefetchableCorePageUrl).map(async function (url) {
       const response = await cache.match(url);
 
       if (!response || !response.ok) {
@@ -190,11 +190,30 @@ async function prefetchPdfUrlsFromCorePages(cache) {
   );
 }
 
+async function cacheCoreHtmlVariants(cache) {
+  await Promise.all(
+    CORE_URLS.filter(isCoreHtmlUrl).map(async function (url) {
+      const response = await cache.match(url);
+
+      if (!response || !response.ok) {
+        return;
+      }
+
+      await self.HolmevannOfflineRuntimeUtils.cacheHtmlResponseVariants(
+        cache,
+        url,
+        response,
+      );
+    }),
+  );
+}
+
 self.addEventListener("install", function (event) {
   event.waitUntil(
     caches.open(CORE_CACHE).then(async function (cache) {
       console.log("Starting caching of core urls ...");
       await cache.addAll(CORE_URLS);
+      await cacheCoreHtmlVariants(cache);
       console.log("Core urls cached. Starting prefetching of PDF's");
       await prefetchPdfUrlsFromCorePages(cache);
       console.log("PDF prefetching finished");
@@ -233,7 +252,11 @@ async function handleNavigation(request) {
     let background = Promise.resolve();
 
     if (response && response.ok) {
-      await pageCache.put(request, response.clone());
+      await self.HolmevannOfflineRuntimeUtils.cacheHtmlResponseVariants(
+        pageCache,
+        request,
+        response.clone(),
+      );
       background = response
         .clone()
         .text()
@@ -250,7 +273,13 @@ async function handleNavigation(request) {
       background,
     };
   } catch (_error) {
-    const cachedPage = await pageCache.match(request);
+    const cachedPage =
+      await self.HolmevannOfflineRuntimeUtils.matchHtmlInCaches(
+        [PAGE_CACHE, CORE_CACHE],
+        request,
+        caches.open.bind(caches),
+      );
+
     if (cachedPage) {
       return {
         response: cachedPage,
@@ -260,9 +289,7 @@ async function handleNavigation(request) {
 
     const coreCache = await caches.open(CORE_CACHE);
     return {
-      response:
-        (await coreCache.match(request)) ||
-        (await coreCache.match("/offline.html")),
+      response: await coreCache.match("/offline.html"),
       background: Promise.resolve(),
     };
   }

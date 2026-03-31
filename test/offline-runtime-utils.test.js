@@ -3,6 +3,8 @@ const assert = require("node:assert/strict");
 
 const {
   matchAssetInCaches,
+  matchHtmlInCaches,
+  getHtmlCacheKeys,
   loadGoogleAnalytics,
 } = require("../assets/js/offline-runtime-utils.js");
 
@@ -29,6 +31,40 @@ test("matchAssetInCaches falls back to later caches when the first cache misses"
     "holmevann-assets-v2",
     "holmevann-core-v2",
   ]);
+  assert.strictEqual(response, expectedResponse);
+});
+
+test("getHtmlCacheKeys returns aliases with and without the .html suffix", function () {
+  assert.deepEqual(getHtmlCacheKeys("https://www.holmevann.no/map.html"), [
+    "/map.html",
+    "/map",
+  ]);
+
+  assert.deepEqual(getHtmlCacheKeys("https://www.holmevann.no/map"), [
+    "/map",
+    "/map.html",
+  ]);
+});
+
+test("matchHtmlInCaches finds an html page through its alias key", async function () {
+  const expectedResponse = { ok: true, source: "core-cache" };
+  const matchCalls = [];
+
+  const response = await matchHtmlInCaches(
+    ["holmevann-pages-v3", "holmevann-core-v3"],
+    { url: "https://www.holmevann.no/map" },
+    async function () {
+      return {
+        match: async function (cacheKey) {
+          matchCalls.push(cacheKey);
+
+          return cacheKey === "/map.html" ? expectedResponse : null;
+        },
+      };
+    },
+  );
+
+  assert.deepEqual(matchCalls, ["/map", "/map.html"]);
   assert.strictEqual(response, expectedResponse);
 });
 
