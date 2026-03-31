@@ -76,3 +76,4 @@ cloudinary:
 
 include:
   - .well-known
+  - _redirects
