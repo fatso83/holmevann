@@ -180,8 +180,11 @@ async function prefetchPdfUrlsFromCorePages(cache) {
 self.addEventListener("install", function (event) {
   event.waitUntil(
     caches.open(CORE_CACHE).then(async function (cache) {
+      console.log("Starting caching of core urls ...");
       await cache.addAll(CORE_URLS);
+      console.log("Core urls cached. Starting prefetching of PDF's");
       await prefetchPdfUrlsFromCorePages(cache);
+      console.log("PDF prefetching finished");
     }),
   );
   self.skipWaiting();
