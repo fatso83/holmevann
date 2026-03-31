@@ -1,7 +1,7 @@
 # Just check out https://makefile.site
 
 # otherwise Make assumes that all install targets are files & folders
-.PHONY: install deploy livereload build build-translated translate-site help list-targets install-git-lfs check-dependencies install-precommit
+.PHONY: install deploy livereload build build-translated translate-site help list-targets install-git-lfs check-dependencies install-precommit test-js
 
 help: 
 	@make print S="These are the possible make targets you can invoke"
@@ -38,7 +38,10 @@ install-precommit:
 	cp pre-commit pre-push .git/hooks/
 
 # only for checking out the final build
-build:
+test-js:
+	node --test test/*.test.js
+
+build: test-js
 	asdf exec bundle exec jekyll build
 
 translate-site:

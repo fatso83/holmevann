@@ -150,6 +150,13 @@
       return "skip";
     }
 
+    if (
+      request.headers &&
+      request.headers.get("x-holmevann-sw-bypass") === "1"
+    ) {
+      return "skip";
+    }
+
     if (url.origin !== scopeOrigin) {
       return "skip";
     }

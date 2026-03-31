@@ -119,6 +119,27 @@ test("classifySameOriginGetRequest treats pdf-proxy range requests as pdf-range"
   );
 });
 
+test("classifySameOriginGetRequest skips service-worker bypass requests", function () {
+  const headers = new Headers();
+  headers.set("x-holmevann-sw-bypass", "1");
+
+  assert.equal(
+    classifySameOriginGetRequest({
+      request: {
+        method: "GET",
+        mode: "same-origin",
+        headers,
+      },
+      url: new URL(
+        "https://www.holmevann.no/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2Fabc%2Fexport%3Fformat%3Dpdf",
+      ),
+      scopeOrigin: "https://www.holmevann.no",
+      pdfProxyPath: "/.netlify/functions/pdf-proxy",
+    }),
+    "skip",
+  );
+});
+
 test("ensureServiceWorkerResponse returns an offline miss response for nullish values", async function () {
   const response = ensureServiceWorkerResponse(null);
 
