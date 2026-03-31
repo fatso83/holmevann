@@ -264,13 +264,6 @@ self.addEventListener("install", function (event) {
       console.log("Starting caching of core urls ...");
       await cache.addAll(CORE_URLS);
       await cacheCoreHtmlVariants(cache);
-      console.log(
-        "Core urls cached. Starting prefetching of same-origin assets",
-      );
-      await prefetchSameOriginAssetUrlsFromCorePages(cache);
-      console.log("Core urls cached. Starting prefetching of PDF's");
-      await prefetchPdfUrlsFromCorePages(cache);
-      console.log("PDF prefetching finished");
     }),
   );
   self.skipWaiting();
@@ -306,23 +299,24 @@ async function handleNavigation(request) {
     let background = Promise.resolve();
 
     if (response && response.ok) {
-      await self.HolmevannOfflineRuntimeUtils.cacheHtmlResponseVariants(
-        pageCache,
-        request,
-        response.clone(),
-      );
-      background = response
-        .clone()
-        .text()
-        .then(function (html) {
-          return Promise.all([
-            prefetchSameOriginAssetUrlsFromHtml(html, request.url),
-            prefetchPdfUrlsFromHtml(html, request.url),
-          ]);
-        })
-        .catch(function () {
-          return Promise.resolve();
-        });
+      background = Promise.all([
+        self.HolmevannOfflineRuntimeUtils.cacheHtmlResponseVariants(
+          pageCache,
+          request,
+          response.clone(),
+        ),
+        response
+          .clone()
+          .text()
+          .then(function (html) {
+            return Promise.all([
+              prefetchSameOriginAssetUrlsFromHtml(html, request.url),
+              prefetchPdfUrlsFromHtml(html, request.url),
+            ]);
+          }),
+      ]).catch(function () {
+        return Promise.resolve();
+      });
     }
 
     return {
