@@ -10,10 +10,15 @@ const PREFETCHING_PDF_URLS = new Map();
 
 const CORE_URLS = [
   "/",
+  "/en/",
   "/important.html",
+  "/en/important.html",
   "/rental/",
+  "/en/rental/",
   "/faq.html",
+  "/en/faq.html",
   "/map.html",
+  "/en/map.html",
   "/offline.html",
   "/assets/main.css",
   "/assets/js/offline-runtime-utils.js",
