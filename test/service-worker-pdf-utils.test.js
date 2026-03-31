@@ -3,6 +3,7 @@ const assert = require("node:assert/strict");
 
 const {
   collectPdfProxyUrlsFromHtml,
+  trackPdfPrefetch,
   ensureServiceWorkerResponse,
 } = require("../assets/js/service-worker-pdf-utils.js");
 
@@ -54,4 +55,42 @@ test("ensureServiceWorkerResponse returns an offline miss response for nullish v
   assert.equal(response.status, 503);
   assert.equal(response.statusText, "Offline and uncached");
   assert.equal(await response.text(), "");
+});
+
+test("trackPdfPrefetch reuses the in-flight prefetch promise for duplicate pdf urls", async function () {
+  const statusByUrl = new Map();
+  const pdfUrl = "http://localhost:8888/.netlify/functions/pdf-proxy?url=abc";
+  let runCount = 0;
+  let resolvePrefetch;
+
+  const prefetchOperation = function () {
+    runCount += 1;
+
+    return new Promise(function (resolve) {
+      resolvePrefetch = resolve;
+    });
+  };
+
+  const firstPromise = trackPdfPrefetch(statusByUrl, pdfUrl, prefetchOperation);
+  const secondPromise = trackPdfPrefetch(
+    statusByUrl,
+    pdfUrl,
+    prefetchOperation,
+  );
+
+  assert.equal(runCount, 1);
+  assert.strictEqual(firstPromise, secondPromise);
+  assert.strictEqual(statusByUrl.get(pdfUrl), firstPromise);
+
+  resolvePrefetch();
+  await firstPromise;
+
+  assert.equal(statusByUrl.has(pdfUrl), false);
+
+  await trackPdfPrefetch(statusByUrl, pdfUrl, function () {
+    runCount += 1;
+    return Promise.resolve();
+  });
+
+  assert.equal(runCount, 2);
 });

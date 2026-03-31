@@ -4,6 +4,7 @@ const CORE_CACHE = "holmevann-core-v2";
 const PAGE_CACHE = "holmevann-pages-v2";
 const ASSET_CACHE = "holmevann-assets-v2";
 const PDF_CACHE = "holmevann-pdf-v1";
+const PREFETCHING_PDF_URLS = new Map();
 
 const CORE_URLS = [
   "/",
@@ -154,7 +155,17 @@ async function prefetchPdfUrlsFromHtml(html, baseUrl) {
         return;
       }
 
-      await prefetchPdfUrl(pdfCache, pdfUrl);
+      await self.HolmevannServiceWorkerPdfUtils.trackPdfPrefetch(
+        PREFETCHING_PDF_URLS,
+        pdfUrl,
+        async function () {
+          if (await pdfCache.match(pdfUrl)) {
+            return;
+          }
+
+          await prefetchPdfUrl(pdfCache, pdfUrl);
+        },
+      );
     }),
   );
 }

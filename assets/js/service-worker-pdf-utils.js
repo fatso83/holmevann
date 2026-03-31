@@ -41,6 +41,22 @@
     return Array.from(urls);
   }
 
+  function trackPdfPrefetch(statusByUrl, pdfUrl, prefetchOperation) {
+    if (statusByUrl.has(pdfUrl)) {
+      return statusByUrl.get(pdfUrl);
+    }
+
+    const prefetchPromise = Promise.resolve(prefetchOperation()).finally(
+      function () {
+        statusByUrl.delete(pdfUrl);
+      },
+    );
+
+    statusByUrl.set(pdfUrl, prefetchPromise);
+
+    return prefetchPromise;
+  }
+
   function ensureServiceWorkerResponse(value) {
     if (value instanceof Response) {
       return value;
@@ -55,6 +71,7 @@
   const api = {
     PDF_PROXY_PATH,
     collectPdfProxyUrlsFromHtml,
+    trackPdfPrefetch,
     ensureServiceWorkerResponse,
   };
 
