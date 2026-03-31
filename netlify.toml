@@ -1,5 +1,5 @@
 [build]
-  command = "asdf exec bundle exec jekyll build && asdf exec bundle exec ruby scripts/translate_site.rb"
+  command = "bundle exec jekyll build && bundle exec ruby scripts/translate_site.rb"
   publish = "_site"
 
 [[headers]]
