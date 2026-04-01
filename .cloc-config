@@ -1,0 +1,6 @@
+--vcs=git 
+--fullpath 
+--exclude-dir=node_modules,vendor,_site,.netlify,.claude,docs,downloads,_posts
+--not-match-f='(^|/)(_data/translations/en-cache\.yml|Gemfile\.lock|package-lock\.json|README\.md|AGENTS\.md|faq\.md|gallery\.md|important\.md|index\.md|map\.md|offline\.md|privacy\.md|404\.md|rental/index\.md)$'
+--include-lang=JavaScript,Ruby,SCSS,HTML,YAML,TOML,make,'Bourne Again Shell','Bourne Shell',JSON
+    .

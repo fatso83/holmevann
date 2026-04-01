@@ -7,6 +7,9 @@ help:
 	@make print S="These are the possible make targets you can invoke"
 	@make list-targets
 
+lines-of-code:
+	cloc --config .cloc-config
+
 install: 
 	bundle install
 	@make install-precommit
