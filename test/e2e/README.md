@@ -1,6 +1,6 @@
 # Holmevann E2E Tests
 
-This directory contains manual Playwright coverage for the proxied PDF offline path.
+This directory contains manual Playwright coverage for the offline English-cache smoke path.
 It is the single manual smoke test for cross-cutting service worker and translation behavior, not a pre-push gate.
 
 Requirements:
@@ -37,9 +37,11 @@ PLAYWRIGHT_BASE_URL=http://localhost:8888 npm --prefix test/e2e test -- --grep "
 
 What this verifies:
 
-- the page becomes controlled by the service worker
-- a real proxied PDF URL is fetched once online and cached
-- the same proxied PDF URL still succeeds after the browser context is offline
+- the root page becomes controlled by the service worker
+- core English routes warm into cache from the root page
+- offline navigation to `/en/rental/` succeeds
+- offline navigation to `/en/important.html` succeeds
+- a real proxied PDF URL from the English important page still succeeds after the browser context is offline
 
 What this does not verify:
 
@@ -48,3 +50,9 @@ What this does not verify:
 - uncached miss behavior
 
 Those remain covered by the Node regression tests.
+
+Useful diagnostics:
+
+- Playwright keeps a trace on failure via `trace: "retain-on-failure"`
+- the smoke attaches `cache-state-before-offline.json` to the failing test output
+- optional HAR recording is available with `PLAYWRIGHT_RECORD_HAR=1`

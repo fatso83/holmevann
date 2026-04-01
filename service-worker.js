@@ -1,6 +1,37 @@
-importScripts("/assets/js/offline-runtime-utils.js");
-importScripts("/assets/js/service-worker-pdf-utils.js");
-importScripts("/assets/js/service-worker-pdf-runtime.js");
+const DEBUG_LOGGING =
+  self.location &&
+  (self.location.hostname === "localhost" ||
+    self.location.hostname === "127.0.0.1");
+
+function debugLog(level, message) {
+  if (!DEBUG_LOGGING || typeof console === "undefined") {
+    return;
+  }
+
+  const logger =
+    typeof console[level] === "function" ? console[level].bind(console) : null;
+
+  if (logger) {
+    logger(message);
+    return;
+  }
+
+  console.log(message);
+}
+
+function loadWorkerScript(url) {
+  try {
+    importScripts(url);
+    debugLog("log", "[holmevann-sw] imported " + url);
+  } catch (error) {
+    debugLog("error", "[holmevann-sw] failed to import " + url + ": " + error);
+    throw error;
+  }
+}
+
+loadWorkerScript("/assets/js/offline-runtime-utils.js");
+loadWorkerScript("/assets/js/service-worker-pdf-utils.js");
+loadWorkerScript("/assets/js/service-worker-pdf-runtime.js");
 
 const CORE_CACHE = "holmevann-core-v3";
 const PAGE_CACHE = "holmevann-pages-v3";
@@ -184,12 +215,20 @@ self.addEventListener("activate", function (event) {
 
 async function handleNavigation(request) {
   const pageCache = await caches.open(PAGE_CACHE);
+  const url = new URL(request.url);
 
   try {
     const response = await fetch(request);
     let background = Promise.resolve();
 
     if (response && response.ok) {
+      debugLog(
+        "log",
+        "[holmevann-sw] navigation network hit " +
+          url.pathname +
+          " status=" +
+          response.status,
+      );
       background = Promise.all([
         self.HolmevannOfflineRuntimeUtils.cacheHtmlResponseVariants(
           pageCache,
@@ -223,12 +262,14 @@ async function handleNavigation(request) {
       );
 
     if (cachedPage) {
+      debugLog("log", "[holmevann-sw] navigation cache hit " + url.pathname);
       return {
         response: cachedPage,
         background: Promise.resolve(),
       };
     }
 
+    debugLog("warn", "[holmevann-sw] navigation fallback " + url.pathname);
     return {
       response: self.HolmevannOfflineRuntimeUtils.buildOfflineFallbackResponse({
         pathname: new URL(request.url).pathname,
@@ -280,6 +321,25 @@ self.addEventListener("fetch", function (event) {
       scopeOrigin: self.location.origin,
       pdfProxyPath: self.HolmevannServiceWorkerPdfUtils.PDF_PROXY_PATH,
     });
+
+  if (
+    DEBUG_LOGGING &&
+    url.origin === self.location.origin &&
+    (request.mode === "navigate" ||
+      (request.headers.get("accept") || "").includes("text/html"))
+  ) {
+    debugLog(
+      "log",
+      [
+        "[holmevann-sw] fetch",
+        url.pathname + url.search,
+        "mode=" + request.mode,
+        "destination=" + request.destination,
+        "accept=" + (request.headers.get("accept") || ""),
+        "type=" + requestType,
+      ].join(" "),
+    );
+  }
 
   if (requestType === "skip") {
     return;

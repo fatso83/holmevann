@@ -141,6 +141,15 @@
     const url = options && options.url;
     const scopeOrigin = options && options.scopeOrigin;
     const pdfProxyPath = options && options.pdfProxyPath;
+    const acceptHeader =
+      request && request.headers && typeof request.headers.get === "function"
+        ? request.headers.get("accept") || ""
+        : "";
+    const isHtmlDocumentRequest =
+      request &&
+      (request.mode === "navigate" ||
+        request.destination === "document" ||
+        acceptHeader.includes("text/html"));
 
     if (!request || !url || request.method !== "GET") {
       return "skip";
@@ -163,7 +172,7 @@
         : "pdf";
     }
 
-    return request.mode === "navigate" ? "navigation" : "asset";
+    return isHtmlDocumentRequest ? "navigation" : "asset";
   }
 
   function ensureServiceWorkerResponse(value) {

@@ -4,17 +4,19 @@
       return null;
     }
 
+    if (typeof input === "string") {
+      return new URL(input, "https://offline.holmevann.local");
+    }
+
     if (input instanceof URL) {
       return input;
     }
 
-    const value = typeof input === "string" ? input : input.url;
-
-    if (!value) {
-      return null;
+    if (typeof Request !== "undefined" && input instanceof Request) {
+      return new URL(input.url, "https://offline.holmevann.local");
     }
 
-    return new URL(value, "https://offline.holmevann.local");
+    throw new TypeError("Expected a string, URL, or Request");
   }
 
   function getHtmlCacheKeys(input) {

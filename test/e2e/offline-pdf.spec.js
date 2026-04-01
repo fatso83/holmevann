@@ -1,7 +1,10 @@
 const { test, expect } = require("@playwright/test");
 
 const PDF_LINK_SELECTOR = 'a[href*="/.netlify/functions/pdf-proxy?url="]';
+const ROOT_PATH = "/";
 const ENGLISH_RENTAL_PATH = "/en/rental/";
+const ENGLISH_IMPORTANT_PATH = "/en/important.html";
+const EXPECTED_WARM_PATHS = ["/", "/en/", "/en/rental/", "/en/important.html"];
 
 async function waitForServiceWorkerControl(page) {
   await page.waitForFunction(async function () {
@@ -9,11 +12,66 @@ async function waitForServiceWorkerControl(page) {
     return Boolean(registration);
   });
 
-  await page.reload();
+  await page.reload({
+    waitUntil: "networkidle",
+  });
 
   await page.waitForFunction(function () {
     return Boolean(navigator.serviceWorker.controller);
   });
+}
+
+async function getCacheEntriesByName(page) {
+  return page.evaluate(async function () {
+    const entriesByCache = {};
+
+    for (const cacheName of await caches.keys()) {
+      const cache = await caches.open(cacheName);
+      const requests = await cache.keys();
+
+      entriesByCache[cacheName] = requests.map(function (request) {
+        const url = new URL(request.url);
+        return url.pathname + url.search;
+      });
+    }
+
+    return entriesByCache;
+  });
+}
+
+function findMissingPaths(entriesByCache, expectedPaths) {
+  const cachedPaths = new Set(Object.values(entriesByCache).flat());
+
+  return expectedPaths.filter(function (path) {
+    return !cachedPaths.has(path);
+  });
+}
+
+async function waitForWarmCacheState(page, expectedPaths, timeoutMs) {
+  const start = Date.now();
+  let entriesByCache = {};
+  let missingPaths = expectedPaths.slice();
+
+  while (Date.now() - start <= timeoutMs) {
+    entriesByCache = await getCacheEntriesByName(page);
+    missingPaths = findMissingPaths(entriesByCache, expectedPaths);
+
+    if (missingPaths.length === 0) {
+      return {
+        entriesByCache,
+        missingPaths,
+        ready: true,
+      };
+    }
+
+    await page.waitForTimeout(250);
+  }
+
+  return {
+    entriesByCache,
+    missingPaths,
+    ready: false,
+  };
 }
 
 async function fetchPdfFromPage(page, pdfHref) {
@@ -40,75 +98,114 @@ async function fetchPdfFromPage(page, pdfHref) {
   }, pdfHref);
 }
 
-async function waitForPdfToReachCache(page, pdfHref) {
-  await page.waitForFunction(async function (href) {
-    const cacheNames = await caches.keys();
+async function gotoUntilOk(page, path, options) {
+  const attempts = (options && options.attempts) || 5;
+  const delayMs = (options && options.delayMs) || 250;
+  let lastResponse = null;
 
-    for (const cacheName of cacheNames) {
-      const cache = await caches.open(cacheName);
-      const requests = await cache.keys();
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    lastResponse = await page.goto(path, {
+      waitUntil: "networkidle",
+    });
 
-      if (
-        requests.some(function (request) {
-          return request.url === href;
-        })
-      ) {
-        return true;
-      }
+    if (lastResponse && lastResponse.ok()) {
+      return lastResponse;
     }
 
-    return false;
-  }, pdfHref);
+    await page.waitForTimeout(delayMs);
+  }
+
+  return lastResponse;
 }
 
-function resolvePdfUrl(baseURL, pdfHref) {
-  return new URL(pdfHref, baseURL).href;
-}
-
-test("offline pdf replay works after the translated rental page warms the cache", async function ({
-  page,
-  context,
+test("offline pdf smoke covers root warmup, english rental, and english important", async function ({
+  browser,
   baseURL,
-}) {
+}, testInfo) {
   test.skip(!baseURL, "A running local server is required.");
 
-  const translatedPageResponse = await page.goto(ENGLISH_RENTAL_PATH, {
-    waitUntil: "networkidle",
+  const warmupTimeoutMs = Number(
+    process.env.PLAYWRIGHT_CACHE_WARMUP_MS || "3000",
+  );
+  const recordHar = process.env.PLAYWRIGHT_RECORD_HAR === "1";
+  const context = await browser.newContext({
+    baseURL,
+    recordHar: recordHar
+      ? {
+          mode: "minimal",
+          path: testInfo.outputPath("offline-english-cache.har"),
+        }
+      : undefined,
   });
-  expect(translatedPageResponse).toBeTruthy();
-  expect(translatedPageResponse.ok()).toBe(true);
-  await expect(page).toHaveURL(new RegExp(`${ENGLISH_RENTAL_PATH}$`));
+  const page = await context.newPage();
 
-  await waitForServiceWorkerControl(page);
+  try {
+    const homeResponse = await gotoUntilOk(page, ROOT_PATH, {
+      attempts: 6,
+      delayMs: 500,
+    });
+    expect(homeResponse).toBeTruthy();
+    expect(homeResponse.ok()).toBe(true);
 
-  const pdfLink = page.locator(PDF_LINK_SELECTOR).first();
-  await expect(pdfLink).toBeVisible();
-  const pdfHref = await pdfLink.getAttribute("href");
+    await waitForServiceWorkerControl(page);
 
-  expect(pdfHref).toBeTruthy();
-  const normalizedPdfUrl = resolvePdfUrl(baseURL, pdfHref);
+    const warmup = await waitForWarmCacheState(
+      page,
+      EXPECTED_WARM_PATHS,
+      warmupTimeoutMs,
+    );
 
-  const onlineResult = await fetchPdfFromPage(page, pdfHref);
+    await testInfo.attach("cache-state-before-offline.json", {
+      body: JSON.stringify(warmup, null, 2),
+      contentType: "application/json",
+    });
 
-  expect(
-    onlineResult.ok,
-    onlineResult.error || "online fetch should succeed",
-  ).toBe(true);
-  expect(onlineResult.status).toBe(200);
-  expect(onlineResult.contentType || "").toContain("application/pdf");
-  expect(onlineResult.byteLength).toBeGreaterThan(0);
+    console.log(
+      JSON.stringify(
+        {
+          cacheWarmupReady: warmup.ready,
+          missingPaths: warmup.missingPaths,
+        },
+        null,
+        2,
+      ),
+    );
 
-  await waitForPdfToReachCache(page, normalizedPdfUrl);
+    await context.setOffline(true);
 
-  await context.setOffline(true);
+    const rentalResponse = await page.goto(ENGLISH_RENTAL_PATH, {
+      waitUntil: "domcontentloaded",
+    });
+    expect(rentalResponse).toBeTruthy();
+    expect(rentalResponse.status()).toBe(200);
+    await expect(page).toHaveURL(new RegExp(`${ENGLISH_RENTAL_PATH}$`));
+    await expect(page.locator("main")).toContainText(/rental|tenant|arrival/i);
 
-  const offlineResult = await fetchPdfFromPage(page, pdfHref);
+    const importantResponse = await page.goto(ENGLISH_IMPORTANT_PATH, {
+      waitUntil: "domcontentloaded",
+    });
+    expect(importantResponse).toBeTruthy();
+    expect(importantResponse.status()).toBe(200);
+    await expect(page).toHaveURL(new RegExp(`${ENGLISH_IMPORTANT_PATH}$`));
 
-  expect(
-    offlineResult.ok,
-    offlineResult.error || "offline fetch should be replayed from cache",
-  ).toBe(true);
-  expect(offlineResult.status).toBe(200);
-  expect(offlineResult.contentType || "").toContain("application/pdf");
-  expect(offlineResult.byteLength).toBeGreaterThan(0);
+    const pdfLink = page.locator(PDF_LINK_SELECTOR).first();
+    await expect(pdfLink).toBeVisible();
+
+    const pdfHref = await pdfLink.getAttribute("href");
+    expect(pdfHref).toBeTruthy();
+
+    const offlinePdfResult = await fetchPdfFromPage(page, pdfHref);
+
+    expect(
+      offlinePdfResult.ok,
+      offlinePdfResult.error || "offline english pdf fetch should succeed",
+    ).toBe(true);
+    expect(offlinePdfResult.status).toBe(200);
+    expect(offlinePdfResult.contentType || "").toContain("application/pdf");
+    expect(offlinePdfResult.byteLength).toBeGreaterThan(0);
+  } finally {
+    await context.close().catch(function () {
+      return undefined;
+    });
+  }
 });

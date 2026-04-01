@@ -146,6 +146,29 @@ test("classifySameOriginGetRequest skips service-worker bypass requests", functi
   );
 });
 
+test("classifySameOriginGetRequest treats html document fetches as navigation even when mode is not navigate", function () {
+  const headers = new Headers();
+  headers.set(
+    "accept",
+    "text/html,application/xhtml+xml,application/xml;q=0.9",
+  );
+
+  assert.equal(
+    classifySameOriginGetRequest({
+      request: {
+        method: "GET",
+        mode: "same-origin",
+        destination: "empty",
+        headers,
+      },
+      url: new URL("https://www.holmevann.no/en/important.html"),
+      scopeOrigin: "https://www.holmevann.no",
+      pdfProxyPath: "/.netlify/functions/pdf-proxy",
+    }),
+    "navigation",
+  );
+});
+
 test("ensureServiceWorkerResponse returns an offline miss response for nullish values", async function () {
   const response = ensureServiceWorkerResponse(null);
 

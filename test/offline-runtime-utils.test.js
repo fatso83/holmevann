@@ -49,13 +49,38 @@ test("getHtmlCacheKeys returns aliases with and without the .html suffix", funct
   ]);
 });
 
+test("getHtmlCacheKeys accepts Request inputs used by the service worker", function () {
+  assert.deepEqual(
+    getHtmlCacheKeys(new Request("https://www.holmevann.no/en/rental/")),
+    ["/en/rental/"],
+  );
+
+  assert.deepEqual(
+    getHtmlCacheKeys(new Request("https://www.holmevann.no/en/important/")),
+    ["/en/important/"],
+  );
+
+  assert.deepEqual(
+    getHtmlCacheKeys(new Request("https://www.holmevann.no/en/important.html")),
+    ["/en/important.html", "/en/important"],
+  );
+});
+
+test("getHtmlCacheKeys rejects ad-hoc objects that are not Request, URL, or string", function () {
+  assert.throws(function () {
+    getHtmlCacheKeys({
+      url: "https://www.holmevann.no/en/rental/",
+    });
+  }, TypeError);
+});
+
 test("matchHtmlInCaches finds an html page through its alias key", async function () {
   const expectedResponse = { ok: true, source: "core-cache" };
   const matchCalls = [];
 
   const response = await matchHtmlInCaches(
     ["holmevann-pages-v3", "holmevann-core-v3"],
-    { url: "https://www.holmevann.no/map" },
+    new Request("https://www.holmevann.no/map"),
     async function () {
       return {
         match: async function (cacheKey) {
