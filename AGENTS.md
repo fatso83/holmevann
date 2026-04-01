@@ -12,6 +12,8 @@
 ## Notes
 
 - On this machine, plain `ruby` and `bundle` may resolve to `/usr/bin/*` and use system Ruby `2.6`, which does not match the repo setup.
+- Netlify build containers do **not** have `asdf`. Commands in [`netlify.toml`](/Users/carlerik/dev/holmevann/netlify.toml) under `[build]` must therefore use plain `bundle ...`, never `asdf exec ...`.
+- Do not remove `bundle install` from the Netlify `[build]` command unless it is replaced by an equivalent dependency-install step in the same build path. A translated Netlify build must continue to install gems and then run both `bundle exec jekyll build` and `bundle exec ruby scripts/translate_site.rb`.
 
 ## Verification
 
