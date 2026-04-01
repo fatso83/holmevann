@@ -55,7 +55,7 @@ test-ruby:
 
 # Manual Playwright smoke suite; intentionally not part of pre-push.
 test-e2e:
-	PLAYWRIGHT_BASE_URL=$${PLAYWRIGHT_BASE_URL:-http://localhost:8888} npm --prefix test/e2e test -- --grep "offline pdf"
+	PLAYWRIGHT_BASE_URL=$${PLAYWRIGHT_BASE_URL:-http://localhost:8888} npm --prefix test/e2e test 
 
 build: test-js
 	asdf exec bundle exec jekyll build
