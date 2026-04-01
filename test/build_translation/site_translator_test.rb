@@ -163,7 +163,6 @@ class SiteTranslatorTest < Minitest::Test
               "source_text" => "Playwright Inspector",
               "translated_text" => "Playwright Inspector",
               "format" => "text",
-              "updated_at" => "2026-04-01T00:00:00Z",
             },
           },
         ),

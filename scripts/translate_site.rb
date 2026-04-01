@@ -6,7 +6,7 @@ require "build_translation/cache_store"
 require "build_translation/html_extractor"
 require "build_translation/html_renderer"
 require "build_translation/link_mapper"
-require "build_translation/providers"
+require "build_translation/providers/deepl_free_client"
 require "build_translation/site_translator"
 
 auth_key = ENV["DEEPL_AUTH_KEY"]
@@ -24,8 +24,5 @@ BuildTranslation::SiteTranslator.new(
   extractor: BuildTranslation::HtmlExtractor.new,
   renderer: BuildTranslation::HtmlRenderer.new(link_mapper: link_mapper),
   link_mapper: link_mapper,
-  provider: BuildTranslation::Providers.build(
-    provider_name: "deepl_free",
-    auth_key: auth_key,
-  ),
+  provider: BuildTranslation::Providers::DeepLFreeClient.new(auth_key: auth_key),
 ).run

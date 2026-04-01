@@ -47,7 +47,7 @@ class CacheStoreTest < Minitest::Test
       assert_equal "Hei", entry.fetch("source_text")
       assert_equal "Hello", entry.fetch("translated_text")
       assert_equal "text", entry.fetch("format")
-      refute_nil entry.fetch("updated_at")
+      refute_includes entry.keys, "updated_at"
     end
   end
 
@@ -77,13 +77,11 @@ class CacheStoreTest < Minitest::Test
               "source_text" => "Keep me",
               "translated_text" => "Keep me",
               "format" => "text",
-              "updated_at" => "2026-04-01T00:00:00Z",
             },
             "drop" => {
               "source_text" => "Drop me",
               "translated_text" => "Drop me",
               "format" => "text",
-              "updated_at" => "2026-04-01T00:00:00Z",
             },
           },
         }.to_yaml,
@@ -96,6 +94,31 @@ class CacheStoreTest < Minitest::Test
 
       saved = YAML.load_file(path)
       assert_equal ["keep"], saved.fetch("entries").keys
+    end
+  end
+
+  def test_save_rewrites_legacy_entries_without_updated_at
+    Dir.mktmpdir do |dir|
+      path = File.join(dir, "en-cache.yml")
+      File.write(
+        path,
+        {
+          "entries" => {
+            "legacy" => {
+              "source_text" => "Hei",
+              "translated_text" => "Hello",
+              "format" => "text",
+              "updated_at" => "2026-04-01T00:00:00Z",
+            },
+          },
+        }.to_yaml,
+      )
+
+      store = BuildTranslation::CacheStore.new(path:)
+      store.save!
+
+      saved = YAML.load_file(path)
+      refute_includes saved.fetch("entries").fetch("legacy").keys, "updated_at"
     end
   end
 end

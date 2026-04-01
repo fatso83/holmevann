@@ -18,6 +18,8 @@ enkelt med noen lenker og simple dokumenter. Med tiden blir det kanskje en Markd
 - Utvikle lokalt med live-reload: `make livereload`
 - Rask JS-verifisering: `node --test test/*.test.js`
 - Rask Ruby-verifisering: `make test-ruby`
+- Full bygget oversatt site under `_site/en/`: `make build-translated`
+- Kun oversettingssteget etter en fersk build: `make translate-site`
 - Manuell Playwright-smoke for service worker, offline PDF og oversatte flyter: `make test-e2e`
 - Liste opp andre muligheter: `make` (eller `make help`)
 

@@ -61,7 +61,9 @@ translate-site:
 	@test -f scripts/translate_site.rb || (make print S="Missing scripts/translate_site.rb. Implement the translation pipeline before using this target." && exit 1)
 	asdf exec bundle exec ruby scripts/translate_site.rb
 
-build-translated: build
+build-translated: test-js
+	asdf exec bundle exec jekyll build
+	asdf exec bundle exec ruby scripts/translate_site.rb
 
 ### UTILS ###
 

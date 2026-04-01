@@ -1,6 +1,5 @@
 require "fileutils"
 require "set"
-require "time"
 require "yaml"
 
 module BuildTranslation
@@ -13,7 +12,9 @@ module BuildTranslation
                 {}
               end
       @data["entries"] ||= {}
-      @dirty = false
+      normalized_entries = normalize_entries(@data.fetch("entries"))
+      @dirty = normalized_entries != @data.fetch("entries")
+      @data["entries"] = normalized_entries
     end
 
     def lookup(hash)
@@ -25,7 +26,6 @@ module BuildTranslation
         "source_text" => source_text,
         "translated_text" => translated_text,
         "format" => format,
-        "updated_at" => Time.now.utc.iso8601,
       }
       current_value = lookup(hash)
 
@@ -52,6 +52,20 @@ module BuildTranslation
       File.write(@path, YAML.dump(@data))
       @dirty = false
       true
+    end
+
+    private
+
+    def normalize_entries(entries)
+      entries.each_with_object({}) do |(hash, entry), normalized|
+        next unless entry
+
+        normalized[hash] = {
+          "source_text" => entry["source_text"],
+          "translated_text" => entry["translated_text"],
+          "format" => entry["format"],
+        }
+      end
     end
   end
 end

@@ -136,10 +136,6 @@
     return prefetchPromise;
   }
 
-  function trackPdfPrefetch(statusByUrl, pdfUrl, prefetchOperation) {
-    return trackPrefetch(statusByUrl, pdfUrl, prefetchOperation);
-  }
-
   function classifySameOriginGetRequest(options) {
     const request = options && options.request;
     const url = options && options.url;
@@ -187,7 +183,6 @@
     collectSameOriginAssetUrlsFromHtml,
     collectPdfProxyUrlsFromHtml,
     trackPrefetch,
-    trackPdfPrefetch,
     ensureServiceWorkerResponse,
   };
 

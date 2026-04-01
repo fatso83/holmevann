@@ -31,10 +31,6 @@ function isCoreHtmlUrl(url) {
   return url === "/" || url.endsWith("/") || url.endsWith(".html");
 }
 
-function isPrefetchableCorePageUrl(url) {
-  return isCoreHtmlUrl(url);
-}
-
 async function prefetchPdfUrl(pdfCache, pdfUrl) {
   try {
     const response = await fetch(
@@ -120,7 +116,7 @@ async function prefetchPdfUrlsFromHtml(html, baseUrl) {
         return;
       }
 
-      await self.HolmevannServiceWorkerPdfUtils.trackPdfPrefetch(
+      await self.HolmevannServiceWorkerPdfUtils.trackPrefetch(
         PREFETCHING_PDF_URLS,
         pdfUrl,
         async function () {
@@ -130,42 +126,6 @@ async function prefetchPdfUrlsFromHtml(html, baseUrl) {
 
           await prefetchPdfUrl(pdfCache, pdfUrl);
         },
-      );
-    }),
-  );
-}
-
-async function prefetchSameOriginAssetUrlsFromCorePages(cache) {
-  await Promise.all(
-    CORE_URLS.filter(isPrefetchableCorePageUrl).map(async function (url) {
-      const response = await cache.match(url);
-
-      if (!response || !response.ok) {
-        return;
-      }
-
-      const html = await response.clone().text();
-      await prefetchSameOriginAssetUrlsFromHtml(
-        html,
-        new URL(url, self.location.origin).href,
-      );
-    }),
-  );
-}
-
-async function prefetchPdfUrlsFromCorePages(cache) {
-  await Promise.all(
-    CORE_URLS.filter(isPrefetchableCorePageUrl).map(async function (url) {
-      const response = await cache.match(url);
-
-      if (!response || !response.ok) {
-        return;
-      }
-
-      const html = await response.clone().text();
-      await prefetchPdfUrlsFromHtml(
-        html,
-        new URL(url, self.location.origin).href,
       );
     }),
   );

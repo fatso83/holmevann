@@ -6,9 +6,15 @@ const {
   collectSameOriginAssetUrlsFromHtml,
   collectPdfProxyUrlsFromHtml,
   trackPrefetch,
-  trackPdfPrefetch,
   ensureServiceWorkerResponse,
 } = require("../assets/js/service-worker-pdf-utils.js");
+
+test("service-worker-pdf-utils exposes the simplified prefetch api", function () {
+  const api = require("../assets/js/service-worker-pdf-utils.js");
+
+  assert.equal(typeof api.trackPrefetch, "function");
+  assert.equal("trackPdfPrefetch" in api, false);
+});
 
 test("collectPdfProxyUrlsFromHtml returns same-origin proxied pdf links", function () {
   const html = [
@@ -148,7 +154,7 @@ test("ensureServiceWorkerResponse returns an offline miss response for nullish v
   assert.equal(await response.text(), "");
 });
 
-test("trackPdfPrefetch reuses the in-flight prefetch promise for duplicate pdf urls", async function () {
+test("trackPrefetch reuses the in-flight prefetch promise for duplicate urls", async function () {
   const statusByUrl = new Map();
   const pdfUrl = "http://localhost:8888/.netlify/functions/pdf-proxy?url=abc";
   let runCount = 0;
@@ -162,12 +168,8 @@ test("trackPdfPrefetch reuses the in-flight prefetch promise for duplicate pdf u
     });
   };
 
-  const firstPromise = trackPdfPrefetch(statusByUrl, pdfUrl, prefetchOperation);
-  const secondPromise = trackPdfPrefetch(
-    statusByUrl,
-    pdfUrl,
-    prefetchOperation,
-  );
+  const firstPromise = trackPrefetch(statusByUrl, pdfUrl, prefetchOperation);
+  const secondPromise = trackPrefetch(statusByUrl, pdfUrl, prefetchOperation);
 
   assert.equal(runCount, 1);
   assert.strictEqual(firstPromise, secondPromise);
@@ -178,37 +180,10 @@ test("trackPdfPrefetch reuses the in-flight prefetch promise for duplicate pdf u
 
   assert.equal(statusByUrl.has(pdfUrl), false);
 
-  await trackPdfPrefetch(statusByUrl, pdfUrl, function () {
+  await trackPrefetch(statusByUrl, pdfUrl, function () {
     runCount += 1;
     return Promise.resolve();
   });
 
   assert.equal(runCount, 2);
-});
-
-test("trackPrefetch reuses the in-flight prefetch promise for duplicate asset urls", async function () {
-  const statusByUrl = new Map();
-  const assetUrl = "http://localhost:8888/assets/img/header-img.jpg";
-  let runCount = 0;
-  let resolvePrefetch;
-
-  const prefetchOperation = function () {
-    runCount += 1;
-
-    return new Promise(function (resolve) {
-      resolvePrefetch = resolve;
-    });
-  };
-
-  const firstPromise = trackPrefetch(statusByUrl, assetUrl, prefetchOperation);
-  const secondPromise = trackPrefetch(statusByUrl, assetUrl, prefetchOperation);
-
-  assert.equal(runCount, 1);
-  assert.strictEqual(firstPromise, secondPromise);
-  assert.strictEqual(statusByUrl.get(assetUrl), firstPromise);
-
-  resolvePrefetch();
-  await firstPromise;
-
-  assert.equal(statusByUrl.has(assetUrl), false);
 });
