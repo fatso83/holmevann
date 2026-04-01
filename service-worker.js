@@ -171,11 +171,17 @@ async function cacheCoreHtmlVariants(cache) {
         return;
       }
 
+      const html = await response.clone().text();
+
       await self.HolmevannOfflineRuntimeUtils.cacheHtmlResponseVariants(
         cache,
         url,
         response,
       );
+
+      void prefetchPdfUrlsFromHtml(html, url).catch(function () {
+        return undefined;
+      });
     }),
   );
 }

@@ -221,6 +221,11 @@ test("offline pdf smoke covers root warmup, english rental, and english importan
     const pdfHref = await pdfLink.getAttribute("href");
     expect(pdfHref).toBeTruthy();
 
+    const downloadPromise = page.waitForEvent("download");
+    await pdfLink.click();
+    const download = await downloadPromise;
+    expect(download.suggestedFilename().toLowerCase()).toContain(".pdf");
+
     const offlinePdfResult = await fetchPdfFromPage(page, pdfHref);
 
     expect(
