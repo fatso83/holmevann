@@ -31,14 +31,38 @@
     const search = url.search;
     const hasFileExtension = /\/[^/]+\.[^/]+$/.test(pathname);
 
-    cacheKeys.push(pathname + search);
+    function addCacheKey(path) {
+      if (!path) {
+        return;
+      }
+
+      cacheKeys.push(path + search);
+    }
+
+    function addDirectoryAliases(path) {
+      addCacheKey(path);
+
+      if (path !== "/") {
+        addCacheKey(path + "/");
+      }
+    }
 
     if (pathname.endsWith(".html")) {
       const withoutHtml = pathname.slice(0, -".html".length) || "/";
 
-      cacheKeys.push(withoutHtml + search);
+      addCacheKey(pathname);
+
+      if (withoutHtml.endsWith("/index")) {
+        const parentDirectory = withoutHtml.slice(0, -"/index".length) || "/";
+
+        addDirectoryAliases(parentDirectory);
+      } else {
+        addDirectoryAliases(withoutHtml);
+      }
     } else if (!pathname.endsWith("/") && !hasFileExtension) {
-      cacheKeys.push(pathname + ".html" + search);
+      addDirectoryAliases(pathname);
+    } else {
+      addCacheKey(pathname);
     }
 
     return Array.from(new Set(cacheKeys));

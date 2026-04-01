@@ -19,6 +19,7 @@
 
 - Fast JavaScript and Ruby checks are routine verification and should run before pushing: `node --test test/*.test.js` and `make test-ruby`.
 - `make test-e2e` is a manual Playwright smoke test for service worker behavior, PDF offline caching, and translated flows. It requires a running local server and is not part of pre-push.
+- For sandbox-safe verification or when local server state is uncertain, prefer the self-contained wrapper `make test-e2e-with-server`, which starts the local dev server, waits for health, runs the smoke, and shuts the server down.
 - If a change affects generated site output, service worker behavior, translation output, translation caches, or other build/runtime pipeline artifacts, do not stop at unit tests alone.
 - In those cases, verification must include the real end-to-end command path that produces the affected artifacts.
 - For site output changes, run `asdf exec bundle exec jekyll build`.

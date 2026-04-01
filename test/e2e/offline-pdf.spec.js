@@ -8,13 +8,31 @@ const EXPECTED_WARM_PATHS = ["/", "/en/", "/en/rental/", "/en/important.html"];
 
 async function waitForServiceWorkerControl(page) {
   await page.waitForFunction(async function () {
+    if (!("serviceWorker" in navigator)) {
+      return false;
+    }
+
     const registration = await navigator.serviceWorker.getRegistration();
-    return Boolean(registration);
+    return Boolean(
+      registration &&
+      registration.active &&
+      registration.active.state === "activated",
+    );
   });
 
-  await page.reload({
-    waitUntil: "networkidle",
-  });
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    if (
+      await page.evaluate(function () {
+        return Boolean(navigator.serviceWorker.controller);
+      })
+    ) {
+      return;
+    }
+
+    await page.reload({
+      waitUntil: "networkidle",
+    });
+  }
 
   await page.waitForFunction(function () {
     return Boolean(navigator.serviceWorker.controller);
@@ -127,6 +145,7 @@ test("offline pdf smoke covers root warmup, english rental, and english importan
   const warmupTimeoutMs = Number(
     process.env.PLAYWRIGHT_CACHE_WARMUP_MS || "3000",
   );
+  const debugServiceWorker = process.env.PLAYWRIGHT_DEBUG_SW === "1";
   const recordHar = process.env.PLAYWRIGHT_RECORD_HAR === "1";
   const context = await browser.newContext({
     baseURL,
@@ -138,6 +157,14 @@ test("offline pdf smoke covers root warmup, english rental, and english importan
       : undefined,
   });
   const page = await context.newPage();
+
+  if (debugServiceWorker) {
+    page.on("console", function (message) {
+      console.log(
+        ["[browser:" + message.type() + "]", message.text()].join(" "),
+      );
+    });
+  }
 
   try {
     const homeResponse = await gotoUntilOk(page, ROOT_PATH, {

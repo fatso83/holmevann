@@ -21,6 +21,7 @@ enkelt med noen lenker og simple dokumenter. Med tiden blir det kanskje en Markd
 - Full bygget oversatt site under `_site/en/`: `make build-translated`
 - Kun oversettingssteget etter en fersk build: `make translate-site`
 - Manuell Playwright-smoke for service worker, offline PDF og oversatte flyter: `make test-e2e`
+- Selvstendig verifikasjon som starter lokal server og smoken i én kommando: `make test-e2e-with-server`
 - Liste opp andre muligheter: `make` (eller `make help`)
 
 Se [GitHub Pages](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for mer bakgrunnsinfo, f.eks. om du vil sette det opp på eget domene.

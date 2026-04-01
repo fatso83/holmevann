@@ -29,6 +29,13 @@ Run:
 make test-e2e
 ```
 
+If you want a self-contained verification loop that starts the local dev
+server, waits for it, and then runs the smoke test, use:
+
+```bash
+make test-e2e-with-server
+```
+
 Direct npm equivalent:
 
 ```bash

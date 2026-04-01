@@ -37,16 +37,22 @@ test("matchAssetInCaches falls back to later caches when the first cache misses"
   assert.strictEqual(response, expectedResponse);
 });
 
-test("getHtmlCacheKeys returns aliases with and without the .html suffix", function () {
+test("getHtmlCacheKeys expands html aliases to the normalized directory route", function () {
+  assert.deepEqual(getHtmlCacheKeys("https://www.holmevann.no/map"), [
+    "/map",
+    "/map/",
+  ]);
+
   assert.deepEqual(getHtmlCacheKeys("https://www.holmevann.no/map.html"), [
     "/map.html",
     "/map",
+    "/map/",
   ]);
 
-  assert.deepEqual(getHtmlCacheKeys("https://www.holmevann.no/map"), [
-    "/map",
-    "/map.html",
-  ]);
+  assert.deepEqual(
+    getHtmlCacheKeys("https://www.holmevann.no/rental/index.html"),
+    ["/rental/index.html", "/rental", "/rental/"],
+  );
 });
 
 test("getHtmlCacheKeys accepts Request inputs used by the service worker", function () {
@@ -62,7 +68,7 @@ test("getHtmlCacheKeys accepts Request inputs used by the service worker", funct
 
   assert.deepEqual(
     getHtmlCacheKeys(new Request("https://www.holmevann.no/en/important.html")),
-    ["/en/important.html", "/en/important"],
+    ["/en/important.html", "/en/important", "/en/important/"],
   );
 });
 
@@ -80,19 +86,19 @@ test("matchHtmlInCaches finds an html page through its alias key", async functio
 
   const response = await matchHtmlInCaches(
     ["holmevann-pages-v3", "holmevann-core-v3"],
-    new Request("https://www.holmevann.no/map"),
+    new Request("https://www.holmevann.no/map.html"),
     async function () {
       return {
         match: async function (cacheKey) {
           matchCalls.push(cacheKey);
 
-          return cacheKey === "/map.html" ? expectedResponse : null;
+          return cacheKey === "/map/" ? expectedResponse : null;
         },
       };
     },
   );
 
-  assert.deepEqual(matchCalls, ["/map", "/map.html"]);
+  assert.deepEqual(matchCalls, ["/map.html", "/map", "/map/"]);
   assert.strictEqual(response, expectedResponse);
 });
 
