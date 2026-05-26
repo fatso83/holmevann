@@ -44,14 +44,45 @@ Det skal relativt lite til for å lage en liten dings som ved hjelp av ultralyds
 - Lora (for "Long Range") er en trådløs radioteknologi utviklet av Semtech for langdistansekommunikasjon med svært lavt strømforbruk. Det er en hjørnestein i IoT-applikasjoner (Internet of Things), og muliggjør dataoverføring over mange kilometer, ofte brukt i smarte byer, landbruk og industri.
 - En arduino-kompatibel ESP32, en billig LoRa-modul og en ultralydsensor koster typ 200 kr. Med deep sleep og oppvåkning en gang i timen burde de fint kjøre et år uten behov for nytt batteri.
 
-## Internett via Starlink
+## Internett (via Starlink eller mobilnettet?)
 
-Vi har lenge hatt parabol fra Allente (Canal Digital), men det koster bare helt sykt mye og parabolen kom ofte ut av posisjon. Nå har vi kabelbrudd og jeg måtte vurdere om det gav mening å betale 700 kr/mnd for noe veldig få bruker. Mange vil gjerne strømme TV/serier, men vi har ikke dekning for 4G. Jeg hadde lenge (2021) planlagt et større prosjekt med kabling til nærmeste topp og 4G-antenne med Power-over-Ethernet og mye customelektronikk for å få til dette likevel, men så dukket Starlink opp. Lenge kostet det 1000 spenn i måneden, men nå er det tilgjengelig til under prisen av det Allente skal ha ...
+Vi har lenge hatt parabol fra Allente (Canal Digital), men det koster helt sykt mye og parabolen kom ofte ut av posisjon. Nå har vi kabelbrudd og jeg måtte vurdere om det gav mening å fortsatt betale 700 kr/mnd for noe veldig få bruker. Mange vil gjerne strømme TV/serier, men vi har ikke dekning for 4G.
+
+Jeg hadde lenge (høst 2021) planlagt et større prosjekt med kabling til nærmeste topp og 4G-antenne med Power-over-Ethernet og mye customelektronikk for å få til dette likevel, men så blåste taket av og viktigere ting måtte prioriteres ... 
+
+### Starlink
+
+Så dukket Starlink opp som et reellt alternativ. Lenge kostet det 1000 spenn i måneden, men nå er det tilgjengelig til halve prisen av det Allente skulle ha ... Robust, raskt og rimelig. 
 
 Ulempen er høyt strømtrekk: det trekker over 100W i oppstart før det faller til &lt; 30 watt når det har stabilisert seg. 2 ampere er fremdeles alt for mye (50 Ah/døgn) til at det er levelig vinterstid, spesielt hvis vi skulle glemme å skru det av, så dette betinger to ting:
 
 1. Automatisk frakobling av 220V (se over) så vi ikke dreper batteriene
 2. Mulighet til å skru av/på 220V via brytere på veggen
+
+Jeg må antagelig også bygge en egen lavstrøms, LTE-M/IoT-basert dings for å kunne fjernstyre alt annet. Ev. koble til fjernstarteren til Wallas-en (som er LTE-M-basert og har to releer man kan bruke for å kontrollere andre ting).
+
+
+### Hva med mobilnettet?
+
+Opprinnelig tanke innebar kort oppsummert 
+
+- Industriell 4G ruter ([RUT241](https://www.kjell.com/no/produkter/nettverk/rutere/4g-ruter/teltonika-rut241-4g-ruter-med-modem-p65345)), mulig bygget inn i antennehus for minimal tap av signal
+- 200 m CAT5-kabel ned til hytte med forsterkning etter 100 m (Power-over-Ethernet)
+- Kan fore med egenmekket 24V/48V strømforsyning fra 12V
+- Sette opp stang på fot oppe på fjellet der det er dekning
+- ca kostnad 7-8000 kr? 
+
+Ganske omfattende oppsett utendørs og relativt høy kostnad, men relativt enkelt innvendig pga lavt strømforbruk (220V ikke nødvendig). 
+
+### Konklusjon (mai 2025)
+
+Jeg går nok likevel for 4G-basert internett av følgende grunner:
+
+1. Det kan gjøres rimeligere enn jeg tenkte: jeg hadde allerede en dupleks, retningsstyrt/Yagi antenne av typen Poynting LDPA-92. Bedre blir det ikke, men den er ganske stor og krever et skikkelig stativ med fjellfeste. 
+2. Jeg trenger ikke å bygge så mye "custom" som jeg tenkte. Har funnet "ferdigvarianter" i 12V variant av PoE-injektorer og det meste.  
+
+Har allerede kjøpt fjellfeste for mast, mast og antennefeste. Alt jeg trenger er å få tak i 12V-48V PoE injector -> kabel -> 48V utendørs ethernet extender m/PoE -> kabel -> PoE Splitter -> 12V plugg i ruter. Dvs en boks i hver ende. Samt plastkasser for værbeskyttelse 🙂
+
 
 ## Statusdisplay
 
