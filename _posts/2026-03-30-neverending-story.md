@@ -85,6 +85,8 @@ Jeg går nok likevel for 4G-basert internett av følgende grunner:
 
 Har allerede kjøpt fjellfeste for mast, mast og antennefeste. Alt jeg trenger er å få tak i 12V-48V PoE injector -> kabel -> 48V utendørs ethernet extender m/PoE -> kabel -> PoE Splitter -> 12V plugg i ruter. Dvs en boks i hver ende. Samt plastkasser for værbeskyttelse 🙂
 
+Antagelig på plass sensommer 2026!
+
 
 ## Statusdisplay
 
