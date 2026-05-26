@@ -78,8 +78,10 @@ Ganske omfattende oppsett utendørs og relativt høy kostnad, men relativt enkel
 
 Jeg går nok likevel for 4G-basert internett av følgende grunner:
 
-1. Det kan gjøres rimeligere enn jeg tenkte: jeg hadde allerede en dupleks, retningsstyrt/Yagi antenne av typen Poynting LDPA-92. Bedre blir det ikke, men den er ganske stor og krever et skikkelig stativ med fjellfeste. 
-2. Jeg trenger ikke å bygge så mye "custom" som jeg tenkte. Har funnet "ferdigvarianter" i 12V variant av PoE-injektorer og det meste.  
+1. 4G kan gjøres rimeligere enn jeg tenkte: jeg hadde allerede en dupleks, retningsstyrt/Yagi antenne av typen Poynting LDPA-92. Bedre blir det ikke, men den er ganske stor og krever et skikkelig stativ med fjellfeste. Jeg trenger heller ikke eget abonnement: bruker bare data-sim på eget abonnement. 
+2. Jeg trenger ikke å bygge så mye "custom" som jeg tenkte. Har funnet "ferdigvarianter" i 12V variant av PoE-injektorer og det meste.
+3. Starlink er enkelt utvendig, men gir veldig høy kompleksitet innvendig når man har et 12V-anlegg som står usett mesteparten av tiden. 
+4. 4G gjør at jeg slipper en super-lavstrømsvariant kun for å starte vanlig internett. 
 
 Har allerede kjøpt fjellfeste for mast, mast og antennefeste. Alt jeg trenger er å få tak i 12V-48V PoE injector -> kabel -> 48V utendørs ethernet extender m/PoE -> kabel -> PoE Splitter -> 12V plugg i ruter. Dvs en boks i hver ende. Samt plastkasser for værbeskyttelse 🙂
 
