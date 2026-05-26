@@ -23,8 +23,8 @@ Status per <strong>29. mars 2026</strong>
 <ol>
 <li>Det er tomt for vann i tanken. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li>
 <li>Det er masse ved!</li>
+<li>Ta med noen ruller dopapir. Jeg glemte å få kjørt det inn før vinteren var omme 💀</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
-<li>Sistemann rapporterte at zaloflasken var tom.</li>
 <li>Hytta er <em>nytjæret</em> - pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker inntil veggen. Tørk av med papir så fort du får noe kliss på hendene.</li>
 <li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med kliss :) De kan få tørke mye av august.</li>
 
@@ -132,7 +132,7 @@ Fiskekort kan man få kjøpt via appen [Perfish](https://www.perfish.no). Man ka
 
 Har dessverre dårlig med tips til sluk og fluefiske, for vi bruker selv bare garn, men jeg har sett flere fluefiskere både langs Holmevann og nærliggende vann. Når myggen kommer i slutten av juni/juli begynner fisen å bite. Er det for kaldt er det dødt, har jeg latt meg fortelle ...
 
-Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre ikke til utlån etter uvøren bruk. Vi har derimot kjøpt en enkel Rana plastbåt som ligger på land nede ved vannet. Vinteren 2022 ble den [skadet i en vinterstorm](/2022/08/08/etter-stormen.html), men etter litt utbedringer funker den greit og var i bruk både sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker 20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den i under kjøring, men det er ikke nødvendig. Det mest sjarmerende (og effektive) er uansett et par året ;)
+Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre ikke til utlån etter uvøren bruk. Vi har derimot kjøpt en enkel Rana plastbåt som ligger på land nede ved vannet. Vinteren 2022 ble den [skadet i en vinterstorm](/2022/08/08/etter-stormen.html), men etter litt utbedringer funker den greit og var i bruk både sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker 20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den i under kjøring, men det er ikke nødvendig. Det mest sjarmerende (og effektive) er uansett et par årer ;)
 {% cloudinary /rental/batteriogmotor.jpg alt="" class="img--post" %}
 
 Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en butikk i Eggedal sentrum.
