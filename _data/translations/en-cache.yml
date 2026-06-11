@@ -2976,10 +2976,6 @@ entries:
     source_text: Overvåkning av drivstoff- og vanntanker
     translated_text: Monitoring of fuel and water tanks
     format: text
-  196b373ae48cb373637bc0e15de20ab43858c09fdcaf326821cf026b63973843:
-    source_text: Internett via Starlink
-    translated_text: Internet via Starlink
-    format: text
   6ac0b2ad97ee591a344f2fae7aac9bd5e1362b750ac9616269a20924a7baa6fb:
     source_text: Statusdisplay
     translated_text: Status display
@@ -3100,26 +3096,6 @@ entries:
     translated_text: An Arduino-compatible ESP32, an inexpensive LoRa module, and
       an ultrasonic sensor cost around 200 kr. With deep sleep mode and waking up
       once an hour, they should easily last a year without needing a new battery.
-    format: text
-  1595b31d19a94f549ee254c932a76901633b40ebb3f719e1a0aed1c102132ee1:
-    source_text: Vi har lenge hatt parabol fra Allente (Canal Digital), men det koster
-      bare helt sykt mye og parabolen kom ofte ut av posisjon. Nå har vi kabelbrudd
-      og jeg måtte vurdere om det gav mening å betale 700 kr/mnd for noe veldig få
-      bruker. Mange vil gjerne strømme TV/serier, men vi har ikke dekning for 4G.
-      Jeg hadde lenge (2021) planlagt et større prosjekt med kabling til nærmeste
-      topp og 4G-antenne med Power-over-Ethernet og mye customelektronikk for å få
-      til dette likevel, men så dukket Starlink opp. Lenge kostet det 1000 spenn i
-      måneden, men nå er det tilgjengelig til under prisen av det Allente skal ha
-      …
-    translated_text: We’ve had a satellite dish from Allente (Canal Digital) for a
-      long time, but it costs an absolute fortune and the dish often lost its alignment.
-      Now we have a cable outage, and I had to consider whether it made sense to pay
-      700 kr/month for something very few people use. Many people would like to stream
-      TV shows and series, but we don’t have 4G coverage. I had been planning a major
-      project for a long time (2021) involving cabling to the nearest peak and a 4G
-      antenna with Power-over-Ethernet and a lot of custom electronics to make this
-      work anyway, but then Starlink came along. For a long time, it cost 1,000 kroner
-      a month, but now it’s available for less than what Allente charges…
     format: text
   37b51bbd752639628f5d7a92e238dc2f9915ab05dd1d098b0c7880c39c2ae228:
     source_text: 'Ulempen er høyt strømtrekk: det trekker over 100W i oppstart før
@@ -5067,10 +5043,6 @@ entries:
     translated_text: We're out of candles. You might want to bring a small pack or
       a couple of block candles.
     format: text
-  74b911c4df519dfa4815a353eff6817e15e6f8be080293bdf3b457e26b0d54e5:
-    source_text: Sistemann rapporterte at zaloflasken var tom.
-    translated_text: Sistemann reported that the spray bottle was empty.
-    format: text
   c8cd270e29a1a73c3b05326132aad4a85065fc01a7827f0441d6076ad9cff74b:
     source_text: Hytta er
     translated_text: The cabin is
@@ -5514,21 +5486,6 @@ entries:
   d1e8317e4a74454e3f7f94695627bcc4df60878c0831d88494454c10ecc888a9:
     source_text: skadet i en vinterstorm
     translated_text: injured in a winter storm
-    format: text
-  e3a36eb6228b65bd476ff1338e33f91eb657c229354d923f2c786dda8c76ec20:
-    source_text: ", men etter litt utbedringer funker den greit og var i bruk både
-      sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker
-      20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på
-      batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den
-      i under kjøring, men det er ikke nødvendig. Det mest sjarmerende (og effektive)
-      er uansett et par året ;)"
-    translated_text: ", but after a few repairs, it works fine and was in use during
-      both the summers of 2022 and 2023. We have a 90Ah battery and a 600W electric
-      motor that lasts 20 minutes on the water. That’s just enough for a round trip.
-      The easiest way to charge the battery is on the battery charger at the cabin
-      overnight, and there’s a battery case you can use while driving, but it’s not
-      necessary. The most charming (and efficient) option is a pair of them anyway
-      ;)"
     format: text
   e2bd23a5de84d39d06eb4d3438296ae03d6aa5959d46caeed1e8a5dd50051214:
     source_text: Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en
@@ -5988,4 +5945,191 @@ entries:
   c052de1db3c4e42aae25f137e08fa730e133f9703ad8f610c3a4066c8d6d4dfb:
     source_text: EN
     translated_text: IN
+    format: text
+  c43c07c850c739848b1a0126b163737d0c72e65b7a0ae1bdd0e9fcacc6cf05a9:
+    source_text: Internett (via Starlink eller mobilnettet?)
+    translated_text: Internet (via Starlink or the mobile network?)
+    format: text
+  6094349a4897ac353c55ff5b5b4200c92db92c6ddd9e6e5f76930b0cc61d9231:
+    source_text: Starlink
+    translated_text: Starlink
+    format: text
+  eaa612a409e0525145f9fa95aa37d8cf5f60513a0c4d4a9d65b296df73704367:
+    source_text: Hva med mobilnettet?
+    translated_text: What about the mobile network?
+    format: text
+  3a5adbf5e576b257ce9044499a39e66644fab315395ae423b2314049e670f779:
+    source_text: Konklusjon (mai 2025)
+    translated_text: Conclusion (May 2025)
+    format: text
+  acb105bd4b2717298e3de9177bb81ae31cb2fd02bb686e577c5c349d3414c063:
+    source_text: Vi har lenge hatt parabol fra Allente (Canal Digital), men det koster
+      helt sykt mye og parabolen kom ofte ut av posisjon. Nå har vi kabelbrudd og
+      jeg måtte vurdere om det gav mening å fortsatt betale 700 kr/mnd for noe veldig
+      få bruker. Mange vil gjerne strømme TV/serier, men vi har ikke dekning for 4G.
+    translated_text: We’ve had a satellite dish from Allente (Canal Digital) for a
+      long time, but it costs an absolute fortune and the dish often went out of alignment.
+      Now we have a cable outage, and I had to consider whether it made sense to keep
+      paying 700 kr/month for something very few people use. Many people would like
+      to stream TV shows and series, but we don’t have 4G coverage.
+    format: text
+  c71fc85b706f0f7049fc11776257ab1a3ff927a6e8f8b69367fea3e38851327b:
+    source_text: Jeg hadde lenge (høst 2021) planlagt et større prosjekt med kabling
+      til nærmeste topp og 4G-antenne med Power-over-Ethernet og mye customelektronikk
+      for å få til dette likevel, men så blåste taket av og viktigere ting måtte prioriteres
+      …
+    translated_text: I had been planning a major project for quite some time (fall
+      2021) that involved running cables to the nearest peak and installing a 4G antenna
+      with Power-over-Ethernet and a lot of custom electronics to make it work, but
+      then the roof blew off and I had to prioritize more important things …
+    format: text
+  96fc7dff6abbf31d83c8cb37ff915970bb095bf3817c584c0d4f054685047cec:
+    source_text: Så dukket Starlink opp som et reellt alternativ. Lenge kostet det
+      1000 spenn i måneden, men nå er det tilgjengelig til halve prisen av det Allente
+      skulle ha … Robust, raskt og rimelig.
+    translated_text: Then Starlink emerged as a viable alternative. For a long time,
+      it cost 1,000 kroner a month, but now it’s available for half the price Allente
+      was going to charge … Reliable, fast, and affordable.
+    format: text
+  b2b09351af3e66be6ac42aa506082bcf206ffe9d7d0c9a8372c6620e3fd5a557:
+    source_text: Jeg må antagelig også bygge en egen lavstrøms, LTE-M/IoT-basert dings
+      for å kunne fjernstyre alt annet. Ev. koble til fjernstarteren til Wallas-en
+      (som er LTE-M-basert og har to releer man kan bruke for å kontrollere andre
+      ting).
+    translated_text: I’ll probably also have to build my own low-power, LTE-M/IoT-based
+      device to be able to control everything else remotely. I might connect the remote
+      starter to the Wallas (which is LTE-M-based and has two relays that can be used
+      to control other devices).
+    format: text
+  e365ea77dd213915638f166b9582f35d310e3251c3d0528aec59ecd3fcc8e961:
+    source_text: Opprinnelig tanke innebar kort oppsummert
+    translated_text: In short, the original idea was
+    format: text
+  ac8849bca5401f63bfa41f3bc29c8ffe58fc6dfb377b517f356f25f44fb80695:
+    source_text: Industriell 4G ruter (
+    translated_text: Industrial 4G router (
+    format: text
+  3614ad3157b2b54bc5cd6dc6abf4c1321d6ea380ee2e4a56f27c08e359f64046:
+    source_text: RUT241
+    translated_text: RUT241
+    format: text
+  c128f6efd2d5fbfd653147181ee5025f1844ed5a04ad99d07a80501f48796f49:
+    source_text: "), mulig bygget inn i antennehus for minimal tap av signal"
+    translated_text: "), possibly built into the antenna housing to minimize signal
+      loss"
+    format: text
+  c1f1c4422a9cddd6ca41a1f68a00fc7570cd59fb29243f9b85273a46c13c0073:
+    source_text: 200 m CAT5-kabel ned til hytte med forsterkning etter 100 m (Power-over-Ethernet)
+    translated_text: 200 m of CAT5 cable running down to the cabin, with an amplifier
+      installed after 100 m (Power over Ethernet)
+    format: text
+  96b226a33521fa8df1de6c7c8065c69a117436492194881691cc84eab65fc3bd:
+    source_text: Kan fore med egenmekket 24V/48V strømforsyning fra 12V
+    translated_text: Can be powered by a custom-built 24V/48V power supply from a
+      12V source
+    format: text
+  0f9a441af696686d5f536aff617cdf106ac043e4e91d39292a2f384cfae8609f:
+    source_text: Sette opp stang på fot oppe på fjellet der det er dekning
+    translated_text: Set up a mast on a tripod up in the mountains where there is
+      cell service
+    format: text
+  153d28309b23fcc86ebc690c8a5377788dcf7146f0b382d0e1c1ade7878335cc:
+    source_text: ca kostnad 7-8000 kr?
+    translated_text: 'Approximate cost: 7,000–8,000 NOK?'
+    format: text
+  d4c071ee84c483b414cef0ee80779c67dee99e3f74fc50139083fe2403ff65f2:
+    source_text: Ganske omfattende oppsett utendørs og relativt høy kostnad, men relativt
+      enkelt innvendig pga lavt strømforbruk (220V ikke nødvendig).
+    translated_text: Quite a complex outdoor setup and relatively high cost, but relatively
+      simple indoors due to low power consumption (220V not required).
+    format: text
+  a5d2221b722d6651a17a02511c2b3cf182d700ecdfaa265bb63a128bc91c4961:
+    source_text: 'Jeg går nok likevel for 4G-basert internett av følgende grunner:'
+    translated_text: 'I think I''ll go with 4G-based internet anyway, for the following
+      reasons:'
+    format: text
+  cf227f5518781a5e192b716c035b4c8b915205d3c8d94529d157aeb24d7fd078:
+    source_text: '4G kan gjøres rimeligere enn jeg tenkte: jeg hadde allerede en dupleks,
+      retningsstyrt/Yagi antenne av typen Poynting LDPA-92. Bedre blir det ikke, men
+      den er ganske stor og krever et skikkelig stativ med fjellfeste. Jeg trenger
+      heller ikke eget abonnement: bruker bare data-sim på eget abonnement.'
+    translated_text: '4G can be more affordable than I thought: I already had a Poynting
+      LDPA-92 duplex, directional/Yagi antenna. You can''t get much better than that,
+      but it''s quite large and requires a sturdy mount with a rock-solid foundation.
+      I also don’t need a separate subscription: I just use a data SIM on my own plan.'
+    format: text
+  7a63d7f76d56d1c36aa44167280e42597e833fc597843015b7b94e3dbe4ae7f9:
+    source_text: Jeg trenger ikke å bygge så mye “custom” som jeg tenkte. Har funnet
+      “ferdigvarianter” i 12V variant av PoE-injektorer og det meste.
+    translated_text: I don't need to build as many custom components as I thought.
+      I've found off-the-shelf 12V PoE injectors and most of the other parts I need.
+    format: text
+  5dad13324c68a153f48311fb1b52a9090221867435d65e8fa26b028368d7c864:
+    source_text: Starlink er enkelt utvendig, men gir veldig høy kompleksitet innvendig
+      når man har et 12V-anlegg som står usett mesteparten av tiden.
+    translated_text: Starlink looks simple on the outside, but it’s actually quite
+      complex on the inside when you have a 12V system that remains out of sight most
+      of the time.
+    format: text
+  06e2a80110415be30ef4b8b9839a0731e7e0f8006d43a80379f8472efef6479b:
+    source_text: 4G gjør at jeg slipper en super-lavstrømsvariant kun for å starte
+      vanlig internett.
+    translated_text: With 4G, I don't have to use an ultra-low-power mode just to
+      connect to the regular internet.
+    format: text
+  171db6c071077bd2ae62a14fcb304f7f288eff778d9e1614778c4415d5cec055:
+    source_text: "Har allerede kjøpt fjellfeste for mast, mast og antennefeste. Alt
+      jeg trenger er å få tak i 12V-48V PoE injector -> kabel -> 48V utendørs ethernet
+      extender m/PoE -> kabel -> PoE Splitter -> 12V plugg i ruter. Dvs en boks i
+      hver ende. Samt plastkasser for værbeskyttelse \U0001F642"
+    translated_text: "I've already bought the mountain mount for the mast, the mast
+      itself, and the antenna mount. All I need is to get a 12V-48V PoE injector ->
+      cable -> 48V outdoor Ethernet extender with PoE -> cable -> PoE splitter ->
+      12V plug for the router. That is, a box at each end. Plus plastic enclosures
+      for weather protection \U0001F642"
+    format: text
+  99f6f05bb55e8d87dafe75ac770e5e6d97c77f2d5bd4408680ce56ba3af5f478:
+    source_text: Antagelig på plass sensommer 2026!
+    translated_text: Expected to be ready by late summer 2026!
+    format: text
+  99ed0bb67831cfb22c6594c84deb317eb37e815b725901c1c13dcf785cde929b:
+    source_text: Hva med kjøleskap og lagring av mat?
+    translated_text: What about refrigerators and food storage?
+    format: text
+  e410b02139b1cef24f219ac75d5d694dba89eaa319a5d50474db83083ff37164:
+    source_text: "Ta med noen ruller dopapir. Jeg glemte å få kjørt det inn før vinteren
+      var omme \U0001F480"
+    translated_text: "Bring a few rolls of toilet paper. I forgot to stock up before
+      winter was over \U0001F480"
+    format: text
+  e654935f1ed447a1956d5d8727bdca0885fb67f15deb4b5e22241162db40c88a:
+    source_text: ", men etter litt utbedringer funker den greit og var i bruk både
+      sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker
+      20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på
+      batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den
+      i under kjøring, men det er ikke nødvendig. Det mest sjarmerende (og effektive)
+      er uansett et par årer ;)"
+    translated_text: ", but after a few repairs, it works fine and was in use during
+      both the summers of 2022 and 2023. We have a 90Ah battery and a 600W electric
+      motor that lasts about 20 minutes on the water. That’s just enough for a round
+      trip. The easiest way to charge the battery is on the battery charger at the
+      cabin overnight, and there’s a battery case you can use while driving, but it’s
+      not necessary. The most charming (and effective) option is still a pair of oars
+      ;)"
+    format: text
+  b628e78b187423fc54fc3555ec4c6f3c1a957f9f9d70dedd86fd96ac4b4217c1:
+    source_text: 'Vi har klassisk frostfri lagring av mat i kjelleren. På kjøkkenet
+      er det to luker i gulvet: den ene er til vanntanken (som ikke fryser om vinteren)
+      og den andre er til "kjøleskapet" vårt. Sommerstid er temperaturen der omtrent
+      3-4 grader celsius i juni, stigende til 7 grader i slutten av juli, før den
+      går ned mot null vinterstid. Her ligger vår egen øl og vin vinterstid, så det
+      ikke fryser til. Sjekk [instruksjonene for hytta](/important) for mer info og
+      bilder.'
+    translated_text: 'We have a traditional frost-free food storage area in the basement.
+      In the kitchen, there are two hatches in the floor: one leads to the water tank
+      (which doesn’t freeze in the winter) and the other to our “refrigerator.” In
+      the summer, the temperature there is about 3–4 degrees Celsius in June, rising
+      to 7 degrees by the end of July, before dropping toward zero in the winter.
+      This is where we store our own beer and wine during the winter so they don’t
+      freeze. Check [the cabin instructions](/important) for more info and photos.'
     format: text
