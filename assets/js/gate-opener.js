@@ -1,6 +1,8 @@
 (function (global) {
   var DEFAULT_ITERATIONS = 210000;
   var SECRET_STORAGE_KEY = "holmevann-gate-secret";
+  var GATE_API_OVERRIDE_KEY = "holmevann-gate-endpoint";
+  var DEFAULT_GATE_PATH = "/api/gate/open";
 
   function getCrypto(cryptoObject) {
     var candidate = cryptoObject || global.crypto;
@@ -209,6 +211,109 @@
     return body;
   }
 
+  function getDefaultGatePath(defaultEndpoint) {
+    var fallback = DEFAULT_GATE_PATH;
+    var fallbackUrl;
+
+    try {
+      fallbackUrl = new URL(
+        defaultEndpoint || DEFAULT_GATE_PATH,
+        "http://localhost",
+      );
+    } catch (_error) {
+      return fallback;
+    }
+
+    return fallbackUrl.pathname || fallback;
+  }
+
+  function resolveGateEndpoint(
+    defaultEndpoint,
+    overrideEndpoint,
+    windowObject,
+  ) {
+    var basePath = getDefaultGatePath(defaultEndpoint);
+
+    if (!overrideEndpoint) {
+      return defaultEndpoint;
+    }
+
+    var trimmed = overrideEndpoint.trim();
+
+    if (!trimmed) {
+      return defaultEndpoint;
+    }
+
+    if (trimmed.charAt(0) === "/") {
+      return trimmed;
+    }
+
+    if (!/^[a-z][a-z0-9+.-]*:\/\//i.test(trimmed)) {
+      var protocol = windowObject.location && windowObject.location.protocol;
+      trimmed = (protocol || "https:") + "//" + trimmed;
+    }
+
+    var parsed;
+    try {
+      parsed = new URL(trimmed);
+    } catch (_error) {
+      return defaultEndpoint;
+    }
+
+    if (parsed.pathname === "/" || !parsed.pathname) {
+      return parsed.origin + basePath;
+    }
+
+    return parsed.href;
+  }
+
+  function getConfiguredEndpoint(windowObject, defaultEndpoint) {
+    var searchParams;
+    var queryEndpoint = null;
+    var queryHost = null;
+
+    try {
+      searchParams = new URLSearchParams(
+        windowObject.location && windowObject.location.search,
+      );
+      queryEndpoint = searchParams.get("gateEndpoint");
+      queryHost = searchParams.get("gateHost");
+    } catch (_error) {
+      queryEndpoint = null;
+      queryHost = null;
+    }
+
+    var queryValue = queryHost || queryEndpoint;
+    if (queryValue !== null) {
+      if (queryValue) {
+        windowObject.localStorage.setItem(GATE_API_OVERRIDE_KEY, queryValue);
+      } else {
+        windowObject.localStorage.removeItem(GATE_API_OVERRIDE_KEY);
+      }
+
+      return {
+        endpoint: resolveGateEndpoint(
+          defaultEndpoint,
+          queryValue,
+          windowObject,
+        ),
+        overrideActive: !!queryValue,
+      };
+    }
+
+    var stored;
+    try {
+      stored = windowObject.localStorage.getItem(GATE_API_OVERRIDE_KEY);
+    } catch (_error) {
+      stored = null;
+    }
+
+    return {
+      endpoint: resolveGateEndpoint(defaultEndpoint, stored, windowObject),
+      overrideActive: Boolean(stored),
+    };
+  }
+
   function promptForHiddenValue(options) {
     var input = options.input;
     var output = options.output;
@@ -326,7 +431,11 @@
   function initializeGateOpener(options) {
     var documentObject = options.document;
     var windowObject = options.window;
-    var endpoint = options.endpoint;
+    var endpointConfig = getConfiguredEndpoint(
+      windowObject,
+      options.endpoint || "",
+    );
+    var endpoint = endpointConfig.endpoint;
     var assetUrl = options.assetUrl;
     var cryptoObject = options.crypto || windowObject.crypto;
     var fetchFunction = options.fetch || windowObject.fetch.bind(windowObject);
@@ -336,6 +445,9 @@
     var openButton = documentObject.querySelector("[data-gate-open]");
     var forgetButton = documentObject.querySelector("[data-gate-forget]");
     var status = documentObject.querySelector("[data-gate-status]");
+    var endpointHint = documentObject.querySelector(
+      "[data-gate-endpoint-hint]",
+    );
     var payload = readStoredPayload(windowObject);
 
     function render() {
@@ -352,6 +464,13 @@
 
       if (forgetButton) {
         forgetButton.hidden = !unlocked;
+      }
+
+      if (endpointHint) {
+        endpointHint.hidden = !endpointConfig.overrideActive;
+        if (endpointConfig.overrideActive) {
+          endpointHint.textContent = "Aktivt endpoint: " + endpoint;
+        }
       }
     }
 

@@ -108,6 +108,12 @@ robots: noindex, nofollow
     color: #166534;
     background: #ecfdf5;
   }
+
+  .gate-opener__hint {
+    margin: 0.6rem 0 0;
+    color: #334155;
+    font-size: 0.875rem;
+  }
 </style>
 
 <div class="gate-page">
@@ -142,6 +148,7 @@ robots: noindex, nofollow
   </div>
 
   <p class="gate-opener__status" data-gate-status hidden aria-live="polite"></p>
+  <p class="gate-opener__hint" data-gate-endpoint-hint hidden aria-live="polite"></p>
 </div>
 
 <script defer src="/assets/js/gate-opener.js"></script>
@@ -151,7 +158,7 @@ robots: noindex, nofollow
       document: document,
       window: window,
       assetUrl: "/assets/secret.dat",
-      endpoint: "https://twilio-call-experiments.carlerik.workers.dev/api/gate/open",
+      endpoint: "{{ site.gate_api.endpoint }}",
     });
   });
 </script>
