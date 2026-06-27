@@ -11,7 +11,7 @@ Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [
 Vi legger ut noen [innlegg nå og da](/#latest-posts) om endringer på hytta, men nå-statusen finner du under.
 
 <div class="alert alert-warning">
-Status per <strong>29. mars 2026</strong>
+Status per <strong>27. juni 2026</strong>
 
 <!--<p>-->
 <!--Jeg ødela kneet på dag en av fjellferien i sommer, så det var ganske mange ting jeg hadde sett for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. Men jeg fikk hjelp av et par karer til å flytte jord, tjære hytta i to omganger og male vinduene, skikkelig grundig vask av kjøkken, hyller og gulv, så er hytta veldig fin per 1. august. -->
@@ -21,12 +21,13 @@ Status per <strong>29. mars 2026</strong>
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
-<li>Det er tomt for vann i tanken. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li>
+<!--li>Det er tomt for vann i tanken. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li-->
+
 <li>Det er masse ved!</li>
-<li>Ta med noen ruller dopapir. Jeg glemte å få kjørt det inn før vinteren var omme 💀</li>
+<li>Ta med en pakke dopapir. Jeg glemte å få kjørt det inn før vinteren var omme 💀</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
-<li>Hytta er <em>nytjæret</em> - pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker inntil veggen. Tørk av med papir så fort du får noe kliss på hendene.</li>
-<li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med kliss :) De kan få tørke mye av august.</li>
+<li>Hytta er <em>nytjæret</em> - pass på klærne dine! </li>
+<li>La lemmene være åpne ved avreise - da slipper vi komplikasjoner med tjærekliss :) </li>
 
 <li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Denne gir jevn varme uten eksos og kan stå på døgnet rundt, men du må hente en ny dieselkanne under hytta (kjellerinngang under hovedsoverommet).</li>
 </ol>
