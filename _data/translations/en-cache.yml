@@ -4996,88 +4996,15 @@ entries:
     source_text: Status per
     translated_text: Status as of
     format: text
-  c27dcc72209bbd7ceb155b8d4061ec9906f910f5b8a8ba006605ea56d280845a:
-    source_text: 29. mars 2026
-    translated_text: March 29, 2026
-    format: text
-  a6cdd61376aa61304e14e9a244f45c1e2779716efa4ef81b023b5bcfd277c24c:
-    source_text: Pga operert korsbånd får jeg selv ikke sett over hytta selv før til
-      sommeren, og setter ut henting av ved og gass, så si fra om du finner noe som
-      bør nevnes her!
-    translated_text: Because I had ACL surgery, I won’t be able to check on the cabin
-      myself until summer, so I’m putting off picking up firewood and gas—please let
-      me know if you find anything that should be mentioned here!
-    format: text
   f50c2c20c52269bcdf88cd155aa5e349c38ac85f361b0124896428c7142e4264:
     source_text: Viktige punkter
     translated_text: Key points
-    format: text
-  21c8405305becea8086ec298824590e145b9c3e06a9575f1269450e21786c856:
-    source_text: Det er tomt for vann i tanken.
-    translated_text: The tank is empty.
-    format: text
-  f356a424937c8c621e062a5daef2b96804023205f793e964c8bd6481bd47afdb:
-    source_text: Instruksjonsheftet (som finnes på hytta)
-    translated_text: The instruction booklet (available at the cabin)
-    format: text
-  1b18374e4dd24a50018b0e8a11e0bb240399afb8d0eef80e944486997f030cc3:
-    source_text: forklarer hvordan du fyller tanken med aggregat eller bare borer
-      hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil
-      se litt mer om prosessen bak, er det
-    translated_text: explains how to fill the tank using a generator or simply by
-      drilling holes in the ice and scooping it up in buckets. Much more practical
-      than melting snow! If you want to learn a little more about the process behind
-      it, there is
-    format: text
-  b2faa1f138ef64eb4939c947ed449768b7a6bbede282ddea9bf49cefd6628d48:
-    source_text: et eget innlegg
-    translated_text: a separate post
-    format: text
-  cee2e84f3d36926d4b5b6cd431fd3847d176eed44d5ba149fb7cace30f2b9c6f:
-    source_text: Det er masse ved!
-    translated_text: That's a lot of stuff!
     format: text
   fa415d112fb40b33132a23e14f724132302c510604c98eec1effef2a66ea5c93:
     source_text: Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par
       kubbelys
     translated_text: We're out of candles. You might want to bring a small pack or
       a couple of block candles.
-    format: text
-  c8cd270e29a1a73c3b05326132aad4a85065fc01a7827f0441d6076ad9cff74b:
-    source_text: Hytta er
-    translated_text: The cabin is
-    format: text
-  6afe23e2da4fd0bdd55894313f4ba6bcf362ce649198852b72ef9c62d5cfe957:
-    source_text: nytjæret
-    translated_text: newly built
-    format: text
-  8a748852b8dc4634983f1b39c52477decc3665fbab006deb73062c5fe3cfd9e7:
-    source_text: "- pass på klærne dine! Tjære tørker egentlig ikke, så den er klissete
-      i et år og kan sverte av på klær veldig lett. Pass på! Ikke len sekker og jakker
-      inntil veggen. Tørk av med papir så fort du får noe kliss på hendene."
-    translated_text: "- Take care of your clothes! Tar doesn't really dry, so it stays
-      sticky for a year and can stain clothes very easily. Be careful! Don't lean
-      backpacks or jackets against the wall. Wipe your hands with paper as soon as
-      you get any tar on them."
-    format: text
-  0a61914440b9e565b5e899b1334d0349ec0c55fc029624d63007e6849bd9b1ec:
-    source_text: La lemmene være åpne ved avreise - da slipper vi komplikasjoner med
-      kliss :) De kan få tørke mye av august.
-    translated_text: Leave the hatches open when you leave—that way we’ll avoid any
-      issues with mold :) They’ll have plenty of time to dry out in August.
-    format: text
-  c2900ae6fbf7c7d510962c393db7d9e8824c05f021d32264fd7e60c649d5a06e:
-    source_text: Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Denne
-      gir jevn varme uten eksos og kan stå på døgnet rundt, men du må hente en ny
-      dieselkanne under hytta (kjellerinngang under hovedsoverommet).
-    translated_text: The paraffin heater ("Wallasen") is not connected to the main
-      tank. It provides steady heat without emissions and can be left on 24/7, but
-      you’ll need to fetch a new can of diesel from under the cabin (the basement
-      entrance is located under the master bedroom).
-    format: text
-  1ed68ff1dcff09569ee1ab53e150575909f53fd6c76e7266cf9f92a5c15e3c47:
-    source_text: For vår og sommer
-    translated_text: For spring and summer
     format: text
   e6707f779f9543123bd5098eaf123ec4676ff373700cddd790a037bfd710fb67:
     source_text: Robåten er midlertidig ødelagt. Tollegangen (a la åregaffel) er rapportert
@@ -5095,12 +5022,6 @@ entries:
   23c297584def1a1826103915795bdac53453d15e6d7592bbf3ab292aa4bb69b0:
     source_text: Det er bygget en bro over munningen av Holmevann
     translated_text: A bridge has been built across the mouth of Holmevann
-    format: text
-  6984e2ce0d722459dd7f3083272f546645c45ec3656094d2979b57fb27b91afa:
-    source_text: som gjør det mulig å krysse elva. Ellers må man ofte gå en kilometer
-      lenger ned.
-    translated_text: which makes it possible to cross the river. Otherwise, you often
-      have to walk another kilometer downstream.
     format: text
   9a36467ebe2743ab9e49c649ac8d5c7563186d88005d23209d00ad062d8f872f:
     source_text: Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters
@@ -6096,12 +6017,6 @@ entries:
     source_text: Hva med kjøleskap og lagring av mat?
     translated_text: What about refrigerators and food storage?
     format: text
-  e410b02139b1cef24f219ac75d5d694dba89eaa319a5d50474db83083ff37164:
-    source_text: "Ta med noen ruller dopapir. Jeg glemte å få kjørt det inn før vinteren
-      var omme \U0001F480"
-    translated_text: "Bring a few rolls of toilet paper. I forgot to stock up before
-      winter was over \U0001F480"
-    format: text
   e654935f1ed447a1956d5d8727bdca0885fb67f15deb4b5e22241162db40c88a:
     source_text: ", men etter litt utbedringer funker den greit og var i bruk både
       sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker
@@ -6132,4 +6047,35 @@ entries:
       to 7 degrees by the end of July, before dropping toward zero in the winter.
       This is where we store our own beer and wine during the winter so they don’t
       freeze. Check [the cabin instructions](/important) for more info and photos.'
+    format: text
+  a1e3f63f67671d71ed9270a702fd3c226d005b3a56d3b4ab2141a9a9a336f219:
+    source_text: 27. juni 2026
+    translated_text: June 27, 2026
+    format: text
+  8afb13fa7b6dfbb55c54daba9d4e2033ab21989e1fe078d3d8d1b3579924d93d:
+    source_text: La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner
+      med tjærekliss etter den ble tjæret sist sommer :)
+    translated_text: Leave the window shutters open when you leave—that way we’ll
+      avoid any complications with tar residue from when they were tarred last summer
+      :)
+    format: text
+  969975c9c24f35e1c96ecb66814c8eea16cea95fc2298c32c604c74c831d1bc1:
+    source_text: "\U0001F9FB Ta med en pakke dopapir. Jeg glemte å få kjørt det inn
+      før vinteren var omme \U0001F480"
+    translated_text: "\U0001F9FB Bring a pack of toilet paper. I forgot to stock up
+      before winter was over \U0001F480"
+    format: text
+  22fd6bd92e316f06ac78c5f06253bc3562cc6a26aa11242db639a6e09a5e71c4:
+    source_text: Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare la
+      den stå (fikses i sommer).
+    translated_text: The paraffin heater ("Wallasen") isn't connected to the main
+      tank. Just leave it as is (it will be fixed this summer).
+    format: text
+  5394c84f21c60fa002e312061cabf9a05f44f61772e18685056b49a389f1f869:
+    source_text: "som gjør det mulig å krysse elva! Ellers må man ofte gå en kilometer
+      lenger ned. Vel verdt å sjekke hvordan man går her før man går på tur østover
+      \U0001F973"
+    translated_text: "which makes it possible to cross the river! Otherwise, you often
+      have to walk a kilometer further downstream. It’s definitely worth checking
+      out the route here before heading east \U0001F973"
     format: text

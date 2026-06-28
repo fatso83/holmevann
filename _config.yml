@@ -82,4 +82,5 @@ include:
   - _redirects
 
 exclude:
+  - .netlify
   - test

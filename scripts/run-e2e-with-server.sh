@@ -4,7 +4,6 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SERVER_LOG="$(mktemp "${TMPDIR:-/tmp}/holmevann-netlify-dev.XXXXXX.log")"
-NETLIFY_HOME="$(mktemp -d "${TMPDIR:-/tmp}/holmevann-netlify-home.XXXXXX")"
 SERVER_PID=""
 
 server_is_healthy() {
@@ -39,7 +38,6 @@ cleanup() {
   fi
 
   rm -f "${SERVER_LOG}"
-  rm -rf "${NETLIFY_HOME}"
   exit "${exit_code}"
 }
 
@@ -53,7 +51,7 @@ if ! server_is_healthy; then
     exit 1
   fi
 
-  HOME="${NETLIFY_HOME}" netlify dev --no-open >"${SERVER_LOG}" 2>&1 &
+  netlify dev --no-open >"${SERVER_LOG}" 2>&1 &
   SERVER_PID=$!
 
   if ! wait_for_server; then
