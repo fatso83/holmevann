@@ -52,7 +52,7 @@ Google Maps på smarttelefoner kan også forhåndsnedlaste områder. Gjør du de
 
 Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen. Har du GPS kan du plotte inn "Bjørnerudseterveien 174".
 
-Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Underveis (i disse 7 min) kommer du til en bom, og du må da ringe meg for å åpne den. Etterhvert når man nærmer seg toppen av fjellet ser man skiltet til høyre inn til Bjørnerud. Husk bompenger (<a href="#bom-og-bompenger">se under</a> for detaljer)!
+Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett ca 7 min. Underveis (i disse 7 min) kommer du til en bom. Se under for detaljer (krever prepping på forhånd). Etterhvert når man nærmer seg toppen av fjellet ser man skiltet til høyre inn til Bjørnerud. Husk bompenger (<a href="#bom-og-bompenger">se under</a> for detaljer)!
 150m før veien slutter i et hyttetur finner du en stor parkeringsplass som er åpen for alle. Posisjon ser du på kartsiden lenket over.
 
 Stien starter 100m videre innover, rett før veien avslutter i et hyttetun, og turen inn tar 45 min i godt tempo på stiene, omtrent samme vinterstid, men rundt en time med barn eller mye oppakning. Man jogger de 2,8 km ned til bilen på under tyve min uten oppakning.
@@ -61,17 +61,14 @@ En hvilken som helst bil holder for å komme seg opp til parkeringsplassen vi ha
 
 Husk å ta det rolig nedover veiene vinterstid: jeg kjenner veiene godt, men har likevel havnet i et tre i en skråning under en "whiteout" der jeg plutselig ikke så veien og det lå tørr snø oppå is. Jeg var heldig, men det trenger ikke gjelde nestemann.
 
-P.S. Viking/Redgo bruker ca 60-120 minutter fra du ringer til de er der. Det vet jeg av erfaring ;)
+P.S. Viking/Redgo bruker en til to _timer_ fra du ringer til de er der. Det vet jeg av erfaring 🙈
 
 ### Bom og bompenger
 
 #### Skallandslia
 
-Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte brukere. Du må altså
-avtale med meg (på telefon/via sms) at jeg skal være standby på telefon på et omtrentlig tidspunkt i løpet av kvelden
-så jeg kan åpne bommen.
-
-Jeg jobber med å ordne et alternativ for å automatisere dette og fjerne meg fra ligningen, men det er ikke klart per januar 2024.
+Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte brukere.
+Jeg sender deg detaljer for hvordan dette skal skje i en egen melding.
 
 #### Bjørnerudveien
 
@@ -80,7 +77,7 @@ kan du plotte inn Bjørnerudseterveien 174 (felles parkeringsplass). Etter ca 20
 vil du se et stort oppslag på høyre side om bompenger med en postkasse under. Det koster 45 kr kontant og
 man fyller ut et gjennomslagspapir og legger det og pengene i kassa.
 Eventuelt man kan bruke Vipps og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet.
-Gjør det gjerne på forhånd, før du setter deg i byen og lett å glemme - det sjekkes veldig hyppig!
+_Gjør det gjerne på forhånd_, før du setter deg i byen og lett å glemme - det sjekkes veldig hyppig!
 
 ## Kort om bruken av hytta
 

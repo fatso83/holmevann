@@ -5111,19 +5111,6 @@ entries:
       lot at the tree line. If you have a GPS, you can enter “Bjørnerudseterveien
       174”.
     format: text
-  cb982c35890ba1d5c27a40ce01e4f752ba7e10a4da2aa604472d7af7ff094689:
-    source_text: Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står
-      Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett
-      ca 7 min. Underveis (i disse 7 min) kommer du til en bom, og du må da ringe
-      meg for å åpne den. Etterhvert når man nærmer seg toppen av fjellet ser man
-      skiltet til høyre inn til Bjørnerud. Husk bompenger (
-    translated_text: Drive through downtown Eggedal, continue for 4–5 minutes, and
-      turn off at the sign for Skalland, heading up to Skallandslia. Keep left at
-      the first fork in the road and continue for about 7 minutes. Along the way (during
-      these 7 minutes), you’ll come to a gate, and you’ll need to call me to open
-      it. As you approach the top of the mountain, you’ll see the sign on the right
-      pointing to Bjørnerud. Remember to pay the toll (
-    format: text
   41bc888c142e1986704185f47ec49dfabf2e874684e2a0e7f23b1424e2031a1f:
     source_text: se under
     translated_text: see below
@@ -5169,27 +5156,6 @@ entries:
       when I suddenly couldn’t see the road and there was dry snow on top of ice.
       I was lucky, but the same might not be true for the next person.'
     format: text
-  246ba22c60ee476124e993859a4d886c59943a07fc3a4d8d1ac6b9a934e437b0:
-    source_text: P.S. Viking/Redgo bruker ca 60-120 minutter fra du ringer til de
-      er der. Det vet jeg av erfaring ;)
-    translated_text: P.S. Viking/Redgo takes about 60–120 minutes from the time you
-      call until they arrive. I know that from experience ;)
-    format: text
-  acbf7210e702d9e81f2fb565d4d9fdf62bc64d1c6fc4643e54fcf0ab6796b478:
-    source_text: Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte
-      brukere. Du må altså avtale med meg (på telefon/via sms) at jeg skal være standby
-      på telefon på et omtrentlig tidspunkt i løpet av kvelden så jeg kan åpne bommen.
-    translated_text: In the fall of 2023, a gate was installed in Skallandslia that
-      can only be opened by registered users. This means you’ll need to contact me
-      (by phone or text message) to let me know that I should be on standby by phone
-      at an approximate time during the evening so I can open the gate.
-    format: text
-  9a9c6f0bc8943c18ea82557e3e9d973ee896c3c8ce1656423159cb827b625883:
-    source_text: Jeg jobber med å ordne et alternativ for å automatisere dette og
-      fjerne meg fra ligningen, men det er ikke klart per januar 2024.
-    translated_text: I'm working on setting up a way to automate this and take myself
-      out of the equation, but it won't be ready by January 2024.
-    format: text
   1baeefdb454966afdc4148b3a6ea0340c3368b4cf9f4a3d92d0cee34d522348b:
     source_text: Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører
       du inn mot
@@ -5199,22 +5165,6 @@ entries:
   fb7a91306c0aa1753c63b7ddd98c37e1da6a054e16ac5e63c37c69f5e474d496:
     source_text: Bjørnerudseter
     translated_text: Bjørnerudseter
-    format: text
-  2599f34c462f4923a56847b4c96a6b915c410e9cd640df308de3807d7fd653b7:
-    source_text: ". Om du har GPS kan du plotte inn Bjørnerudseterveien 174 (felles
-      parkeringsplass). Etter ca 200 m vil du se et stort oppslag på høyre side om
-      bompenger med en postkasse under. Det koster 45 kr kontant og man fyller ut
-      et gjennomslagspapir og legger det og pengene i kassa. Eventuelt man kan bruke
-      Vipps og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet.
-      Gjør det gjerne på forhånd, før du setter deg i byen og lett å glemme - det
-      sjekkes veldig hyppig!"
-    translated_text: ". If you have GPS, you can enter Bjørnerudseterveien 174 (shared
-      parking lot). After about 200 meters, you’ll see a large sign on the right side
-      regarding tolls, with a mailbox underneath. It costs 45 kr in cash; fill out
-      the carbon copy form and place it along with the money in the box. Alternatively,
-      you can use Vipps and send money to phone number 95488502, entering the registration
-      number in the details field. Be sure to do this in advance, before you head
-      into town—it’s easy to forget, and they check very frequently!"
     format: text
   c548ccf93df95451fe8408e0cbd2501f44bf66d52d6561f37c818c9d7e0397a0:
     source_text: Så langt inn på fjellet har man ikke alt av byens komfort, så man
@@ -6078,4 +6028,60 @@ entries:
     translated_text: "which makes it possible to cross the river! Otherwise, you often
       have to walk a kilometer further downstream. It’s definitely worth checking
       out the route here before heading east \U0001F973"
+    format: text
+  8eb3dcc1e7810cf59dc0e2d994e2420701603609a9773827491ac1cb223ce31f:
+    source_text: Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står
+      Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett
+      ca 7 min. Underveis (i disse 7 min) kommer du til en bom. Se under for detaljer
+      (krever prepping på forhånd). Etterhvert når man nærmer seg toppen av fjellet
+      ser man skiltet til høyre inn til Bjørnerud. Husk bompenger (
+    translated_text: Drive through downtown Eggedal, continue for 4–5 minutes, and
+      turn off at the sign for Skalland, heading up to Skallandslia. Keep left at
+      the first fork in the road and continue for about 7 minutes. Along the way (during
+      these 7 minutes), you’ll come to a toll booth. See below for details (requires
+      advance preparation). As you approach the top of the mountain, you’ll see the
+      sign on the right pointing toward Bjørnerud. Remember to pay the toll (
+    format: text
+  1f2fbb35e8a77702241d96e7f6e176092a79d6121c59b8f8087e3c346f26e280:
+    source_text: P.S. Viking/Redgo bruker en til to
+    translated_text: P.S. Viking/Redgo uses one to two
+    format: text
+  46b5dd5991cfdbb947b4411276a08295efe2564469bd6c0fd9f629d406d7e1ea:
+    source_text: timer
+    translated_text: hours
+    format: text
+  e80aded85a0f8c3de91eae3e867ba06482f8bc22d16503c835e4977d47ce350e:
+    source_text: "fra du ringer til de er der. Det vet jeg av erfaring \U0001F648"
+    translated_text: "From the moment you call until they arrive. I know that from
+      experience \U0001F648"
+    format: text
+  0fef77ea2bac642e211a1f1e7bb1389cf4f7c9f468a7d068736c7ba0a47cf51a:
+    source_text: Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte
+      brukere. Jeg sender deg detaljer for hvordan dette skal skje i en egen melding.
+    translated_text: In the fall of 2023, a gate was installed in Skallandslia that
+      can only be opened by registered users. I'll send you details on how this will
+      work in a separate message.
+    format: text
+  c9d230f4df6c47de8850b4391ab894bb2cbb2f69715dfb1b151598a5dca3c27d:
+    source_text: ". Om du har GPS kan du plotte inn Bjørnerudseterveien 174 (felles
+      parkeringsplass). Etter ca 200 m vil du se et stort oppslag på høyre side om
+      bompenger med en postkasse under. Det koster 45 kr kontant og man fyller ut
+      et gjennomslagspapir og legger det og pengene i kassa. Eventuelt man kan bruke
+      Vipps og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet."
+    translated_text: ". If you have GPS, you can enter Bjørnerudseterveien 174 (shared
+      parking lot). After about 200 m, you’ll see a large sign on the right side about
+      tolls with a mailbox underneath. It costs 45 kr in cash; fill out the carbon
+      copy form and place it along with the money in the box. Alternatively, you can
+      use Vipps to send money to phone number 95488502, entering the registration
+      number in the “details” field."
+    format: text
+  493090e5f01fe6a6af4b334ab0227778b8a33e699baff9dcfd0b7e36a8feaf1a:
+    source_text: Gjør det gjerne på forhånd
+    translated_text: Feel free to do it in advance
+    format: text
+  d0f18f1d5ce860f23c6fc9f9f6fbb267282aa5cd357e8732cce9d9dc914021ec:
+    source_text: ", før du setter deg i byen og lett å glemme - det sjekkes veldig
+      hyppig!"
+    translated_text: ", before you head out on the town—and it's easy to forget—they
+      check very frequently!"
     format: text
