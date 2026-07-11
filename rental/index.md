@@ -25,6 +25,7 @@ Status per <strong>27. juni 2026</strong>
 <li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda og få med skitt inn i hytta ...</li>
 <li>La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner med tjærekliss etter den ble tjæret sist sommer :) </li>
 <li>🧻 Ta med en pakke dopapir. Jeg glemte å få kjørt det inn før vinteren var omme 💀</li>
+<li>🔥 Ta med en pakke opptenningsbriketter</li>
 <li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
 <li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare la den stå (fikses i sommer). <!--Denne gir jevn varme uten eksos og kan stå på døgnet rundt, men du må hente en ny dieselkanne under hytta (kjellerinngang under hovedsoverommet). --></li>
 <li>
