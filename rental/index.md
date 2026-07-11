@@ -21,7 +21,7 @@ Status per <strong>27. juni 2026</strong>
 <ol>
 <!--li>Det er tomt for vann i tanken. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li-->
 
-<li>Robåten er midlertidig ødelagt. Tollegangen (a la åregaffel) er rapportert sprukket per august. Blir fikset i juni.</li>
+<li>Robåten er midlertidig ødelagt. Tollegangen (a la åregaffel) er rapportert sprukket per august. Blir fikset i juli.</li>
 <li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda og få med skitt inn i hytta ...</li>
 <li>La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner med tjærekliss etter den ble tjæret sist sommer :) </li>
 <li>🧻 Ta med en pakke dopapir. Jeg glemte å få kjørt det inn før vinteren var omme 💀</li>
