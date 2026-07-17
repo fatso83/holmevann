@@ -5753,14 +5753,6 @@ entries:
     translated_text: "From the moment you call until they arrive. I know that from
       experience \U0001F648"
     format: text
-  7541580474c50f3d6a5468edc9dda028f0a315282925780a4bff931b13197004:
-    source_text: Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte
-      brukere. Jeg sender deg detaljer for hvordan dette skal skje i en egen e-post
-      når tiden nærmer seg.
-    translated_text: In the fall of 2023, a gate was installed in Skallandslia that
-      can only be opened by registered users. I'll send you details on how this will
-      work in a separate email as the time approaches.
-    format: text
   1baeefdb454966afdc4148b3a6ea0340c3368b4cf9f4a3d92d0cee34d522348b:
     source_text: Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører
       du inn mot
@@ -6127,4 +6119,12 @@ entries:
       then gradually increase it back to 220V over about 20 seconds. It doesn’t work
       on the pump—it could damage it (inductive vs. resistive load or something like
       that…)."
+    format: text
+  a0069d4f6e6172e0fc7fed20c9cbc5e9e62cf8dfda17698907637471113540cf:
+    source_text: Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte
+      brukere. Jeg sender deg detaljer for hvordan dette skal skje i en egen e-post
+      når tiden nærmer seg. Ring meg ved problemer.
+    translated_text: In the fall of 2023, a gate was installed in Skallandslia that
+      can only be opened by registered users. I’ll send you details on how this will
+      work in a separate email as the time approaches. Call me if you have any problems.
     format: text

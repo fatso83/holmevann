@@ -11,22 +11,19 @@ Mange spørsmål man måtte ha før man ankommer kan du også finne svar på i [
 Vi legger ut noen [innlegg nå og da](/#latest-posts) om endringer på hytta, men nå-statusen finner du under.
 
 <div class="alert alert-warning">
-Status per <strong>27. juni 2026</strong>
 
-<!--<p>-->
-<!--Jeg ødela kneet på dag en av fjellferien i sommer, så det var ganske mange ting jeg hadde sett for meg å gjøre i løpet av ferien som ikke gikk akkurat slik. Men jeg fikk hjelp av et par karer til å flytte jord, tjære hytta i to omganger og male vinduene, skikkelig grundig vask av kjøkken, hyller og gulv, så er hytta veldig fin per 1. august. -->
-<!--</p>-->
+<h2>Status per 17. juli 2026</h2>
+Jeg ødela kneet på dag én av fjellferien 2025, og dermed har jeg ikke fått vært vaktmester det siste året, så noen prosjekter har blitt liggende og enkelte ting må tas med av gjester. Ta gjerne med mer enn du trenger, så kan jeg vippse deg for utlegget 🙏.
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
-<!--li>Det er tomt for vann i tanken. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat eller bare borer hull i isen og henter i bøtter. Mye mer praktisk enn å smelte snø! Hvis du vil se litt mer om prosessen bak, er det <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li-->
 
-<li>Robåten er midlertidig ødelagt. Tollegangen (a la åregaffel) er rapportert sprukket per august. Blir fikset i juli.</li>
-<li>Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke i jorda og få med skitt inn i hytta ...</li>
-<li>La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner med tjærekliss etter den ble tjæret sist sommer :) </li>
-<li>🧻 Ta med en pakke dopapir. Jeg glemte å få kjørt det inn før vinteren var omme 💀</li>
+<li>🧻 Ta med en pakke dopapir</li>
 <li>🔥 Ta med en pakke opptenningsbriketter</li>
-<li>Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par kubbelys</li>
+<li>🕯️ Ta med et par kubbelys eller en pakke stearinlys om du har planer 😍</li>
+<li>🚰 Vanntanken er tom. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat. Eventuelt bare hent i de to vanndunkene. Mer om prosessen bak i <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li>
+<li>Robåten er midlertidig ute av drift med hull i skroget. Blir fikset i august.</li>
+<li>La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner med tjærekliss etter den ble tjæret sist sommer :) </li>
 <li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare la den stå (fikses i sommer). <!--Denne gir jevn varme uten eksos og kan stå på døgnet rundt, men du må hente en ny dieselkanne under hytta (kjellerinngang under hovedsoverommet). --></li>
 <li>
 <a href="/2025/06/10/bro">Det er bygget en bro over munningen av Holmevann</a> som gjør det mulig å krysse elva! Ellers må man ofte gå en kilometer lenger ned. Vel verdt å sjekke hvordan man går her før man går på tur østover 🥳
@@ -69,7 +66,8 @@ P.S. Viking/Redgo bruker en til to _timer_ fra du ringer til de er der. Det vet 
 #### Skallandslia
 
 Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte brukere.
-Jeg sender deg detaljer for hvordan dette skal skje i en egen melding.
+Jeg sender deg detaljer for hvordan dette skal skje i en egen e-post når tiden
+nærmer seg. Ring meg ved problemer.
 
 #### Bjørnerudveien
 
