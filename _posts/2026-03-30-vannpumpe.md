@@ -25,11 +25,11 @@ Vinteren 2023/2024 begynte jeg å undersøke muligheten for å få en smoothere 
 
 Summa summarum:
 
-- jeg fikk tips om en nedsenkbar pumpe av god kvalitet (ca 12000 kr),
-- fikk et metallverksted til å lage et custom stativ
+- jeg fikk tips om en nedsenkbar pumpe av god kvalitet ([EMS Teknikk, P2101](https://mobile.ems.no/?subcategory=59&subcategory2=125&subcategory3=337&product=1249), ca 12000 kr),
+- fikk [Varia metallverksted på Skytta](https://maps.app.goo.gl/BPMz3vzpiPmpBTcf6) til å lage et custom stativ (4000 kr)
 - fikk shippa inn fridykkerutstyr (med blybelte og ABC-utstyr), pumpa, varmekabler og 50 meter PU-rør vinterstid på snøskuter
-- bygget en slags putekasse hjemme på Majorstua for å være "pumpestasjon" nede ved vannet og beskytte kabler og koblinger
-- fikk laget lokk i sink til den hos Lars Eriksen Kobber- og Blikkenslagermester.
+- bygget en slags putekasse hjemme på Majorstua for å være "pumpestasjon" nede ved vannet og beskytte kabler og koblinger (ca 1500 kr)
+- fikk laget lokk i sink til den hos Lars Eriksen Kobber- og Blikkenslagermester (ca 3500 kr, hvorav arbeid var halve kosten)
 - demonterte kassa og bar alt inn på ryggen i juli
 - i august var familien på ferie, så jeg brukte et par dager på å fridykke rundt i det altfor langrunne vannet til jeg fant en liten renne som hadde en frostfri dybde (ca 2m) og la pumpa ned der. 50 m med kabel opp til vannkanten ble installert, holdt nede av tunge steiner og i vannkanten borret jeg fester i fjellet.
 - et par uker senere kom en kar fra Krøderen Elektro opp på fjellet og gjorde det elektriske på styringen (220V koblinger er litt for avansert/ulovlig for meg) og jeg fikk testa at ideen fungerte!
@@ -44,4 +44,6 @@ Hvordan man nå kobler til alt er dokumentert i bruksanvisningen til hytta per j
 
 - Vi har en Victron Phoenix 1600 VAC 220V strømforsyning som kan ta topper på nesten 3 kW. Det var _ikke tilstrekkelig_ 🤯 Oppgradering til 70 mm<sup>2</sup> kabel hjalp ikke stort [til tross for store lovnader](https://community.victronenergy.com/t/red-blinking-led-not-described-in-the-manual/7186/12).
 - Pumpa drar visstnok bare 1100 W, men det er _kontinuerlig_. Ved oppstart drar motoren mange ganger det. Den må derfor kjøres på aggregat, men i det minste tar det bare 45 min på å fylle tanken.
-- De regulerbare varmekablene står det at bare skal dra 10W/m, men det var bare i fantasien! Ved oppstart hadde de så lav motstand at de dro 5-6 kW. Jeg måtte bruke aggregat for å håndtere oppstarten og bytte til strøm fra hytta etterpå. Da dro de 1200 watt kontinuerlig 🤯 Etter den erfaringen og etter å ha sjekket litt grunnleggende Ohms-lover (<span style="font-weight: 600;">P=I<sup>2</sup> &times; R</span>) o.l. har jeg kjøpte meg en spenningsregulator som står på hytta. Det er en svart boks man kan koble mellom strømmen fra hytta og kabelen. Da kan man f.eks. senke spenningen til 100V som vil senke forbruket til 1/4 til det har stabilisert seg etter et halvt minutt og så gradvis skru det opp til 220V over 20 sekunder-ish. Den fungerer ikke på pumpa - kan ødelegge den (induktiv vs resistiv last eller noe slikt ...).
+- De regulerbare varmekablene står det at bare skal dra 10W/m, men det var bare i fantasien! Ved oppstart hadde de så lav motstand at de dro 5-6 kW. Jeg måtte bruke aggregat for å håndtere oppstarten og bytte til strøm fra hytta etterpå. Da dro de 1200 watt kontinuerlig 🤯 Etter den erfaringen og etter å ha sjekket litt grunnleggende Ohms-lover (<span style="font-weight: 600;">P=V<sup>2</sup> &divide; R</span>) o.l. har jeg kjøpte meg en spenningsregulator som står på hytta. Det er en svart boks man kan koble mellom strømmen fra hytta og kabelen. Da kan man f.eks. senke spenningen til 100V som vil senke forbruket til 1/4 til det har stabilisert seg etter et halvt minutt og så gradvis skru det opp til 220V over 20 sekunder-ish. Den fungerer ikke på pumpa - kan ødelegge den (induktiv vs resistiv last eller noe slikt ...).
+
+{% cloudinary post /assets/posts/2026-03-30-vevor.webp %}

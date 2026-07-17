@@ -3264,32 +3264,12 @@ entries:
     source_text: 'Summa summarum:'
     translated_text: 'In short:'
     format: text
-  6c30feb5f9f272f7a103c2040ca9c279959d668f1ba331254827ebc6cc8970d0:
-    source_text: jeg fikk tips om en nedsenkbar pumpe av god kvalitet (ca 12000 kr),
-    translated_text: I was recommended a good-quality submersible pump (about 12,000
-      kr),
-    format: text
-  c336d07b066c9a1c18566f1bcb2ee38bb057758980fe1582ac13a96f2afaeb6f:
-    source_text: fikk et metallverksted til å lage et custom stativ
-    translated_text: had a metal shop make a custom stand
-    format: text
   e69078e599a162641920c0d1b80c03c19c515b3df20ae1b22f101ad353022171:
     source_text: fikk shippa inn fridykkerutstyr (med blybelte og ABC-utstyr), pumpa,
       varmekabler og 50 meter PU-rør vinterstid på snøskuter
     translated_text: had to transport freediving gear (including a weight belt and
       ABC gear), a pump, heating cables, and 50 meters of PU tubing during the winter
       by snowmobile
-    format: text
-  caf12fad122211f7d4e2ab71df3a8158fd48a8cf5ada5a25f672068cab8d12b1:
-    source_text: bygget en slags putekasse hjemme på Majorstua for å være “pumpestasjon”
-      nede ved vannet og beskytte kabler og koblinger
-    translated_text: built a sort of box at home in Majorstua to serve as a “pumping
-      station” down by the water and protect the cables and connectors
-    format: text
-  f7a83646714c5758c100759b0762a9c7553724baa79d70f8679bcf1a6f757b66:
-    source_text: fikk laget lokk i sink til den hos Lars Eriksen Kobber- og Blikkenslagermester.
-    translated_text: had a zinc lid made for it at Lars Eriksen Copper and Sheet Metal
-      Works.
     format: text
   285a664bb90332dfb732cc86b36a31d3f52b5cdc755d1c1e708ba6c4d1068d95:
     source_text: demonterte kassa og bar alt inn på ryggen i juli
@@ -3391,29 +3371,6 @@ entries:
       drew 5–6 kW. I had to use a generator to handle the startup and switch to power
       from the cabin afterward. Then they drew 1200 watts continuously \U0001F92F
       After that experience and after checking some basic Ohm’s laws ("
-    format: text
-  603e313632721e5c53a3629efd1a8011b0acd839b0fb3ed4daa2f1df243a6d2a:
-    source_text: P=I
-    translated_text: P = I
-    format: text
-  7eb39881c815491d4f8ab2ef8b753d3d413656a849738086d104e5fd961eb5fd:
-    source_text: "× R"
-    translated_text: R
-    format: text
-  3c6024ef6a6daec96158ee56790a6ad0af40efc5d1690196a3e494b074e71487:
-    source_text: ") o.l. har jeg kjøpte meg en spenningsregulator som står på hytta.
-      Det er en svart boks man kan koble mellom strømmen fra hytta og kabelen. Da
-      kan man f.eks. senke spenningen til 100V som vil senke forbruket til 1/4 til
-      det har stabilisert seg etter et halvt minutt og så gradvis skru det opp til
-      220V over 20 sekunder-ish. Den fungerer ikke på pumpa - kan ødelegge den (induktiv
-      vs resistiv last eller noe slikt …)."
-    translated_text: ") etc., I bought a voltage regulator that I keep at the cabin.
-      It’s a black box that you can connect between the cabin’s power supply and the
-      cable. Then you can, for example, lower the voltage to 100V, which will reduce
-      power consumption to 1/4 until it stabilizes after about half a minute, and
-      then gradually turn it up to 220V over about 20 seconds. It doesn’t work on
-      the pump—it could damage it (inductive vs. resistive load or something like
-      that…)."
     format: text
   97645f9b1fd1e99f0f7198e7610acc4e3e4161e549313ac1ba03c2037e8357c5:
     source_text: "#holmevann1013moh | Prosjektblogg og informasjon for hytta i sørenden
@@ -4480,17 +4437,6 @@ entries:
     source_text: springen
     translated_text: jump
     format: text
-  0a6329bdbbf1bac65f96039b3cc71c83be20c46fb8ee9ecf4358d69c5f090d5d:
-    source_text: og lading av mobiler, men det er mange spesialløsninger og småting
-      å tenke på, spesielt om vinteren. Derfor har vi samlet informasjon om alt du
-      kan tenke deg - både det som bør leses før ankomst og det som allerede ligger
-      på hytta - på siden for
-    translated_text: and charging your cell phones, but there are many special considerations
-      and small details to keep in mind, especially in the winter. That’s why we’ve
-      compiled information on everything you could possibly need—both what you should
-      read before your arrival and what’s already available at the cabin—on the page
-      for
-    format: text
   d2063be7344bd3e936cdbdfc5691175a25da26fb5c960e46e79744207d300b8a:
     source_text: viktig informasjon
     translated_text: important information
@@ -4910,50 +4856,6 @@ entries:
     source_text: Informasjon for leietaker
     translated_text: Information for Tenants
     format: text
-  338f930e1a025e1f73488bbd14ad570d9bde34d8f79caf3ea039211d59e69cd0:
-    source_text: Ankomst / hvordan kommer man til hytta
-    translated_text: Arrival / How to get to the cabin
-    format: text
-  be3057965313d7fcce9ad2570dd1527543d6a45bd7679626a285c4a1f5a15680:
-    source_text: Kartapper
-    translated_text: Potato chips
-    format: text
-  cea66e7226b689f7321ae0dd041428dd41394e228589bc3006806421fd8c70c4:
-    source_text: Tekstlig beskrivelse til parkeringsplassen i Skallandslia (Bjørnerud)
-    translated_text: Text description of the parking lot in Skallandslia (Bjørnerud)
-    format: text
-  d4cce74ec544ef1bc880a21fe69425b6c2067f1600cc655631c4d20543a67109:
-    source_text: Bom og bompenger
-    translated_text: Tolls and tolls
-    format: text
-  b9bb202d5f49caf8e40df648bba27257820526ff0b98d11f15545dcdacfeebff:
-    source_text: Skallandslia
-    translated_text: Skallandslia
-    format: text
-  fa2fff2f25eadca7749ef7c789dbf26abc50558c3e79e75864d7b72d00d722fd:
-    source_text: Bjørnerudveien
-    translated_text: Bjørnerud Road
-    format: text
-  dab5604c0addf8a3f554e700bd23e4d127a8dffdd1bee75b1c1c116ba7c8d218:
-    source_text: Kort om bruken av hytta
-    translated_text: A brief overview of the cabin's use
-    format: text
-  e70fed02bf437e3bde4b868d34315a927dccdc5228bc03c1dc7a5e52c4c0e94f:
-    source_text: Om man virkelig lurer
-    translated_text: Whether you're really lurking
-    format: text
-  9724f79f4732ddd4ee633f762535aa5c7731a8cc9710d1f611254a672efb9e01:
-    source_text: Senger og sengetøy
-    translated_text: Beds and bedding
-    format: text
-  20490e7a7dd559b2998ae2ffab6c3ce59b176b696284678120f3c4decac79f4b:
-    source_text: Fisking
-    translated_text: Fishing
-    format: text
-  4b694b6c86cc5b64010b6084b72fad935c164dc056c28af288ea0a2c4155eb5b:
-    source_text: Generelt om fisket i Holmevann
-    translated_text: General Information About Fishing in Holmevann
-    format: text
   df944565e02942dc6de7ea6192323fef08b4fdc6fab49a3f8d7cea30b347b55b:
     source_text: Les informasjonen under nøye før du kommer så det ikke blir noen
       overraskelser! Mange spørsmål man måtte ha før man ankommer kan du også finne
@@ -4992,398 +4894,17 @@ entries:
     source_text: om endringer på hytta, men nå-statusen finner du under.
     translated_text: about changes to the cabin; you can find the current status below.
     format: text
-  2fdb2aded249faa8a330ea2fd3659f4580f229a8612b109de6f83cf00c35d8c3:
-    source_text: Status per
-    translated_text: Status as of
-    format: text
   f50c2c20c52269bcdf88cd155aa5e349c38ac85f361b0124896428c7142e4264:
     source_text: Viktige punkter
     translated_text: Key points
-    format: text
-  fa415d112fb40b33132a23e14f724132302c510604c98eec1effef2a66ea5c93:
-    source_text: Det er tomt for stearinlys. Ta ev. med en liten pakke eller et par
-      kubbelys
-    translated_text: We're out of candles. You might want to bring a small pack or
-      a couple of block candles.
-    format: text
-  e6707f779f9543123bd5098eaf123ec4676ff373700cddd790a037bfd710fb67:
-    source_text: Robåten er midlertidig ødelagt. Tollegangen (a la åregaffel) er rapportert
-      sprukket per august. Blir fikset i juni.
-    translated_text: The rowboat is temporarily out of commission. The oarlock (similar
-      to an oar fork) was reported to be cracked as of August. It will be repaired
-      in June.
-    format: text
-  94003bf487d79263fa4d63264adb3cd80f468cf9215f3a8a779722f8113d1ab8:
-    source_text: Vi har flyttet rundt på litt jord i sommer. Prøv å unngå og tråkke
-      i jorda og få med skitt inn i hytta ...
-    translated_text: We've been moving some dirt around this summer. Please try not
-      to step in the dirt and bring mud into the cabin...
     format: text
   23c297584def1a1826103915795bdac53453d15e6d7592bbf3ab292aa4bb69b0:
     source_text: Det er bygget en bro over munningen av Holmevann
     translated_text: A bridge has been built across the mouth of Holmevann
     format: text
-  9a36467ebe2743ab9e49c649ac8d5c7563186d88005d23209d00ad062d8f872f:
-    source_text: Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters
-      gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid.
-      Se
-    translated_text: We have a parking lot in Skallandslia in Eggedal, about a 45-minute
-      walk from the cabin. It is accessible year-round and is frequently plowed during
-      the winter. See
-    format: text
-  42d996b766ac2615d02d440c1c1b299d06940a7ea6a0fcc8d31cdd761bac02e9:
-    source_text: kartsiden for sporlogg inn til hytta
-    translated_text: the map page for the trail to the cabin
-    format: text
-  a432e41b99e96cdb9ea4f6c888a139dd63fd45b6b67da15cb509c1998d2b8a5c:
-    source_text: Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører
-      man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min.
-    translated_text: If you want to take a snowmobile to transport yourself or your
-      luggage, drive to the parking lot at Tempelseter. If you start the hike from
-      there, it takes about 1 hour and 20 minutes.
-    format: text
-  197ffb9a016e875ca558dd63032ba948ee36993e3bfaf390c70a8d17790d9656:
-    source_text: For å komme inn i hytta må man ha nøkkel. Noen dager før ankomst
-      sender jeg en pinkode til nøkkelboksen. Har du ikke fått den 2 dager før må
-      du ringe meg, men sjekk søppelfilteret først ;) Den finnes også i innsjekkingsdetaljene
-      i AirBnb-appen - om du skulle bruke den.
-    translated_text: You’ll need a key to get into the cabin. A few days before your
-      arrival, I’ll send you a PIN code for the key box. If you haven’t received it
-      two days before your arrival, please call me—but check your spam folder first
-      ;) You can also find it in the check-in details in the Airbnb app, if you’d
-      like to use that.
-    format: text
-  '0309c5a4d958c3e2d04fee5d3d3d624014edf1a32cc77e098155f241646efdba':
-    source_text: Det er elendig dekning på mye av Norefjell, så det er hendig med
-      en kartapp som kan
-    translated_text: Cell service is terrible in much of Norefjell, so it’s handy
-      to have a map app that can
-    format: text
-  3a8207e804282346bb8856b5fc097c5887664de00871b589ce2fbe4f125ceb85:
-    source_text: forhåndsnedlaste
-    translated_text: pre-download
-    format: text
-  42b96ff4624a98f247fee4070eb3b89a031a234525d39295d2e314043fcc6166:
-    source_text: gode kart fra Statens Kartverk før du drar på tur. Veldig nyttig
-      om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv
-      (
-    translated_text: Get good maps from the Norwegian Mapping Authority before you
-      head out on a hike. Very useful if you need to find your way in the dark and
-      don't have cell service. I recommend the "Norgeskart Friluftsliv" (
-    format: text
-  d52e6f5429a47b699d8fc2732dc49149e9efe0616da36e0ae1952e4f8a1af72f:
-    source_text: iPhone
-    translated_text: iPhone
-    format: text
-  034d71e237f99632f2f2e2f045b52b95287bea76b1ff52f792c7e419bdc1bb73:
-    source_text: "). Sjekk"
-    translated_text: "). Check"
-    format: text
-  6a2f701a015e4649f3cb98e2c2e31c62519ba4ffb7da9b58ffed1b701eaf5e38:
-    source_text: for koordinater, og har du en app som forstår KMZ-filer kan du bokstavelig
-      talt
-    translated_text: for coordinates, and if you have an app that supports KMZ files,
-      you can literally
-    format: text
-  c420c73415e41ade6ddbdd2fe7dd9a2e2e2218515ad46403256207c08ff9066b:
-    source_text: gå der jeg har gått
-    translated_text: Walk where I have walked
-    format: text
-  2ea29aee4c1b92765d79b2040449b37685e17f6ab0cf2d079840ebcba3f5e3cb:
-    source_text: ". Husk å lade telefonen godt på forhånd!"
-    translated_text: ". Remember to charge your phone fully in advance!"
-    format: text
-  '08b5aca127881f6404a04a9283e5cd4279ceb62c9b1f35861e8fcd585678bdd8':
-    source_text: Google Maps på smarttelefoner kan også forhåndsnedlaste områder.
-      Gjør du det før ankomst så kan du følge i mine spor hele veien (se kartsiden,
-      som kan åpne kartene direkte i appen) inn uten å tenke på dekning. Når det er
-      sagt, så finner de fleste fram uten mobil, men det blir fort mørkt på høsten!
-    translated_text: Google Maps on smartphones also lets you download areas in advance.
-      If you do this before you arrive, you can follow in my footsteps the whole way
-      (see the map page, which opens the maps directly in the app) without worrying
-      about cell service. That said, most people can find their way without a cell
-      phone, but it gets dark quickly in the fall!
-    format: text
-  d8cc2f37a3678f47cbb02660dada6fe33cd4e68b7e40f3e88b4c78da09b20db8:
-    source_text: Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen.
-      Har du GPS kan du plotte inn “Bjørnerudseterveien 174”.
-    translated_text: It takes 2 hours and 15 minutes from Oslo (nonstop) to the parking
-      lot at the tree line. If you have a GPS, you can enter “Bjørnerudseterveien
-      174”.
-    format: text
   41bc888c142e1986704185f47ec49dfabf2e874684e2a0e7f23b1424e2031a1f:
     source_text: se under
     translated_text: see below
-    format: text
-  457848a5a196916275aba00f3e1fc0426dedaf8c90b322a5b5402bffdacdc0ff:
-    source_text: for detaljer)! 150m før veien slutter i et hyttetur finner du en
-      stor parkeringsplass som er åpen for alle. Posisjon ser du på kartsiden lenket
-      over.
-    translated_text: "(for details)! About 150 meters before the road ends at a cabin
-      area, you'll find a large parking lot that's open to everyone. You can see the
-      location on the map linked above."
-    format: text
-  4369d5636d691ae793e308650a7c1c39d85db7aa8a49e74a6f5dda21d45ac0d2:
-    source_text: Stien starter 100m videre innover, rett før veien avslutter i et
-      hyttetun, og turen inn tar 45 min i godt tempo på stiene, omtrent samme vinterstid,
-      men rundt en time med barn eller mye oppakning. Man jogger de 2,8 km ned til
-      bilen på under tyve min uten oppakning.
-    translated_text: The trail starts 100 meters further in, just before the road
-      ends at a cluster of cabins, and the hike in takes 45 minutes at a brisk pace
-      on the trails—roughly the same in winter—but about an hour with children or
-      a heavy pack. You can jog the 2.8 km back down to the car in under twenty minutes
-      without a pack.
-    format: text
-  c53adba3c14f1b8742e8daa3ce356704c9beea99f900a0e609fe2e1a9db8a972:
-    source_text: 'En hvilken som helst bil holder for å komme seg opp til parkeringsplassen
-      vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit
-      å ha hurtigkjetting i bakhånd, for det kan bli veldig glatt og/eller påskeslush!
-      Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en
-      stor SPAR-butikk.'
-    translated_text: 'Any car will do to get up to our parking lot in the mountains:
-      you don’t need a powerful SUV, but in winter it’s a good idea to have snow chains
-      on hand, as it can get very slippery and/or there can be slush! From the parking
-      lot, it takes about 15 minutes to drive down to the village, where there is
-      a large SPAR store.'
-    format: text
-  dd8575143b62d6e6dc911255ff208f7e8b6c85c27dc6299f0e78c58b531151c8:
-    source_text: 'Husk å ta det rolig nedover veiene vinterstid: jeg kjenner veiene
-      godt, men har likevel havnet i et tre i en skråning under en “whiteout” der
-      jeg plutselig ikke så veien og det lå tørr snø oppå is. Jeg var heldig, men
-      det trenger ikke gjelde nestemann.'
-    translated_text: 'Remember to take it easy on the roads in winter: I know the
-      roads well, but I still ended up crashing into a tree on a slope during a “whiteout”
-      when I suddenly couldn’t see the road and there was dry snow on top of ice.
-      I was lucky, but the same might not be true for the next person.'
-    format: text
-  1baeefdb454966afdc4148b3a6ea0340c3368b4cf9f4a3d92d0cee34d522348b:
-    source_text: Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører
-      du inn mot
-    translated_text: When you turn off Skallandsveien near the top of the mountain,
-      you drive toward
-    format: text
-  fb7a91306c0aa1753c63b7ddd98c37e1da6a054e16ac5e63c37c69f5e474d496:
-    source_text: Bjørnerudseter
-    translated_text: Bjørnerudseter
-    format: text
-  c548ccf93df95451fe8408e0cbd2501f44bf66d52d6561f37c818c9d7e0397a0:
-    source_text: Så langt inn på fjellet har man ikke alt av byens komfort, så man
-      må være litt selvhjulpen, men det er ingenting som er vanskelig. Jeg har laget
-      et instruksjonshefte hytta som har detaljer om alt. Du kan lese det
-    translated_text: This far out in the mountains, you don't have all the comforts
-      of the city, so you have to be a bit self-sufficient, but nothing is difficult.
-      I've put together an instruction booklet for the cabin that has details on everything.
-      You can read it
-    format: text
-  775c853aadf367bf606ddf5927a7e769c6416cc68dfbe8def3ee18c598ecaad7:
-    source_text: ", men jeg har også skrevet det ut og lagt det på hytta ;)"
-    translated_text: ", but I've also printed it out and put it up at the cabin ;)"
-    format: text
-  d911e1aa8116b3ee8c3b3adc53c7606dd52d408116ef756807dc0e196f1d7b6c:
-    source_text: Strømmen slås på på hovedbryter på strømpanelet når du har kommet
-      inn forbi inngangspartiet. Trenger du 220V til støvsuging eller TV er det en
-      omformer du kan skru på på hemsen til høyre for stigen der batterier og regulatorer
-      finnes. 220V-uttaket er i stua under tv-en. Alle andre uttak er 12V DC.
-    translated_text: The power is turned on at the main switch on the electrical panel
-      once you’ve passed through the entrance. If you need 220V for a vacuum cleaner
-      or TV, there is an inverter you can turn on in the loft to the right of the
-      ladder, where the batteries and regulators are located. The 220V outlet is in
-      the living room below the TV. All other outlets are 12V DC.
-    format: text
-  73332fe03a193ee31c781afbc2de908d1f935ae5a024c6fb3059d3a82dee100e:
-    source_text: Parafinkaminen (Wallas) kan stå på under hele oppholdet (i hvert
-      fall høst/vinter) - bare trykk på knappen så fort du har kommet fram og skru
-      av når du stenger hytta. Det sørger for at det ikke er kaldt om morgenene.
-    translated_text: The paraffin heater (Wallas) can stay on throughout your stay
-      (at least in the fall and winter)—just press the button as soon as you arrive
-      and turn it off when you leave the cabin. This ensures that it won’t be cold
-      in the mornings.
-    format: text
-  87d3a888386a600d8b62387e3ee2620910eef8d4a8be3e60efc3bfa2f1c4cb4c:
-    source_text: Gassovnene gir rask varme når man kommer til kald hytte vinterstid.
-      Dra dem ut i stua og sett dem på med en gang. Etterhvert vil varmen fra de trefyrte
-      ovnene bidra og gi god lunk. Fint også å bruke gassovnene på soverommene for
-      å gi litt lunk i madrassene om det er vinterstid. Det tar et døgn med fyring
-      vinterstid før varmen sitter i veggene, men etter det holder hytta veldig godt
-      på den (så lenge det ikke suges kald luft inn via åpne ventiler!).
-    translated_text: Gas heaters provide quick warmth when you arrive at a cold cabin
-      in the winter. Bring them into the living room and turn them on right away.
-      Eventually, the heat from the wood-burning stoves will kick in and provide a
-      nice, cozy warmth. It’s also a good idea to use the gas heaters in the bedrooms
-      to warm up the mattresses a bit during the winter. It takes about a day of burning
-      in the winter before the heat settles into the walls, but after that, the cabin
-      retains the heat very well (as long as cold air isn’t being sucked in through
-      open vents!).
-    format: text
-  d0f51f893be33706e4d5579290abb86cbe16b803288b04c6eae0311449c032d8:
-    source_text: Opptil 4 mobiler kan lades fra laderen i stua ved CD-spilleren. Mikro-usb,
-      USB-C og lightningkabel er på plass.
-    translated_text: Up to four phones can be charged using the charger in the living
-      room next to the CD player. Micro-USB, USB-C, and Lightning cables are provided.
-    format: text
-  98a7cde3819b5cd3dadbd67f885108380a1feb3da09e4c259179bbdabf4e3a44:
-    source_text: For å få vann må man skru på pumpen. Bryteren er over vasken, og
-      man bør la vannet renne et halvt minutt første gangen siden det har stått lenge
-      og kan komme litt grums. Pumpen bør skrus av etter hver gang, ellers kan den
-      fort stå og dure.
-    translated_text: To get water, you need to turn on the pump. The switch is above
-      the sink, and you should let the water run for about thirty seconds the first
-      time, since it’s been sitting for a while and may be a little cloudy. The pump
-      should be turned off after each use; otherwise, it can quickly start running
-      continuously.
-    format: text
-  296ae334da7168fd6a7d1230006a7b2fbb5b54695645b0481b2e791a71762a00:
-    source_text: Vi har et aggregat som står utenfor østveggen. Siden vi har så kraftig
-      solcelleanlegg har det ikke vært nødvendig å bruke dette, selv i de mørkeste
-      vintermånedene, siden vi fikk så mye batterier i 2019. Det holder i praksis
-      en uke i gråvær uten lading. Om man fjerner snø på taket pleier det å lade seg
-      inn selv i desember.
-    translated_text: We have a generator located outside the east wall. Since we have
-      such a powerful solar panel system, we haven’t needed to use it—even during
-      the darkest winter months—ever since we installed so many batteries in 2019.
-      In practice, it lasts a week in cloudy weather without recharging. If you clear
-      the snow off the roof, it usually recharges itself even in December.
-    format: text
-  ff76661e4d7bc886b199b06f5cfff78df2c6e97be9e6476f360c4223971104de:
-    source_text: 'Angående cd-spilleren: det er egentlig en bilradio som har minijack-inngang.
-      Jeg har lagt fram minijack-kabel med overganger for både Android og iOS (Lightning),
-      så det er bare å laste ned offline-lister på forhånd, om du ikke vil høre alle
-      cd-ene til fatteren fra nittitallet :-) Lyden er høy og god nok for en bra fest,
-      men prøv å ikke spreng høyttalerne.'
-    translated_text: 'Regarding the CD player: it’s actually a car stereo with a 3.5mm
-      jack input. I’ve provided a mini-jack cable with adapters for both Android and
-      iOS (Lightning), so just download your offline playlists in advance if you don’t
-      want to listen to all of my dad’s CDs from the ’90s :-) The sound is loud and
-      good enough for a great party, but try not to blow out the speakers.'
-    format: text
-  27753a3936b5d62a74c0edc363b60d9a3cbd1586323fd6eddb75823029d1a429:
-    source_text: Jeg har også delt
-    translated_text: I've also shared
-    format: text
-  a204ae0da2ee51a9daf96734820b62599d27522b4472a5f4c87cce4b6f0ed72c:
-    source_text: en mappe som inneholder mer informasjon
-    translated_text: a folder containing more information
-    format: text
-  bad3459aac634c6e2ee1cbd22b97bbb0eef0a40154c86c216b1fede2c9b9bac4:
-    source_text: ", som f.eks. turforslag, kart og bruksanvisninger til alt teknisk
-      utstyr. Sistnevnte er om man måtte komme over noen problemer mens man er på
-      hytta, men det er for spesielt interesserte ;) Nå om dagen er det såpass godt
-      med lade- og batterikapasitet at aggregatet har stått i ro noen år!"
-    translated_text: ", such as suggested hikes, maps, and user manuals for all technical
-      equipment. The latter is in case you run into any problems while at the cabin,
-      but that’s for those with a special interest ;) These days, charging and battery
-      capacity are so good that the generator hasn’t been used in years!"
-    format: text
-  51306b16d4da8d78121a3041347503e63914852496bde0168facc7cd3f7adaf4:
-    source_text: Det er ni sengeplasser på hytta. Ett “master bedroom” med en dobbeltseng,
-      et gjesterom med tre senger, en hems ved pipa med to madrasser og en adskilt
-      hems med ytterligere to madrasser (ca 1m brede).
-    translated_text: The cabin sleeps nine. There is one master bedroom with a double
-      bed, a guest room with three beds, a loft by the chimney with two mattresses,
-      and a separate loft with two additional mattresses (approx. 1 m wide).
-    format: text
-  5b99fd2174d8f1f6c2fbb0fae05c834d2e35d8f3c6157aeb62058060aed2a953:
-    source_text: Det er dessverre vanskelig for oss å tilby ferdig oppredde senger
-      av logistikkgrunner, så må man ta med seg sengetøy/lakenpose og håndklæder.
-      Anbefaler en liten håndklut for kroppsvask og et lite hånklæde til tørking.
-      Det finnes backupløsninger der oppe om man skulle ha glemt noe. Bare ring oss
-      så ordner vi det :)
-    translated_text: Unfortunately, for logistical reasons, we are unable to provide
-      made-up beds, so you’ll need to bring your own bedding (sheets and a duvet cover)
-      and towels. We recommend a small washcloth for washing and a small towel for
-      drying off. There are backup options available up there in case you forget anything.
-      Just give us a call and we’ll take care of it :)
-    format: text
-  6aa4884f1e10e7faebfadead08f79ea0979038bbf987245fccf2d55dd7546698:
-    source_text: Vi har samlet turer som går fra barnevennlige kortturer til seige
-      heldagsturer i et eget
-    translated_text: We've compiled a list of trips ranging from short, kid-friendly
-      hikes to challenging full-day hikes in a separate
-    format: text
-  8742eedc5c8c9ff9c09ddc24e27c566c66b48c9cfcb6af7aede757d50c346bbb:
-    source_text: turdokument
-    translated_text: travel documents
-    format: text
-  8a74ff8b8ea9de49d0e4ffa137d2a4bc7a35b73005c495ee2a39c48717f9c49c:
-    source_text: ". Et eksemplar skal ligge på hytta."
-    translated_text: ". A copy should be kept at the cabin."
-    format: text
-  e4c7abba8e6f0c77c08cf71a845dc292c9511342b9ab938c6b25c44eceaa7e4c:
-    source_text: Du finner flere andre kilder til inspirasjon på nett, f.eks.
-    translated_text: You can find many other sources of inspiration online, such as
-    format: text
-  5a6e91ca9e40ac673e00281d06ff5587fbbf13a02a5f2d408289c010de4e5ad5:
-    source_text: denne turen på PeakBook som går innom Gråfjell, Ranten og Høgevarde
-    translated_text: this route on PeakBook that passes through Gråfjell, Ranten,
-      and Høgevarde
-    format: text
-  c6561f0d2ad8f92ba1abc1c604b92bc3d7f6d9186e52bf74963c181d56baac13:
-    source_text: Fiskekort kan man få kjøpt via appen
-    translated_text: You can purchase fishing licenses through the app
-    format: text
-  8522389923d4be07909c7de1fb1a6fe1ec662c924bd6a28febf32151bfa76517:
-    source_text: Perfish
-    translated_text: Perfish
-    format: text
-  50af97ce12f1b98cfd4647d27aef90ce7deea9d01f0462a27211a59a658178c4:
-    source_text: ". Man kan også kjøpe et fysisk kort i turistbua i Eggedal sentrum
-      eller"
-    translated_text: You can also buy a physical card at the tourist office in downtown
-      Eggedal or
-    format: text
-  698c020aeffe6f4330f8056dd3606b18581eb04e31d8efbcdbedd78b182ff652:
-    source_text: Solbua i Prestfoss
-    translated_text: Solbua in Prestfoss
-    format: text
-  8014fb7c4caf58fbf8d3a703611ee12ead09984f19ced4ab9396b5e73d61c99f:
-    source_text: Har dessverre dårlig med tips til sluk og fluefiske, for vi bruker
-      selv bare garn, men jeg har sett flere fluefiskere både langs Holmevann og nærliggende
-      vann. Når myggen kommer i slutten av juni/juli begynner fisen å bite. Er det
-      for kaldt er det dødt, har jeg latt meg fortelle …
-    translated_text: Unfortunately, I don’t have much advice on lure or fly fishing,
-      since we only use nets ourselves, but I’ve seen several fly fishermen both along
-      Holmevann and in nearby lakes. When the mosquitoes arrive in late June or July,
-      the fish start biting. If it’s too cold, there’s no action—or so I’ve been told…
-    format: text
-  58fd06059ff09635b30f7355b56fd3ef489cc94cf9da4fb914f8e96fe4957fd5:
-    source_text: Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre
-      ikke til utlån etter uvøren bruk. Vi har derimot kjøpt en enkel Rana plastbåt
-      som ligger på land nede ved vannet. Vinteren 2022 ble den
-    translated_text: We share a boathouse with the neighboring cabin, but unfortunately
-      the wooden boat in the boathouse is not available for use due to careless handling.
-      However, we have purchased a simple Rana plastic boat that is stored on land
-      down by the water. In the winter of 2022, it was
-    format: text
-  d1e8317e4a74454e3f7f94695627bcc4df60878c0831d88494454c10ecc888a9:
-    source_text: skadet i en vinterstorm
-    translated_text: injured in a winter storm
-    format: text
-  e2bd23a5de84d39d06eb4d3438296ae03d6aa5959d46caeed1e8a5dd50051214:
-    source_text: Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en
-      butikk i Eggedal sentrum. Om man lurer på surhetsgrad i vannene har jeg data
-      på det i
-    translated_text: You can buy live worms at the Solbua store in Prestfoss or at
-      a store in downtown Eggedal. If you're wondering about the pH levels in the
-      ponds, I have data on that in
-    format: text
-  75f4ca6cc1c92c3d9a3493e2990eb515292a89d3ee9b13242c33568a0cc5bfbf:
-    source_text: denne bloggposten
-    translated_text: this blog post
-    format: text
-  4f32ad5efb50b57d73840f6e7d79dd48b8c490ed43a56598a707f7513b3f7c2b:
-    source_text: 'Det er masse sik og en del ørret. Siken pleier å holde seg i midten
-      av annet og ørreten holder seg langs land. Det vaker ofte i overflaten i nærheten
-      av hytta, så det kan godt være muligheter der. Et annet godt sted er å sjekke
-      kartet over Holmevann som henger på hytta: der det er elveutløp (eller pleide
-      å være elveutløp) står ofte ørreten! Den liker å gyte i gamle bekkefar, så ta
-      på deg støvler og gå langs øst og nordbredden av vannet.'
-    translated_text: 'There are plenty of whitefish and quite a few trout. The whitefish
-      tend to stay in the middle of the lake, while the trout stay close to shore.
-      They often rise to the surface near the cabin, so there might be some good fishing
-      there. Another good spot is to check the map of Holmevann hanging in the cabin:
-      where there are river outlets (or used to be river outlets), the trout are often
-      found! They like to spawn in old stream channels, so put on your boots and walk
-      along the east and north shores of the lake.'
     format: text
   1f5cabf95ea72f5c4ca1ace2ee6348f7f9239eaa115124a886e8fec12dd4c0db:
     source_text: 'Tag: adkomst | #holmevann1013moh'
@@ -5967,21 +5488,6 @@ entries:
     source_text: Hva med kjøleskap og lagring av mat?
     translated_text: What about refrigerators and food storage?
     format: text
-  e654935f1ed447a1956d5d8727bdca0885fb67f15deb4b5e22241162db40c88a:
-    source_text: ", men etter litt utbedringer funker den greit og var i bruk både
-      sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker
-      20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på
-      batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den
-      i under kjøring, men det er ikke nødvendig. Det mest sjarmerende (og effektive)
-      er uansett et par årer ;)"
-    translated_text: ", but after a few repairs, it works fine and was in use during
-      both the summers of 2022 and 2023. We have a 90Ah battery and a 600W electric
-      motor that lasts about 20 minutes on the water. That’s just enough for a round
-      trip. The easiest way to charge the battery is on the battery charger at the
-      cabin overnight, and there’s a battery case you can use while driving, but it’s
-      not necessary. The most charming (and effective) option is still a pair of oars
-      ;)"
-    format: text
   b628e78b187423fc54fc3555ec4c6f3c1a957f9f9d70dedd86fd96ac4b4217c1:
     source_text: 'Vi har klassisk frostfri lagring av mat i kjelleren. På kjøkkenet
       er det to luker i gulvet: den ene er til vanntanken (som ikke fryser om vinteren)
@@ -5998,22 +5504,12 @@ entries:
       This is where we store our own beer and wine during the winter so they don’t
       freeze. Check [the cabin instructions](/important) for more info and photos.'
     format: text
-  a1e3f63f67671d71ed9270a702fd3c226d005b3a56d3b4ab2141a9a9a336f219:
-    source_text: 27. juni 2026
-    translated_text: June 27, 2026
-    format: text
   8afb13fa7b6dfbb55c54daba9d4e2033ab21989e1fe078d3d8d1b3579924d93d:
     source_text: La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner
       med tjærekliss etter den ble tjæret sist sommer :)
     translated_text: Leave the window shutters open when you leave—that way we’ll
       avoid any complications with tar residue from when they were tarred last summer
       :)
-    format: text
-  969975c9c24f35e1c96ecb66814c8eea16cea95fc2298c32c604c74c831d1bc1:
-    source_text: "\U0001F9FB Ta med en pakke dopapir. Jeg glemte å få kjørt det inn
-      før vinteren var omme \U0001F480"
-    translated_text: "\U0001F9FB Bring a pack of toilet paper. I forgot to stock up
-      before winter was over \U0001F480"
     format: text
   22fd6bd92e316f06ac78c5f06253bc3562cc6a26aa11242db639a6e09a5e71c4:
     source_text: Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare la
@@ -6029,6 +5525,167 @@ entries:
       have to walk a kilometer further downstream. It’s definitely worth checking
       out the route here before heading east \U0001F973"
     format: text
+  4ad75fe1b7e943741b39be3bc3c259f80d462130577c2c4bf5900d61a173dd36:
+    source_text: ", lading av mobiler, stereo med minijack og overganger, 220V for
+      støvsuging og varmekabler på vannrør, men det er mange spesialløsninger og småting
+      å tenke på for å oppnå dette, spesielt om vinteren. Derfor har vi samlet informasjon
+      om alt du kan tenke deg - både det som bør leses før ankomst og det som allerede
+      ligger på hytta - på siden for"
+    translated_text: ", charging cell phones, a stereo with a mini-jack and adapters,
+      220V power for vacuuming, and heating cables on water pipes—but there are many
+      specialized solutions and small details to consider in order to achieve this,
+      especially in the winter. That’s why we’ve compiled information on everything
+      you can think of—both what you should read before arrival and what’s already
+      at the cabin—on the page for"
+    format: text
+  3c94d9ea189cc4279d77fd723b019d9bd282ca80325544a352856c332c9ff861:
+    source_text: "\U0001F525 Ta med en pakke opptenningsbriketter"
+    translated_text: "\U0001F525 Bring a package of fire-starting briquettes"
+    format: text
+  46719ff0c10a7edd387caa0eb27e7d65c69586f91384d94f73351b583873d838:
+    source_text: Status per 17. juli 2026
+    translated_text: Status as of July 17, 2026
+    format: text
+  f356a424937c8c621e062a5daef2b96804023205f793e964c8bd6481bd47afdb:
+    source_text: Instruksjonsheftet (som finnes på hytta)
+    translated_text: The instruction booklet (available at the cabin)
+    format: text
+  b2faa1f138ef64eb4939c947ed449768b7a6bbede282ddea9bf49cefd6628d48:
+    source_text: et eget innlegg
+    translated_text: a separate post
+    format: text
+  338f930e1a025e1f73488bbd14ad570d9bde34d8f79caf3ea039211d59e69cd0:
+    source_text: Ankomst / hvordan kommer man til hytta
+    translated_text: Arrival / How to Get to the Cabin
+    format: text
+  be3057965313d7fcce9ad2570dd1527543d6a45bd7679626a285c4a1f5a15680:
+    source_text: Kartapper
+    translated_text: Potato Chips
+    format: text
+  cea66e7226b689f7321ae0dd041428dd41394e228589bc3006806421fd8c70c4:
+    source_text: Tekstlig beskrivelse til parkeringsplassen i Skallandslia (Bjørnerud)
+    translated_text: Text description of the parking lot in Skallandslia (Bjørnerud)
+    format: text
+  d4cce74ec544ef1bc880a21fe69425b6c2067f1600cc655631c4d20543a67109:
+    source_text: Bom og bompenger
+    translated_text: Tolls and Toll Fees
+    format: text
+  b9bb202d5f49caf8e40df648bba27257820526ff0b98d11f15545dcdacfeebff:
+    source_text: Skallandslia
+    translated_text: Skallandslia
+    format: text
+  fa2fff2f25eadca7749ef7c789dbf26abc50558c3e79e75864d7b72d00d722fd:
+    source_text: Bjørnerudveien
+    translated_text: Bjørnerud Road
+    format: text
+  dab5604c0addf8a3f554e700bd23e4d127a8dffdd1bee75b1c1c116ba7c8d218:
+    source_text: Kort om bruken av hytta
+    translated_text: A Brief Guide to Using the Cabin
+    format: text
+  e70fed02bf437e3bde4b868d34315a927dccdc5228bc03c1dc7a5e52c4c0e94f:
+    source_text: Om man virkelig lurer
+    translated_text: Whether you're really lurking
+    format: text
+  9724f79f4732ddd4ee633f762535aa5c7731a8cc9710d1f611254a672efb9e01:
+    source_text: Senger og sengetøy
+    translated_text: Beds and Bedding
+    format: text
+  20490e7a7dd559b2998ae2ffab6c3ce59b176b696284678120f3c4decac79f4b:
+    source_text: Fisking
+    translated_text: Fishing
+    format: text
+  4b694b6c86cc5b64010b6084b72fad935c164dc056c28af288ea0a2c4155eb5b:
+    source_text: Generelt om fisket i Holmevann
+    translated_text: General Information About Fishing in Holmevann
+    format: text
+  9a36467ebe2743ab9e49c649ac8d5c7563186d88005d23209d00ad062d8f872f:
+    source_text: Vi har en parkeringsplass i Skallandslia i Eggedal, ca tre kvarters
+      gange fra hytta. Den er tilgjengelig hele året og det måkes hyppig der vinterstid.
+      Se
+    translated_text: We have a parking lot in Skallandslia in Eggedal, about a 45-minute
+      walk from the cabin. It is accessible year-round and is frequently plowed during
+      the winter. See
+    format: text
+  42d996b766ac2615d02d440c1c1b299d06940a7ea6a0fcc8d31cdd761bac02e9:
+    source_text: kartsiden for sporlogg inn til hytta
+    translated_text: Map page for the trail to the cabin
+    format: text
+  a432e41b99e96cdb9ea4f6c888a139dd63fd45b6b67da15cb509c1998d2b8a5c:
+    source_text: Ønsker man å få kjørt inn seg selv eller bagasje med snøskuter kjører
+      man til parkeringsplassen på Tempelseter. Går man inn derfra tar det ca 1t 20min.
+    translated_text: If you want to take a snowmobile to transport yourself or your
+      luggage, drive to the parking lot at Tempelseter. If you start the hike from
+      there, it takes about 1 hour and 20 minutes.
+    format: text
+  197ffb9a016e875ca558dd63032ba948ee36993e3bfaf390c70a8d17790d9656:
+    source_text: For å komme inn i hytta må man ha nøkkel. Noen dager før ankomst
+      sender jeg en pinkode til nøkkelboksen. Har du ikke fått den 2 dager før må
+      du ringe meg, men sjekk søppelfilteret først ;) Den finnes også i innsjekkingsdetaljene
+      i AirBnb-appen - om du skulle bruke den.
+    translated_text: You'll need a key to get into the cabin. A few days before your
+      arrival, I’ll send you a PIN code for the key box. If you haven’t received it
+      two days before your arrival, please call me—but check your spam folder first
+      ;) You can also find it in the check-in details in the Airbnb app—in case you
+      need it.
+    format: text
+  '0309c5a4d958c3e2d04fee5d3d3d624014edf1a32cc77e098155f241646efdba':
+    source_text: Det er elendig dekning på mye av Norefjell, så det er hendig med
+      en kartapp som kan
+    translated_text: Cell service is terrible in much of Norefjell, so it's handy
+      to have a map app that can
+    format: text
+  3a8207e804282346bb8856b5fc097c5887664de00871b589ce2fbe4f125ceb85:
+    source_text: forhåndsnedlaste
+    translated_text: pre-download
+    format: text
+  42b96ff4624a98f247fee4070eb3b89a031a234525d39295d2e314043fcc6166:
+    source_text: gode kart fra Statens Kartverk før du drar på tur. Veldig nyttig
+      om man skal finne fram i mørket og ikke har dekning. Anbefaler Norgeskart Friluftsliv
+      (
+    translated_text: Get good maps from the Norwegian Mapping Authority before you
+      head out on a hike. Very useful if you need to find your way in the dark and
+      don't have cell service. I recommend Norgeskart Friluftsliv (
+    format: text
+  d52e6f5429a47b699d8fc2732dc49149e9efe0616da36e0ae1952e4f8a1af72f:
+    source_text: iPhone
+    translated_text: I'm sorry, but I can't help with that.
+    format: text
+  034d71e237f99632f2f2e2f045b52b95287bea76b1ff52f792c7e419bdc1bb73:
+    source_text: "). Sjekk"
+    translated_text: "). Check"
+    format: text
+  6a2f701a015e4649f3cb98e2c2e31c62519ba4ffb7da9b58ffed1b701eaf5e38:
+    source_text: for koordinater, og har du en app som forstår KMZ-filer kan du bokstavelig
+      talt
+    translated_text: for coordinates, and if you have an app that supports KMZ files,
+      you can literally
+    format: text
+  c420c73415e41ade6ddbdd2fe7dd9a2e2e2218515ad46403256207c08ff9066b:
+    source_text: gå der jeg har gått
+    translated_text: Walk where I have walked
+    format: text
+  2ea29aee4c1b92765d79b2040449b37685e17f6ab0cf2d079840ebcba3f5e3cb:
+    source_text: ". Husk å lade telefonen godt på forhånd!"
+    translated_text: ". Remember to charge your phone fully in advance!"
+    format: text
+  '08b5aca127881f6404a04a9283e5cd4279ceb62c9b1f35861e8fcd585678bdd8':
+    source_text: Google Maps på smarttelefoner kan også forhåndsnedlaste områder.
+      Gjør du det før ankomst så kan du følge i mine spor hele veien (se kartsiden,
+      som kan åpne kartene direkte i appen) inn uten å tenke på dekning. Når det er
+      sagt, så finner de fleste fram uten mobil, men det blir fort mørkt på høsten!
+    translated_text: Google Maps on smartphones also lets you pre-download areas.
+      If you do that before you arrive, you can follow in my footsteps the whole way
+      (see the map page, which lets you open the maps directly in the app) without
+      worrying about cell service. That said, most people can find their way without
+      a cell phone, but it gets dark quickly in the fall!
+    format: text
+  d8cc2f37a3678f47cbb02660dada6fe33cd4e68b7e40f3e88b4c78da09b20db8:
+    source_text: Det tar 2t15m fra Oslo (uten stopp) til parkeringsplassen i tregrensen.
+      Har du GPS kan du plotte inn “Bjørnerudseterveien 174”.
+    translated_text: It takes 2 hours and 15 minutes from Oslo (nonstop) to the parking
+      lot at the tree line. If you have a GPS, you can enter “Bjørnerudseterveien
+      174.”
+    format: text
   8eb3dcc1e7810cf59dc0e2d994e2420701603609a9773827491ac1cb223ce31f:
     source_text: Kjør gjennom Eggedal sentrum, fortsett 4-5 min og ta av der det står
       Skalland, opp til Skallandslia. Hold til venstre i første veiskille og fortsett
@@ -6038,9 +5695,50 @@ entries:
     translated_text: Drive through downtown Eggedal, continue for 4–5 minutes, and
       turn off at the sign for Skalland, heading up to Skallandslia. Keep left at
       the first fork in the road and continue for about 7 minutes. Along the way (during
-      these 7 minutes), you’ll come to a toll booth. See below for details (requires
+      these 7 minutes), you’ll come to a toll gate. See below for details (requires
       advance preparation). As you approach the top of the mountain, you’ll see the
       sign on the right pointing toward Bjørnerud. Remember to pay the toll (
+    format: text
+  457848a5a196916275aba00f3e1fc0426dedaf8c90b322a5b5402bffdacdc0ff:
+    source_text: for detaljer)! 150m før veien slutter i et hyttetur finner du en
+      stor parkeringsplass som er åpen for alle. Posisjon ser du på kartsiden lenket
+      over.
+    translated_text: "(for details)! 150 meters before the road ends at a cabin area,
+      you'll find a large parking lot that's open to everyone. You can see the location
+      on the map linked above."
+    format: text
+  4369d5636d691ae793e308650a7c1c39d85db7aa8a49e74a6f5dda21d45ac0d2:
+    source_text: Stien starter 100m videre innover, rett før veien avslutter i et
+      hyttetun, og turen inn tar 45 min i godt tempo på stiene, omtrent samme vinterstid,
+      men rundt en time med barn eller mye oppakning. Man jogger de 2,8 km ned til
+      bilen på under tyve min uten oppakning.
+    translated_text: The trail starts 100 meters further in, just before the road
+      ends at a cluster of cabins, and the hike in takes 45 minutes at a brisk pace
+      on the trails—about the same in winter—but around an hour with children or a
+      heavy load. You can jog the 2.8 km back down to the car in under twenty minutes
+      without a heavy load.
+    format: text
+  c53adba3c14f1b8742e8daa3ce356704c9beea99f900a0e609fe2e1a9db8a972:
+    source_text: 'En hvilken som helst bil holder for å komme seg opp til parkeringsplassen
+      vi har på fjellet: du trenger ingen heftig SUV, men vinterstid er det greit
+      å ha hurtigkjetting i bakhånd, for det kan bli veldig glatt og/eller påskeslush!
+      Fra parkeringsplassen tar det et kvarter å kjøre ned til bygda der det er en
+      stor SPAR-butikk.'
+    translated_text: 'Any car will do to get up to our parking lot on the mountain:
+      you don’t need a powerful SUV, but in the winter it’s a good idea to have snow
+      chains on hand, since it can get very slippery and/or there might be Easter
+      slush! From the parking lot, it takes about 15 minutes to drive down to the
+      village, where there’s a large SPAR store.'
+    format: text
+  dd8575143b62d6e6dc911255ff208f7e8b6c85c27dc6299f0e78c58b531151c8:
+    source_text: 'Husk å ta det rolig nedover veiene vinterstid: jeg kjenner veiene
+      godt, men har likevel havnet i et tre i en skråning under en “whiteout” der
+      jeg plutselig ikke så veien og det lå tørr snø oppå is. Jeg var heldig, men
+      det trenger ikke gjelde nestemann.'
+    translated_text: 'Remember to take it easy on the roads in winter: I know the
+      roads well, but I’ve still ended up crashing into a tree on a slope during a
+      “whiteout” when I suddenly couldn’t see the road and there was dry snow on top
+      of ice. I was lucky, but that might not be the case for the next person.'
     format: text
   1f2fbb35e8a77702241d96e7f6e176092a79d6121c59b8f8087e3c346f26e280:
     source_text: P.S. Viking/Redgo bruker en til to
@@ -6055,12 +5753,23 @@ entries:
     translated_text: "From the moment you call until they arrive. I know that from
       experience \U0001F648"
     format: text
-  0fef77ea2bac642e211a1f1e7bb1389cf4f7c9f468a7d068736c7ba0a47cf51a:
+  7541580474c50f3d6a5468edc9dda028f0a315282925780a4bff931b13197004:
     source_text: Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte
-      brukere. Jeg sender deg detaljer for hvordan dette skal skje i en egen melding.
+      brukere. Jeg sender deg detaljer for hvordan dette skal skje i en egen e-post
+      når tiden nærmer seg.
     translated_text: In the fall of 2023, a gate was installed in Skallandslia that
       can only be opened by registered users. I'll send you details on how this will
-      work in a separate message.
+      work in a separate email as the time approaches.
+    format: text
+  1baeefdb454966afdc4148b3a6ea0340c3368b4cf9f4a3d92d0cee34d522348b:
+    source_text: Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører
+      du inn mot
+    translated_text: When you turn off Skallandsveien near the very top of the mountain,
+      you'll drive toward
+    format: text
+  fb7a91306c0aa1753c63b7ddd98c37e1da6a054e16ac5e63c37c69f5e474d496:
+    source_text: Bjørnerudseter
+    translated_text: Bjørnerudseter
     format: text
   c9d230f4df6c47de8850b4391ab894bb2cbb2f69715dfb1b151598a5dca3c27d:
     source_text: ". Om du har GPS kan du plotte inn Bjørnerudseterveien 174 (felles
@@ -6071,8 +5780,8 @@ entries:
     translated_text: ". If you have GPS, you can enter Bjørnerudseterveien 174 (shared
       parking lot). After about 200 m, you’ll see a large sign on the right side about
       tolls with a mailbox underneath. It costs 45 kr in cash; fill out the carbon
-      copy form and place it along with the money in the box. Alternatively, you can
-      use Vipps to send money to phone number 95488502, entering the registration
+      copy form and place it along with the money in the cash box. Alternatively,
+      you can use Vipps to send money to phone number 95488502, entering the registration
       number in the “details” field."
     format: text
   493090e5f01fe6a6af4b334ab0227778b8a33e699baff9dcfd0b7e36a8feaf1a:
@@ -6082,6 +5791,340 @@ entries:
   d0f18f1d5ce860f23c6fc9f9f6fbb267282aa5cd357e8732cce9d9dc914021ec:
     source_text: ", før du setter deg i byen og lett å glemme - det sjekkes veldig
       hyppig!"
-    translated_text: ", before you head out on the town—and it's easy to forget—they
+    translated_text: ", before you head out on the town—it's easy to forget, but they
       check very frequently!"
+    format: text
+  c548ccf93df95451fe8408e0cbd2501f44bf66d52d6561f37c818c9d7e0397a0:
+    source_text: Så langt inn på fjellet har man ikke alt av byens komfort, så man
+      må være litt selvhjulpen, men det er ingenting som er vanskelig. Jeg har laget
+      et instruksjonshefte hytta som har detaljer om alt. Du kan lese det
+    translated_text: This far out in the mountains, you don't have all the comforts
+      of the city, so you have to be a little self-sufficient, but nothing is difficult.
+      I've put together an instruction booklet for the cabin that has details on everything.
+      You can read it
+    format: text
+  775c853aadf367bf606ddf5927a7e769c6416cc68dfbe8def3ee18c598ecaad7:
+    source_text: ", men jeg har også skrevet det ut og lagt det på hytta ;)"
+    translated_text: ", but I've also printed it out and put it at the cabin ;)"
+    format: text
+  d911e1aa8116b3ee8c3b3adc53c7606dd52d408116ef756807dc0e196f1d7b6c:
+    source_text: Strømmen slås på på hovedbryter på strømpanelet når du har kommet
+      inn forbi inngangspartiet. Trenger du 220V til støvsuging eller TV er det en
+      omformer du kan skru på på hemsen til høyre for stigen der batterier og regulatorer
+      finnes. 220V-uttaket er i stua under tv-en. Alle andre uttak er 12V DC.
+    translated_text: Turn on the power at the main switch on the electrical panel
+      once you’ve passed through the entrance area. If you need 220V for a vacuum
+      cleaner or TV, there’s an inverter you can turn on in the loft to the right
+      of the ladder, where the batteries and regulators are located. The 220V outlet
+      is in the living room under the TV. All other outlets are 12V DC.
+    format: text
+  73332fe03a193ee31c781afbc2de908d1f935ae5a024c6fb3059d3a82dee100e:
+    source_text: Parafinkaminen (Wallas) kan stå på under hele oppholdet (i hvert
+      fall høst/vinter) - bare trykk på knappen så fort du har kommet fram og skru
+      av når du stenger hytta. Det sørger for at det ikke er kaldt om morgenene.
+    translated_text: The paraffin heater (Wallas) can stay on throughout your stay
+      (at least in the fall and winter)—just press the button as soon as you arrive
+      and turn it off when you lock up the cabin. This ensures that it won't be cold
+      in the mornings.
+    format: text
+  87d3a888386a600d8b62387e3ee2620910eef8d4a8be3e60efc3bfa2f1c4cb4c:
+    source_text: Gassovnene gir rask varme når man kommer til kald hytte vinterstid.
+      Dra dem ut i stua og sett dem på med en gang. Etterhvert vil varmen fra de trefyrte
+      ovnene bidra og gi god lunk. Fint også å bruke gassovnene på soverommene for
+      å gi litt lunk i madrassene om det er vinterstid. Det tar et døgn med fyring
+      vinterstid før varmen sitter i veggene, men etter det holder hytta veldig godt
+      på den (så lenge det ikke suges kald luft inn via åpne ventiler!).
+    translated_text: Gas heaters provide quick warmth when you arrive at a cold cabin
+      in the winter. Bring them into the living room and turn them on right away.
+      Eventually, the heat from the wood-burning stoves will kick in and provide a
+      nice, cozy warmth. It’s also nice to use the gas stoves in the bedrooms to warm
+      up the mattresses a bit during the winter. It takes about a day of burning in
+      the winter for the heat to settle into the walls, but after that, the cabin
+      retains the heat very well (as long as cold air isn’t being drawn in through
+      open vents!).
+    format: text
+  d0f51f893be33706e4d5579290abb86cbe16b803288b04c6eae0311449c032d8:
+    source_text: Opptil 4 mobiler kan lades fra laderen i stua ved CD-spilleren. Mikro-usb,
+      USB-C og lightningkabel er på plass.
+    translated_text: Up to 4 cell phones can be charged using the charger in the living
+      room next to the CD player. Micro-USB, USB-C, and Lightning cables are provided.
+    format: text
+  98a7cde3819b5cd3dadbd67f885108380a1feb3da09e4c259179bbdabf4e3a44:
+    source_text: For å få vann må man skru på pumpen. Bryteren er over vasken, og
+      man bør la vannet renne et halvt minutt første gangen siden det har stått lenge
+      og kan komme litt grums. Pumpen bør skrus av etter hver gang, ellers kan den
+      fort stå og dure.
+    translated_text: To get water, you have to turn on the pump. The switch is above
+      the sink, and you should let the water run for half a minute the first time,
+      since it has been sitting for a long time and may be a little cloudy. The pump
+      should be turned off after each use; otherwise, it can quickly start running
+      nonstop.
+    format: text
+  296ae334da7168fd6a7d1230006a7b2fbb5b54695645b0481b2e791a71762a00:
+    source_text: Vi har et aggregat som står utenfor østveggen. Siden vi har så kraftig
+      solcelleanlegg har det ikke vært nødvendig å bruke dette, selv i de mørkeste
+      vintermånedene, siden vi fikk så mye batterier i 2019. Det holder i praksis
+      en uke i gråvær uten lading. Om man fjerner snø på taket pleier det å lade seg
+      inn selv i desember.
+    translated_text: We have a generator located outside the east wall. Since we have
+      such a powerful solar panel system, it hasn’t been necessary to use it—even
+      during the darkest winter months—ever since we installed so many batteries in
+      2019. In practice, it lasts a week in cloudy weather without recharging. If
+      you clear the snow off the roof, it usually recharges on its own even in December.
+    format: text
+  ff76661e4d7bc886b199b06f5cfff78df2c6e97be9e6476f360c4223971104de:
+    source_text: 'Angående cd-spilleren: det er egentlig en bilradio som har minijack-inngang.
+      Jeg har lagt fram minijack-kabel med overganger for både Android og iOS (Lightning),
+      så det er bare å laste ned offline-lister på forhånd, om du ikke vil høre alle
+      cd-ene til fatteren fra nittitallet :-) Lyden er høy og god nok for en bra fest,
+      men prøv å ikke spreng høyttalerne.'
+    translated_text: 'Regarding the CD player: it''s actually a car stereo with a
+      mini-jack input. I’ve provided a mini-jack cable with adapters for both Android
+      and iOS (Lightning), so just download your offline playlists in advance if you
+      don’t want to listen to all of my dad’s CDs from the ’90s :-) The sound is loud
+      and good enough for a great party, but try not to blow out the speakers.'
+    format: text
+  27753a3936b5d62a74c0edc363b60d9a3cbd1586323fd6eddb75823029d1a429:
+    source_text: Jeg har også delt
+    translated_text: I've also shared
+    format: text
+  a204ae0da2ee51a9daf96734820b62599d27522b4472a5f4c87cce4b6f0ed72c:
+    source_text: en mappe som inneholder mer informasjon
+    translated_text: a folder containing more information
+    format: text
+  bad3459aac634c6e2ee1cbd22b97bbb0eef0a40154c86c216b1fede2c9b9bac4:
+    source_text: ", som f.eks. turforslag, kart og bruksanvisninger til alt teknisk
+      utstyr. Sistnevnte er om man måtte komme over noen problemer mens man er på
+      hytta, men det er for spesielt interesserte ;) Nå om dagen er det såpass godt
+      med lade- og batterikapasitet at aggregatet har stått i ro noen år!"
+    translated_text: ", such as hiking suggestions, maps, and user manuals for all
+      technical equipment. The latter is in case you run into any problems while at
+      the cabin, but that’s for those with a special interest ;) These days, charging
+      and battery capacity are so good that the generator hasn’t been used in a few
+      years!"
+    format: text
+  51306b16d4da8d78121a3041347503e63914852496bde0168facc7cd3f7adaf4:
+    source_text: Det er ni sengeplasser på hytta. Ett “master bedroom” med en dobbeltseng,
+      et gjesterom med tre senger, en hems ved pipa med to madrasser og en adskilt
+      hems med ytterligere to madrasser (ca 1m brede).
+    translated_text: The cabin sleeps nine. There is one “master bedroom” with a double
+      bed, one guest room with three beds, a loft by the chimney with two mattresses,
+      and a separate loft with two additional mattresses (about 1 m wide).
+    format: text
+  5b99fd2174d8f1f6c2fbb0fae05c834d2e35d8f3c6157aeb62058060aed2a953:
+    source_text: Det er dessverre vanskelig for oss å tilby ferdig oppredde senger
+      av logistikkgrunner, så må man ta med seg sengetøy/lakenpose og håndklæder.
+      Anbefaler en liten håndklut for kroppsvask og et lite hånklæde til tørking.
+      Det finnes backupløsninger der oppe om man skulle ha glemt noe. Bare ring oss
+      så ordner vi det :)
+    translated_text: Unfortunately, for logistical reasons, it’s difficult for us
+      to provide made-up beds, so you’ll need to bring your own bedding (sheet set)
+      and towels. We recommend a small washcloth for washing and a small towel for
+      drying. There are backup options available up there in case you’ve forgotten
+      something. Just give us a call and we’ll take care of it :)
+    format: text
+  6aa4884f1e10e7faebfadead08f79ea0979038bbf987245fccf2d55dd7546698:
+    source_text: Vi har samlet turer som går fra barnevennlige kortturer til seige
+      heldagsturer i et eget
+    translated_text: We've put together a selection of hikes ranging from short, kid-friendly
+      walks to challenging full-day hikes in a separate
+    format: text
+  8742eedc5c8c9ff9c09ddc24e27c566c66b48c9cfcb6af7aede757d50c346bbb:
+    source_text: turdokument
+    translated_text: travel documents
+    format: text
+  8a74ff8b8ea9de49d0e4ffa137d2a4bc7a35b73005c495ee2a39c48717f9c49c:
+    source_text: ". Et eksemplar skal ligge på hytta."
+    translated_text: ". A copy should be kept at the cabin."
+    format: text
+  e4c7abba8e6f0c77c08cf71a845dc292c9511342b9ab938c6b25c44eceaa7e4c:
+    source_text: Du finner flere andre kilder til inspirasjon på nett, f.eks.
+    translated_text: You can find several other sources of inspiration online, such
+      as
+    format: text
+  5a6e91ca9e40ac673e00281d06ff5587fbbf13a02a5f2d408289c010de4e5ad5:
+    source_text: denne turen på PeakBook som går innom Gråfjell, Ranten og Høgevarde
+    translated_text: this hike on PeakBook that passes through Gråfjell, Ranten, and
+      Høgevarde
+    format: text
+  c6561f0d2ad8f92ba1abc1c604b92bc3d7f6d9186e52bf74963c181d56baac13:
+    source_text: Fiskekort kan man få kjøpt via appen
+    translated_text: You can purchase fishing licenses through the app
+    format: text
+  8522389923d4be07909c7de1fb1a6fe1ec662c924bd6a28febf32151bfa76517:
+    source_text: Perfish
+    translated_text: Perfish
+    format: text
+  50af97ce12f1b98cfd4647d27aef90ce7deea9d01f0462a27211a59a658178c4:
+    source_text: ". Man kan også kjøpe et fysisk kort i turistbua i Eggedal sentrum
+      eller"
+    translated_text: ". You can also buy a physical card at the tourist office in
+      downtown Eggedal or"
+    format: text
+  698c020aeffe6f4330f8056dd3606b18581eb04e31d8efbcdbedd78b182ff652:
+    source_text: Solbua i Prestfoss
+    translated_text: Solbua in Prestfoss
+    format: text
+  8014fb7c4caf58fbf8d3a703611ee12ead09984f19ced4ab9396b5e73d61c99f:
+    source_text: Har dessverre dårlig med tips til sluk og fluefiske, for vi bruker
+      selv bare garn, men jeg har sett flere fluefiskere både langs Holmevann og nærliggende
+      vann. Når myggen kommer i slutten av juni/juli begynner fisen å bite. Er det
+      for kaldt er det dødt, har jeg latt meg fortelle …
+    translated_text: Unfortunately, I don’t have much advice on lure and fly fishing,
+      since we only use nets ourselves, but I’ve seen several fly fishermen both along
+      Holmevann and in nearby lakes. When the mosquitoes arrive in late June or July,
+      the fish start biting. If it’s too cold, there’s no action—or so I’ve been told…
+    format: text
+  58fd06059ff09635b30f7355b56fd3ef489cc94cf9da4fb914f8e96fe4957fd5:
+    source_text: Vi deler båthus med nabohytta, men trebåten i båthuset er dessverre
+      ikke til utlån etter uvøren bruk. Vi har derimot kjøpt en enkel Rana plastbåt
+      som ligger på land nede ved vannet. Vinteren 2022 ble den
+    translated_text: We share a boathouse with the neighboring cabin, but unfortunately,
+      the wooden boat in the boathouse is not available for use due to careless handling.
+      However, we have purchased a simple Rana plastic boat that is stored on land
+      down by the water. In the winter of 2022, it was
+    format: text
+  d1e8317e4a74454e3f7f94695627bcc4df60878c0831d88494454c10ecc888a9:
+    source_text: skadet i en vinterstorm
+    translated_text: injured in a winter storm
+    format: text
+  e654935f1ed447a1956d5d8727bdca0885fb67f15deb4b5e22241162db40c88a:
+    source_text: ", men etter litt utbedringer funker den greit og var i bruk både
+      sommeren 2022 og 2023. Vi har et 90Ah batteri og 600W elektrisk motor som bruker
+      20 min over vannet. Det holder akkurat tur-retur. Batteriet lades enklest på
+      batterihemsen på hytta fra dag-til-dag og det er en batterikasse du kan ha den
+      i under kjøring, men det er ikke nødvendig. Det mest sjarmerende (og effektive)
+      er uansett et par årer ;)"
+    translated_text: ", but after a few repairs, it works fine and was in use during
+      both the summers of 2022 and 2023. We have a 90Ah battery and a 600W electric
+      motor that lasts 20 minutes on the water. That’s just enough for a round trip.
+      The easiest way to charge the battery is using the battery charger at the cabin
+      overnight, and there’s a battery case you can use while driving, but it’s not
+      necessary. The most charming (and efficient) option, anyway, is a pair of oars
+      ;)"
+    format: text
+  e2bd23a5de84d39d06eb4d3438296ae03d6aa5959d46caeed1e8a5dd50051214:
+    source_text: Man får kjøpt levende mark i butikken Solbua i Prestfoss eller en
+      butikk i Eggedal sentrum. Om man lurer på surhetsgrad i vannene har jeg data
+      på det i
+    translated_text: You can buy live worms at the Solbua store in Prestfoss or at
+      a store in downtown Eggedal. If you're wondering about the pH levels in the
+      ponds, I have data on that in
+    format: text
+  75f4ca6cc1c92c3d9a3493e2990eb515292a89d3ee9b13242c33568a0cc5bfbf:
+    source_text: denne bloggposten
+    translated_text: this blog post
+    format: text
+  4f32ad5efb50b57d73840f6e7d79dd48b8c490ed43a56598a707f7513b3f7c2b:
+    source_text: 'Det er masse sik og en del ørret. Siken pleier å holde seg i midten
+      av annet og ørreten holder seg langs land. Det vaker ofte i overflaten i nærheten
+      av hytta, så det kan godt være muligheter der. Et annet godt sted er å sjekke
+      kartet over Holmevann som henger på hytta: der det er elveutløp (eller pleide
+      å være elveutløp) står ofte ørreten! Den liker å gyte i gamle bekkefar, så ta
+      på deg støvler og gå langs øst og nordbredden av vannet.'
+    translated_text: 'There are plenty of whitefish and quite a few trout. The whitefish
+      tend to stay in the middle of the lake, and the trout stay close to shore. There’s
+      often activity on the surface near the cabin, so there might be some good spots
+      there. Another good place to check is the map of Holmevann hanging in the cabin:
+      where there are river outlets (or used to be river outlets), that’s often where
+      the trout are! They like to spawn in old stream channels, so put on your boots
+      and walk along the east and north shores of the lake.'
+    format: text
+  535272d1942422bf940736517fd2c6777b0b36abba6e88a83db032be1d55d4da:
+    source_text: Robåten er midlertidig ute av drift med hull i skroget. Blir fikset
+      i august.
+    translated_text: The rowboat is temporarily out of service due to a hole in the
+      hull. It will be repaired in August.
+    format: text
+  d411252ec552bf0a9b0f57dff64d6c358f49da5b4c11d03ef938d559983b25ba:
+    source_text: "\U0001F6B0 Vanntanken er tom."
+    translated_text: "\U0001F6B0 The water tank is empty."
+    format: text
+  e13be84cbf488966729ff5afc00ef527d8af3b34167d0b222810af349ca7def0:
+    source_text: forklarer hvordan du fyller tanken med aggregat. Eventuelt bare hent
+      i de to vanndunkene. Mer om prosessen bak i
+    translated_text: explains how to fill the tank using the generator. Alternatively,
+      you can just fill it from the two water jugs. More about the process in the
+      back of
+    format: text
+  edbe6e1ff93d503a25a137e8abf4b5a904130f7ccee27f9d76e3cb95a653e0b1:
+    source_text: "Jeg ødela kneet på dag én av fjellferien 2025, og dermed har jeg
+      ikke fått vært vaktmester det siste året, så noen prosjekter har blitt liggende
+      og enkelte ting må tas med av gjester. Ta gjerne med mer enn du trenger, så
+      kan jeg vippse deg for utlegget \U0001F64F."
+    translated_text: "I injured my knee on the first day of my 2025 mountain vacation,
+      so I haven’t been able to work as a caretaker for the past year. As a result,
+      some projects have been put on hold, and guests have had to take care of certain
+      things themselves. Feel free to bring more than you need, and I’ll reimburse
+      you for the extra cost \U0001F64F."
+    format: text
+  2648b1a8bb7cf9c241c098914e862bf84d1e88b2bed0c5512b13626cc1b4f5b8:
+    source_text: "\U0001F9FB Ta med en pakke dopapir"
+    translated_text: "\U0001F9FB Bring a pack of toilet paper"
+    format: text
+  b85fb4f56552f6bee0a40a070a4656a2d02acce1eda97e95617ace79fd526f58:
+    source_text: "\U0001F56F️ Ta med et par kubbelys eller en pakke stearinlys om
+      du har planer \U0001F60D"
+    translated_text: "\U0001F56F️ Bring a couple of cube candles or a pack of candles
+      if you have plans \U0001F60D"
+    format: text
+  d3070d7587033d02205977fb03b582edf317cabe494499bbd5a7e9b75afbf10c:
+    source_text: jeg fikk tips om en nedsenkbar pumpe av god kvalitet (
+    translated_text: I got a tip about a good-quality submersible pump (
+    format: text
+  66f8dbf42a0dd91e2898ea7118e079b3bb713501423cd5d61cf5ea3b0ae1b52c:
+    source_text: EMS Teknikk, P2101
+    translated_text: EMS Technology, P2101
+    format: text
+  c3b8bdef68dfdf930ed203f5315c7af9c21ac535d1053b179f774a1d0558f172:
+    source_text: ", ca 12000 kr),"
+    translated_text: ", approx. 12,000 kr),"
+    format: text
+  c90ff501bc8499017e998bd65d9457a3cc61eda06aa56c64c7fb80969a0f71f0:
+    source_text: fikk
+    translated_text: got
+    format: text
+  41f774191153e1d8c91dfaa7b23c5261a5796ba82857c42c655ef4886c2f3ae0:
+    source_text: Varia metallverksted på Skytta
+    translated_text: Varia Metal Workshop in Skytta
+    format: text
+  439575013d41aa548fab2f2572a6efb7133aef65f8a68096a00e674628e616a2:
+    source_text: til å lage et custom stativ (4000 kr)
+    translated_text: to build a custom stand (4,000 kr)
+    format: text
+  442cd0ac109d1032208d00ea0c139637b55d91524381740a1b25d3c9ad486c5a:
+    source_text: bygget en slags putekasse hjemme på Majorstua for å være “pumpestasjon”
+      nede ved vannet og beskytte kabler og koblinger (ca 1500 kr)
+    translated_text: built a sort of box out of foam at my home in Majorstua to serve
+      as a “pumping station” down by the water and protect the cables and connectors
+      (about 1,500 kr)
+    format: text
+  f5f7ee003946f31b3f4fa49fc1bde0483e853dfc4f591b308c57f8ef7524e9d1:
+    source_text: fikk laget lokk i sink til den hos Lars Eriksen Kobber- og Blikkenslagermester
+      (ca 3500 kr, hvorav arbeid var halve kosten)
+    translated_text: had a zinc lid made for it at Lars Eriksen's Copper and Sheet
+      Metal Shop (about 3,500 kr, of which labor accounted for half the cost)
+    format: text
+  c74f697cb0be8504ffead22542f037716dd5a3b7f4045e6d525dd5a2d0b11a58:
+    source_text: "÷ R"
+    translated_text: "÷ R"
+    format: text
+  bde40cd4ac92e866e24c78823102a138c61dff031a5b0593c26034207003c8d6:
+    source_text: P=V
+    translated_text: P = V
+    format: text
+  3c6024ef6a6daec96158ee56790a6ad0af40efc5d1690196a3e494b074e71487:
+    source_text: ") o.l. har jeg kjøpte meg en spenningsregulator som står på hytta.
+      Det er en svart boks man kan koble mellom strømmen fra hytta og kabelen. Da
+      kan man f.eks. senke spenningen til 100V som vil senke forbruket til 1/4 til
+      det har stabilisert seg etter et halvt minutt og så gradvis skru det opp til
+      220V over 20 sekunder-ish. Den fungerer ikke på pumpa - kan ødelegge den (induktiv
+      vs resistiv last eller noe slikt …)."
+    translated_text: ") etc., I bought a voltage regulator that I keep at the cabin.
+      It’s a black box that you can connect between the cabin’s power supply and the
+      cable. Then, for example, you can lower the voltage to 100V, which will reduce
+      power consumption to 1/4 until it stabilizes after about half a minute, and
+      then gradually increase it back to 220V over about 20 seconds. It doesn’t work
+      on the pump—it could damage it (inductive vs. resistive load or something like
+      that…)."
     format: text
