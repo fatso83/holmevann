@@ -95,6 +95,16 @@ robots: noindex, nofollow
     min-height: 2.5rem;
     display: grid;
     align-items: center;
+    opacity: 1;
+    transition: opacity 220ms ease;
+  }
+
+  .gate-opener__status[hidden] {
+    display: none;
+  }
+
+  .gate-opener__status[data-fading="true"] {
+    opacity: 0;
   }
 
   .gate-opener__status[data-tone="error"] {

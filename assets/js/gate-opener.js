@@ -449,6 +449,53 @@
       "[data-gate-endpoint-hint]",
     );
     var payload = readStoredPayload(windowObject);
+    var statusFadeTimer = null;
+    var statusClearTimer = null;
+    var setWindowTimeout = windowObject.setTimeout || global.setTimeout;
+    var clearWindowTimeout = windowObject.clearTimeout || global.clearTimeout;
+
+    function clearStatusTimers() {
+      if (statusFadeTimer !== null && clearWindowTimeout) {
+        clearWindowTimeout(statusFadeTimer);
+      }
+
+      if (statusClearTimer !== null && clearWindowTimeout) {
+        clearWindowTimeout(statusClearTimer);
+      }
+
+      statusFadeTimer = null;
+      statusClearTimer = null;
+    }
+
+    function updateStatus(message, tone) {
+      clearStatusTimers();
+
+      if (status && status.dataset) {
+        delete status.dataset.fading;
+      }
+
+      setStatus(status, message, tone);
+
+      if (!message || !setWindowTimeout) {
+        return;
+      }
+
+      statusFadeTimer = setWindowTimeout(function () {
+        if (status && status.dataset) {
+          status.dataset.fading = "true";
+        }
+
+        statusClearTimer = setWindowTimeout(function () {
+          clearStatusTimers();
+
+          if (status && status.dataset) {
+            delete status.dataset.fading;
+          }
+
+          setStatus(status, "", "");
+        }, 220);
+      }, 10000);
+    }
 
     function render() {
       var unlocked = validateGatePayload(payload);
@@ -491,12 +538,12 @@
         event.preventDefault();
 
         if (!passwordInput || !passwordInput.value) {
-          setStatus(status, "Skriv inn passord.", "error");
+          updateStatus("Skriv inn passord.", "error");
           return;
         }
 
         unlockButton.disabled = true;
-        setStatus(status, "Låser opp ...", "");
+        updateStatus("Låser opp ...", "");
 
         loadEncryptedSecret()
           .then(function (encryptedSecret) {
@@ -510,16 +557,12 @@
             payload = decryptedPayload;
             storePayload(windowObject, payload);
             passwordInput.value = "";
-            setStatus(status, "Klar til å åpne bom.", "success");
+            updateStatus("Klar til å åpne bom.", "success");
             render();
           })
           .catch(function () {
             payload = null;
-            setStatus(
-              status,
-              "Feil passord eller ugyldig hemmelighet.",
-              "error",
-            );
+            updateStatus("Feil passord eller ugyldig hemmelighet.", "error");
             render();
           })
           .finally(function () {
@@ -531,13 +574,13 @@
     if (openButton) {
       openButton.addEventListener("click", function () {
         if (!validateGatePayload(payload)) {
-          setStatus(status, "Lås opp med passord først.", "error");
+          updateStatus("Lås opp med passord først.", "error");
           render();
           return;
         }
 
         openButton.disabled = true;
-        setStatus(status, "Sender ...", "");
+        updateStatus("Sender ...", "");
 
         fetchFunction(endpoint, {
           method: "POST",
@@ -554,10 +597,10 @@
             return response.text();
           })
           .then(function () {
-            setStatus(status, "Bomåpning er sendt.", "success");
+            updateStatus("Bomåpning er sendt.", "success");
           })
           .catch(function () {
-            setStatus(status, "Kunne ikke åpne bom.", "error");
+            updateStatus("Kunne ikke åpne bom.", "error");
           })
           .finally(function () {
             openButton.disabled = false;
@@ -569,7 +612,7 @@
       forgetButton.addEventListener("click", function () {
         payload = null;
         clearStoredPayload(windowObject);
-        setStatus(status, "Lagret hemmelighet er fjernet.", "");
+        updateStatus("Lagret hemmelighet er fjernet.", "");
         render();
       });
     }
