@@ -141,7 +141,6 @@ test("offline pdf smoke covers root warmup, english rental, and english importan
   baseURL,
 }, testInfo) {
   test.skip(!baseURL, "A running local server is required.");
-  test.skip(process.env.HOLMEVANN_SKIP_E2E, "Skipping E2E tests");
 
   const warmupTimeoutMs = Number(
     process.env.PLAYWRIGHT_CACHE_WARMUP_MS || "3000",

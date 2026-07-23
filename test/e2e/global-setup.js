@@ -29,6 +29,10 @@ function requestBaseUrl(url, timeoutMs) {
 }
 
 module.exports = async function globalSetup(config) {
+  if (process.env.HOLMEVANN_SKIP_E2E) {
+    process.exit(0);
+  }
+
   const baseURL =
     config.projects[0]?.use?.baseURL || process.env.PLAYWRIGHT_BASE_URL;
 
