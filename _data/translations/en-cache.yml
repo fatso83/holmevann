@@ -5763,19 +5763,6 @@ entries:
     source_text: Bjørnerudseter
     translated_text: Bjørnerudseter
     format: text
-  c9d230f4df6c47de8850b4391ab894bb2cbb2f69715dfb1b151598a5dca3c27d:
-    source_text: ". Om du har GPS kan du plotte inn Bjørnerudseterveien 174 (felles
-      parkeringsplass). Etter ca 200 m vil du se et stort oppslag på høyre side om
-      bompenger med en postkasse under. Det koster 45 kr kontant og man fyller ut
-      et gjennomslagspapir og legger det og pengene i kassa. Eventuelt man kan bruke
-      Vipps og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet."
-    translated_text: ". If you have GPS, you can enter Bjørnerudseterveien 174 (shared
-      parking lot). After about 200 m, you’ll see a large sign on the right side about
-      tolls with a mailbox underneath. It costs 45 kr in cash; fill out the carbon
-      copy form and place it along with the money in the cash box. Alternatively,
-      you can use Vipps to send money to phone number 95488502, entering the registration
-      number in the “details” field."
-    format: text
   493090e5f01fe6a6af4b334ab0227778b8a33e699baff9dcfd0b7e36a8feaf1a:
     source_text: Gjør det gjerne på forhånd
     translated_text: Feel free to do it in advance
@@ -6120,11 +6107,38 @@ entries:
       on the pump—it could damage it (inductive vs. resistive load or something like
       that…)."
     format: text
-  a0069d4f6e6172e0fc7fed20c9cbc5e9e62cf8dfda17698907637471113540cf:
-    source_text: Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte
-      brukere. Jeg sender deg detaljer for hvordan dette skal skje i en egen e-post
-      når tiden nærmer seg. Ring meg ved problemer.
-    translated_text: In the fall of 2023, a gate was installed in Skallandslia that
-      can only be opened by registered users. I’ll send you details on how this will
-      work in a separate email as the time approaches. Call me if you have any problems.
+  46994a109baa5cd397e39a4298d34e178ab48909a1619245523db0056ee7abd4:
+    source_text: ". Om du har GPS kan du plotte inn Bjørnerudseterveien 174 (felles
+      parkeringsplass). Etter ca 200 m vil du se et stort oppslag på høyre side om
+      bompenger med en postkasse under. Det koster 45 kr kontant og man fyller ut
+      et gjennomslagspapir og legger det og pengene i kassa. Eventuelt man kan bruke
+      Vipps (se info under) og sende penger til telefon 95488502 med registreringsnummeret
+      i detaljer-feltet."
+    translated_text: ". If you have GPS, you can enter Bjørnerudseterveien 174 (shared
+      parking lot). After about 200 m, you’ll see a large sign on the right side about
+      tolls with a mailbox underneath. It costs 45 kr in cash; you fill out a carbon
+      copy form and place it along with the money in the cash box. Alternatively,
+      you can use Vipps (see info below) and send the money to phone number 95488502,
+      entering the registration number in the “details” field."
+    format: text
+  298295bb3b48a93c600c639339c01b63aebbabcf0d56b7b99490726f707a4238:
+    source_text: "Vipps og danske MobilePay har fusjonert til samme plattform, så
+      dette fungerer det på tvers av landegrensene. Svenske Swish kan ikke snakke
+      med Vipps, men Vipps er lansert i Sverige, så svensker kan bruke Vipps direkte
+      med svenske kortnummer. For andre land kan man spørre meg om å gjøre det på
+      forhånd \U0001F618."
+    translated_text: "Vipps and the Danish service MobilePay have merged into a single
+      platform, so this works across national borders. The Swedish service Swish isn't
+      compatible with Vipps, but Vipps has been launched in Sweden, so Swedes can
+      use Vipps directly with Swedish card numbers. For other countries, you can ask
+      me to set it up in advance \U0001F618."
+    format: text
+  cf2836b39838048837eae1ac13df9e067ba0cfe7f707263c270ee2b58fce80d7:
+    source_text: "Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte
+      brukere. Jeg sender deg detaljer med instruksjoner for dette i en egen e-post
+      når tiden nærmer seg \U0001F913 Ring meg ved problemer."
+    translated_text: "In the fall of 2023, a gate was installed in Skallandslia that
+      can only be opened by registered users. I’ll send you the details and instructions
+      for this in a separate email as the time approaches \U0001F913 Give me a call
+      if you have any problems."
     format: text

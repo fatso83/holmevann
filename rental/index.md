@@ -66,8 +66,8 @@ P.S. Viking/Redgo bruker en til to _timer_ fra du ringer til de er der. Det vet 
 #### Skallandslia
 
 Høsten 2023 kom det en bom i Skallandslia som kun kan åpnes av registrerte brukere.
-Jeg sender deg detaljer for hvordan dette skal skje i en egen e-post når tiden
-nærmer seg. Ring meg ved problemer.
+Jeg sender deg detaljer med instruksjoner for dette i en egen e-post når tiden
+nærmer seg 🤓 Ring meg ved problemer.
 
 #### Bjørnerudveien
 
@@ -75,8 +75,12 @@ Når du tar av fra Skallandsveien nesten helt oppå fjellet kjører du inn mot _
 kan du plotte inn Bjørnerudseterveien 174 (felles parkeringsplass). Etter ca 200 m
 vil du se et stort oppslag på høyre side om bompenger med en postkasse under. Det koster 45 kr kontant og
 man fyller ut et gjennomslagspapir og legger det og pengene i kassa.
-Eventuelt man kan bruke Vipps og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet.
+Eventuelt man kan bruke Vipps (se info under) og sende penger til telefon 95488502 med registreringsnummeret i detaljer-feltet.
 _Gjør det gjerne på forhånd_, før du setter deg i byen og lett å glemme - det sjekkes veldig hyppig!
+
+<div class="alert alert-primary">
+Vipps og danske MobilePay har fusjonert til samme plattform, så dette fungerer det på tvers av landegrensene. Svenske Swish kan ikke snakke med Vipps, men Vipps er lansert i Sverige, så svensker kan bruke Vipps direkte med svenske kortnummer. For andre land kan man spørre meg om å gjøre det på forhånd 😘.
+</div>
 
 ## Kort om bruken av hytta
 
