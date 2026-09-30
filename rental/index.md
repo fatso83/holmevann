@@ -12,19 +12,15 @@ Vi legger ut noen [innlegg nå og da](/#latest-posts) om endringer på hytta, me
 
 <div class="alert alert-warning">
 
-<h2>Status per 17. juli 2026</h2>
+<h2>Status per 30. september 2026</h2>
 Jeg ødela kneet på dag én av fjellferien 2025, og dermed har jeg ikke fått vært vaktmester det siste året, så noen prosjekter har blitt liggende og enkelte ting må tas med av gjester. Ta gjerne med mer enn du trenger, så kan jeg vippse deg for utlegget 🙏.
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
 
 <li>🧻 Ta med en pakke dopapir</li>
-<li>🔥 Ta med en pakke opptenningsbriketter</li>
 <li>🕯️ Ta med et par kubbelys eller en pakke stearinlys om du har planer 😍</li>
-<li>🚰 Vanntanken er tom. <a href="/.netlify/functions/pdf-proxy?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1NpuBRGMA6w90_756cMcHjl3q-KFJMSvRIDl7vA4wqi8%2Fexport%3Fformat%3Dpdf">Instruksjonsheftet (som finnes på hytta)</a> forklarer hvordan du fyller tanken med aggregat. Eventuelt bare hent i de to vanndunkene. Mer om prosessen bak i <a href="/2026/03/30/vannpumpe.html">et eget innlegg</a>.</li>
-<li>Robåten er midlertidig ute av drift med hull i skroget. Blir fikset i august.</li>
 <li>La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner med tjærekliss etter den ble tjæret sist sommer :) </li>
-<li>Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare la den stå (fikses i sommer). <!--Denne gir jevn varme uten eksos og kan stå på døgnet rundt, men du må hente en ny dieselkanne under hytta (kjellerinngang under hovedsoverommet). --></li>
 <li>
 <a href="/2025/06/10/bro">Det er bygget en bro over munningen av Holmevann</a> som gjør det mulig å krysse elva! Ellers må man ofte gå en kilometer lenger ned. Vel verdt å sjekke hvordan man går her før man går på tur østover 🥳
 </li>

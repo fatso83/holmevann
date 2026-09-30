@@ -5511,12 +5511,6 @@ entries:
       avoid any complications with tar residue from when they were tarred last summer
       :)
     format: text
-  22fd6bd92e316f06ac78c5f06253bc3562cc6a26aa11242db639a6e09a5e71c4:
-    source_text: Parafinkaminen ("Wallasen") er ikke koblet på hovedtanken. Bare la
-      den stå (fikses i sommer).
-    translated_text: The paraffin heater ("Wallasen") isn't connected to the main
-      tank. Just leave it as is (it will be fixed this summer).
-    format: text
   5394c84f21c60fa002e312061cabf9a05f44f61772e18685056b49a389f1f869:
     source_text: "som gjør det mulig å krysse elva! Ellers må man ofte gå en kilometer
       lenger ned. Vel verdt å sjekke hvordan man går her før man går på tur østover
@@ -5537,22 +5531,6 @@ entries:
       especially in the winter. That’s why we’ve compiled information on everything
       you can think of—both what you should read before arrival and what’s already
       at the cabin—on the page for"
-    format: text
-  3c94d9ea189cc4279d77fd723b019d9bd282ca80325544a352856c332c9ff861:
-    source_text: "\U0001F525 Ta med en pakke opptenningsbriketter"
-    translated_text: "\U0001F525 Bring a package of fire-starting briquettes"
-    format: text
-  46719ff0c10a7edd387caa0eb27e7d65c69586f91384d94f73351b583873d838:
-    source_text: Status per 17. juli 2026
-    translated_text: Status as of July 17, 2026
-    format: text
-  f356a424937c8c621e062a5daef2b96804023205f793e964c8bd6481bd47afdb:
-    source_text: Instruksjonsheftet (som finnes på hytta)
-    translated_text: The instruction booklet (available at the cabin)
-    format: text
-  b2faa1f138ef64eb4939c947ed449768b7a6bbede282ddea9bf49cefd6628d48:
-    source_text: et eget innlegg
-    translated_text: a separate post
     format: text
   338f930e1a025e1f73488bbd14ad570d9bde34d8f79caf3ea039211d59e69cd0:
     source_text: Ankomst / hvordan kommer man til hytta
@@ -6009,23 +5987,6 @@ entries:
       the trout are! They like to spawn in old stream channels, so put on your boots
       and walk along the east and north shores of the lake.'
     format: text
-  535272d1942422bf940736517fd2c6777b0b36abba6e88a83db032be1d55d4da:
-    source_text: Robåten er midlertidig ute av drift med hull i skroget. Blir fikset
-      i august.
-    translated_text: The rowboat is temporarily out of service due to a hole in the
-      hull. It will be repaired in August.
-    format: text
-  d411252ec552bf0a9b0f57dff64d6c358f49da5b4c11d03ef938d559983b25ba:
-    source_text: "\U0001F6B0 Vanntanken er tom."
-    translated_text: "\U0001F6B0 The water tank is empty."
-    format: text
-  e13be84cbf488966729ff5afc00ef527d8af3b34167d0b222810af349ca7def0:
-    source_text: forklarer hvordan du fyller tanken med aggregat. Eventuelt bare hent
-      i de to vanndunkene. Mer om prosessen bak i
-    translated_text: explains how to fill the tank using the generator. Alternatively,
-      you can just fill it from the two water jugs. More about the process in the
-      back of
-    format: text
   edbe6e1ff93d503a25a137e8abf4b5a904130f7ccee27f9d76e3cb95a653e0b1:
     source_text: "Jeg ødela kneet på dag én av fjellferien 2025, og dermed har jeg
       ikke fått vært vaktmester det siste året, så noen prosjekter har blitt liggende
@@ -6141,4 +6102,8 @@ entries:
       can only be opened by registered users. I’ll send you the details and instructions
       for this in a separate email as the time approaches \U0001F913 Give me a call
       if you have any problems."
+    format: text
+  d36d69a4a1b61973de4b2eb26fda2ed53234a40ea820f8aa3a4ddeba791cfd09:
+    source_text: Status per 30. september 2026
+    translated_text: Status as of September 30, 2026
     format: text
