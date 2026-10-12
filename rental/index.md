@@ -12,17 +12,17 @@ Vi legger ut noen [innlegg nå og da](/#latest-posts) om endringer på hytta, me
 
 <div class="alert alert-warning">
 
-<h2>Status per 30. september 2026</h2>
-Jeg ødela kneet på dag én av fjellferien 2025, og dermed har jeg ikke fått vært vaktmester det siste året, så noen prosjekter har blitt liggende og enkelte ting må tas med av gjester. Ta gjerne med mer enn du trenger, så kan jeg vippse deg for utlegget 🙏.
+<h2>Status per 12. oktober 2026</h2>
+Jeg ødela kneet i 2025, og dermed har jeg ikke fått vært vaktmester det siste året, så noen prosjekter har blitt liggende og enkelte ting må tas med av gjester. Ta gjerne med mer enn du trenger, så kan jeg vippse deg for utlegget 🙏.
 
 <div style="font-size: 1.5rem; font-weight; 1000">Viktige punkter</div>
 <ol>
 
-<li>🧻 Ta med en pakke dopapir</li>
+<li>Det er lite gass igjen, men nok til matlaging. Forsøk å bruke ved og parafinkaminen til oppvarming, ikke gassovnene.</li>
 <li>🕯️ Ta med et par kubbelys eller en pakke stearinlys om du har planer 😍</li>
-<li>La vinduslemmene være åpne ved avreise - da slipper vi komplikasjoner med tjærekliss etter den ble tjæret sist sommer :) </li>
+<li>Om vinduslemmene er åpne ved ankomst, la dem forbli åpne ved avreise. Folk har ødelagt vinduene ved å bruke makt tidligere når de ikke har sett hvordan de skal tas på plass ... </li>
 <li>
-<a href="/2025/06/10/bro">Det er bygget en bro over munningen av Holmevann</a> som gjør det mulig å krysse elva! Ellers må man ofte gå en kilometer lenger ned. Vel verdt å sjekke hvordan man går her før man går på tur østover 🥳
+<a href="/2025/06/10/bro">Det er bygget en bro over munningen av Holmevann</a> som gjør det mulig å krysse elva! Ellers må man ofte gå en kilometer lenger ned. Vel verdt å sjekke hvordan man går her før man går på tur østover eller skal rundt vannet 🥳
 </li>
 </ol>
 
